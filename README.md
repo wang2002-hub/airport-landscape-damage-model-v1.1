@@ -3,6 +3,8 @@
 Code and supporting evidence for *Case-mix profiling of airport bird-strike damage reports: uncertainty and damage-extent documentation*.
 The document hashes in manuscript_binding.json identify the five accompanying submission files. Manuscript text and peer-review correspondence are excluded.
 
+Authors: Sheng Yun, Wang Yangrui, Fang Xuedong.
+
 ## Quick start
 Use Python 3.12. From the repository root:
 ```
@@ -24,7 +26,7 @@ supporting_data contains retained aggregate evidence and 40 compact report-level
 requirements.txt pins the analysis environment. requirements-figures.txt pins the tested drawing environment; use separate environments rather than mixing their numpy versions. Component requirements describe their local routes. Verification records distinguish executed current-result replays and image reproduction from inherited code and externally supplied input routes. No claim is made of a clean-machine installation, all national raster/model refits, or a single full end-to-end run. See verification_summary.json.
 
 ## Publishing
-Upload this folder's contents as the GitHub repository root. Do not upload the author's work directory. CITATION.cff contains the supplied author names; no DOI or public release date is invented. No software license has been assigned by this package: public visibility alone does not grant an open-source license. Data-provider and dependency terms remain applicable. This preparation performs no remote upload.
+Upload this folder's contents as the GitHub repository root. Do not upload the author's work directory. CITATION.cff provides the author and citation metadata. No software license has been assigned by this package: public visibility alone does not grant an open-source license. Data-provider and dependency terms remain applicable. This preparation performs no remote upload.
 
 ## Optional GIS routes
 Raster and spatial-context commands require the GIS packages listed by their components. Their help text is available before loading optional GIS libraries. Viewing help is an interface check, not a raster-processing test. Component verification summaries are retained computational records unless explicitly marked as current-release executions.
@@ -40,7 +42,3 @@ Their README provides commands using the integrated paths and distinguishes pend
 external-data analyses from package checks. The year-specification patch is optional;
 it has not been applied to the released model code. No new inferential result is claimed.
 See `r5_packaging_verification.json` for this integration's checks.
-
-The requested delivery filename is `airport-landscape-damage-model-v1.0.zip`.
-Its contents are the current v1.1 repository plus the R5 round-4 scripts; the archive
-name is a delivery label, not a downgrade to software version 1.0.

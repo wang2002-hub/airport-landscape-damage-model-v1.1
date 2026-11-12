@@ -48,9 +48,14 @@ keep the v1.0 numbering; use the table above.
   the original README retained as UPSTREAM_README.md.
 - Registered all four entries; refreshed the component and root integrity manifests.
 - Corrected the root README's inherited figure count to seven main and eleven
-  supplementary figures; documented the requested v1.0.zip delivery label.
+  supplementary figures.
 - Kept actual software version 1.1 and existing data/figures.
 - Did not apply the year-specification patch to released model files or publish
   external-data analysis results. Integration checks are recorded separately.
 
 - Refreshed stale manuscript bindings for Cover_Letter.docx and Supplementary_Information_RESS_R5_clean.docx to match the actual files in the supplied R5 submission folder. No submission document was edited. Old and new hashes are recorded in r5_packaging_verification.json.
+
+## Citation metadata
+
+- Corrected the author list and order to Sheng Yun, Wang Yangrui and Fang Xuedong in CITATION.cff and both READMEs.
+- Removed internal archive-naming instructions from public documentation and metadata.

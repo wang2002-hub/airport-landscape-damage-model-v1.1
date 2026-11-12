@@ -2,7 +2,6 @@
   "date": "2026-11-12",
   "scope": "R5 integration checks; not a new scientific analysis",
   "software_version": "1.1",
-  "delivery_archive": "airport-landscape-damage-model-v1.0.zip",
   "source_note": "R5 submission-package guide; section 3.4",
   "python_for_package_checks": "3.12.14",
   "python_for_annual_damage_check": "3.14.0",
@@ -83,8 +82,7 @@
     "No event-level model refit or external-data annual calibration performed.",
     "No real-data log-scale intervals calculated; full bootstrap inputs are external.",
     "No clean-machine dependency installation or full end-to-end replication claimed.",
-    "PyArrow is absent from the checked local runtimes; annual calibration was checked via help/syntax only.",
-    "The delivered archive label v1.0 does not change actual source version 1.1."
+    "PyArrow is absent from the checked local runtimes; annual calibration was checked via help/syntax only."
   ],
   "remote_upload_performed": false,
   "manuscript_binding_updates": [

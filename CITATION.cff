@@ -3,14 +3,12 @@ message: "Please cite this software when using the analysis code."
 type: software
 title: "Airport landscape damage model"
 authors:
+  - family-names: "Sheng"
+    given-names: "Yun"
   - family-names: "Wang"
     given-names: "Yangrui"
   - family-names: "Fang"
     given-names: "Xuedong"
-  - family-names: "Tang"
-    given-names: "Dewei"
-  - family-names: "Zhang"
-    given-names: "Xiaowen"
 abstract: "Modular analysis and reproducibility tools for national case mix models and local review of airport bird strike damage reports."
 keywords:
   - aviation safety
