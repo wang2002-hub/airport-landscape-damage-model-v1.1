@@ -1,0 +1,31 @@
+{
+  "version": "1.1",
+  "files": [
+    {
+      "file": "Cover_Letter.docx",
+      "bytes": 23512,
+      "sha256": "2f8018df8a079aa9f16d9a1d92aa54c87f274474038d0dbf2e62b9c259c8a25e"
+    },
+    {
+      "file": "Graphical_Abstract.docx",
+      "bytes": 251149,
+      "sha256": "e12f8e36dad34b87908cac39a65c182d7982c3b10db31cad6621f21aa9326ae9"
+    },
+    {
+      "file": "Highlights.docx",
+      "bytes": 32740,
+      "sha256": "393630cac90e22f664d94445a74f6d287ddb02f6ddb288e34c2d832af5fda946"
+    },
+    {
+      "file": "Manuscript_RESS_R5_clean.docx",
+      "bytes": 3941709,
+      "sha256": "a77ebde82196d1774319bf3f24eee2a3f277720db71f5192e9c4466dc85bbf9f"
+    },
+    {
+      "file": "Supplementary_Information_RESS_R5_clean.docx",
+      "bytes": 2529712,
+      "sha256": "6b972ceb7901806703fc3ca57af58eede4d9b5288c3fe5e140f4cb913f512f86"
+    }
+  ],
+  "scope": "Hashes only; manuscript text is excluded from public code."
+}

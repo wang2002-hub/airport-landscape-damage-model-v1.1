@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "national_funnel_limit_audit": "DATA/national_funnel_limit_audit.csv",
+    "national_funnel_width_sensitivity": "DATA/national_funnel_width_sensitivity.csv",
+    "funnel_dispersion_factors": "DATA/funnel_dispersion_factors.csv",
+    "reference_flag_overlap_sensitivity": "DATA/reference_flag_overlap_sensitivity.csv"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "primary_contrast": "EB to EBL",
+  "family": "GLMM",
+  "replicates": 200,
+  "resampling": "airport clusters sampled jointly across train, calibration and temporal test; duplicate airport copies receive distinct random intercept IDs",
+  "target_uncertainty": "same fixed target reports; these intervals reflect development pipeline uncertainty only",
+  "selection": "refit encoder, reselect landscape scale, refit model and 2023 calibration in every replicate",
+  "dated": "2026-10-28"
+}

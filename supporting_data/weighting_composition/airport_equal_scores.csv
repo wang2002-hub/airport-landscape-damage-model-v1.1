@@ -1,0 +1,25 @@
+﻿Group,Evaluation,Family,Block,Airports,Brier,Log loss,Bias (pp)
+National,Geographic,Hierarchical,E,"1,375",0.172715,0.527057,-8.69
+National,Geographic,Hierarchical,EB,"1,375",0.135387,0.430743,-5.77
+National,Geographic,Hierarchical,EBL,"1,375",0.135228,0.429301,-5.50
+National,Geographic,Hierarchical,EL,"1,375",0.169963,0.516659,-7.76
+National,Geographic,Boosting,E,"1,375",0.170008,0.519264,-8.57
+National,Geographic,Boosting,EB,"1,375",0.135485,0.431590,-6.06
+National,Geographic,Boosting,EBL,"1,375",0.135163,0.430655,-5.77
+National,Geographic,Boosting,EL,"1,375",0.167960,0.512611,-7.30
+National,Temporal,Hierarchical,E,803,0.132233,0.421419,-5.38
+National,Temporal,Hierarchical,EB,803,0.104513,0.339910,-3.32
+National,Temporal,Hierarchical,EBL,803,0.104250,0.338629,-2.93
+National,Temporal,Hierarchical,EL,803,0.130827,0.416594,-4.70
+National,Temporal,Boosting,E,803,0.129219,0.412643,-5.15
+National,Temporal,Boosting,EB,803,0.104656,0.342328,-3.67
+National,Temporal,Boosting,EBL,803,0.105417,0.345212,-3.27
+National,Temporal,Boosting,EL,803,0.130229,0.413825,-4.40
+Target,Local 2015–2025,Hierarchical,E,8,0.050855,0.201594,-0.72
+Target,Local 2015–2025,Hierarchical,EB,8,0.044152,0.167638,-0.17
+Target,Local 2015–2025,Hierarchical,EBL,8,0.044242,0.167752,-0.53
+Target,Local 2015–2025,Hierarchical,EL,8,0.050766,0.200375,-0.66
+Target,Local 2015–2025,Boosting,E,8,0.050878,0.201466,-0.71
+Target,Local 2015–2025,Boosting,EB,8,0.044422,0.168559,0.15
+Target,Local 2015–2025,Boosting,EBL,8,0.044239,0.168140,-0.25
+Target,Local 2015–2025,Boosting,EL,8,0.050785,0.200883,-0.56

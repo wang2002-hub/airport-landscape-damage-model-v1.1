@@ -1,0 +1,723 @@
+population,field,label,n,source_missing,explicit_unknown,invalid_numeric,unavailable,unavailable_pct
+Train,aircraft_mass_class,Aircraft mass class,30427,175,0,0,175,0.5751470733230355
+Train,phase,Flight phase,30427,0,0,0,0,0.0
+Train,bird_size_reported,Bird size,30427,4782,0,0,4782,15.716304597890032
+Train,number_struck_category,Number struck,30427,23,0,0,23,0.07559075820817038
+Train,TIME_OF_DAY,Time of day,30427,2502,0,0,2502,8.222959871167056
+Train,AC_CLASS,Aircraft class,30427,179,0,0,179,0.5882932921418477
+Train,TYPE_ENG,Engine type,30427,218,0,0,218,0.716468925625267
+Train,NUM_ENGS,Engine count,30427,229,0,0,229,0.7526210273770007
+Train,year,Incident year,30427,0,0,0,0,0.0
+Train,month_sin,Month sine,30427,0,0,0,0,0.0
+Train,month_cos,Month cosine,30427,0,0,0,0,0.0
+Train,water_fraction__b03,Water 3 km,30427,0,0,0,0,0.0
+Train,wetland_fraction__b03,Wetland 3 km,30427,0,0,0,0,0.0
+Train,cropland_fraction__b03,Cropland 3 km,30427,0,0,0,0,0.0
+Train,grassland_fraction__b03,Grassland 3 km,30427,0,0,0,0,0.0
+Train,pasture_fraction__b03,Pasture 3 km,30427,0,0,0,0,0.0
+Train,impervious_mean_pct__b03,Imperviousness 3 km,30427,0,0,0,0,0.0
+Train,water_fraction__b08,Water 8 km,30427,0,0,0,0,0.0
+Train,wetland_fraction__b08,Wetland 8 km,30427,0,0,0,0,0.0
+Train,cropland_fraction__b08,Cropland 8 km,30427,0,0,0,0,0.0
+Train,grassland_fraction__b08,Grassland 8 km,30427,0,0,0,0,0.0
+Train,pasture_fraction__b08,Pasture 8 km,30427,0,0,0,0,0.0
+Train,impervious_mean_pct__b08,Imperviousness 8 km,30427,0,0,0,0,0.0
+Train,water_fraction__b13,Water 13 km,30427,0,0,0,0,0.0
+Train,wetland_fraction__b13,Wetland 13 km,30427,0,0,0,0,0.0
+Train,cropland_fraction__b13,Cropland 13 km,30427,0,0,0,0,0.0
+Train,grassland_fraction__b13,Grassland 13 km,30427,0,0,0,0,0.0
+Train,pasture_fraction__b13,Pasture 13 km,30427,0,0,0,0,0.0
+Train,impervious_mean_pct__b13,Imperviousness 13 km,30427,0,0,0,0,0.0
+Train,water_wetland__r00_03,Water plus wetland 0–3 km,30427,0,0,0,0,0.0
+Train,cropland__r00_03,Cropland 0–3 km,30427,0,0,0,0,0.0
+Train,water_wetland__r03_08,Water plus wetland 3–8 km,30427,0,0,0,0,0.0
+Train,cropland__r03_08,Cropland 3–8 km,30427,0,0,0,0,0.0
+Train,water_wetland__r08_13,Water plus wetland 8–13 km,30427,0,0,0,0,0.0
+Train,cropland__r08_13,Cropland 8–13 km,30427,0,0,0,0,0.0
+Train,HEIGHT,Height,30427,2523,0,0,2523,8.291977519965819
+Train,DISTANCE,Distance,30427,6250,0,0,6250,20.540966904394125
+Train,SPEED,Speed,30427,14099,0,0,14099,46.33713478160844
+Calibration,aircraft_mass_class,Aircraft mass class,4616,22,0,0,22,0.47660311958405543
+Calibration,phase,Flight phase,4616,0,0,0,0,0.0
+Calibration,bird_size_reported,Bird size,4616,1051,0,0,1051,22.768630849220106
+Calibration,number_struck_category,Number struck,4616,1,0,0,1,0.021663778162911613
+Calibration,TIME_OF_DAY,Time of day,4616,300,0,0,300,6.499133448873484
+Calibration,AC_CLASS,Aircraft class,4616,25,0,0,25,0.5415944540727903
+Calibration,TYPE_ENG,Engine type,4616,29,0,0,29,0.6282495667244368
+Calibration,NUM_ENGS,Engine count,4616,33,0,0,33,0.7149046793760832
+Calibration,year,Incident year,4616,0,0,0,0,0.0
+Calibration,month_sin,Month sine,4616,0,0,0,0,0.0
+Calibration,month_cos,Month cosine,4616,0,0,0,0,0.0
+Calibration,water_fraction__b03,Water 3 km,4616,0,0,0,0,0.0
+Calibration,wetland_fraction__b03,Wetland 3 km,4616,0,0,0,0,0.0
+Calibration,cropland_fraction__b03,Cropland 3 km,4616,0,0,0,0,0.0
+Calibration,grassland_fraction__b03,Grassland 3 km,4616,0,0,0,0,0.0
+Calibration,pasture_fraction__b03,Pasture 3 km,4616,0,0,0,0,0.0
+Calibration,impervious_mean_pct__b03,Imperviousness 3 km,4616,0,0,0,0,0.0
+Calibration,water_fraction__b08,Water 8 km,4616,0,0,0,0,0.0
+Calibration,wetland_fraction__b08,Wetland 8 km,4616,0,0,0,0,0.0
+Calibration,cropland_fraction__b08,Cropland 8 km,4616,0,0,0,0,0.0
+Calibration,grassland_fraction__b08,Grassland 8 km,4616,0,0,0,0,0.0
+Calibration,pasture_fraction__b08,Pasture 8 km,4616,0,0,0,0,0.0
+Calibration,impervious_mean_pct__b08,Imperviousness 8 km,4616,0,0,0,0,0.0
+Calibration,water_fraction__b13,Water 13 km,4616,0,0,0,0,0.0
+Calibration,wetland_fraction__b13,Wetland 13 km,4616,0,0,0,0,0.0
+Calibration,cropland_fraction__b13,Cropland 13 km,4616,0,0,0,0,0.0
+Calibration,grassland_fraction__b13,Grassland 13 km,4616,0,0,0,0,0.0
+Calibration,pasture_fraction__b13,Pasture 13 km,4616,0,0,0,0,0.0
+Calibration,impervious_mean_pct__b13,Imperviousness 13 km,4616,0,0,0,0,0.0
+Calibration,water_wetland__r00_03,Water plus wetland 0–3 km,4616,0,0,0,0,0.0
+Calibration,cropland__r00_03,Cropland 0–3 km,4616,0,0,0,0,0.0
+Calibration,water_wetland__r03_08,Water plus wetland 3–8 km,4616,0,0,0,0,0.0
+Calibration,cropland__r03_08,Cropland 3–8 km,4616,0,0,0,0,0.0
+Calibration,water_wetland__r08_13,Water plus wetland 8–13 km,4616,0,0,0,0,0.0
+Calibration,cropland__r08_13,Cropland 8–13 km,4616,0,0,0,0,0.0
+Calibration,HEIGHT,Height,4616,459,0,0,459,9.94367417677643
+Calibration,DISTANCE,Distance,4616,689,0,0,689,14.926343154246101
+Calibration,SPEED,Speed,4616,2372,0,0,2372,51.386481802426346
+Test,aircraft_mass_class,Aircraft mass class,11124,61,0,0,61,0.548363897878461
+Test,phase,Flight phase,11124,0,0,0,0,0.0
+Test,bird_size_reported,Bird size,11124,2863,0,0,2863,25.737144911902192
+Test,number_struck_category,Number struck,11124,7,0,0,7,0.06292700467457749
+Test,TIME_OF_DAY,Time of day,11124,267,0,0,267,2.4002157497303127
+Test,AC_CLASS,Aircraft class,11124,66,0,0,66,0.593311758360302
+Test,TYPE_ENG,Engine type,11124,75,0,0,75,0.674217907227616
+Test,NUM_ENGS,Engine count,11124,84,0,0,84,0.7551240560949298
+Test,year,Incident year,11124,0,0,0,0,0.0
+Test,month_sin,Month sine,11124,0,0,0,0,0.0
+Test,month_cos,Month cosine,11124,0,0,0,0,0.0
+Test,water_fraction__b03,Water 3 km,11124,0,0,0,0,0.0
+Test,wetland_fraction__b03,Wetland 3 km,11124,0,0,0,0,0.0
+Test,cropland_fraction__b03,Cropland 3 km,11124,0,0,0,0,0.0
+Test,grassland_fraction__b03,Grassland 3 km,11124,0,0,0,0,0.0
+Test,pasture_fraction__b03,Pasture 3 km,11124,0,0,0,0,0.0
+Test,impervious_mean_pct__b03,Imperviousness 3 km,11124,0,0,0,0,0.0
+Test,water_fraction__b08,Water 8 km,11124,0,0,0,0,0.0
+Test,wetland_fraction__b08,Wetland 8 km,11124,0,0,0,0,0.0
+Test,cropland_fraction__b08,Cropland 8 km,11124,0,0,0,0,0.0
+Test,grassland_fraction__b08,Grassland 8 km,11124,0,0,0,0,0.0
+Test,pasture_fraction__b08,Pasture 8 km,11124,0,0,0,0,0.0
+Test,impervious_mean_pct__b08,Imperviousness 8 km,11124,0,0,0,0,0.0
+Test,water_fraction__b13,Water 13 km,11124,0,0,0,0,0.0
+Test,wetland_fraction__b13,Wetland 13 km,11124,0,0,0,0,0.0
+Test,cropland_fraction__b13,Cropland 13 km,11124,0,0,0,0,0.0
+Test,grassland_fraction__b13,Grassland 13 km,11124,0,0,0,0,0.0
+Test,pasture_fraction__b13,Pasture 13 km,11124,0,0,0,0,0.0
+Test,impervious_mean_pct__b13,Imperviousness 13 km,11124,0,0,0,0,0.0
+Test,water_wetland__r00_03,Water plus wetland 0–3 km,11124,0,0,0,0,0.0
+Test,cropland__r00_03,Cropland 0–3 km,11124,0,0,0,0,0.0
+Test,water_wetland__r03_08,Water plus wetland 3–8 km,11124,0,0,0,0,0.0
+Test,cropland__r03_08,Cropland 3–8 km,11124,0,0,0,0,0.0
+Test,water_wetland__r08_13,Water plus wetland 8–13 km,11124,0,0,0,0,0.0
+Test,cropland__r08_13,Cropland 8–13 km,11124,0,0,0,0,0.0
+Test,HEIGHT,Height,11124,1128,0,0,1128,10.140237324703344
+Test,DISTANCE,Distance,11124,1648,0,0,1648,14.814814814814815
+Test,SPEED,Speed,11124,5589,0,0,5589,50.24271844660194
+Targets,aircraft_mass_class,Aircraft mass class,5936,17,0,0,17,0.2863881401617251
+Targets,phase,Flight phase,5936,0,0,0,0,0.0
+Targets,bird_size_reported,Bird size,5936,1034,0,0,1034,17.419137466307276
+Targets,number_struck_category,Number struck,5936,1,0,0,1,0.016846361185983826
+Targets,TIME_OF_DAY,Time of day,5936,564,0,0,564,9.501347708894878
+Targets,AC_CLASS,Aircraft class,5936,14,0,0,14,0.2358490566037736
+Targets,TYPE_ENG,Engine type,5936,16,0,0,16,0.2695417789757412
+Targets,NUM_ENGS,Engine count,5936,17,0,0,17,0.2863881401617251
+Targets,year,Incident year,5936,0,0,0,0,0.0
+Targets,month_sin,Month sine,5936,0,0,0,0,0.0
+Targets,month_cos,Month cosine,5936,0,0,0,0,0.0
+Targets,water_fraction__b03,Water 3 km,5936,0,0,0,0,0.0
+Targets,wetland_fraction__b03,Wetland 3 km,5936,0,0,0,0,0.0
+Targets,cropland_fraction__b03,Cropland 3 km,5936,0,0,0,0,0.0
+Targets,grassland_fraction__b03,Grassland 3 km,5936,0,0,0,0,0.0
+Targets,pasture_fraction__b03,Pasture 3 km,5936,0,0,0,0,0.0
+Targets,impervious_mean_pct__b03,Imperviousness 3 km,5936,0,0,0,0,0.0
+Targets,water_fraction__b08,Water 8 km,5936,0,0,0,0,0.0
+Targets,wetland_fraction__b08,Wetland 8 km,5936,0,0,0,0,0.0
+Targets,cropland_fraction__b08,Cropland 8 km,5936,0,0,0,0,0.0
+Targets,grassland_fraction__b08,Grassland 8 km,5936,0,0,0,0,0.0
+Targets,pasture_fraction__b08,Pasture 8 km,5936,0,0,0,0,0.0
+Targets,impervious_mean_pct__b08,Imperviousness 8 km,5936,0,0,0,0,0.0
+Targets,water_fraction__b13,Water 13 km,5936,0,0,0,0,0.0
+Targets,wetland_fraction__b13,Wetland 13 km,5936,0,0,0,0,0.0
+Targets,cropland_fraction__b13,Cropland 13 km,5936,0,0,0,0,0.0
+Targets,grassland_fraction__b13,Grassland 13 km,5936,0,0,0,0,0.0
+Targets,pasture_fraction__b13,Pasture 13 km,5936,0,0,0,0,0.0
+Targets,impervious_mean_pct__b13,Imperviousness 13 km,5936,0,0,0,0,0.0
+Targets,water_wetland__r00_03,Water plus wetland 0–3 km,5936,0,0,0,0,0.0
+Targets,cropland__r00_03,Cropland 0–3 km,5936,0,0,0,0,0.0
+Targets,water_wetland__r03_08,Water plus wetland 3–8 km,5936,0,0,0,0,0.0
+Targets,cropland__r03_08,Cropland 3–8 km,5936,0,0,0,0,0.0
+Targets,water_wetland__r08_13,Water plus wetland 8–13 km,5936,0,0,0,0,0.0
+Targets,cropland__r08_13,Cropland 8–13 km,5936,0,0,0,0,0.0
+Targets,HEIGHT,Height,5936,532,0,0,532,8.962264150943396
+Targets,DISTANCE,Distance,5936,1018,0,0,1018,17.149595687331537
+Targets,SPEED,Speed,5936,3172,0,0,3172,53.4366576819407
+Recent targets,aircraft_mass_class,Aircraft mass class,1615,7,0,0,7,0.43343653250773995
+Recent targets,phase,Flight phase,1615,0,0,0,0,0.0
+Recent targets,bird_size_reported,Bird size,1615,384,0,0,384,23.777089783281735
+Recent targets,number_struck_category,Number struck,1615,0,0,0,0,0.0
+Recent targets,TIME_OF_DAY,Time of day,1615,69,0,0,69,4.272445820433436
+Recent targets,AC_CLASS,Aircraft class,1615,5,0,0,5,0.30959752321981426
+Recent targets,TYPE_ENG,Engine type,1615,6,0,0,6,0.3715170278637771
+Recent targets,NUM_ENGS,Engine count,1615,7,0,0,7,0.43343653250773995
+Recent targets,year,Incident year,1615,0,0,0,0,0.0
+Recent targets,month_sin,Month sine,1615,0,0,0,0,0.0
+Recent targets,month_cos,Month cosine,1615,0,0,0,0,0.0
+Recent targets,water_fraction__b03,Water 3 km,1615,0,0,0,0,0.0
+Recent targets,wetland_fraction__b03,Wetland 3 km,1615,0,0,0,0,0.0
+Recent targets,cropland_fraction__b03,Cropland 3 km,1615,0,0,0,0,0.0
+Recent targets,grassland_fraction__b03,Grassland 3 km,1615,0,0,0,0,0.0
+Recent targets,pasture_fraction__b03,Pasture 3 km,1615,0,0,0,0,0.0
+Recent targets,impervious_mean_pct__b03,Imperviousness 3 km,1615,0,0,0,0,0.0
+Recent targets,water_fraction__b08,Water 8 km,1615,0,0,0,0,0.0
+Recent targets,wetland_fraction__b08,Wetland 8 km,1615,0,0,0,0,0.0
+Recent targets,cropland_fraction__b08,Cropland 8 km,1615,0,0,0,0,0.0
+Recent targets,grassland_fraction__b08,Grassland 8 km,1615,0,0,0,0,0.0
+Recent targets,pasture_fraction__b08,Pasture 8 km,1615,0,0,0,0,0.0
+Recent targets,impervious_mean_pct__b08,Imperviousness 8 km,1615,0,0,0,0,0.0
+Recent targets,water_fraction__b13,Water 13 km,1615,0,0,0,0,0.0
+Recent targets,wetland_fraction__b13,Wetland 13 km,1615,0,0,0,0,0.0
+Recent targets,cropland_fraction__b13,Cropland 13 km,1615,0,0,0,0,0.0
+Recent targets,grassland_fraction__b13,Grassland 13 km,1615,0,0,0,0,0.0
+Recent targets,pasture_fraction__b13,Pasture 13 km,1615,0,0,0,0,0.0
+Recent targets,impervious_mean_pct__b13,Imperviousness 13 km,1615,0,0,0,0,0.0
+Recent targets,water_wetland__r00_03,Water plus wetland 0–3 km,1615,0,0,0,0,0.0
+Recent targets,cropland__r00_03,Cropland 0–3 km,1615,0,0,0,0,0.0
+Recent targets,water_wetland__r03_08,Water plus wetland 3–8 km,1615,0,0,0,0,0.0
+Recent targets,cropland__r03_08,Cropland 3–8 km,1615,0,0,0,0,0.0
+Recent targets,water_wetland__r08_13,Water plus wetland 8–13 km,1615,0,0,0,0,0.0
+Recent targets,cropland__r08_13,Cropland 8–13 km,1615,0,0,0,0,0.0
+Recent targets,HEIGHT,Height,1615,152,0,0,152,9.411764705882353
+Recent targets,DISTANCE,Distance,1615,235,0,0,235,14.551083591331269
+Recent targets,SPEED,Speed,1615,830,0,0,830,51.39318885448916
+National all,aircraft_mass_class,Aircraft mass class,46167,258,0,0,258,0.5588407303918383
+National all,phase,Flight phase,46167,0,0,0,0,0.0
+National all,bird_size_reported,Bird size,46167,8696,0,0,8696,18.8359650832846
+National all,number_struck_category,Number struck,46167,31,0,0,31,0.06714752962072476
+National all,TIME_OF_DAY,Time of day,46167,3069,0,0,3069,6.647605432451751
+National all,AC_CLASS,Aircraft class,46167,270,0,0,270,0.5848333225030866
+National all,TYPE_ENG,Engine type,46167,322,0,0,322,0.6974678883184959
+National all,NUM_ENGS,Engine count,46167,346,0,0,346,0.7494530725409925
+National all,year,Incident year,46167,0,0,0,0,0.0
+National all,month_sin,Month sine,46167,0,0,0,0,0.0
+National all,month_cos,Month cosine,46167,0,0,0,0,0.0
+National all,water_fraction__b03,Water 3 km,46167,0,0,0,0,0.0
+National all,wetland_fraction__b03,Wetland 3 km,46167,0,0,0,0,0.0
+National all,cropland_fraction__b03,Cropland 3 km,46167,0,0,0,0,0.0
+National all,grassland_fraction__b03,Grassland 3 km,46167,0,0,0,0,0.0
+National all,pasture_fraction__b03,Pasture 3 km,46167,0,0,0,0,0.0
+National all,impervious_mean_pct__b03,Imperviousness 3 km,46167,0,0,0,0,0.0
+National all,water_fraction__b08,Water 8 km,46167,0,0,0,0,0.0
+National all,wetland_fraction__b08,Wetland 8 km,46167,0,0,0,0,0.0
+National all,cropland_fraction__b08,Cropland 8 km,46167,0,0,0,0,0.0
+National all,grassland_fraction__b08,Grassland 8 km,46167,0,0,0,0,0.0
+National all,pasture_fraction__b08,Pasture 8 km,46167,0,0,0,0,0.0
+National all,impervious_mean_pct__b08,Imperviousness 8 km,46167,0,0,0,0,0.0
+National all,water_fraction__b13,Water 13 km,46167,0,0,0,0,0.0
+National all,wetland_fraction__b13,Wetland 13 km,46167,0,0,0,0,0.0
+National all,cropland_fraction__b13,Cropland 13 km,46167,0,0,0,0,0.0
+National all,grassland_fraction__b13,Grassland 13 km,46167,0,0,0,0,0.0
+National all,pasture_fraction__b13,Pasture 13 km,46167,0,0,0,0,0.0
+National all,impervious_mean_pct__b13,Imperviousness 13 km,46167,0,0,0,0,0.0
+National all,water_wetland__r00_03,Water plus wetland 0–3 km,46167,0,0,0,0,0.0
+National all,cropland__r00_03,Cropland 0–3 km,46167,0,0,0,0,0.0
+National all,water_wetland__r03_08,Water plus wetland 3–8 km,46167,0,0,0,0,0.0
+National all,cropland__r03_08,Cropland 3–8 km,46167,0,0,0,0,0.0
+National all,water_wetland__r08_13,Water plus wetland 8–13 km,46167,0,0,0,0,0.0
+National all,cropland__r08_13,Cropland 8–13 km,46167,0,0,0,0,0.0
+National all,HEIGHT,Height,46167,4110,0,0,4110,8.90246279810254
+National all,DISTANCE,Distance,46167,8587,0,0,8587,18.599865704940758
+National all,SPEED,Speed,46167,22060,0,0,22060,47.78304849784478
+DEN,aircraft_mass_class,Aircraft mass class,1780,11,0,0,11,0.6179775280898876
+DEN,phase,Flight phase,1780,0,0,0,0,0.0
+DEN,bird_size_reported,Bird size,1780,209,0,0,209,11.741573033707866
+DEN,number_struck_category,Number struck,1780,0,0,0,0,0.0
+DEN,TIME_OF_DAY,Time of day,1780,312,0,0,312,17.528089887640448
+DEN,AC_CLASS,Aircraft class,1780,10,0,0,10,0.5617977528089888
+DEN,TYPE_ENG,Engine type,1780,10,0,0,10,0.5617977528089888
+DEN,NUM_ENGS,Engine count,1780,11,0,0,11,0.6179775280898876
+DEN,year,Incident year,1780,0,0,0,0,0.0
+DEN,month_sin,Month sine,1780,0,0,0,0,0.0
+DEN,month_cos,Month cosine,1780,0,0,0,0,0.0
+DEN,water_fraction__b03,Water 3 km,1780,0,0,0,0,0.0
+DEN,wetland_fraction__b03,Wetland 3 km,1780,0,0,0,0,0.0
+DEN,cropland_fraction__b03,Cropland 3 km,1780,0,0,0,0,0.0
+DEN,grassland_fraction__b03,Grassland 3 km,1780,0,0,0,0,0.0
+DEN,pasture_fraction__b03,Pasture 3 km,1780,0,0,0,0,0.0
+DEN,impervious_mean_pct__b03,Imperviousness 3 km,1780,0,0,0,0,0.0
+DEN,water_fraction__b08,Water 8 km,1780,0,0,0,0,0.0
+DEN,wetland_fraction__b08,Wetland 8 km,1780,0,0,0,0,0.0
+DEN,cropland_fraction__b08,Cropland 8 km,1780,0,0,0,0,0.0
+DEN,grassland_fraction__b08,Grassland 8 km,1780,0,0,0,0,0.0
+DEN,pasture_fraction__b08,Pasture 8 km,1780,0,0,0,0,0.0
+DEN,impervious_mean_pct__b08,Imperviousness 8 km,1780,0,0,0,0,0.0
+DEN,water_fraction__b13,Water 13 km,1780,0,0,0,0,0.0
+DEN,wetland_fraction__b13,Wetland 13 km,1780,0,0,0,0,0.0
+DEN,cropland_fraction__b13,Cropland 13 km,1780,0,0,0,0,0.0
+DEN,grassland_fraction__b13,Grassland 13 km,1780,0,0,0,0,0.0
+DEN,pasture_fraction__b13,Pasture 13 km,1780,0,0,0,0,0.0
+DEN,impervious_mean_pct__b13,Imperviousness 13 km,1780,0,0,0,0,0.0
+DEN,water_wetland__r00_03,Water plus wetland 0–3 km,1780,0,0,0,0,0.0
+DEN,cropland__r00_03,Cropland 0–3 km,1780,0,0,0,0,0.0
+DEN,water_wetland__r03_08,Water plus wetland 3–8 km,1780,0,0,0,0,0.0
+DEN,cropland__r03_08,Cropland 3–8 km,1780,0,0,0,0,0.0
+DEN,water_wetland__r08_13,Water plus wetland 8–13 km,1780,0,0,0,0,0.0
+DEN,cropland__r08_13,Cropland 8–13 km,1780,0,0,0,0,0.0
+DEN,HEIGHT,Height,1780,92,0,0,92,5.168539325842697
+DEN,DISTANCE,Distance,1780,114,0,0,114,6.404494382022472
+DEN,SPEED,Speed,1780,1082,0,0,1082,60.78651685393258
+JFK,aircraft_mass_class,Aircraft mass class,810,0,0,0,0,0.0
+JFK,phase,Flight phase,810,0,0,0,0,0.0
+JFK,bird_size_reported,Bird size,810,156,0,0,156,19.25925925925926
+JFK,number_struck_category,Number struck,810,1,0,0,1,0.12345679012345678
+JFK,TIME_OF_DAY,Time of day,810,27,0,0,27,3.3333333333333335
+JFK,AC_CLASS,Aircraft class,810,0,0,0,0,0.0
+JFK,TYPE_ENG,Engine type,810,0,0,0,0,0.0
+JFK,NUM_ENGS,Engine count,810,0,0,0,0,0.0
+JFK,year,Incident year,810,0,0,0,0,0.0
+JFK,month_sin,Month sine,810,0,0,0,0,0.0
+JFK,month_cos,Month cosine,810,0,0,0,0,0.0
+JFK,water_fraction__b03,Water 3 km,810,0,0,0,0,0.0
+JFK,wetland_fraction__b03,Wetland 3 km,810,0,0,0,0,0.0
+JFK,cropland_fraction__b03,Cropland 3 km,810,0,0,0,0,0.0
+JFK,grassland_fraction__b03,Grassland 3 km,810,0,0,0,0,0.0
+JFK,pasture_fraction__b03,Pasture 3 km,810,0,0,0,0,0.0
+JFK,impervious_mean_pct__b03,Imperviousness 3 km,810,0,0,0,0,0.0
+JFK,water_fraction__b08,Water 8 km,810,0,0,0,0,0.0
+JFK,wetland_fraction__b08,Wetland 8 km,810,0,0,0,0,0.0
+JFK,cropland_fraction__b08,Cropland 8 km,810,0,0,0,0,0.0
+JFK,grassland_fraction__b08,Grassland 8 km,810,0,0,0,0,0.0
+JFK,pasture_fraction__b08,Pasture 8 km,810,0,0,0,0,0.0
+JFK,impervious_mean_pct__b08,Imperviousness 8 km,810,0,0,0,0,0.0
+JFK,water_fraction__b13,Water 13 km,810,0,0,0,0,0.0
+JFK,wetland_fraction__b13,Wetland 13 km,810,0,0,0,0,0.0
+JFK,cropland_fraction__b13,Cropland 13 km,810,0,0,0,0,0.0
+JFK,grassland_fraction__b13,Grassland 13 km,810,0,0,0,0,0.0
+JFK,pasture_fraction__b13,Pasture 13 km,810,0,0,0,0,0.0
+JFK,impervious_mean_pct__b13,Imperviousness 13 km,810,0,0,0,0,0.0
+JFK,water_wetland__r00_03,Water plus wetland 0–3 km,810,0,0,0,0,0.0
+JFK,cropland__r00_03,Cropland 0–3 km,810,0,0,0,0,0.0
+JFK,water_wetland__r03_08,Water plus wetland 3–8 km,810,0,0,0,0,0.0
+JFK,cropland__r03_08,Cropland 3–8 km,810,0,0,0,0,0.0
+JFK,water_wetland__r08_13,Water plus wetland 8–13 km,810,0,0,0,0,0.0
+JFK,cropland__r08_13,Cropland 8–13 km,810,0,0,0,0,0.0
+JFK,HEIGHT,Height,810,65,0,0,65,8.024691358024691
+JFK,DISTANCE,Distance,810,265,0,0,265,32.71604938271605
+JFK,SPEED,Speed,810,501,0,0,501,61.851851851851855
+MIA,aircraft_mass_class,Aircraft mass class,570,2,0,0,2,0.3508771929824561
+MIA,phase,Flight phase,570,0,0,0,0,0.0
+MIA,bird_size_reported,Bird size,570,158,0,0,158,27.719298245614034
+MIA,number_struck_category,Number struck,570,0,0,0,0,0.0
+MIA,TIME_OF_DAY,Time of day,570,40,0,0,40,7.017543859649122
+MIA,AC_CLASS,Aircraft class,570,1,0,0,1,0.17543859649122806
+MIA,TYPE_ENG,Engine type,570,2,0,0,2,0.3508771929824561
+MIA,NUM_ENGS,Engine count,570,2,0,0,2,0.3508771929824561
+MIA,year,Incident year,570,0,0,0,0,0.0
+MIA,month_sin,Month sine,570,0,0,0,0,0.0
+MIA,month_cos,Month cosine,570,0,0,0,0,0.0
+MIA,water_fraction__b03,Water 3 km,570,0,0,0,0,0.0
+MIA,wetland_fraction__b03,Wetland 3 km,570,0,0,0,0,0.0
+MIA,cropland_fraction__b03,Cropland 3 km,570,0,0,0,0,0.0
+MIA,grassland_fraction__b03,Grassland 3 km,570,0,0,0,0,0.0
+MIA,pasture_fraction__b03,Pasture 3 km,570,0,0,0,0,0.0
+MIA,impervious_mean_pct__b03,Imperviousness 3 km,570,0,0,0,0,0.0
+MIA,water_fraction__b08,Water 8 km,570,0,0,0,0,0.0
+MIA,wetland_fraction__b08,Wetland 8 km,570,0,0,0,0,0.0
+MIA,cropland_fraction__b08,Cropland 8 km,570,0,0,0,0,0.0
+MIA,grassland_fraction__b08,Grassland 8 km,570,0,0,0,0,0.0
+MIA,pasture_fraction__b08,Pasture 8 km,570,0,0,0,0,0.0
+MIA,impervious_mean_pct__b08,Imperviousness 8 km,570,0,0,0,0,0.0
+MIA,water_fraction__b13,Water 13 km,570,0,0,0,0,0.0
+MIA,wetland_fraction__b13,Wetland 13 km,570,0,0,0,0,0.0
+MIA,cropland_fraction__b13,Cropland 13 km,570,0,0,0,0,0.0
+MIA,grassland_fraction__b13,Grassland 13 km,570,0,0,0,0,0.0
+MIA,pasture_fraction__b13,Pasture 13 km,570,0,0,0,0,0.0
+MIA,impervious_mean_pct__b13,Imperviousness 13 km,570,0,0,0,0,0.0
+MIA,water_wetland__r00_03,Water plus wetland 0–3 km,570,0,0,0,0,0.0
+MIA,cropland__r00_03,Cropland 0–3 km,570,0,0,0,0,0.0
+MIA,water_wetland__r03_08,Water plus wetland 3–8 km,570,0,0,0,0,0.0
+MIA,cropland__r03_08,Cropland 3–8 km,570,0,0,0,0,0.0
+MIA,water_wetland__r08_13,Water plus wetland 8–13 km,570,0,0,0,0,0.0
+MIA,cropland__r08_13,Cropland 8–13 km,570,0,0,0,0,0.0
+MIA,HEIGHT,Height,570,69,0,0,69,12.105263157894736
+MIA,DISTANCE,Distance,570,70,0,0,70,12.280701754385966
+MIA,SPEED,Speed,570,260,0,0,260,45.6140350877193
+MSP,aircraft_mass_class,Aircraft mass class,433,2,0,0,2,0.4618937644341801
+MSP,phase,Flight phase,433,0,0,0,0,0.0
+MSP,bird_size_reported,Bird size,433,68,0,0,68,15.704387990762125
+MSP,number_struck_category,Number struck,433,0,0,0,0,0.0
+MSP,TIME_OF_DAY,Time of day,433,43,0,0,43,9.930715935334874
+MSP,AC_CLASS,Aircraft class,433,1,0,0,1,0.23094688221709006
+MSP,TYPE_ENG,Engine type,433,2,0,0,2,0.4618937644341801
+MSP,NUM_ENGS,Engine count,433,2,0,0,2,0.4618937644341801
+MSP,year,Incident year,433,0,0,0,0,0.0
+MSP,month_sin,Month sine,433,0,0,0,0,0.0
+MSP,month_cos,Month cosine,433,0,0,0,0,0.0
+MSP,water_fraction__b03,Water 3 km,433,0,0,0,0,0.0
+MSP,wetland_fraction__b03,Wetland 3 km,433,0,0,0,0,0.0
+MSP,cropland_fraction__b03,Cropland 3 km,433,0,0,0,0,0.0
+MSP,grassland_fraction__b03,Grassland 3 km,433,0,0,0,0,0.0
+MSP,pasture_fraction__b03,Pasture 3 km,433,0,0,0,0,0.0
+MSP,impervious_mean_pct__b03,Imperviousness 3 km,433,0,0,0,0,0.0
+MSP,water_fraction__b08,Water 8 km,433,0,0,0,0,0.0
+MSP,wetland_fraction__b08,Wetland 8 km,433,0,0,0,0,0.0
+MSP,cropland_fraction__b08,Cropland 8 km,433,0,0,0,0,0.0
+MSP,grassland_fraction__b08,Grassland 8 km,433,0,0,0,0,0.0
+MSP,pasture_fraction__b08,Pasture 8 km,433,0,0,0,0,0.0
+MSP,impervious_mean_pct__b08,Imperviousness 8 km,433,0,0,0,0,0.0
+MSP,water_fraction__b13,Water 13 km,433,0,0,0,0,0.0
+MSP,wetland_fraction__b13,Wetland 13 km,433,0,0,0,0,0.0
+MSP,cropland_fraction__b13,Cropland 13 km,433,0,0,0,0,0.0
+MSP,grassland_fraction__b13,Grassland 13 km,433,0,0,0,0,0.0
+MSP,pasture_fraction__b13,Pasture 13 km,433,0,0,0,0,0.0
+MSP,impervious_mean_pct__b13,Imperviousness 13 km,433,0,0,0,0,0.0
+MSP,water_wetland__r00_03,Water plus wetland 0–3 km,433,0,0,0,0,0.0
+MSP,cropland__r00_03,Cropland 0–3 km,433,0,0,0,0,0.0
+MSP,water_wetland__r03_08,Water plus wetland 3–8 km,433,0,0,0,0,0.0
+MSP,cropland__r03_08,Cropland 3–8 km,433,0,0,0,0,0.0
+MSP,water_wetland__r08_13,Water plus wetland 8–13 km,433,0,0,0,0,0.0
+MSP,cropland__r08_13,Cropland 8–13 km,433,0,0,0,0,0.0
+MSP,HEIGHT,Height,433,84,0,0,84,19.399538106235564
+MSP,DISTANCE,Distance,433,99,0,0,99,22.863741339491916
+MSP,SPEED,Speed,433,272,0,0,272,62.8175519630485
+BOS,aircraft_mass_class,Aircraft mass class,729,2,0,0,2,0.27434842249657065
+BOS,phase,Flight phase,729,0,0,0,0,0.0
+BOS,bird_size_reported,Bird size,729,88,0,0,88,12.071330589849108
+BOS,number_struck_category,Number struck,729,0,0,0,0,0.0
+BOS,TIME_OF_DAY,Time of day,729,18,0,0,18,2.4691358024691357
+BOS,AC_CLASS,Aircraft class,729,2,0,0,2,0.27434842249657065
+BOS,TYPE_ENG,Engine type,729,2,0,0,2,0.27434842249657065
+BOS,NUM_ENGS,Engine count,729,2,0,0,2,0.27434842249657065
+BOS,year,Incident year,729,0,0,0,0,0.0
+BOS,month_sin,Month sine,729,0,0,0,0,0.0
+BOS,month_cos,Month cosine,729,0,0,0,0,0.0
+BOS,water_fraction__b03,Water 3 km,729,0,0,0,0,0.0
+BOS,wetland_fraction__b03,Wetland 3 km,729,0,0,0,0,0.0
+BOS,cropland_fraction__b03,Cropland 3 km,729,0,0,0,0,0.0
+BOS,grassland_fraction__b03,Grassland 3 km,729,0,0,0,0,0.0
+BOS,pasture_fraction__b03,Pasture 3 km,729,0,0,0,0,0.0
+BOS,impervious_mean_pct__b03,Imperviousness 3 km,729,0,0,0,0,0.0
+BOS,water_fraction__b08,Water 8 km,729,0,0,0,0,0.0
+BOS,wetland_fraction__b08,Wetland 8 km,729,0,0,0,0,0.0
+BOS,cropland_fraction__b08,Cropland 8 km,729,0,0,0,0,0.0
+BOS,grassland_fraction__b08,Grassland 8 km,729,0,0,0,0,0.0
+BOS,pasture_fraction__b08,Pasture 8 km,729,0,0,0,0,0.0
+BOS,impervious_mean_pct__b08,Imperviousness 8 km,729,0,0,0,0,0.0
+BOS,water_fraction__b13,Water 13 km,729,0,0,0,0,0.0
+BOS,wetland_fraction__b13,Wetland 13 km,729,0,0,0,0,0.0
+BOS,cropland_fraction__b13,Cropland 13 km,729,0,0,0,0,0.0
+BOS,grassland_fraction__b13,Grassland 13 km,729,0,0,0,0,0.0
+BOS,pasture_fraction__b13,Pasture 13 km,729,0,0,0,0,0.0
+BOS,impervious_mean_pct__b13,Imperviousness 13 km,729,0,0,0,0,0.0
+BOS,water_wetland__r00_03,Water plus wetland 0–3 km,729,0,0,0,0,0.0
+BOS,cropland__r00_03,Cropland 0–3 km,729,0,0,0,0,0.0
+BOS,water_wetland__r03_08,Water plus wetland 3–8 km,729,0,0,0,0,0.0
+BOS,cropland__r03_08,Cropland 3–8 km,729,0,0,0,0,0.0
+BOS,water_wetland__r08_13,Water plus wetland 8–13 km,729,0,0,0,0,0.0
+BOS,cropland__r08_13,Cropland 8–13 km,729,0,0,0,0,0.0
+BOS,HEIGHT,Height,729,92,0,0,92,12.62002743484225
+BOS,DISTANCE,Distance,729,137,0,0,137,18.792866941015088
+BOS,SPEED,Speed,729,408,0,0,408,55.96707818930041
+SFO,aircraft_mass_class,Aircraft mass class,493,0,0,0,0,0.0
+SFO,phase,Flight phase,493,0,0,0,0,0.0
+SFO,bird_size_reported,Bird size,493,60,0,0,60,12.170385395537526
+SFO,number_struck_category,Number struck,493,0,0,0,0,0.0
+SFO,TIME_OF_DAY,Time of day,493,43,0,0,43,8.72210953346856
+SFO,AC_CLASS,Aircraft class,493,0,0,0,0,0.0
+SFO,TYPE_ENG,Engine type,493,0,0,0,0,0.0
+SFO,NUM_ENGS,Engine count,493,0,0,0,0,0.0
+SFO,year,Incident year,493,0,0,0,0,0.0
+SFO,month_sin,Month sine,493,0,0,0,0,0.0
+SFO,month_cos,Month cosine,493,0,0,0,0,0.0
+SFO,water_fraction__b03,Water 3 km,493,0,0,0,0,0.0
+SFO,wetland_fraction__b03,Wetland 3 km,493,0,0,0,0,0.0
+SFO,cropland_fraction__b03,Cropland 3 km,493,0,0,0,0,0.0
+SFO,grassland_fraction__b03,Grassland 3 km,493,0,0,0,0,0.0
+SFO,pasture_fraction__b03,Pasture 3 km,493,0,0,0,0,0.0
+SFO,impervious_mean_pct__b03,Imperviousness 3 km,493,0,0,0,0,0.0
+SFO,water_fraction__b08,Water 8 km,493,0,0,0,0,0.0
+SFO,wetland_fraction__b08,Wetland 8 km,493,0,0,0,0,0.0
+SFO,cropland_fraction__b08,Cropland 8 km,493,0,0,0,0,0.0
+SFO,grassland_fraction__b08,Grassland 8 km,493,0,0,0,0,0.0
+SFO,pasture_fraction__b08,Pasture 8 km,493,0,0,0,0,0.0
+SFO,impervious_mean_pct__b08,Imperviousness 8 km,493,0,0,0,0,0.0
+SFO,water_fraction__b13,Water 13 km,493,0,0,0,0,0.0
+SFO,wetland_fraction__b13,Wetland 13 km,493,0,0,0,0,0.0
+SFO,cropland_fraction__b13,Cropland 13 km,493,0,0,0,0,0.0
+SFO,grassland_fraction__b13,Grassland 13 km,493,0,0,0,0,0.0
+SFO,pasture_fraction__b13,Pasture 13 km,493,0,0,0,0,0.0
+SFO,impervious_mean_pct__b13,Imperviousness 13 km,493,0,0,0,0,0.0
+SFO,water_wetland__r00_03,Water plus wetland 0–3 km,493,0,0,0,0,0.0
+SFO,cropland__r00_03,Cropland 0–3 km,493,0,0,0,0,0.0
+SFO,water_wetland__r03_08,Water plus wetland 3–8 km,493,0,0,0,0,0.0
+SFO,cropland__r03_08,Cropland 3–8 km,493,0,0,0,0,0.0
+SFO,water_wetland__r08_13,Water plus wetland 8–13 km,493,0,0,0,0,0.0
+SFO,cropland__r08_13,Cropland 8–13 km,493,0,0,0,0,0.0
+SFO,HEIGHT,Height,493,33,0,0,33,6.693711967545639
+SFO,DISTANCE,Distance,493,97,0,0,97,19.675456389452332
+SFO,SPEED,Speed,493,225,0,0,225,45.63894523326572
+SAT,aircraft_mass_class,Aircraft mass class,560,0,0,0,0,0.0
+SAT,phase,Flight phase,560,0,0,0,0,0.0
+SAT,bird_size_reported,Bird size,560,187,0,0,187,33.392857142857146
+SAT,number_struck_category,Number struck,560,0,0,0,0,0.0
+SAT,TIME_OF_DAY,Time of day,560,50,0,0,50,8.928571428571429
+SAT,AC_CLASS,Aircraft class,560,0,0,0,0,0.0
+SAT,TYPE_ENG,Engine type,560,0,0,0,0,0.0
+SAT,NUM_ENGS,Engine count,560,0,0,0,0,0.0
+SAT,year,Incident year,560,0,0,0,0,0.0
+SAT,month_sin,Month sine,560,0,0,0,0,0.0
+SAT,month_cos,Month cosine,560,0,0,0,0,0.0
+SAT,water_fraction__b03,Water 3 km,560,0,0,0,0,0.0
+SAT,wetland_fraction__b03,Wetland 3 km,560,0,0,0,0,0.0
+SAT,cropland_fraction__b03,Cropland 3 km,560,0,0,0,0,0.0
+SAT,grassland_fraction__b03,Grassland 3 km,560,0,0,0,0,0.0
+SAT,pasture_fraction__b03,Pasture 3 km,560,0,0,0,0,0.0
+SAT,impervious_mean_pct__b03,Imperviousness 3 km,560,0,0,0,0,0.0
+SAT,water_fraction__b08,Water 8 km,560,0,0,0,0,0.0
+SAT,wetland_fraction__b08,Wetland 8 km,560,0,0,0,0,0.0
+SAT,cropland_fraction__b08,Cropland 8 km,560,0,0,0,0,0.0
+SAT,grassland_fraction__b08,Grassland 8 km,560,0,0,0,0,0.0
+SAT,pasture_fraction__b08,Pasture 8 km,560,0,0,0,0,0.0
+SAT,impervious_mean_pct__b08,Imperviousness 8 km,560,0,0,0,0,0.0
+SAT,water_fraction__b13,Water 13 km,560,0,0,0,0,0.0
+SAT,wetland_fraction__b13,Wetland 13 km,560,0,0,0,0,0.0
+SAT,cropland_fraction__b13,Cropland 13 km,560,0,0,0,0,0.0
+SAT,grassland_fraction__b13,Grassland 13 km,560,0,0,0,0,0.0
+SAT,pasture_fraction__b13,Pasture 13 km,560,0,0,0,0,0.0
+SAT,impervious_mean_pct__b13,Imperviousness 13 km,560,0,0,0,0,0.0
+SAT,water_wetland__r00_03,Water plus wetland 0–3 km,560,0,0,0,0,0.0
+SAT,cropland__r00_03,Cropland 0–3 km,560,0,0,0,0,0.0
+SAT,water_wetland__r03_08,Water plus wetland 3–8 km,560,0,0,0,0,0.0
+SAT,cropland__r03_08,Cropland 3–8 km,560,0,0,0,0,0.0
+SAT,water_wetland__r08_13,Water plus wetland 8–13 km,560,0,0,0,0,0.0
+SAT,cropland__r08_13,Cropland 8–13 km,560,0,0,0,0,0.0
+SAT,HEIGHT,Height,560,69,0,0,69,12.321428571428571
+SAT,DISTANCE,Distance,560,120,0,0,120,21.428571428571427
+SAT,SPEED,Speed,560,223,0,0,223,39.82142857142857
+STL,aircraft_mass_class,Aircraft mass class,561,0,0,0,0,0.0
+STL,phase,Flight phase,561,0,0,0,0,0.0
+STL,bird_size_reported,Bird size,561,108,0,0,108,19.25133689839572
+STL,number_struck_category,Number struck,561,0,0,0,0,0.0
+STL,TIME_OF_DAY,Time of day,561,31,0,0,31,5.52584670231729
+STL,AC_CLASS,Aircraft class,561,0,0,0,0,0.0
+STL,TYPE_ENG,Engine type,561,0,0,0,0,0.0
+STL,NUM_ENGS,Engine count,561,0,0,0,0,0.0
+STL,year,Incident year,561,0,0,0,0,0.0
+STL,month_sin,Month sine,561,0,0,0,0,0.0
+STL,month_cos,Month cosine,561,0,0,0,0,0.0
+STL,water_fraction__b03,Water 3 km,561,0,0,0,0,0.0
+STL,wetland_fraction__b03,Wetland 3 km,561,0,0,0,0,0.0
+STL,cropland_fraction__b03,Cropland 3 km,561,0,0,0,0,0.0
+STL,grassland_fraction__b03,Grassland 3 km,561,0,0,0,0,0.0
+STL,pasture_fraction__b03,Pasture 3 km,561,0,0,0,0,0.0
+STL,impervious_mean_pct__b03,Imperviousness 3 km,561,0,0,0,0,0.0
+STL,water_fraction__b08,Water 8 km,561,0,0,0,0,0.0
+STL,wetland_fraction__b08,Wetland 8 km,561,0,0,0,0,0.0
+STL,cropland_fraction__b08,Cropland 8 km,561,0,0,0,0,0.0
+STL,grassland_fraction__b08,Grassland 8 km,561,0,0,0,0,0.0
+STL,pasture_fraction__b08,Pasture 8 km,561,0,0,0,0,0.0
+STL,impervious_mean_pct__b08,Imperviousness 8 km,561,0,0,0,0,0.0
+STL,water_fraction__b13,Water 13 km,561,0,0,0,0,0.0
+STL,wetland_fraction__b13,Wetland 13 km,561,0,0,0,0,0.0
+STL,cropland_fraction__b13,Cropland 13 km,561,0,0,0,0,0.0
+STL,grassland_fraction__b13,Grassland 13 km,561,0,0,0,0,0.0
+STL,pasture_fraction__b13,Pasture 13 km,561,0,0,0,0,0.0
+STL,impervious_mean_pct__b13,Imperviousness 13 km,561,0,0,0,0,0.0
+STL,water_wetland__r00_03,Water plus wetland 0–3 km,561,0,0,0,0,0.0
+STL,cropland__r00_03,Cropland 0–3 km,561,0,0,0,0,0.0
+STL,water_wetland__r03_08,Water plus wetland 3–8 km,561,0,0,0,0,0.0
+STL,cropland__r03_08,Cropland 3–8 km,561,0,0,0,0,0.0
+STL,water_wetland__r08_13,Water plus wetland 8–13 km,561,0,0,0,0,0.0
+STL,cropland__r08_13,Cropland 8–13 km,561,0,0,0,0,0.0
+STL,HEIGHT,Height,561,28,0,0,28,4.991087344028521
+STL,DISTANCE,Distance,561,116,0,0,116,20.67736185383244
+STL,SPEED,Speed,561,201,0,0,201,35.82887700534759
+Outer fold 1,aircraft_mass_class,Aircraft mass class,8027,54,0,0,54,0.6727295378098916
+Outer fold 1,phase,Flight phase,8027,0,0,0,0,0.0
+Outer fold 1,bird_size_reported,Bird size,8027,1372,0,0,1372,17.092313442132802
+Outer fold 1,number_struck_category,Number struck,8027,8,0,0,8,0.09966363523109506
+Outer fold 1,TIME_OF_DAY,Time of day,8027,484,0,0,484,6.02964993148125
+Outer fold 1,AC_CLASS,Aircraft class,8027,66,0,0,66,0.8222249906565342
+Outer fold 1,TYPE_ENG,Engine type,8027,79,0,0,79,0.9841783979070636
+Outer fold 1,NUM_ENGS,Engine count,8027,87,0,0,87,1.0838420331381586
+Outer fold 1,year,Incident year,8027,0,0,0,0,0.0
+Outer fold 1,month_sin,Month sine,8027,0,0,0,0,0.0
+Outer fold 1,month_cos,Month cosine,8027,0,0,0,0,0.0
+Outer fold 1,water_fraction__b03,Water 3 km,8027,0,0,0,0,0.0
+Outer fold 1,wetland_fraction__b03,Wetland 3 km,8027,0,0,0,0,0.0
+Outer fold 1,cropland_fraction__b03,Cropland 3 km,8027,0,0,0,0,0.0
+Outer fold 1,grassland_fraction__b03,Grassland 3 km,8027,0,0,0,0,0.0
+Outer fold 1,pasture_fraction__b03,Pasture 3 km,8027,0,0,0,0,0.0
+Outer fold 1,impervious_mean_pct__b03,Imperviousness 3 km,8027,0,0,0,0,0.0
+Outer fold 1,water_fraction__b08,Water 8 km,8027,0,0,0,0,0.0
+Outer fold 1,wetland_fraction__b08,Wetland 8 km,8027,0,0,0,0,0.0
+Outer fold 1,cropland_fraction__b08,Cropland 8 km,8027,0,0,0,0,0.0
+Outer fold 1,grassland_fraction__b08,Grassland 8 km,8027,0,0,0,0,0.0
+Outer fold 1,pasture_fraction__b08,Pasture 8 km,8027,0,0,0,0,0.0
+Outer fold 1,impervious_mean_pct__b08,Imperviousness 8 km,8027,0,0,0,0,0.0
+Outer fold 1,water_fraction__b13,Water 13 km,8027,0,0,0,0,0.0
+Outer fold 1,wetland_fraction__b13,Wetland 13 km,8027,0,0,0,0,0.0
+Outer fold 1,cropland_fraction__b13,Cropland 13 km,8027,0,0,0,0,0.0
+Outer fold 1,grassland_fraction__b13,Grassland 13 km,8027,0,0,0,0,0.0
+Outer fold 1,pasture_fraction__b13,Pasture 13 km,8027,0,0,0,0,0.0
+Outer fold 1,impervious_mean_pct__b13,Imperviousness 13 km,8027,0,0,0,0,0.0
+Outer fold 1,water_wetland__r00_03,Water plus wetland 0–3 km,8027,0,0,0,0,0.0
+Outer fold 1,cropland__r00_03,Cropland 0–3 km,8027,0,0,0,0,0.0
+Outer fold 1,water_wetland__r03_08,Water plus wetland 3–8 km,8027,0,0,0,0,0.0
+Outer fold 1,cropland__r03_08,Cropland 3–8 km,8027,0,0,0,0,0.0
+Outer fold 1,water_wetland__r08_13,Water plus wetland 8–13 km,8027,0,0,0,0,0.0
+Outer fold 1,cropland__r08_13,Cropland 8–13 km,8027,0,0,0,0,0.0
+Outer fold 1,HEIGHT,Height,8027,751,0,0,751,9.355923757319049
+Outer fold 1,DISTANCE,Distance,8027,1415,0,0,1415,17.628005481499937
+Outer fold 1,SPEED,Speed,8027,3985,0,0,3985,49.64494829948922
+Outer fold 2,aircraft_mass_class,Aircraft mass class,7195,49,0,0,49,0.6810284920083391
+Outer fold 2,phase,Flight phase,7195,0,0,0,0,0.0
+Outer fold 2,bird_size_reported,Bird size,7195,1571,0,0,1571,21.834607366226546
+Outer fold 2,number_struck_category,Number struck,7195,1,0,0,1,0.01389854065323141
+Outer fold 2,TIME_OF_DAY,Time of day,7195,552,0,0,552,7.671994440583739
+Outer fold 2,AC_CLASS,Aircraft class,7195,53,0,0,53,0.7366226546212647
+Outer fold 2,TYPE_ENG,Engine type,7195,62,0,0,62,0.8617095205003474
+Outer fold 2,NUM_ENGS,Engine count,7195,65,0,0,65,0.9034051424600417
+Outer fold 2,year,Incident year,7195,0,0,0,0,0.0
+Outer fold 2,month_sin,Month sine,7195,0,0,0,0,0.0
+Outer fold 2,month_cos,Month cosine,7195,0,0,0,0,0.0
+Outer fold 2,water_fraction__b03,Water 3 km,7195,0,0,0,0,0.0
+Outer fold 2,wetland_fraction__b03,Wetland 3 km,7195,0,0,0,0,0.0
+Outer fold 2,cropland_fraction__b03,Cropland 3 km,7195,0,0,0,0,0.0
+Outer fold 2,grassland_fraction__b03,Grassland 3 km,7195,0,0,0,0,0.0
+Outer fold 2,pasture_fraction__b03,Pasture 3 km,7195,0,0,0,0,0.0
+Outer fold 2,impervious_mean_pct__b03,Imperviousness 3 km,7195,0,0,0,0,0.0
+Outer fold 2,water_fraction__b08,Water 8 km,7195,0,0,0,0,0.0
+Outer fold 2,wetland_fraction__b08,Wetland 8 km,7195,0,0,0,0,0.0
+Outer fold 2,cropland_fraction__b08,Cropland 8 km,7195,0,0,0,0,0.0
+Outer fold 2,grassland_fraction__b08,Grassland 8 km,7195,0,0,0,0,0.0
+Outer fold 2,pasture_fraction__b08,Pasture 8 km,7195,0,0,0,0,0.0
+Outer fold 2,impervious_mean_pct__b08,Imperviousness 8 km,7195,0,0,0,0,0.0
+Outer fold 2,water_fraction__b13,Water 13 km,7195,0,0,0,0,0.0
+Outer fold 2,wetland_fraction__b13,Wetland 13 km,7195,0,0,0,0,0.0
+Outer fold 2,cropland_fraction__b13,Cropland 13 km,7195,0,0,0,0,0.0
+Outer fold 2,grassland_fraction__b13,Grassland 13 km,7195,0,0,0,0,0.0
+Outer fold 2,pasture_fraction__b13,Pasture 13 km,7195,0,0,0,0,0.0
+Outer fold 2,impervious_mean_pct__b13,Imperviousness 13 km,7195,0,0,0,0,0.0
+Outer fold 2,water_wetland__r00_03,Water plus wetland 0–3 km,7195,0,0,0,0,0.0
+Outer fold 2,cropland__r00_03,Cropland 0–3 km,7195,0,0,0,0,0.0
+Outer fold 2,water_wetland__r03_08,Water plus wetland 3–8 km,7195,0,0,0,0,0.0
+Outer fold 2,cropland__r03_08,Cropland 3–8 km,7195,0,0,0,0,0.0
+Outer fold 2,water_wetland__r08_13,Water plus wetland 8–13 km,7195,0,0,0,0,0.0
+Outer fold 2,cropland__r08_13,Cropland 8–13 km,7195,0,0,0,0,0.0
+Outer fold 2,HEIGHT,Height,7195,646,0,0,646,8.978457261987492
+Outer fold 2,DISTANCE,Distance,7195,1263,0,0,1263,17.553856845031273
+Outer fold 2,SPEED,Speed,7195,3161,0,0,3161,43.93328700486449
+Outer fold 3,aircraft_mass_class,Aircraft mass class,7826,49,0,0,49,0.6261180679785331
+Outer fold 3,phase,Flight phase,7826,0,0,0,0,0.0
+Outer fold 3,bird_size_reported,Bird size,7826,1336,0,0,1336,17.071300792231025
+Outer fold 3,number_struck_category,Number struck,7826,5,0,0,5,0.0638895987733197
+Outer fold 3,TIME_OF_DAY,Time of day,7826,552,0,0,552,7.053411704574495
+Outer fold 3,AC_CLASS,Aircraft class,7826,47,0,0,47,0.6005622284692053
+Outer fold 3,TYPE_ENG,Engine type,7826,58,0,0,58,0.7411193457705085
+Outer fold 3,NUM_ENGS,Engine count,7826,61,0,0,61,0.7794531050345004
+Outer fold 3,year,Incident year,7826,0,0,0,0,0.0
+Outer fold 3,month_sin,Month sine,7826,0,0,0,0,0.0
+Outer fold 3,month_cos,Month cosine,7826,0,0,0,0,0.0
+Outer fold 3,water_fraction__b03,Water 3 km,7826,0,0,0,0,0.0
+Outer fold 3,wetland_fraction__b03,Wetland 3 km,7826,0,0,0,0,0.0
+Outer fold 3,cropland_fraction__b03,Cropland 3 km,7826,0,0,0,0,0.0
+Outer fold 3,grassland_fraction__b03,Grassland 3 km,7826,0,0,0,0,0.0
+Outer fold 3,pasture_fraction__b03,Pasture 3 km,7826,0,0,0,0,0.0
+Outer fold 3,impervious_mean_pct__b03,Imperviousness 3 km,7826,0,0,0,0,0.0
+Outer fold 3,water_fraction__b08,Water 8 km,7826,0,0,0,0,0.0
+Outer fold 3,wetland_fraction__b08,Wetland 8 km,7826,0,0,0,0,0.0
+Outer fold 3,cropland_fraction__b08,Cropland 8 km,7826,0,0,0,0,0.0
+Outer fold 3,grassland_fraction__b08,Grassland 8 km,7826,0,0,0,0,0.0
+Outer fold 3,pasture_fraction__b08,Pasture 8 km,7826,0,0,0,0,0.0
+Outer fold 3,impervious_mean_pct__b08,Imperviousness 8 km,7826,0,0,0,0,0.0
+Outer fold 3,water_fraction__b13,Water 13 km,7826,0,0,0,0,0.0
+Outer fold 3,wetland_fraction__b13,Wetland 13 km,7826,0,0,0,0,0.0
+Outer fold 3,cropland_fraction__b13,Cropland 13 km,7826,0,0,0,0,0.0
+Outer fold 3,grassland_fraction__b13,Grassland 13 km,7826,0,0,0,0,0.0
+Outer fold 3,pasture_fraction__b13,Pasture 13 km,7826,0,0,0,0,0.0
+Outer fold 3,impervious_mean_pct__b13,Imperviousness 13 km,7826,0,0,0,0,0.0
+Outer fold 3,water_wetland__r00_03,Water plus wetland 0–3 km,7826,0,0,0,0,0.0
+Outer fold 3,cropland__r00_03,Cropland 0–3 km,7826,0,0,0,0,0.0
+Outer fold 3,water_wetland__r03_08,Water plus wetland 3–8 km,7826,0,0,0,0,0.0
+Outer fold 3,cropland__r03_08,Cropland 3–8 km,7826,0,0,0,0,0.0
+Outer fold 3,water_wetland__r08_13,Water plus wetland 8–13 km,7826,0,0,0,0,0.0
+Outer fold 3,cropland__r08_13,Cropland 8–13 km,7826,0,0,0,0,0.0
+Outer fold 3,HEIGHT,Height,7826,742,0,0,742,9.481216457960643
+Outer fold 3,DISTANCE,Distance,7826,1254,0,0,1254,16.023511372348583
+Outer fold 3,SPEED,Speed,7826,3832,0,0,3832,48.96498849987222
+Outer fold 4,aircraft_mass_class,Aircraft mass class,11583,48,0,0,48,0.4144004144004144
+Outer fold 4,phase,Flight phase,11583,0,0,0,0,0.0
+Outer fold 4,bird_size_reported,Bird size,11583,2490,0,0,2490,21.497021497021496
+Outer fold 4,number_struck_category,Number struck,11583,7,0,0,7,0.0604333937667271
+Outer fold 4,TIME_OF_DAY,Time of day,11583,823,0,0,823,7.105240438573772
+Outer fold 4,AC_CLASS,Aircraft class,11583,46,0,0,46,0.3971337304670638
+Outer fold 4,TYPE_ENG,Engine type,11583,57,0,0,57,0.4921004921004921
+Outer fold 4,NUM_ENGS,Engine count,11583,62,0,0,62,0.5352672019338686
+Outer fold 4,year,Incident year,11583,0,0,0,0,0.0
+Outer fold 4,month_sin,Month sine,11583,0,0,0,0,0.0
+Outer fold 4,month_cos,Month cosine,11583,0,0,0,0,0.0
+Outer fold 4,water_fraction__b03,Water 3 km,11583,0,0,0,0,0.0
+Outer fold 4,wetland_fraction__b03,Wetland 3 km,11583,0,0,0,0,0.0
+Outer fold 4,cropland_fraction__b03,Cropland 3 km,11583,0,0,0,0,0.0
+Outer fold 4,grassland_fraction__b03,Grassland 3 km,11583,0,0,0,0,0.0
+Outer fold 4,pasture_fraction__b03,Pasture 3 km,11583,0,0,0,0,0.0
+Outer fold 4,impervious_mean_pct__b03,Imperviousness 3 km,11583,0,0,0,0,0.0
+Outer fold 4,water_fraction__b08,Water 8 km,11583,0,0,0,0,0.0
+Outer fold 4,wetland_fraction__b08,Wetland 8 km,11583,0,0,0,0,0.0
+Outer fold 4,cropland_fraction__b08,Cropland 8 km,11583,0,0,0,0,0.0
+Outer fold 4,grassland_fraction__b08,Grassland 8 km,11583,0,0,0,0,0.0
+Outer fold 4,pasture_fraction__b08,Pasture 8 km,11583,0,0,0,0,0.0
+Outer fold 4,impervious_mean_pct__b08,Imperviousness 8 km,11583,0,0,0,0,0.0
+Outer fold 4,water_fraction__b13,Water 13 km,11583,0,0,0,0,0.0
+Outer fold 4,wetland_fraction__b13,Wetland 13 km,11583,0,0,0,0,0.0
+Outer fold 4,cropland_fraction__b13,Cropland 13 km,11583,0,0,0,0,0.0
+Outer fold 4,grassland_fraction__b13,Grassland 13 km,11583,0,0,0,0,0.0
+Outer fold 4,pasture_fraction__b13,Pasture 13 km,11583,0,0,0,0,0.0
+Outer fold 4,impervious_mean_pct__b13,Imperviousness 13 km,11583,0,0,0,0,0.0
+Outer fold 4,water_wetland__r00_03,Water plus wetland 0–3 km,11583,0,0,0,0,0.0
+Outer fold 4,cropland__r00_03,Cropland 0–3 km,11583,0,0,0,0,0.0
+Outer fold 4,water_wetland__r03_08,Water plus wetland 3–8 km,11583,0,0,0,0,0.0
+Outer fold 4,cropland__r03_08,Cropland 3–8 km,11583,0,0,0,0,0.0
+Outer fold 4,water_wetland__r08_13,Water plus wetland 8–13 km,11583,0,0,0,0,0.0
+Outer fold 4,cropland__r08_13,Cropland 8–13 km,11583,0,0,0,0,0.0
+Outer fold 4,HEIGHT,Height,11583,975,0,0,975,8.417508417508417
+Outer fold 4,DISTANCE,Distance,11583,2198,0,0,2198,18.97608564275231
+Outer fold 4,SPEED,Speed,11583,5356,0,0,5356,46.240179573512904
+Outer fold 5,aircraft_mass_class,Aircraft mass class,11536,58,0,0,58,0.5027739251040222
+Outer fold 5,phase,Flight phase,11536,0,0,0,0,0.0
+Outer fold 5,bird_size_reported,Bird size,11536,1927,0,0,1927,16.704230235783633
+Outer fold 5,number_struck_category,Number struck,11536,10,0,0,10,0.08668515950069348
+Outer fold 5,TIME_OF_DAY,Time of day,11536,658,0,0,658,5.703883495145631
+Outer fold 5,AC_CLASS,Aircraft class,11536,58,0,0,58,0.5027739251040222
+Outer fold 5,TYPE_ENG,Engine type,11536,66,0,0,66,0.5721220527045769
+Outer fold 5,NUM_ENGS,Engine count,11536,71,0,0,71,0.6154646324549237
+Outer fold 5,year,Incident year,11536,0,0,0,0,0.0
+Outer fold 5,month_sin,Month sine,11536,0,0,0,0,0.0
+Outer fold 5,month_cos,Month cosine,11536,0,0,0,0,0.0
+Outer fold 5,water_fraction__b03,Water 3 km,11536,0,0,0,0,0.0
+Outer fold 5,wetland_fraction__b03,Wetland 3 km,11536,0,0,0,0,0.0
+Outer fold 5,cropland_fraction__b03,Cropland 3 km,11536,0,0,0,0,0.0
+Outer fold 5,grassland_fraction__b03,Grassland 3 km,11536,0,0,0,0,0.0
+Outer fold 5,pasture_fraction__b03,Pasture 3 km,11536,0,0,0,0,0.0
+Outer fold 5,impervious_mean_pct__b03,Imperviousness 3 km,11536,0,0,0,0,0.0
+Outer fold 5,water_fraction__b08,Water 8 km,11536,0,0,0,0,0.0
+Outer fold 5,wetland_fraction__b08,Wetland 8 km,11536,0,0,0,0,0.0
+Outer fold 5,cropland_fraction__b08,Cropland 8 km,11536,0,0,0,0,0.0
+Outer fold 5,grassland_fraction__b08,Grassland 8 km,11536,0,0,0,0,0.0
+Outer fold 5,pasture_fraction__b08,Pasture 8 km,11536,0,0,0,0,0.0
+Outer fold 5,impervious_mean_pct__b08,Imperviousness 8 km,11536,0,0,0,0,0.0
+Outer fold 5,water_fraction__b13,Water 13 km,11536,0,0,0,0,0.0
+Outer fold 5,wetland_fraction__b13,Wetland 13 km,11536,0,0,0,0,0.0
+Outer fold 5,cropland_fraction__b13,Cropland 13 km,11536,0,0,0,0,0.0
+Outer fold 5,grassland_fraction__b13,Grassland 13 km,11536,0,0,0,0,0.0
+Outer fold 5,pasture_fraction__b13,Pasture 13 km,11536,0,0,0,0,0.0
+Outer fold 5,impervious_mean_pct__b13,Imperviousness 13 km,11536,0,0,0,0,0.0
+Outer fold 5,water_wetland__r00_03,Water plus wetland 0–3 km,11536,0,0,0,0,0.0
+Outer fold 5,cropland__r00_03,Cropland 0–3 km,11536,0,0,0,0,0.0
+Outer fold 5,water_wetland__r03_08,Water plus wetland 3–8 km,11536,0,0,0,0,0.0
+Outer fold 5,cropland__r03_08,Cropland 3–8 km,11536,0,0,0,0,0.0
+Outer fold 5,water_wetland__r08_13,Water plus wetland 8–13 km,11536,0,0,0,0,0.0
+Outer fold 5,cropland__r08_13,Cropland 8–13 km,11536,0,0,0,0,0.0
+Outer fold 5,HEIGHT,Height,11536,996,0,0,996,8.633841886269071
+Outer fold 5,DISTANCE,Distance,11536,2457,0,0,2457,21.29854368932039
+Outer fold 5,SPEED,Speed,11536,5726,0,0,5726,49.63592233009709

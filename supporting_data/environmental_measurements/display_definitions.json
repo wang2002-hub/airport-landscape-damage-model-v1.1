@@ -1,0 +1,184 @@
+{
+  "supp_context.landcover": {
+    "caption": "source record SRC-S49. Exhaustive land-cover groups",
+    "headers": [
+      "Group",
+      "Annual NLCD codes"
+    ],
+    "rows": [
+      [
+        "Water",
+        "11"
+      ],
+      [
+        "Developed",
+        "21, 22, 23, 24"
+      ],
+      [
+        "Forest",
+        "41, 42, 43"
+      ],
+      [
+        "Shrub",
+        "52"
+      ],
+      [
+        "Grassland",
+        "71"
+      ],
+      [
+        "Pasture",
+        "81"
+      ],
+      [
+        "Cropland",
+        "82"
+      ],
+      [
+        "Wetland",
+        "90, 95"
+      ],
+      [
+        "Other",
+        "12, 31"
+      ]
+    ],
+    "widths": [
+      3.0,
+      3.5
+    ],
+    "note": "Fractions share the valid land-cover-cell denominator. Code 250 is NoData. Mean fractional imperviousness is measured separately and is outside the nine-part composition."
+  },
+  "supp_context.selection": {
+    "caption": "source record SRC-S50. Selected landscape representations and EBL calibration",
+    "headers": [
+      "Evaluation",
+      "Fold",
+      "Family",
+      "EL scale",
+      "EBL scale",
+      "Cal intercept",
+      "Cal slope"
+    ],
+    "rows": [
+      [
+        "Temporal",
+        "—",
+        "Hierarchical",
+        "b03",
+        "b03",
+        "-0.265",
+        "0.926"
+      ],
+      [
+        "Temporal",
+        "—",
+        "Boosting",
+        "b08",
+        "b08",
+        "0.033",
+        "1.016"
+      ],
+      [
+        "Geographic",
+        "1",
+        "Hierarchical",
+        "b03",
+        "rings",
+        "-0.045",
+        "0.997"
+      ],
+      [
+        "Geographic",
+        "1",
+        "Boosting",
+        "b03",
+        "b03",
+        "0.124",
+        "1.066"
+      ],
+      [
+        "Geographic",
+        "2",
+        "Hierarchical",
+        "b03",
+        "rings",
+        "-0.032",
+        "1.007"
+      ],
+      [
+        "Geographic",
+        "2",
+        "Boosting",
+        "b08",
+        "rings",
+        "0.126",
+        "1.076"
+      ],
+      [
+        "Geographic",
+        "3",
+        "Hierarchical",
+        "b03",
+        "rings",
+        "-0.031",
+        "1.007"
+      ],
+      [
+        "Geographic",
+        "3",
+        "Boosting",
+        "b03",
+        "b03",
+        "0.151",
+        "1.078"
+      ],
+      [
+        "Geographic",
+        "4",
+        "Hierarchical",
+        "b13",
+        "rings",
+        "-0.027",
+        "1.001"
+      ],
+      [
+        "Geographic",
+        "4",
+        "Boosting",
+        "b03",
+        "rings",
+        "0.126",
+        "1.071"
+      ],
+      [
+        "Geographic",
+        "5",
+        "Hierarchical",
+        "b03",
+        "b03",
+        "-0.004",
+        "1.003"
+      ],
+      [
+        "Geographic",
+        "5",
+        "Boosting",
+        "b03",
+        "b03",
+        "0.145",
+        "1.086"
+      ]
+    ],
+    "widths": [
+      0.85,
+      0.4,
+      1.05,
+      0.85,
+      0.85,
+      1.25,
+      1.25
+    ],
+    "note": "b03, b08 and b13 denote cumulative 3, 8 and 13 km discs. Rings denote the six-variable nonoverlapping representation. Calibration coefficients apply to the logit of uncalibrated probabilities. Full configurations include all four blocks."
+  }
+}

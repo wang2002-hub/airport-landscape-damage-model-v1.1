@@ -1,0 +1,7 @@
+﻿Development attempts,Successful fits,Centering,Simultaneous 95% interval,Multiplier
+0–499,498,Fitted estimate,0.9979–1.6786,2.901569
+0–499,498,Bootstrap mean,1.0042–1.6680,2.831241
+0–249,249,Fitted estimate,0.9931–1.6867,2.892714
+0–249,249,Bootstrap mean,0.9983–1.6778,2.835411
+250–499,249,Fitted estimate,1.0045–1.6675,2.890958
+250–499,249,Bootstrap mean,1.0124–1.6544,2.801390

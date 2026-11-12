@@ -1,0 +1,47 @@
+Source section,Statement index,Retained statement
+S11.2 execution and replay,1,"A measured ordinary-reference run completed 26 fits, calibration, prediction and output writing in 7.31 seconds."
+S11.2 execution and replay,2,"source record SRC-S65 records the host, numerical environment and resource counters."
+S11.2 execution and replay,3,The run used one worker and one thread per numerical library on a Windows 11 host with 24 logical processors.
+S11.2 execution and replay,4,Wall time includes imports and input loading.
+S11.2 execution and replay,5,The operating-system peak working set was 854.1 MB.
+S11.2 execution and replay,6,Sampling every 0.05 seconds gave a peak resident working set of 828.6 MB and a final sampled CPU total of 5.25 seconds.
+S11.2 execution and replay,7,"This task excludes raster extraction, complex-model development, resampling and human work."
+S11.2 execution and replay,8,An initial monitoring setup failure occurred before fitting; the execution records retain that failure and subsequent use of Windows counters.
+S11.2 execution and replay,9,"A separate-directory replay matched 63,227 baseline predictions with maximum absolute difference zero."
+S11.2 execution and replay,10,"Alignment used evaluation scheme, dataset, fold and event identifier."
+S11.2 execution and replay,11,The replay reused the same host and numerical environment and was separate from the timed execution.
+S11.2 execution and replay,12,"A relocated replay reconstructed the 52,103-report cohort, including all 303 fields and their data types."
+S11.2 execution and replay,13,It repeated 48 national configurations with 768 internal and final fits.
+S11.2 execution and replay,14,"Both raw and calibrated probabilities matched across 505,816 prediction rows."
+S11.2 execution and replay,15,"Selection, encoding and calibration also matched."
+S11.2 execution and replay,16,"Profile replay rebuilt conditional count limits for all 1,375 national airports under five references."
+S11.2 execution and replay,17,"The full-data model reproduced conditional effects and rank intervals for 1,383 airports."
+S11.2 execution and replay,18,"Enhanced-event replay matched eight configurations, 136,480 prediction rows and four paired landscape contrasts."
+S11.2 execution and replay,19,Landscape summaries and predictor tables also matched the retained values.
+S11.2 execution and replay,20,The archived figure replay reproduced its six main and twelve supplementary figures at 600 dpi.
+S11.2 execution and replay,21,Environmental replay reconstructed the same-year and previous-year airport panels.
+S11.2 execution and replay,22,"Sensitivity replay matched 32 configurations and 511,564 prediction rows."
+S11.2 execution and replay,23,"Eight static-canopy configurations also reproduced 136,480 prediction rows."
+S11.2 execution and replay,24,"Landscape development replay repeated all 200 attempts, including both failures."
+S11.2 execution and replay,25,"Surface-weather replay reproduced all 5,936 target records and their strata."
+S11.2 execution and replay,26,"Spatial replay reproduced wetland areas, source vintages and runway summaries."
+S11.2 execution and replay,27,"Source audits reconstructed confidence summaries, acquisition dates, forecasts and precipitation coverage."
+S11.2 execution and replay,28,"Nine descriptive context tables were reconstructed from events, environments and frozen predictions."
+S11.2 execution and replay,29,Raw-raster replay also matched all eight targets and DEN's alternative reference.
+S11.2 execution and replay,30,Figure counts and review-example values were computed from their inputs.
+S11.2 execution and replay,31,"Aggregate verification instead uses airport summaries, paired losses and joint draws to reconstruct displayed comparisons."
+S11.2 execution and replay,32,Development replay requires the retained event-field projection and environmental inputs.
+S11.2 execution and replay,33,Repeating source-workbook screening requires the exact FAA snapshot and lookup information.
+S11.2 execution and replay,34,File checksums distinguish these inputs from later downloads covering the same years.
+S11.2 execution and replay,35,The saved evidence map links each table to its numerical source and calculation scope.
+S11.2 aggregate and assistance,1,"A separate-directory aggregate replay reproduced pooled estimates, simultaneous comparisons and national summaries from saved inputs."
+S11.2 aggregate and assistance,2,Its entry point preserved the paired structure of the joint draws.
+S11.2 aggregate and assistance,3,"Joint replay reconstructed all 195,344 saved draw rows and 160 interval rows."
+S11.2 aggregate and assistance,4,"Seven specified development attempts were repeated, including both calibration failures."
+S11.2 aggregate and assistance,5,Coding and reporting diagnostics also matched their retained outputs.
+S11.2 aggregate and assistance,6,Raster extraction and the remaining auxiliary routes require separate reconstruction.
+S11.2 aggregate and assistance,7,Aggregate summaries contain no incident narratives or registration numbers.
+S11.2 aggregate and assistance,8,These automated comparisons establish numerical agreement for the tested routes.
+S11.2 aggregate and assistance,9,"OpenAI Codex assisted with analysis-code preparation, result summaries and plotting scripts."
+S11.2 aggregate and assistance,10,Local scripts calculated the reported estimates from retained inputs.
+S11.2 aggregate and assistance,11,"Scientific review of model choices, implementation and interpretation remains the authors' responsibility."

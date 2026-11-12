@@ -1,0 +1,719 @@
+{
+  "family": "hgb",
+  "block": "EL",
+  "selected": {
+    "scale": "b08",
+    "params": {
+      "max_depth": 3,
+      "max_iter": 150,
+      "learning_rate": 0.05,
+      "l2_regularization": 10,
+      "min_samples_leaf": 40
+    },
+    "fold_losses": [
+      0.22799745645177452,
+      0.23178642565120733,
+      0.21697576398588772,
+      0.221557930529828
+    ],
+    "loss": 0.22457939415467437
+  },
+  "candidates": [
+    {
+      "scale": "b03",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.23038650600795862,
+        0.23515533350797438,
+        0.21934156063834997,
+        0.2232440228846611
+      ],
+      "loss": 0.227031855759736
+    },
+    {
+      "scale": "b03",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.22883750462083835,
+        0.23307508509268973,
+        0.216471130509778,
+        0.22134989768332503
+      ],
+      "loss": 0.22493340447665777
+    },
+    {
+      "scale": "b08",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.22973220193802268,
+        0.23581267793758248,
+        0.21970258954516603,
+        0.22381959640186588
+      ],
+      "loss": 0.22726676645565927
+    },
+    {
+      "scale": "b08",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.22799745645177452,
+        0.23178642565120733,
+        0.21697576398588772,
+        0.221557930529828
+      ],
+      "loss": 0.22457939415467437
+    },
+    {
+      "scale": "b13",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.23022665522373728,
+        0.23587999339299645,
+        0.21963023267850834,
+        0.22423798402249903
+      ],
+      "loss": 0.22749371632943527
+    },
+    {
+      "scale": "b13",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.22889267909446437,
+        0.23305678229718632,
+        0.2164849976501274,
+        0.22183467411943772
+      ],
+      "loss": 0.22506728329030395
+    },
+    {
+      "scale": "rings",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.23014208144657458,
+        0.23583170884798557,
+        0.21983370481155473,
+        0.22328837815664523
+      ],
+      "loss": 0.22727396831569002
+    },
+    {
+      "scale": "rings",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.22900418048663665,
+        0.2334963278601529,
+        0.21681643489108995,
+        0.2218824394290822
+      ],
+      "loss": 0.22529984566674044
+    }
+  ],
+  "fits": [
+    {
+      "label": "b03_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.31995582580566406,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.3999497890472412,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.4434030055999756,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5280203819274902,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.3760840892791748,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.4506349563598633,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.504849910736084,
+      "success": true
+    },
+    {
+      "label": "b03_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5913543701171875,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.31766700744628906,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.3930819034576416,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.4405331611633301,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5091302394866943,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.3616824150085449,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.4714345932006836,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.49662303924560547,
+      "success": true
+    },
+    {
+      "label": "b08_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5758388042449951,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.3254363536834717,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.3992178440093994,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.45026111602783203,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5127229690551758,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.3614671230316162,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.43619441986083984,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.49166035652160645,
+      "success": true
+    },
+    {
+      "label": "b13_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5645155906677246,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.3092968463897705,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.38857555389404297,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.4247243404388428,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 2, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.496295690536499,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2019",
+      "n": 15509,
+      "seconds": 0.34767675399780273,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2020",
+      "n": 19628,
+      "seconds": 0.42031288146972656,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2021",
+      "n": 22404,
+      "seconds": 0.4792599678039551,
+      "success": true
+    },
+    {
+      "label": "rings_{'max_depth': 3, 'max_iter': 150, 'learning_rate': 0.05, 'l2_regularization': 10, 'min_samples_leaf': 40}_2022",
+      "n": 26246,
+      "seconds": 0.5552434921264648,
+      "success": true
+    },
+    {
+      "label": "final",
+      "n": 30427,
+      "seconds": 0.6594774723052979,
+      "success": true
+    }
+  ],
+  "calibration": {
+    "success": true,
+    "intercept": 0.16753455348742555,
+    "slope": 1.1046648820502085,
+    "n": 4616,
+    "damages": 287
+  },
+  "encoder": {
+    "base": {
+      "training_correlation_audit": [
+        {
+          "feature_a": "water_fraction",
+          "feature_b": "wetland_fraction",
+          "pearson_r": 0.14083208486255133,
+          "spearman_r": 0.44825496178266216,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_fraction",
+          "feature_b": "cropland_fraction",
+          "pearson_r": -0.2077097942220543,
+          "spearman_r": -0.1825454758250509,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "wetland_fraction",
+          "feature_b": "cropland_fraction",
+          "pearson_r": -0.13728204378787398,
+          "spearman_r": 0.0016795793396518891,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_fraction",
+          "feature_b": "grassland_fraction",
+          "pearson_r": -0.1353497377439736,
+          "spearman_r": -0.06592124985141214,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "wetland_fraction",
+          "feature_b": "grassland_fraction",
+          "pearson_r": -0.14078503564572084,
+          "spearman_r": 0.025224419638003204,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "cropland_fraction",
+          "feature_b": "grassland_fraction",
+          "pearson_r": 0.0327572995920105,
+          "spearman_r": 0.08115435119519909,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_fraction",
+          "feature_b": "pasture_fraction",
+          "pearson_r": -0.1698938140509334,
+          "spearman_r": -0.04716747448585835,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "wetland_fraction",
+          "feature_b": "pasture_fraction",
+          "pearson_r": -0.02304124949284711,
+          "spearman_r": 0.15841302538995078,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "cropland_fraction",
+          "feature_b": "pasture_fraction",
+          "pearson_r": -0.011154100736290322,
+          "spearman_r": 0.2642606218698773,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "grassland_fraction",
+          "feature_b": "pasture_fraction",
+          "pearson_r": -0.1448964955608532,
+          "spearman_r": -0.02978271157310095,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_fraction",
+          "feature_b": "impervious_mean_pct",
+          "pearson_r": 0.005756508640344768,
+          "spearman_r": 0.1236954615127086,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "wetland_fraction",
+          "feature_b": "impervious_mean_pct",
+          "pearson_r": -0.23795202488086709,
+          "spearman_r": -0.1675808956181313,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "cropland_fraction",
+          "feature_b": "impervious_mean_pct",
+          "pearson_r": -0.342158113002195,
+          "spearman_r": -0.3223837471121644,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "grassland_fraction",
+          "feature_b": "impervious_mean_pct",
+          "pearson_r": -0.1618885019054371,
+          "spearman_r": -0.25431625333737923,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "pasture_fraction",
+          "feature_b": "impervious_mean_pct",
+          "pearson_r": -0.3562670870379491,
+          "spearman_r": -0.40170080473807124,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        }
+      ],
+      "screening_enabled": true,
+      "dropped_features": [],
+      "scale": "b08",
+      "geography": false,
+      "bird_adjustment": 0,
+      "mode": "level",
+      "numeric": [
+        "year",
+        "month_sin",
+        "month_cos",
+        "water_fraction",
+        "wetland_fraction",
+        "cropland_fraction",
+        "grassland_fraction",
+        "pasture_fraction",
+        "impervious_mean_pct"
+      ],
+      "medians": {
+        "year": -0.4,
+        "month_sin": -0.4999999999999997,
+        "month_cos": -0.4999999999999998,
+        "water_fraction": 0.0190293296089385,
+        "wetland_fraction": 0.0255870793306892,
+        "cropland_fraction": 0.0021619927933573,
+        "grassland_fraction": 0.0017143138492388,
+        "pasture_fraction": 0.0169518079839568,
+        "impervious_mean_pct": 0.29305896255975933
+      },
+      "means": {
+        "year": -0.30721398757682317,
+        "month_sin": -0.2532506804200205,
+        "month_cos": -0.2131628704402346,
+        "water_fraction": 0.06244952233701165,
+        "wetland_fraction": 0.06153079534122457,
+        "cropland_fraction": 0.07755192683253234,
+        "grassland_fraction": 0.023363828257272668,
+        "pasture_fraction": 0.049396572353747475,
+        "impervious_mean_pct": 0.2960035214467871
+      },
+      "standard_deviations": {
+        "year": 0.4686667827461672,
+        "month_sin": 0.6836234859563342,
+        "month_cos": 0.650449546837713,
+        "water_fraction": 0.10562766764743872,
+        "wetland_fraction": 0.08962053141456616,
+        "cropland_fraction": 0.16469088397342535,
+        "grassland_fraction": 0.07135987195451825,
+        "pasture_fraction": 0.08620338386851767,
+        "impervious_mean_pct": 0.15650303401325516
+      },
+      "missing_indicators": [],
+      "categories": {
+        "aircraft_mass_class": [
+          "4",
+          "3",
+          "1",
+          "2",
+          "Unknown",
+          "5"
+        ],
+        "phase": [
+          "Approach",
+          "Landing Roll",
+          "Take-off Run",
+          "Climb"
+        ]
+      },
+      "reference_categories": {
+        "aircraft_mass_class": "4",
+        "phase": "Approach"
+      },
+      "feature_names": [
+        "Intercept",
+        "year",
+        "month_sin",
+        "month_cos",
+        "water_fraction",
+        "wetland_fraction",
+        "cropland_fraction",
+        "grassland_fraction",
+        "pasture_fraction",
+        "impervious_mean_pct",
+        "aircraft_mass_class=3",
+        "aircraft_mass_class=1",
+        "aircraft_mass_class=2",
+        "aircraft_mass_class=Unknown",
+        "aircraft_mass_class=5",
+        "phase=Landing Roll",
+        "phase=Take-off Run",
+        "phase=Climb"
+      ],
+      "training_events": 30427,
+      "training_airports": 1161,
+      "training_year_min": 2015,
+      "training_year_max": 2022,
+      "observed_raw_categories": {
+        "aircraft_mass_class": [
+          "4",
+          "3",
+          "1",
+          "2",
+          "Unknown",
+          "5"
+        ],
+        "phase": [
+          "Approach",
+          "Landing Roll",
+          "Take-off Run",
+          "Climb"
+        ]
+      },
+      "retained_raw_categories": {
+        "aircraft_mass_class": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Unknown"
+        ],
+        "phase": [
+          "Approach",
+          "Climb",
+          "Landing Roll",
+          "Take-off Run"
+        ]
+      },
+      "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+    },
+    "extra": [
+      "HEIGHT",
+      "DISTANCE",
+      "TIME_OF_DAY",
+      "AC_CLASS",
+      "SPEED",
+      "TYPE_ENG",
+      "NUM_ENGS"
+    ],
+    "extra_medians": {
+      "log1p_HEIGHT": 3.044522437723423,
+      "log1p_DISTANCE": 0.0,
+      "log1p_SPEED": 4.912654885736052
+    },
+    "extra_means": {
+      "log1p_HEIGHT": 3.0705947962893654,
+      "log1p_DISTANCE": 0.2077321344325802,
+      "log1p_SPEED": 4.876114325971602
+    },
+    "extra_sds": {
+      "log1p_HEIGHT": 2.9104741459429087,
+      "log1p_DISTANCE": 0.47667022177030055,
+      "log1p_SPEED": 0.23312973647220472
+    },
+    "extra_missing_indicators": [
+      "log1p_HEIGHT",
+      "log1p_DISTANCE",
+      "log1p_SPEED"
+    ],
+    "extra_levels": {
+      "TIME_OF_DAY": [
+        "Day",
+        "Night",
+        "Unknown",
+        "Dusk",
+        "Dawn"
+      ],
+      "AC_CLASS": [
+        "A",
+        "B",
+        "Unknown"
+      ],
+      "TYPE_ENG": [
+        "D",
+        "A",
+        "C",
+        "F",
+        "Unknown"
+      ],
+      "NUM_ENGS": [
+        "2",
+        "1",
+        "3",
+        "Unknown",
+        "4"
+      ]
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb",
+      "log1p_HEIGHT",
+      "log1p_DISTANCE",
+      "log1p_SPEED",
+      "log1p_HEIGHT_missing",
+      "log1p_DISTANCE_missing",
+      "log1p_SPEED_missing",
+      "TIME_OF_DAY=Night",
+      "TIME_OF_DAY=Unknown",
+      "TIME_OF_DAY=Dusk",
+      "TIME_OF_DAY=Dawn",
+      "AC_CLASS=B",
+      "AC_CLASS=Unknown",
+      "TYPE_ENG=A",
+      "TYPE_ENG=C",
+      "TYPE_ENG=F",
+      "TYPE_ENG=Unknown",
+      "NUM_ENGS=1",
+      "NUM_ENGS=3",
+      "NUM_ENGS=Unknown",
+      "NUM_ENGS=4"
+    ],
+    "note": "Extra event variables and single static canopy addition exempt from environmental correlation screening; the base environmental subset is unchanged within a pair."
+  },
+  "seconds": 17.44394040107727
+}

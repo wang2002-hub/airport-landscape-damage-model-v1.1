@@ -1,0 +1,174 @@
+{
+  "train_n": 23141,
+  "cal_n": 3288,
+  "test_n": 8953,
+  "target_n": 3429,
+  "fits": [
+    {
+      "label": "final",
+      "n": 23141,
+      "airports": 1159,
+      "damage": 1699,
+      "seconds": 0.12099575996398926,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 41,
+      "max_abs_gradient": 0.0009915409092591254,
+      "negative_loglik_penalized": 4425.415756294134,
+      "sigma": 0.3744140419583665,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0009915409092591254
+    }
+  ],
+  "calibration": {
+    "success": true,
+    "intercept": -0.40841028980048305,
+    "slope": 0.9076248855325508,
+    "n": 3288,
+    "damages": 210
+  },
+  "encoder": {
+    "training_correlation_audit": [],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": null,
+    "geography": false,
+    "bird_adjustment": 1,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos"
+    ],
+    "medians": {
+      "year": -0.4,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998
+    },
+    "means": {
+      "year": -0.3432349509528542,
+      "month_sin": -0.243973558066782,
+      "month_cos": -0.20766994760183288
+    },
+    "standard_deviations": {
+      "year": 0.48373365285303405,
+      "month_sin": 0.6874084674227209,
+      "month_cos": 0.6517819380305292
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach",
+      "bird_size_reported": "Small",
+      "number_struck_category": "1"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb",
+      "bird_size_reported=Unknown",
+      "bird_size_reported=Medium",
+      "bird_size_reported=Large",
+      "number_struck_category=2-10",
+      "number_struck_category=11-100"
+    ],
+    "training_events": 23141,
+    "training_airports": 1159,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Unknown",
+        "More than 100"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ],
+      "bird_size_reported": [
+        "Large",
+        "Medium",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "11-100",
+        "2-10"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "excluded_near_target_airports": []
+}

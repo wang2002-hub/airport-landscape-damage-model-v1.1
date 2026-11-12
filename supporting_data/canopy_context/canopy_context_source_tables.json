@@ -1,0 +1,294 @@
+{
+  "supp_context.canopy_contrasts": {
+    "caption": "source record SRC-S58. Static canopy increments at the original settings",
+    "headers": [
+      "Family",
+      "Land cover setting",
+      "Base Brier",
+      "Added canopy Brier",
+      "Change × 1,000 [95% interval]"
+    ],
+    "rows": [
+      [
+        "Hierarchical",
+        "Annual land cover",
+        "0.044951",
+        "0.044946",
+        "-0.005 [-0.064, 0.053]"
+      ],
+      [
+        "Hierarchical",
+        "Fixed 2015 land cover",
+        "0.044953",
+        "0.044950",
+        "-0.004 [-0.058, 0.053]"
+      ],
+      [
+        "Boosting",
+        "Annual land cover",
+        "0.044885",
+        "0.044879",
+        "-0.005 [-0.104, 0.098]"
+      ],
+      [
+        "Boosting",
+        "Fixed 2015 land cover",
+        "0.044728",
+        "0.044761",
+        "0.033 [-0.066, 0.134]"
+      ]
+    ],
+    "widths": [
+      1.0,
+      1.25,
+      1.05,
+      1.15,
+      2.05
+    ],
+    "note": "The same 11,124 national temporal test reports are used within every pair. The static 2015 canopy measurement is held fixed across annual and fixed-2015 land-cover variants. Intervals use 2,000 airport resamples of fixed predictions, without refitting or new scale selection."
+  },
+  "supp_context.variation": {
+    "caption": "source record SRC-S59. Multi-scale national spatial and annual map variation",
+    "headers": [
+      "Radius",
+      "Variable",
+      "Between SD pp",
+      "Within SD pp",
+      "Median range pp",
+      "95th percentile annual change pp"
+    ],
+    "rows": [
+      [
+        "03 km",
+        "Water",
+        "8.95",
+        "0.35",
+        "0.10",
+        "0.22"
+      ],
+      [
+        "03 km",
+        "Wetland",
+        "11.41",
+        "0.21",
+        "0.06",
+        "0.13"
+      ],
+      [
+        "03 km",
+        "Cropland",
+        "21.64",
+        "1.13",
+        "0.71",
+        "0.80"
+      ],
+      [
+        "03 km",
+        "Grassland",
+        "12.92",
+        "0.78",
+        "0.25",
+        "0.75"
+      ],
+      [
+        "03 km",
+        "Pasture",
+        "13.40",
+        "0.62",
+        "0.37",
+        "0.47"
+      ],
+      [
+        "03 km",
+        "Impervious",
+        "15.13",
+        "0.69",
+        "0.56",
+        "0.44"
+      ],
+      [
+        "08 km",
+        "Water",
+        "11.15",
+        "0.22",
+        "0.12",
+        "0.22"
+      ],
+      [
+        "08 km",
+        "Wetland",
+        "11.05",
+        "0.14",
+        "0.06",
+        "0.10"
+      ],
+      [
+        "08 km",
+        "Cropland",
+        "22.06",
+        "0.79",
+        "0.70",
+        "0.56"
+      ],
+      [
+        "08 km",
+        "Grassland",
+        "12.66",
+        "0.71",
+        "0.24",
+        "0.55"
+      ],
+      [
+        "08 km",
+        "Pasture",
+        "12.20",
+        "0.44",
+        "0.31",
+        "0.31"
+      ],
+      [
+        "08 km",
+        "Impervious",
+        "12.83",
+        "0.50",
+        "0.41",
+        "0.32"
+      ],
+      [
+        "13 km",
+        "Water",
+        "11.92",
+        "0.19",
+        "0.11",
+        "0.21"
+      ],
+      [
+        "13 km",
+        "Wetland",
+        "11.10",
+        "0.11",
+        "0.05",
+        "0.09"
+      ],
+      [
+        "13 km",
+        "Cropland",
+        "22.38",
+        "0.65",
+        "0.70",
+        "0.46"
+      ],
+      [
+        "13 km",
+        "Grassland",
+        "13.37",
+        "0.78",
+        "0.25",
+        "0.51"
+      ],
+      [
+        "13 km",
+        "Pasture",
+        "11.90",
+        "0.36",
+        "0.30",
+        "0.26"
+      ],
+      [
+        "13 km",
+        "Impervious",
+        "11.31",
+        "0.40",
+        "0.34",
+        "0.26"
+      ]
+    ],
+    "widths": [
+      0.65,
+      1.05,
+      1.1,
+      1.1,
+      1.05,
+      1.55
+    ],
+    "note": "Each radius includes 1,375 airports and 15,125 airport-years. Between SD uses airport means; within SD is the square root of mean within-airport sample variance. Annual changes are absolute consecutive-year differences. Units are percentage points. Complete ring and airport-level summaries accompany these disc results. The calculations combine physical and classification variation.",
+    "allow_page_split": true,
+    "row_group": 6
+  },
+  "supp_context.canopy": {
+    "caption": "source record SRC-S60. Retained 13 km tree-canopy context",
+    "headers": [
+      "Airport",
+      "2015 canopy %",
+      "2020 canopy %",
+      "2025 canopy %",
+      "Minimum valid coverage %"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "0.25",
+        "0.28",
+        "0.35",
+        "100.00"
+      ],
+      [
+        "JFK",
+        "9.41",
+        "8.76",
+        "8.37",
+        "98.74"
+      ],
+      [
+        "MIA",
+        "8.96",
+        "8.92",
+        "8.81",
+        "100.00"
+      ],
+      [
+        "MSP",
+        "23.17",
+        "23.86",
+        "24.08",
+        "100.00"
+      ],
+      [
+        "BOS",
+        "12.26",
+        "11.77",
+        "11.35",
+        "100.00"
+      ],
+      [
+        "SFO",
+        "14.04",
+        "13.76",
+        "13.66",
+        "100.00"
+      ],
+      [
+        "SAT",
+        "12.48",
+        "13.09",
+        "13.45",
+        "100.00"
+      ],
+      [
+        "STL",
+        "23.67",
+        "23.31",
+        "22.09",
+        "100.00"
+      ]
+    ],
+    "widths": [
+      0.65,
+      1.3,
+      1.3,
+      1.3,
+      1.95
+    ],
+    "note": "Three source dates at 13 km. These descriptive means are separate from the static-2015 canopy sensitivity at 3 km and 8 km in source record SRC-S58. No annual interpolation was used."
+  }
+}

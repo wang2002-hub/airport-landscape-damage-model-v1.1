@@ -1,0 +1,132 @@
+{
+  "train_n": 23141,
+  "cal_n": 3288,
+  "test_n": 8953,
+  "target_n": 3429,
+  "fits": [
+    {
+      "label": "final",
+      "n": 23141,
+      "airports": 1159,
+      "damage": 1699,
+      "seconds": 0.0979921817779541,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 33,
+      "max_abs_gradient": 0.003682359786068725,
+      "negative_loglik_penalized": 5338.4602830088525,
+      "sigma": 0.5342794330919528,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.003682359786068725
+    }
+  ],
+  "calibration": {
+    "success": true,
+    "intercept": -0.580611930426466,
+    "slope": 0.8816683127194282,
+    "n": 3288,
+    "damages": 210
+  },
+  "encoder": {
+    "training_correlation_audit": [],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": null,
+    "geography": false,
+    "bird_adjustment": 0,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos"
+    ],
+    "medians": {
+      "year": -0.4,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998
+    },
+    "means": {
+      "year": -0.3432349509528542,
+      "month_sin": -0.243973558066782,
+      "month_cos": -0.20766994760183288
+    },
+    "standard_deviations": {
+      "year": 0.48373365285303405,
+      "month_sin": 0.6874084674227209,
+      "month_cos": 0.6517819380305292
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb"
+    ],
+    "training_events": 23141,
+    "training_airports": 1159,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "excluded_near_target_airports": []
+}

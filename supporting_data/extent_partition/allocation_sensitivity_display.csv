@@ -1,0 +1,7 @@
+﻿Airport,Allocation,M? O/E,M? pointwise 95% interval,Documented O/E,Documented pointwise 95% interval
+JFK,Annual,1.7303,1.2332–2.2633,0.6205,0.2179–1.0547
+JFK,Year and channel,1.7267,1.2291–2.2672,0.6244,0.2192–1.0607
+JFK,Constant,1.7404,1.2175–2.2704,0.6100,0.1947–1.0671
+Pooled,Annual,1.2210,0.9876–1.4399,0.8230,0.4812–1.1168
+Pooled,Year and channel,1.2157,0.9824–1.4333,0.8339,0.4891–1.1318
+Pooled,Constant,1.2290,0.9423–1.4625,0.8073,0.3914–1.3657

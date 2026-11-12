@@ -1,0 +1,7 @@
+model,display_set,label,airports,reports,observed_damage,zero_outcomes,conditional_flags,conditional_expected_flags,nominal_upper_bound,width_flags_phi_all,width_flags_phi_expected_ge5,width_flags_phi_reports_ge100
+glmm_EBL,all,95,1375,46167,3096,602,42,12.693032871269882,68.75,34,21,20
+glmm_EBL,all,998,1375,46167,3096,602,6,0.3449151692581635,2.75,2,1,1
+glmm_EBL,expected_ge5,95,144,35031,1963,0,19,4.665987385838912,7.2,11,6,6
+glmm_EBL,expected_ge5,998,144,35031,1963,0,6,0.1560231271704274,0.288,2,1,1
+glmm_EBL,reports_ge100,95,97,32786,1568,0,15,3.3048432641990764,4.8500000000000005,9,6,6
+glmm_EBL,reports_ge100,998,97,32786,1568,0,6,0.1081844909235373,0.194,2,1,1

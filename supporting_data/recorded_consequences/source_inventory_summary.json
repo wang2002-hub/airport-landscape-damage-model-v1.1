@@ -1,0 +1,11 @@
+{
+  "source_files": 388,
+  "source_bytes": 102209816781,
+  "national_airport_years": 15125,
+  "national_airports": 1375,
+  "six_measures_per_disc": 6,
+  "three_disc_values": 272250,
+  "ring_feature_values": 90750,
+  "known_excluded": 2816,
+  "basis": "Bytes measure supplied archive storage, not incremental acquisition price or staff time. Values count extracted cells in analysis tables, not independent observations."
+}

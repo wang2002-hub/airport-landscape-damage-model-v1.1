@@ -1,0 +1,2566 @@
+{
+  "raw_selected.parquet": {
+    "format": "parquet",
+    "columns": [
+      {
+        "name": "INDEX_NR",
+        "type": "large_string"
+      },
+      {
+        "name": "INCIDENT_DATE",
+        "type": "large_string"
+      },
+      {
+        "name": "INCIDENT_MONTH",
+        "type": "large_string"
+      },
+      {
+        "name": "INCIDENT_YEAR",
+        "type": "large_string"
+      },
+      {
+        "name": "AIRPORT_ID",
+        "type": "large_string"
+      },
+      {
+        "name": "AIRPORT",
+        "type": "large_string"
+      },
+      {
+        "name": "LATITUDE",
+        "type": "large_string"
+      },
+      {
+        "name": "LONGITUDE",
+        "type": "large_string"
+      },
+      {
+        "name": "RUNWAY",
+        "type": "large_string"
+      },
+      {
+        "name": "STATE",
+        "type": "large_string"
+      },
+      {
+        "name": "FAAREGION",
+        "type": "large_string"
+      },
+      {
+        "name": "AC_CLASS",
+        "type": "large_string"
+      },
+      {
+        "name": "AC_MASS",
+        "type": "large_string"
+      },
+      {
+        "name": "PHASE_OF_FLIGHT",
+        "type": "large_string"
+      },
+      {
+        "name": "HEIGHT",
+        "type": "large_string"
+      },
+      {
+        "name": "DISTANCE",
+        "type": "large_string"
+      },
+      {
+        "name": "INDICATED_DAMAGE",
+        "type": "large_string"
+      },
+      {
+        "name": "DAMAGE_LEVEL",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_RAD",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_WINDSHLD",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_NOSE",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_ENG1",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_ENG2",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_ENG3",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_ENG4",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_PROP",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_WING_ROT",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_FUSE",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_LG",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_TAIL",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_LGHTS",
+        "type": "large_string"
+      },
+      {
+        "name": "DAM_OTHER",
+        "type": "large_string"
+      },
+      {
+        "name": "SPECIES_ID",
+        "type": "large_string"
+      },
+      {
+        "name": "SPECIES",
+        "type": "large_string"
+      },
+      {
+        "name": "NUM_STRUCK",
+        "type": "large_string"
+      },
+      {
+        "name": "SIZE",
+        "type": "large_string"
+      },
+      {
+        "name": "SOURCE",
+        "type": "large_string"
+      },
+      {
+        "name": "PERSON",
+        "type": "large_string"
+      },
+      {
+        "name": "LUPDATE",
+        "type": "large_string"
+      },
+      {
+        "name": "source_row",
+        "type": "int64"
+      },
+      {
+        "name": "record_completeness",
+        "type": "int64"
+      }
+    ]
+  },
+  "taxon_reference.csv": {
+    "format": "csv",
+    "columns": [
+      "SPECIES",
+      "taxon"
+    ]
+  },
+  "airport_reference.csv": {
+    "format": "csv",
+    "columns": [
+      "airport_id",
+      "airport_scope_ok",
+      "coordinate_accepted"
+    ]
+  },
+  "environment.parquet": {
+    "format": "parquet",
+    "columns": [
+      {
+        "name": "airport_id",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "water_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "coverage_pass95__b03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__b08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__b13",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__b03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__b08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__b13",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__b03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__b08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__b13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__b03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__b08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__b13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "shdi__b03",
+        "type": "double"
+      },
+      {
+        "name": "shdi__b08",
+        "type": "double"
+      },
+      {
+        "name": "shdi__b13",
+        "type": "double"
+      },
+      {
+        "name": "edge_density_km_km2__b03",
+        "type": "double"
+      },
+      {
+        "name": "edge_density_km_km2__b08",
+        "type": "double"
+      },
+      {
+        "name": "edge_density_km_km2__b13",
+        "type": "double"
+      },
+      {
+        "name": "lpi_water_wetland_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "lpi_water_wetland_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "lpi_water_wetland_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "lpi_cropland_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "lpi_cropland_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "lpi_cropland_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "largest_water_wetland_pixels__b03",
+        "type": "double"
+      },
+      {
+        "name": "largest_water_wetland_pixels__b08",
+        "type": "double"
+      },
+      {
+        "name": "largest_water_wetland_pixels__b13",
+        "type": "double"
+      },
+      {
+        "name": "largest_cropland_pixels__b03",
+        "type": "double"
+      },
+      {
+        "name": "largest_cropland_pixels__b08",
+        "type": "double"
+      },
+      {
+        "name": "largest_cropland_pixels__b13",
+        "type": "double"
+      },
+      {
+        "name": "both_years_eligible95__b03",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__b08",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__b13",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "common_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "airport_name",
+        "type": "string"
+      },
+      {
+        "name": "state",
+        "type": "string"
+      },
+      {
+        "name": "longitude",
+        "type": "double"
+      },
+      {
+        "name": "latitude",
+        "type": "double"
+      },
+      {
+        "name": "facility_flag",
+        "type": "string"
+      },
+      {
+        "name": "all_rings_eligible95",
+        "type": "bool"
+      },
+      {
+        "name": "all_rings_eligible90",
+        "type": "bool"
+      },
+      {
+        "name": "all_rings_coverage95",
+        "type": "bool"
+      },
+      {
+        "name": "all_rings_coverage90",
+        "type": "bool"
+      },
+      {
+        "name": "reference_usable",
+        "type": "bool"
+      },
+      {
+        "name": "landscape_year",
+        "type": "int64"
+      },
+      {
+        "name": "environment_timing",
+        "type": "string"
+      },
+      {
+        "name": "is_den",
+        "type": "bool"
+      }
+    ]
+  },
+  "spatial_folds.csv": {
+    "format": "csv",
+    "columns": [
+      "airport_id",
+      "longitude",
+      "latitude",
+      "state",
+      "overlap_component",
+      "x_m",
+      "y_m",
+      "spatial_fold",
+      "min_distance_to_fold1_km",
+      "min_distance_to_fold2_km",
+      "min_distance_to_fold3_km",
+      "min_distance_to_fold4_km",
+      "min_distance_to_fold5_km"
+    ]
+  },
+  "analysis_events.parquet": {
+    "format": "parquet",
+    "columns": [
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "airport_id",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "month",
+        "type": "int64"
+      },
+      {
+        "name": "month_sin",
+        "type": "double"
+      },
+      {
+        "name": "month_cos",
+        "type": "double"
+      },
+      {
+        "name": "damage_binary",
+        "type": "int64"
+      },
+      {
+        "name": "DAMAGE_LEVEL",
+        "type": "string"
+      },
+      {
+        "name": "aircraft_mass_class",
+        "type": "string"
+      },
+      {
+        "name": "phase",
+        "type": "string"
+      },
+      {
+        "name": "bird_size_reported",
+        "type": "string"
+      },
+      {
+        "name": "number_struck_category",
+        "type": "string"
+      },
+      {
+        "name": "faa_region",
+        "type": "string"
+      },
+      {
+        "name": "label_completeness",
+        "type": "double"
+      },
+      {
+        "name": "SOURCE",
+        "type": "string"
+      },
+      {
+        "name": "PERSON",
+        "type": "string"
+      },
+      {
+        "name": "SPECIES",
+        "type": "string"
+      },
+      {
+        "name": "longitude",
+        "type": "double"
+      },
+      {
+        "name": "latitude",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "water_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "developed_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "forest_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "other_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "landcover_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_pct__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_ge80_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_mean_pct__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "canopy_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "coverage_pass95__b03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__b08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__b13",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass95__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__b03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__b08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__b13",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "coverage_pass90__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__b03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__b08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__b13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible95__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__b03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__b08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__b13",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "eligible90__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "shdi__b03",
+        "type": "double"
+      },
+      {
+        "name": "shdi__b08",
+        "type": "double"
+      },
+      {
+        "name": "shdi__b13",
+        "type": "double"
+      },
+      {
+        "name": "edge_density_km_km2__b03",
+        "type": "double"
+      },
+      {
+        "name": "edge_density_km_km2__b08",
+        "type": "double"
+      },
+      {
+        "name": "edge_density_km_km2__b13",
+        "type": "double"
+      },
+      {
+        "name": "lpi_water_wetland_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "lpi_water_wetland_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "lpi_water_wetland_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "lpi_cropland_pct__b03",
+        "type": "double"
+      },
+      {
+        "name": "lpi_cropland_pct__b08",
+        "type": "double"
+      },
+      {
+        "name": "lpi_cropland_pct__b13",
+        "type": "double"
+      },
+      {
+        "name": "largest_water_wetland_pixels__b03",
+        "type": "double"
+      },
+      {
+        "name": "largest_water_wetland_pixels__b08",
+        "type": "double"
+      },
+      {
+        "name": "largest_water_wetland_pixels__b13",
+        "type": "double"
+      },
+      {
+        "name": "largest_cropland_pixels__b03",
+        "type": "double"
+      },
+      {
+        "name": "largest_cropland_pixels__b08",
+        "type": "double"
+      },
+      {
+        "name": "largest_cropland_pixels__b13",
+        "type": "double"
+      },
+      {
+        "name": "both_years_eligible95__b03",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__b08",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__b13",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__r00_03",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__r03_08",
+        "type": "bool"
+      },
+      {
+        "name": "both_years_eligible95__r08_13",
+        "type": "bool"
+      },
+      {
+        "name": "common_coverage__b03",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__b08",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__b13",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "common_coverage__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__b03",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__b08",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__b13",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "changed_fraction__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "impervious_mean_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "water_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "developed_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "forest_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "shrub_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "grassland_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "pasture_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "cropland_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "wetland_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__b03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__b08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__b13",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__r00_03",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__r03_08",
+        "type": "double"
+      },
+      {
+        "name": "other_delta_common_pp__r08_13",
+        "type": "double"
+      },
+      {
+        "name": "airport_name",
+        "type": "large_string"
+      },
+      {
+        "name": "state",
+        "type": "large_string"
+      },
+      {
+        "name": "facility_flag",
+        "type": "large_string"
+      },
+      {
+        "name": "all_rings_eligible95",
+        "type": "bool"
+      },
+      {
+        "name": "all_rings_eligible90",
+        "type": "bool"
+      },
+      {
+        "name": "all_rings_coverage95",
+        "type": "bool"
+      },
+      {
+        "name": "all_rings_coverage90",
+        "type": "bool"
+      },
+      {
+        "name": "reference_usable",
+        "type": "bool"
+      },
+      {
+        "name": "landscape_year",
+        "type": "double"
+      },
+      {
+        "name": "environment_timing",
+        "type": "large_string"
+      },
+      {
+        "name": "is_den",
+        "type": "bool"
+      },
+      {
+        "name": "spatial_fold",
+        "type": "int64"
+      },
+      {
+        "name": "overlap_component",
+        "type": "double"
+      },
+      {
+        "name": "target",
+        "type": "bool"
+      }
+    ]
+  }
+}

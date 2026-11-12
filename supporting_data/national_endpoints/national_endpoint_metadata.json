@@ -1,0 +1,29 @@
+{
+  "endpoints": {
+    "any_damage": "Any damage among all eligible reports",
+    "documented_damage": "Documented-extent damage among all eligible reports",
+    "undetermined_damage": "M? damage among all eligible reports",
+    "undetermined_given_damage": "M? among damaged reports only"
+  },
+  "primary_populations": {
+    "full_reports": {
+      "airports": 1375,
+      "reports": 46167,
+      "zero_any_damage_airports": 602
+    },
+    "conditional_damage": {
+      "airports": 773,
+      "reports": 3096
+    }
+  },
+  "subsets": [
+    "all_available",
+    "damage_positive_airports",
+    "endpoint_expected_ge5"
+  ],
+  "common_subset": "The same 773 damage-positive airports; full-report endpoints use 43724 eligible reports there, while conditional M? still uses 3096 damaged reports.",
+  "expected_count_subset": "Each endpoint selects its own airports using E >= 5; these airport sets are not matched.",
+  "scope": "Geographic outer-test predictions, excluding the evaluated fold when estimating annual coding rates; targets excluded. This differs from retrospective target allocation based on all national years.",
+  "dispersion": "Unweighted airport mean of z squared. No subtraction or variance-explained interpretation. The common-set and all-available conditional-M? rows are intentionally identical.",
+  "public_release_status": "not published"
+}

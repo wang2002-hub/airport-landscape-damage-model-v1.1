@@ -1,0 +1,10 @@
+﻿Group,Annual NLCD codes
+Water,11
+Developed,"21, 22, 23, 24"
+Forest,"41, 42, 43"
+Shrub,52
+Grassland,71
+Pasture,81
+Cropland,82
+Wetland,"90, 95"
+Other,"12, 31"

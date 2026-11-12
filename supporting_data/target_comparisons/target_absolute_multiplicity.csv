@@ -1,0 +1,17 @@
+﻿Centering,Airport,Simultaneous 95% O/E interval,Approximate p,Holm p
+Fitted estimate,DEN,0.717–1.610,0.6068,1.0000
+Fitted estimate,JFK,0.965–2.181,0.0106,0.0851
+Fitted estimate,MIA,0.453–1.734,0.5713,1.0000
+Fitted estimate,MSP,0.807–1.957,0.1376,0.9635
+Fitted estimate,BOS,0.751–1.841,0.3253,1.0000
+Fitted estimate,SFO,0.437–1.655,0.4974,1.0000
+Fitted estimate,SAT,0.514–1.677,0.7310,1.0000
+Fitted estimate,STL,0.630–2.064,0.5059,1.0000
+Bootstrap mean,DEN,0.725–1.593,0.6068,1.0000
+Bootstrap mean,JFK,0.976–2.158,0.0084,0.0675
+Bootstrap mean,MIA,0.461–1.703,0.5835,1.0000
+Bootstrap mean,MSP,0.816–1.934,0.1357,0.9501
+Bootstrap mean,BOS,0.760–1.819,0.3019,1.0000
+Bootstrap mean,SFO,0.445–1.626,0.4732,1.0000
+Bootstrap mean,SAT,0.522–1.651,0.7324,1.0000
+Bootstrap mean,STL,0.640–2.031,0.5121,1.0000

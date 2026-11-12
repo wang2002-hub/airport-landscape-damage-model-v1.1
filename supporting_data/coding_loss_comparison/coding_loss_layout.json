@@ -1,0 +1,78 @@
+{
+  "caption": "source record SRC-S37. Conditional coding performance by population and period",
+  "headers": [
+    "Population\nPeriod",
+    "Damage / M?\nObserved M?",
+    "Reference",
+    "Expected\nM?",
+    "Predicted\nM? (%)",
+    "Brier loss",
+    "Log loss"
+  ],
+  "rows": [
+    [
+      "National test\n2024–2025",
+      "669 / 551\n82.4%",
+      "Cal. EB\nRaw EB\nConstant",
+      "614.248\n627.664\n550.118",
+      "91.8\n93.8\n82.2",
+      "0.151302\n0.156561\n0.145274",
+      "0.505940\n0.532142\n0.465870"
+    ],
+    [
+      "Targets overall\n2015–2025",
+      "309 / 252\n81.6%",
+      "Cal. EB\nRaw EB\nConstant",
+      "172.340\n249.137\n254.091",
+      "55.8\n80.6\n82.2",
+      "0.267840\n0.132860\n0.150484",
+      "0.836298\n0.440056\n0.478253"
+    ],
+    [
+      "Targets\n2015–2022",
+      "195 / 150\n76.9%",
+      "Cal. EB\nRaw EB\nConstant",
+      "66.735\n141.824\n160.348",
+      "34.2\n72.7\n82.2",
+      "0.365632\n0.153157\n0.180331",
+      "1.089445\n0.478450\n0.549190"
+    ],
+    [
+      "Targets\n2023",
+      "37 / 33\n89.2%",
+      "Cal. EB\nRaw EB\nConstant",
+      "32.571\n34.208\n30.425",
+      "88.0\n92.5\n82.2",
+      "0.099426\n0.097732\n0.101264",
+      "0.359156\n0.353053\n0.361273"
+    ],
+    [
+      "Targets\n2024–2025",
+      "77 / 69\n89.6%",
+      "Cal. EB\nRaw EB\nConstant",
+      "73.033\n73.104\n63.317",
+      "94.8\n94.9\n82.2",
+      "0.101112\n0.098340\n0.098549",
+      "0.424489\n0.384628\n0.354820"
+    ]
+  ],
+  "widths": [
+    1.1,
+    0.95,
+    0.85,
+    0.8,
+    0.8,
+    1.0,
+    1.0
+  ],
+  "alignments": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "note": "Main-text link: Section 5.5, calibration transfer failure limits fitted subtype predictions. Each block aligns calibrated EB (Cal. EB), uncalibrated EB (Raw EB) and the national 2023 constant, 236/287. All versions use identical known-damage reports within each block. Target periods partition the overall target collection; their counts must not be added to the overall row. Both fitted versions share coefficients; only calibrated EB applies the national 2023 transformation. Targets were excluded from fitting and calibration. Expected M? sums conditional probabilities; predicted M? is their mean percentage. Lower losses indicate better predictions. These exploratory fixed-model scores have no sampling or development intervals and do not select a calibration strategy. period_model_scores.csv retains all fifteen full-precision records."
+}

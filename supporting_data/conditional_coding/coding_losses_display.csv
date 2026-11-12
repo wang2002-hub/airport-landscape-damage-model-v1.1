@@ -1,0 +1,7 @@
+﻿Population,Damage / M?,Coding reference,Expected M?,Brier,Log loss
+National test,669 / 551,Calibrated EB,614.248,0.151302,0.505940
+National test,669 / 551,Uncalibrated EB,627.664,0.156561,0.532142
+National test,669 / 551,2023 constant,550.118,0.145274,0.465870
+Targets,309 / 252,Calibrated EB,172.340,0.267840,0.836298
+Targets,309 / 252,Uncalibrated EB,249.137,0.132860,0.440056
+Targets,309 / 252,2023 constant,254.091,0.150484,0.478253

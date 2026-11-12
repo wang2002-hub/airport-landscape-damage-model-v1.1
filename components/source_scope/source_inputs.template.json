@@ -1,0 +1,638 @@
+{
+  "study_years": [
+    2015,
+    2025
+  ],
+  "confidence_year": 2025,
+  "paths": {
+    "airport_reference": "DATA/map_airports.csv",
+    "confidence_archive": "DATA/Annual_NLCD_LndCnf_2025_CU_C1V2.zip",
+    "activity_source": "DATA/DEN交通流量管理系统计数（TFMSC）报告.xls"
+  },
+  "activity_expected_sha256": "fd25554fac075fc6517b3e8938e08fb5d5456e725e05f1912757340d77eecf7d",
+  "sentinel": [
+    {
+      "airport": "DEN",
+      "path": "DATA/sentinel/DEN/S2B_MSIL2A_20261004T174159_N0513_R098_T13TEE_20261004T213900.SAFE.zip",
+      "source_label": "01 DEN\\20261004_美国科罗拉多州_哨兵2号L2A地表反射率数据\\S2B_MSIL2A_20261004T174159_N0513_R098_T13TEE_20261004T213900.SAFE.zip"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/sentinel/JFK/S2C_MSIL2A_20261023T154311_N0513_R011_T18TWK_20261023T184809.SAFE.zip",
+      "source_label": "02 JFK\\20261023_美国纽约州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20261023T154311_N0513_R011_T18TWK_20261023T184809.SAFE.zip"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/sentinel/JFK/S2C_MSIL2A_20261023T154311_N0513_R011_T18TWL_20261023T184809.SAFE.zip",
+      "source_label": "02 JFK\\20261023_美国纽约州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20261023T154311_N0513_R011_T18TWL_20261023T184809.SAFE.zip"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/sentinel/JFK/S2C_MSIL2A_20261023T154311_N0513_R011_T18TXK_20261023T184809.SAFE.zip",
+      "source_label": "02 JFK\\20261023_美国纽约州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20261023T154311_N0513_R011_T18TXK_20261023T184809.SAFE.zip"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/sentinel/JFK/S2C_MSIL2A_20261023T154311_N0513_R011_T18TXL_20261023T184809.SAFE.zip",
+      "source_label": "02 JFK\\20261023_美国纽约州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20261023T154311_N0513_R011_T18TXL_20261023T184809.SAFE.zip"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/sentinel/MIA/S2C_MSIL2A_20260817T160511_N0512_R054_T17RNJ_20260817T202709.SAFE.zip",
+      "source_label": "03 MIA\\20260817_美国佛罗里达州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20260817T160511_N0512_R054_T17RNJ_20260817T202709.SAFE.zip"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/sentinel/MSP/S2C_MSIL2A_20260910T170851_N0512_R112_T15TVK_20260910T222013.SAFE.zip",
+      "source_label": "04 MSP\\20260910_美国明尼苏达州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20260910T170851_N0512_R112_T15TVK_20260910T222013.SAFE.zip"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/sentinel/BOS/S2B_MSIL2A_20261025T153559_N0513_R111_T19TCG_20261025T191719.SAFE.zip",
+      "source_label": "05 BOS\\20261025_美国马萨诸塞州_哨兵2号L2A地表反射率数据\\S2B_MSIL2A_20261025T153559_N0513_R111_T19TCG_20261025T191719.SAFE.zip"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/sentinel/BOS/S2B_MSIL2A_20261025T153559_N0513_R111_T19TCH_20261025T191719.SAFE.zip",
+      "source_label": "05 BOS\\20261025_美国马萨诸塞州_哨兵2号L2A地表反射率数据\\S2B_MSIL2A_20261025T153559_N0513_R111_T19TCH_20261025T191719.SAFE.zip"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/sentinel/SFO/S2A_MSIL2A_20260912T185831_N0512_R113_T10SEG_20260913T025118.SAFE.zip",
+      "source_label": "06 SFO\\20260912_美国加利福尼亚州_哨兵2号L2A地表反射率数据\\S2A_MSIL2A_20260912T185831_N0512_R113_T10SEG_20260913T025118.SAFE.zip"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/sentinel/SAT/S2B_MSIL2A_20260915T170849_N0512_R112_T14RNT_20260915T210317.SAFE.zip",
+      "source_label": "07 SAT\\20260915_美国德克萨斯州_哨兵2号L2A地表反射率数据\\S2B_MSIL2A_20260915T170849_N0512_R112_T14RNT_20260915T210317.SAFE.zip"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/sentinel/STL/S2C_MSIL2A_20261011T164221_N0513_R126_T15SYC_20261011T200203.SAFE.zip",
+      "source_label": "08 STL\\20261011_美国密苏里州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20261011T164221_N0513_R126_T15SYC_20261011T200203.SAFE.zip"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/sentinel/STL/S2C_MSIL2A_20261011T164221_N0513_R126_T15SYD_20261011T200203.SAFE.zip",
+      "source_label": "08 STL\\20261011_美国密苏里州_哨兵2号L2A地表反射率数据\\S2C_MSIL2A_20261011T164221_N0513_R126_T15SYD_20261011T200203.SAFE.zip"
+    }
+  ],
+  "forecasts": [
+    {
+      "airport": "DEN",
+      "path": "DATA/forecasts/DEN/DEN航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "01 DEN\\DEN航空气象高空温度和风速（FD）数据\\DEN航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2015.1.1-2015.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2015.1.1-2015.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2016.1.1-2016.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2016.1.1-2016.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2017.1.1-2017.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2017.1.1-2017.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2018.1.1-2018.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2018.1.1-2018.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2019.1.1-2019.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2019.1.1-2019.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2020.1.1-2020.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2020.1.1-2020.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2021.1.1-2021.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2021.1.1-2021.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2022.1.1-2022.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2022.1.1-2022.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2023.1.1-2023.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2023.1.1-2023.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2024.1.1-2024.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2024.1.1-2024.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/forecasts/JFK/JFK航空气象高空温度和风速（FD）数据（2025.1.1-2025.12.31）.xlsx",
+      "source_label": "02 JFK\\JFK航空气象高空温度和风速（FD）数据\\JFK航空气象高空温度和风速（FD）数据（2025.1.1-2025.12.31）.xlsx",
+      "primary_export": false
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/forecasts/MIA/MIA航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "03 MIA\\MIA航空气象高空温度和风速（FD）数据\\MIA航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/forecasts/MSP/MSP航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "04 MSP\\MSP航空气象高空温度和风速（FD）数据\\MSP航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/forecasts/BOS/BOS航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "05 BOS\\BOS航空气象高空温度和风速（FD）数据\\BOS航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/forecasts/SFO/SFO航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "06 SFO\\SFO航空气象高空温度和风速（FD）数据\\SFO航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/forecasts/SAT/SAT航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "07 SAT\\SAT航空气象高空温度和风速（FD）数据\\SAT航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/forecasts/STL/STL航空气象高空温度和风速（FD）数据.xlsx",
+      "source_label": "08 STL\\STL航空气象高空温度和风速（FD）数据\\STL航空气象高空温度和风速（FD）数据.xlsx",
+      "primary_export": true
+    }
+  ],
+  "precipitation": [
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx"
+    },
+    {
+      "airport": "DEN",
+      "path": "DATA/precipitation/DEN/IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx",
+      "source_label": "01 DEN\\DEN-IEM计算的每小时降水总量\\IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx"
+    },
+    {
+      "airport": "JFK",
+      "path": "DATA/precipitation/JFK/JFK-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx",
+      "source_label": "02 JFK\\JFK-IEM计算的每小时降水总量\\JFK-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx"
+    },
+    {
+      "airport": "MIA",
+      "path": "DATA/precipitation/MIA/MIA-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx",
+      "source_label": "03 MIA\\MIA-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx"
+    },
+    {
+      "airport": "MSP",
+      "path": "DATA/precipitation/MSP/MIA-IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx",
+      "source_label": "04 MSP\\MSP-IEM计算的每小时降水总量\\MIA-IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx"
+    },
+    {
+      "airport": "BOS",
+      "path": "DATA/precipitation/BOS/BOS-IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx",
+      "source_label": "05 BOS\\BOS-IEM计算的每小时降水总量\\BOS-IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2015.1.1-2015.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2016.1.1-2016.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2017.1.1-2017.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2018.1.1-2018.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2019.1.1-2019.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2020.1.1-2020.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2021.1.1-2021.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2022.1.1-2022.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2023.1.1-2023.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2024.1.1-2024.12.31）.xlsx"
+    },
+    {
+      "airport": "SFO",
+      "path": "DATA/precipitation/SFO/SFO-IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx",
+      "source_label": "06 SFO\\SFO-IEM计算的每小时降水总量\\SFO-IEM计算的每小时降水总量（2025.1.1-2025.12.31）.xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx"
+    },
+    {
+      "airport": "SAT",
+      "path": "DATA/precipitation/SAT/SAT-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx",
+      "source_label": "07 SAT\\SAT-IEM计算的每小时降水总量\\SAT-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2015.1.1-2015.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2016.1.1-2016.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2017.1.1-2017.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2018.1.1-2018.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2019.1.1-2019.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2020.1.1-2020.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2021.1.1-2021.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2022.1.1-2022.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2023.1.1-2023.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2024.1.1-2024.12.31).xlsx"
+    },
+    {
+      "airport": "STL",
+      "path": "DATA/precipitation/STL/STL-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx",
+      "source_label": "08 STL\\STL-IEM计算的每小时降水总量\\STL-IEM计算的每小时降水总量(2025.1.1-2025.12.31).xlsx"
+    }
+  ]
+}

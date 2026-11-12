@@ -1,0 +1,15 @@
+﻿Analysis,What varies,Repetitions,Interpretation
+Primary target and pooled O/E,National fitting and synchronized target years,498 × 20,Pointwise percentile intervals; selected eight-airport collections.
+Eight absolute O/E comparisons,The same joint draws; fixed log-scale standard deviations,"9,960 draws",Single-step simultaneous intervals and approximate Holm-adjusted p-values.
+Airport relative to pooled O/E,Joint numerator and pooled denominator,"9,960 draws",Pointwise relative intervals; separate eight-airport simultaneous family and approximate Holm-adjusted p-values.
+Damage-extent partition,"National fitting, annual coding proportions and synchronized target years",498 × 20,Sixteen airport-by-subtype natural-scale simultaneous intervals; pooled subtype intervals pointwise.
+Target development only,National refitting; target reports fixed,498 fits,Development variation for the primary absolute reference.
+Target fixed reference,Years or circular two-year blocks; probabilities fixed,"2,000 each",Empirical target-period variation under one fitted reference.
+Target joint block sensitivity,National refitting and synchronized circular two-year blocks,498 × 20,Joint sensitivity to local temporal dependence.
+National paired probability losses,Airports; matched predictions fixed,"2,000",Conditional losses for stated model and information contrasts.
+Local paired probability losses,Eleven target years; matched predictions fixed,"2,000",Conditional full-period losses for one airport.
+Pooled target loss sensitivities,Eight airports; matched predictions fixed,"2,000","Conditional pooled-loss comparisons, distinct from pooled joint O/E."
+Landscape development contrast,"National airport histories; preprocessing, selection, fit and calibration",198 of 200,"EB-to-EBL contrast; target reports fixed, national test histories resampled."
+National calibration diagnostics,Airports; probabilities fixed,"1,000",Evaluation intercepts and slopes; no prediction updating.
+National funnel limits,Conditional outcome distribution at fixed report probabilities,Exact calculation,Poisson-binomial limits; dispersion widening is a separate sensitivity.
+Full-data effect and rank intervals,Conditional posterior airport effects,"5,000 vectors","All 1,383 airports; coefficients and variance held at fitted estimates."

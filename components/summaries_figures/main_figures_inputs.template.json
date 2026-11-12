@@ -1,0 +1,16 @@
+{
+  "paths": {
+    "national_funnel_limit_audit": "DATA/national_funnel_limit_audit.csv",
+    "target_funnel_limit_audit": "DATA/target_funnel_limit_audit.csv",
+    "national_funnel_summary": "DATA/national_funnel_summary.csv",
+    "target_simultaneous_relative": "DATA/target_simultaneous_relative.csv",
+    "pooled_targets": "DATA/pooled_targets.csv",
+    "extent_population_and_refit": "DATA/extent_population_and_refit.csv",
+    "damage_subtype_decomposition": "DATA/damage_subtype_decomposition.csv",
+    "reference_rank_concordance": "DATA/reference_rank_concordance.csv",
+    "cohort": "DATA/cohort.parquet",
+    "primary_joint_intervals": "DATA/primary_joint_intervals.csv",
+    "target_label_completeness": "DATA/target_label_completeness.csv",
+    "local_losses": "DATA/local_losses.csv"
+  }
+}

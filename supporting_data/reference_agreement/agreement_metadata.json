@@ -1,0 +1,25 @@
+{
+  "population_all": 1375,
+  "population_common_subset": 144,
+  "selection": "E >= 5 under hierarchical EBL; same airport IDs for every model",
+  "references": [
+    "ordinary_EB",
+    "glmm_EB",
+    "glmm_EBL",
+    "hgb_EB",
+    "hgb_EBL"
+  ],
+  "pairs_per_population": 10,
+  "ordering_rows": 20,
+  "exceedance_rows": 80,
+  "limit_specifications": [
+    "conditional",
+    "all",
+    "expected_ge5",
+    "reports_ge100"
+  ],
+  "ties": "Quantile boundary ties included. Full-population lower groups contain all 602 zero-damage airports.",
+  "width_scope": "Factor estimation population changes; national evaluation remains 1375. Common subset is a separate 144-airport display comparison.",
+  "interpretation": "Descriptive agreement of fixed reference outputs, not probability performance, uncertainty intervals or safety equivalence. Widened limits have unestablished coverage.",
+  "public_release_status": "not published"
+}

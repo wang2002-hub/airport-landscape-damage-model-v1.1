@@ -1,0 +1,78 @@
+{
+  "caption": "source record SRC-S50. Selected landscape representations and EBL calibration",
+  "headers": [
+    "Evaluation\nand fold",
+    "Family",
+    "EL scale",
+    "EBL scale",
+    "EBL calibration\nintercept",
+    "EBL calibration\nslope"
+  ],
+  "rows": [
+    [
+      "Temporal",
+      "Hierarchical\nBoosting",
+      "b03\nb08",
+      "b03\nb08",
+      "-0.265\n0.033",
+      "0.926\n1.016"
+    ],
+    [
+      "Geographic 1",
+      "Hierarchical\nBoosting",
+      "b03\nb03",
+      "rings\nb03",
+      "-0.045\n0.124",
+      "0.997\n1.066"
+    ],
+    [
+      "Geographic 2",
+      "Hierarchical\nBoosting",
+      "b03\nb08",
+      "rings\nrings",
+      "-0.032\n0.126",
+      "1.007\n1.076"
+    ],
+    [
+      "Geographic 3",
+      "Hierarchical\nBoosting",
+      "b03\nb03",
+      "rings\nb03",
+      "-0.031\n0.151",
+      "1.007\n1.078"
+    ],
+    [
+      "Geographic 4",
+      "Hierarchical\nBoosting",
+      "b13\nb03",
+      "rings\nrings",
+      "-0.027\n0.126",
+      "1.001\n1.071"
+    ],
+    [
+      "Geographic 5",
+      "Hierarchical\nBoosting",
+      "b03\nb03",
+      "b03\nb03",
+      "-0.004\n0.145",
+      "1.003\n1.086"
+    ]
+  ],
+  "widths": [
+    1.0,
+    1.2,
+    0.7,
+    0.7,
+    1.45,
+    1.45
+  ],
+  "alignments": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "note": "Main-text link: Section 2.3, candidates change variables as well as geometry. Each paired cell lists hierarchical regression above boosting. b03, b08 and b13 denote cumulative 3, 8 and 13 km discs; rings denotes the six-variable ring representation. EBL calibration coefficients act on uncalibrated probability logits. selected_configurations.csv and model_configurations preserve all 48 block-family-partition specifications at full precision."
+}

@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "table_comparisons": [
+    {
+      "component": "coding_transfer",
+      "run": "absolute",
+      "file": "annual_composition.csv",
+      "rows": 22,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "run": "absolute",
+      "file": "annual_prediction_diagnostics.csv",
+      "rows": 22,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "run": "absolute",
+      "file": "period_model_scores.csv",
+      "rows": 15,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "run": "relative",
+      "file": "annual_composition.csv",
+      "rows": 22,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "run": "relative",
+      "file": "annual_prediction_diagnostics.csv",
+      "rows": 22,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "run": "relative",
+      "file": "period_model_scores.csv",
+      "rows": 15,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "run": "absolute",
+      "file": "calibration_with_paired_gaps.csv",
+      "rows": 24,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "run": "absolute",
+      "file": "overall_weighting.csv",
+      "rows": 4,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "run": "absolute",
+      "file": "paired_gap_draws.csv.gz",
+      "rows": 48000,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "run": "relative",
+      "file": "calibration_with_paired_gaps.csv",
+      "rows": 24,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "run": "relative",
+      "file": "overall_weighting.csv",
+      "rows": 4,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "run": "relative",
+      "file": "paired_gap_draws.csv.gz",
+      "rows": 48000,
+      "max_absolute_error": 0.0,
+      "passed": true
+    }
+  ],
+  "interface_checks": [
+    {
+      "component": "coding_transfer",
+      "test": "absolute_inputs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "test": "relative_inputs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "test": "bad_hash",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "test": "missing_input",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "component": "coding_transfer",
+      "test": "existing_output",
+      "exit_code": 2,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "test": "absolute_inputs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "test": "relative_inputs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "test": "bad_hash",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "test": "missing_input",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "component": "report_volume_calibration",
+      "test": "existing_output",
+      "exit_code": 2,
+      "passed": true
+    }
+  ],
+  "distinct_original_inputs": 14,
+  "original_input_hashes_unchanged": true,
+  "five_document_hashes_unchanged": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "pyarrow": "26.0.0"
+  },
+  "scope": "Retained-cohort and saved-coefficient/prediction replay. No new model fit or independent validation; volume resampling repeats the original seed."
+}

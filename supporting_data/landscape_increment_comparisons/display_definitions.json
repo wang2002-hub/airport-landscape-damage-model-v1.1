@@ -1,0 +1,413 @@
+{
+  "supp_context.national": {
+    "caption": "source record SRC-S51. Paired national landscape changes",
+    "headers": [
+      "Evaluation",
+      "Family",
+      "Contrast",
+      "ΔBrier × 1,000 [95% interval]",
+      "ΔLog loss × 1,000 [95% interval]"
+    ],
+    "rows": [
+      [
+        "Geographic",
+        "Hierarchical",
+        "E → EL",
+        "-0.024 [-0.180, 0.136]",
+        "0.109 [-0.635, 0.920]"
+      ],
+      [
+        "Geographic",
+        "Hierarchical",
+        "EB → EBL",
+        "0.042 [-0.036, 0.116]",
+        "0.172 [-0.078, 0.425]"
+      ],
+      [
+        "Geographic",
+        "Boosting",
+        "E → EL",
+        "0.083 [-0.095, 0.279]",
+        "0.245 [-0.549, 1.111]"
+      ],
+      [
+        "Geographic",
+        "Boosting",
+        "EB → EBL",
+        "0.070 [-0.081, 0.228]",
+        "0.167 [-0.263, 0.646]"
+      ],
+      [
+        "Temporal",
+        "Hierarchical",
+        "E → EL",
+        "-0.180 [-0.386, 0.005]",
+        "-0.728 [-1.684, 0.154]"
+      ],
+      [
+        "Temporal",
+        "Hierarchical",
+        "EB → EBL",
+        "0.026 [-0.079, 0.129]",
+        "-0.021 [-0.415, 0.361]"
+      ],
+      [
+        "Temporal",
+        "Boosting",
+        "E → EL",
+        "0.166 [-0.177, 0.532]",
+        "0.103 [-1.525, 1.817]"
+      ],
+      [
+        "Temporal",
+        "Boosting",
+        "EB → EBL",
+        "0.131 [-0.092, 0.377]",
+        "0.381 [-0.372, 1.232]"
+      ]
+    ],
+    "widths": [
+      0.8,
+      0.95,
+      0.85,
+      1.9,
+      2.0
+    ],
+    "note": "Negative changes favor landscapes. Intervals use 2,000 airport resamples of fixed predictions. National temporal evaluation has 11,124 reports and 669 damage outcomes; geographic evaluation has 46,167 reports and 3,096 outcomes. Baseline absolute scores appear in S4. EB to EBL is the primary landscape contrast. source record SRC-S53 separately reports repeated-development intervals. All comparisons are pointwise, without multiplicity adjustment."
+  },
+  "supp_context.local_paired": {
+    "caption": "source record SRC-S52. Full-period local paired landscape increments",
+    "headers": [
+      "Airport",
+      "Family",
+      "Contrast",
+      "ΔBrier × 1,000 [95% interval]",
+      "ΔLog loss × 1,000 [95% interval]"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "Hierarchical",
+        "E → EL",
+        "0.002 [-0.051, 0.072]",
+        "-0.164 [-0.628, 0.400]"
+      ],
+      [
+        "DEN",
+        "Hierarchical",
+        "EB → EBL",
+        "-0.048 [-0.075, -0.021]",
+        "-0.142 [-0.435, 0.127]"
+      ],
+      [
+        "DEN",
+        "Boosting",
+        "E → EL",
+        "0.080 [-0.180, 0.309]",
+        "1.591 [-1.003, 3.979]"
+      ],
+      [
+        "DEN",
+        "Boosting",
+        "EB → EBL",
+        "-0.037 [-0.233, 0.181]",
+        "0.653 [-0.585, 2.026]"
+      ],
+      [
+        "JFK",
+        "Hierarchical",
+        "E → EL",
+        "-0.521 [-0.956, -0.182]",
+        "-3.905 [-7.091, -1.363]"
+      ],
+      [
+        "JFK",
+        "Hierarchical",
+        "EB → EBL",
+        "0.497 [0.143, 0.906]",
+        "1.750 [0.573, 3.077]"
+      ],
+      [
+        "JFK",
+        "Boosting",
+        "E → EL",
+        "-0.054 [-0.440, 0.312]",
+        "-1.890 [-5.004, 1.283]"
+      ],
+      [
+        "JFK",
+        "Boosting",
+        "EB → EBL",
+        "0.417 [-0.762, 2.030]",
+        "2.695 [-0.911, 7.464]"
+      ],
+      [
+        "MIA",
+        "Hierarchical",
+        "E → EL",
+        "0.370 [-0.187, 0.948]",
+        "-0.009 [-3.451, 3.868]"
+      ],
+      [
+        "MIA",
+        "Hierarchical",
+        "EB → EBL",
+        "0.168 [-0.340, 0.660]",
+        "-0.407 [-2.040, 1.328]"
+      ],
+      [
+        "MIA",
+        "Boosting",
+        "E → EL",
+        "0.512 [-0.060, 1.044]",
+        "1.309 [-1.695, 4.305]"
+      ],
+      [
+        "MIA",
+        "Boosting",
+        "EB → EBL",
+        "-0.463 [-0.945, 0.058]",
+        "-2.304 [-4.048, -0.743]"
+      ],
+      [
+        "MSP",
+        "Hierarchical",
+        "E → EL",
+        "-0.069 [-0.127, -0.013]",
+        "-0.333 [-0.715, 0.119]"
+      ],
+      [
+        "MSP",
+        "Hierarchical",
+        "EB → EBL",
+        "0.113 [-0.178, 0.358]",
+        "0.324 [-0.393, 0.920]"
+      ],
+      [
+        "MSP",
+        "Boosting",
+        "E → EL",
+        "-0.299 [-0.685, 0.155]",
+        "-0.130 [-3.515, 4.433]"
+      ],
+      [
+        "MSP",
+        "Boosting",
+        "EB → EBL",
+        "0.094 [-0.532, 0.781]",
+        "0.346 [-1.359, 2.237]"
+      ],
+      [
+        "BOS",
+        "Hierarchical",
+        "E → EL",
+        "-0.387 [-0.613, -0.150]",
+        "-4.450 [-7.248, -1.753]"
+      ],
+      [
+        "BOS",
+        "Hierarchical",
+        "EB → EBL",
+        "0.282 [-0.188, 0.662]",
+        "1.076 [-0.445, 2.140]"
+      ],
+      [
+        "BOS",
+        "Boosting",
+        "E → EL",
+        "-0.205 [-0.737, 0.226]",
+        "-2.408 [-7.171, 1.465]"
+      ],
+      [
+        "BOS",
+        "Boosting",
+        "EB → EBL",
+        "0.090 [-1.682, 1.700]",
+        "-0.252 [-4.662, 3.650]"
+      ],
+      [
+        "SFO",
+        "Hierarchical",
+        "E → EL",
+        "0.031 [-0.565, 0.517]",
+        "0.445 [-3.490, 4.091]"
+      ],
+      [
+        "SFO",
+        "Hierarchical",
+        "EB → EBL",
+        "-0.330 [-1.098, 0.734]",
+        "-2.155 [-5.209, 0.915]"
+      ],
+      [
+        "SFO",
+        "Boosting",
+        "E → EL",
+        "-0.066 [-0.289, 0.286]",
+        "0.371 [-1.837, 2.817]"
+      ],
+      [
+        "SFO",
+        "Boosting",
+        "EB → EBL",
+        "-1.265 [-2.556, 0.164]",
+        "-3.816 [-7.941, 1.437]"
+      ],
+      [
+        "SAT",
+        "Hierarchical",
+        "E → EL",
+        "-0.280 [-0.438, -0.150]",
+        "-2.007 [-3.427, -0.296]"
+      ],
+      [
+        "SAT",
+        "Hierarchical",
+        "EB → EBL",
+        "-0.019 [-0.151, 0.125]",
+        "0.021 [-0.557, 0.747]"
+      ],
+      [
+        "SAT",
+        "Boosting",
+        "E → EL",
+        "-0.630 [-0.994, -0.297]",
+        "-3.680 [-5.859, -1.730]"
+      ],
+      [
+        "SAT",
+        "Boosting",
+        "EB → EBL",
+        "-0.091 [-0.257, 0.098]",
+        "0.170 [-0.741, 1.111]"
+      ],
+      [
+        "STL",
+        "Hierarchical",
+        "E → EL",
+        "0.135 [-0.374, 0.798]",
+        "0.670 [-2.996, 5.310]"
+      ],
+      [
+        "STL",
+        "Hierarchical",
+        "EB → EBL",
+        "0.054 [-0.215, 0.426]",
+        "0.446 [-0.860, 2.237]"
+      ],
+      [
+        "STL",
+        "Boosting",
+        "E → EL",
+        "-0.076 [-0.773, 0.389]",
+        "0.171 [-4.425, 3.172]"
+      ],
+      [
+        "STL",
+        "Boosting",
+        "EB → EBL",
+        "-0.205 [-0.784, 0.209]",
+        "-0.846 [-3.586, 0.720]"
+      ]
+    ],
+    "widths": [
+      0.6,
+      0.95,
+      0.85,
+      2.0,
+      2.1
+    ],
+    "note": "Full-period 2015–2025 reports. Negative differences favor landscapes. Two thousand paired resamples of eleven years hold fitted predictions fixed. Intervals are pointwise, without multiplicity adjustment. source record SRC-S53 separately repeats national development while holding target reports fixed. Differences are multiplied by 1,000 for display. Recent two-year local intervals are suppressed.",
+    "vertical_padding": "20"
+  },
+  "supp_context.pipeline": {
+    "caption": "source record SRC-S53. Full-pipeline hierarchical EB to EBL intervals",
+    "headers": [
+      "Population",
+      "Airport",
+      "Successful",
+      "ΔBrier × 1,000 interval",
+      "ΔLog loss × 1,000 interval"
+    ],
+    "rows": [
+      [
+        "National",
+        "Pooled",
+        "198",
+        "[-0.082, 0.176]",
+        "[-0.351, 0.471]"
+      ],
+      [
+        "Target",
+        "DEN",
+        "198",
+        "[-0.207, 0.056]",
+        "[-0.618, 0.360]"
+      ],
+      [
+        "Target",
+        "JFK",
+        "198",
+        "[-0.525, 1.686]",
+        "[-1.953, 6.079]"
+      ],
+      [
+        "Target",
+        "MIA",
+        "198",
+        "[-0.027, 0.521]",
+        "[-1.062, 0.428]"
+      ],
+      [
+        "Target",
+        "MSP",
+        "198",
+        "[-0.162, 0.444]",
+        "[-0.677, 1.549]"
+      ],
+      [
+        "Target",
+        "BOS",
+        "198",
+        "[-0.105, 1.162]",
+        "[-0.460, 5.332]"
+      ],
+      [
+        "Target",
+        "SFO",
+        "198",
+        "[-0.840, 0.931]",
+        "[-4.383, 3.729]"
+      ],
+      [
+        "Target",
+        "SAT",
+        "198",
+        "[-0.082, 0.053]",
+        "[-0.323, 0.312]"
+      ],
+      [
+        "Target",
+        "STL",
+        "198",
+        "[-0.026, 0.195]",
+        "[-0.047, 1.090]"
+      ],
+      [
+        "Target",
+        "Pooled",
+        "198",
+        "[-0.043, 0.333]",
+        "[-0.153, 1.134]"
+      ]
+    ],
+    "widths": [
+      0.85,
+      0.7,
+      0.85,
+      2.0,
+      2.1
+    ],
+    "note": "198 successful repetitions from 200 attempts. National test airports are resampled with their development histories. Target reports are fixed, so target intervals reflect development-pipeline uncertainty only. No local sampling uncertainty is added."
+  }
+}

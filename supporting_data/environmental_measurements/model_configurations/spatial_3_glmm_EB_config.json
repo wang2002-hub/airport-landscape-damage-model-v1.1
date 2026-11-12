@@ -1,0 +1,266 @@
+{
+  "scheme": "spatial",
+  "fold": 3,
+  "family": "glmm",
+  "block": "EB",
+  "selected_scale": null,
+  "params": null,
+  "calibration": {
+    "success": true,
+    "intercept": -0.02112504638040879,
+    "slope": 1.0101894540867657,
+    "n": 38341,
+    "damages": 2607,
+    "bound_hit": false
+  },
+  "encoder": {
+    "training_correlation_audit": [],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": null,
+    "geography": false,
+    "bird_adjustment": 1,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos"
+    ],
+    "medians": {
+      "year": 0.2,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998
+    },
+    "means": {
+      "year": 0.08031089434287057,
+      "month_sin": -0.22678805291895854,
+      "month_cos": -0.19358511542234394
+    },
+    "standard_deviations": {
+      "year": 0.6624693343070676,
+      "month_sin": 0.6886684351408665,
+      "month_cos": 0.6609294732274962
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Other"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach",
+      "bird_size_reported": "Small",
+      "number_struck_category": "1"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=5",
+      "aircraft_mass_class=Unknown",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb",
+      "bird_size_reported=Unknown",
+      "bird_size_reported=Medium",
+      "bird_size_reported=Large",
+      "number_struck_category=2-10",
+      "number_struck_category=11-100",
+      "number_struck_category=Other"
+    ],
+    "training_events": 38341,
+    "training_airports": 1083,
+    "training_year_min": 2015,
+    "training_year_max": 2025,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Unknown",
+        "More than 100"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ],
+      "bird_size_reported": [
+        "Large",
+        "Medium",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "11-100",
+        "2-10"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "test_qc": {
+    "n_rows": 7826,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 7,
+    "finite_matrix": true
+  },
+  "target_qc": {
+    "n_rows": 5936,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 6,
+    "finite_matrix": true
+  },
+  "candidates": [
+    {
+      "mean_logloss": 0.1881138672467302,
+      "scale": null,
+      "params": null,
+      "fold_losses": [
+        0.24128033741293478,
+        0.16484377230219446,
+        0.17109519945852839,
+        0.17523615981326326
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "label": "None_0_inner0",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.1441187858581543,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 44,
+      "max_abs_gradient": 0.0023389453049082846,
+      "negative_loglik_penalized": 5126.152948335408,
+      "sigma": 0.35208419958843507,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0023389453049082846
+    },
+    {
+      "label": "None_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.14156150817871094,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 40,
+      "max_abs_gradient": 0.0004606583051605922,
+      "negative_loglik_penalized": 5859.637542507163,
+      "sigma": 0.40226246304806285,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0004606583051605922
+    },
+    {
+      "label": "None_0_inner2",
+      "n": 26758,
+      "airports": 824,
+      "damage": 1865,
+      "seconds": 0.12829303741455078,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 41,
+      "max_abs_gradient": 0.0005991276471929217,
+      "negative_loglik_penalized": 5086.11695965687,
+      "sigma": 0.3449952470857639,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0005991276471929217
+    },
+    {
+      "label": "None_0_inner3",
+      "n": 26805,
+      "airports": 787,
+      "damage": 1891,
+      "seconds": 0.13831710815429688,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 46,
+      "max_abs_gradient": 0.0004943109074221114,
+      "negative_loglik_penalized": 5037.929483054287,
+      "sigma": 0.40488627998937293,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0004943109074221114
+    },
+    {
+      "label": "final",
+      "n": 38341,
+      "airports": 1083,
+      "damage": 2607,
+      "seconds": 0.1960618495941162,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 46,
+      "max_abs_gradient": 0.0011773662784993087,
+      "negative_loglik_penalized": 7040.51453687665,
+      "sigma": 0.37932839323853623,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0011773662784993087
+    }
+  ],
+  "seconds": 1.2577159404754639
+}

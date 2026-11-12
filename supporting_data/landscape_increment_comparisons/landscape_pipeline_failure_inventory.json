@@ -1,0 +1,10 @@
+[
+  {
+    "replicate": 25,
+    "error": "Traceback (most recent call last):\n  File \"<local-path>\", line 28, in run\n    b=checked_fit(train,'glmm',scale,1,None,records,f'{block}_final');b['calibrator'],cr=fit_calibrator(cal.damage_binary.to_numpy(),predict_bundle(b,cal));assert cr['success']\n                                                                                                                                                                   ~~^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "replicate": 132,
+    "error": "Traceback (most recent call last):\n  File \"<local-path>\", line 28, in run\n    b=checked_fit(train,'glmm',scale,1,None,records,f'{block}_final');b['calibrator'],cr=fit_calibrator(cal.damage_binary.to_numpy(),predict_bundle(b,cal));assert cr['success']\n                                                                                                                                                                   ~~^^^^^^^^^^^\nAssertionError\n"
+  }
+]

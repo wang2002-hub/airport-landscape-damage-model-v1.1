@@ -1,0 +1,24 @@
+{
+  "population": {
+    "reports": 5936,
+    "damage": 309,
+    "airports": 8
+  },
+  "subtypes": [
+    "M? undetermined extent",
+    "documented extent"
+  ],
+  "paired_cell_order": "upper M?; lower documented extent; shared n",
+  "schemes": [
+    "year",
+    "constant",
+    "year_source"
+  ],
+  "simultaneous_family": "16 annual airport-by-subtype ratios, excluding pooled ratios and alternative allocations",
+  "pooled_intervals": "joint pointwise only",
+  "resampling": "498 successful saved development fits x 20 synchronized year resamples = 9960 dependent summaries; not independent development fits",
+  "precision": "All original table values preserved. Differences add before rounding; independently rounded components may differ in the last decimal.",
+  "inference": "Retrospective allocation benchmark, not a causal attribution or validated local subtype prediction.",
+  "public_release_status": "not published",
+  "fallback_field_scope": "The fallback_target_reports field in the point file is a collection-wide count repeated on each airport row and the pooled row. It is not additive across rows."
+}

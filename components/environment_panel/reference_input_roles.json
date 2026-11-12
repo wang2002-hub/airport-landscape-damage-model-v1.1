@@ -1,0 +1,18 @@
+{
+  "zone_environment": {
+    "sha256": "94a2a53626288708759698f0bfe3e2c711c7fc5973084c7d2a6700021420925e",
+    "bytes": 9661689
+  },
+  "airport_reference": {
+    "sha256": "1c4195731376e5f2704a8ca4d878d071614fc2f56842f1ed6ff442e576f84938",
+    "bytes": 317098
+  },
+  "structure": {
+    "sha256": "f587299ccf9cb4a91b26d28621a108498686af98813550819a954e827aae9280",
+    "bytes": 5720633
+  },
+  "transitions": {
+    "sha256": "739e93966a7e4adb2645ecb74a346e9cad1521fec23f7ad08be00bd748d98a62",
+    "bytes": 32998473
+  }
+}

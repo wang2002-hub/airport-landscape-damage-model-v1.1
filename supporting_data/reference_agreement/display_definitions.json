@@ -1,0 +1,374 @@
+{
+  "supp_diagnostics.ranks": {
+    "caption": "source record SRC-S29. National O/E ordering and decile overlap",
+    "headers": [
+      "Set",
+      "Reference pair",
+      "Spearman",
+      "Kendall",
+      "Upper J",
+      "Lower J",
+      "Lower group sizes"
+    ],
+    "rows": [
+      [
+        "All",
+        "H-EB / H-EBL",
+        "0.99906",
+        "0.97897",
+        "0.957",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "H-EB / G-EB",
+        "0.99769",
+        "0.96698",
+        "0.890",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "H-EB / G-EBL",
+        "0.99540",
+        "0.95239",
+        "0.865",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "H-EB / O-EB",
+        "0.99998",
+        "0.99760",
+        "0.986",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "H-EBL / G-EB",
+        "0.99667",
+        "0.95856",
+        "0.903",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "H-EBL / G-EBL",
+        "0.99568",
+        "0.95325",
+        "0.878",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "H-EBL / O-EB",
+        "0.99904",
+        "0.97850",
+        "0.944",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "G-EB / G-EBL",
+        "0.99712",
+        "0.96322",
+        "0.944",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "G-EB / O-EB",
+        "0.99766",
+        "0.96674",
+        "0.878",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "All",
+        "G-EBL / O-EB",
+        "0.99534",
+        "0.95203",
+        "0.865",
+        "1.000",
+        "602 / 602"
+      ],
+      [
+        "E ≥ 5",
+        "H-EB / H-EBL",
+        "0.98775",
+        "0.91764",
+        "0.875",
+        "0.667",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "H-EB / G-EB",
+        "0.99479",
+        "0.94678",
+        "0.875",
+        "0.875",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "H-EB / G-EBL",
+        "0.98380",
+        "0.89588",
+        "0.667",
+        "0.875",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "H-EB / O-EB",
+        "0.99976",
+        "0.99204",
+        "0.875",
+        "1.000",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "H-EBL / G-EB",
+        "0.98177",
+        "0.89122",
+        "0.765",
+        "0.579",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "H-EBL / G-EBL",
+        "0.97888",
+        "0.87646",
+        "0.579",
+        "0.667",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "H-EBL / O-EB",
+        "0.98779",
+        "0.91744",
+        "0.765",
+        "0.667",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "G-EB / G-EBL",
+        "0.98362",
+        "0.89627",
+        "0.579",
+        "0.765",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "G-EB / O-EB",
+        "0.99460",
+        "0.94464",
+        "0.765",
+        "0.875",
+        "15 / 15"
+      ],
+      [
+        "E ≥ 5",
+        "G-EBL / O-EB",
+        "0.98365",
+        "0.89413",
+        "0.765",
+        "0.875",
+        "15 / 15"
+      ]
+    ],
+    "widths": [
+      0.6,
+      1.45,
+      0.8,
+      0.75,
+      0.7,
+      0.7,
+      1.5
+    ],
+    "note": "O denotes ordinary logistic, H hierarchical logistic and G gradient boosting. EB and EBL retain the information definitions in S1. All includes 1,375 airports; E ≥ 5 includes the same 144 airports selected using hierarchical EBL. J is intersection divided by union. Boundary ties remain included. Each full-population lower group contains 602 zero-damage airports. Lower group sizes follow the reference-pair order. These are descriptive agreements, not uncertainty intervals or evidence of safety equivalence.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_diagnostics.full_rank_matrix": {
+    "caption": "Full-population Spearman correlation matrix",
+    "headers": [
+      "Reference",
+      "O-EB",
+      "H-EB",
+      "H-EBL",
+      "G-EB",
+      "G-EBL"
+    ],
+    "rows": [
+      [
+        "O-EB",
+        "1.00000",
+        "0.99998",
+        "0.99904",
+        "0.99766",
+        "0.99534"
+      ],
+      [
+        "H-EB",
+        "0.99998",
+        "1.00000",
+        "0.99906",
+        "0.99769",
+        "0.99540"
+      ],
+      [
+        "H-EBL",
+        "0.99904",
+        "0.99906",
+        "1.00000",
+        "0.99667",
+        "0.99568"
+      ],
+      [
+        "G-EB",
+        "0.99766",
+        "0.99769",
+        "0.99667",
+        "1.00000",
+        "0.99712"
+      ],
+      [
+        "G-EBL",
+        "0.99534",
+        "0.99540",
+        "0.99568",
+        "0.99712",
+        "1.00000"
+      ]
+    ],
+    "widths": [
+      1.15,
+      1.07,
+      1.07,
+      1.07,
+      1.07,
+      1.07
+    ],
+    "note": "All entries use the same 1,375 airports and geographic outer-test O/E values. O denotes ordinary logistic, H hierarchical logistic and G gradient boosting. EB and EBL information blocks are defined in source record SRC-S3. The 602 zero-damage airports are tied at zero under every reference. Off-diagonal values are shown to five decimal places; diagonal self-correlations are one. source record SRC-S29 gives Kendall correlations and the common 144-airport subset. Correlation describes ordering, not probability calibration or airport safety equivalence."
+  },
+  "supp_diagnostics.overlaps": {
+    "caption": "source record SRC-S30. Agreement of sets outside conditional and widened limits",
+    "headers": [
+      "Reference pair",
+      "Conditional",
+      "Widened all",
+      "Widened E ≥ 5",
+      "Widened n ≥ 100"
+    ],
+    "rows": [
+      [
+        "H-EB / H-EBL",
+        "0.833 (5/6)",
+        "1.000 (2/2)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "H-EB / G-EB",
+        "1.000 (5/5)",
+        "0.667 (2/3)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "H-EB / G-EBL",
+        "0.667 (5/5)",
+        "0.667 (2/3)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "H-EB / O-EB",
+        "1.000 (5/5)",
+        "1.000 (2/2)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "H-EBL / G-EB",
+        "0.833 (6/5)",
+        "0.667 (2/3)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "H-EBL / G-EBL",
+        "0.571 (6/5)",
+        "0.667 (2/3)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "H-EBL / O-EB",
+        "0.833 (6/5)",
+        "1.000 (2/2)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "G-EB / G-EBL",
+        "0.667 (5/5)",
+        "1.000 (3/3)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "G-EB / O-EB",
+        "1.000 (5/5)",
+        "0.667 (3/2)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ],
+      [
+        "G-EBL / O-EB",
+        "0.667 (5/5)",
+        "0.667 (3/2)",
+        "1.000 (1/1)",
+        "1.000 (1/1)"
+      ]
+    ],
+    "widths": [
+      1.3,
+      1.3,
+      1.3,
+      1.3,
+      1.3
+    ],
+    "note": "O denotes ordinary logistic, H hierarchical logistic and G gradient boosting. EB and EBL retain the information definitions in S1. Cells show Jaccard overlap followed by the two exceedance-set sizes. All comparisons use 99.8% limits and 1,375 national airports. Widening labels specify each model's dispersion estimation set. Results on the common 144-airport subset are identical and retained in the machine-readable table. Small set sizes limit the interpretation of perfect overlap.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

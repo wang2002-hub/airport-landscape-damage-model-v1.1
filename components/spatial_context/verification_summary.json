@@ -1,0 +1,85 @@
+{
+  "success": true,
+  "target_airports": 8,
+  "geopackages": 8,
+  "source_crs_checks": 16,
+  "tables": [
+    {
+      "file": "wetland_summary.csv",
+      "rows": 8,
+      "numeric_values": 56,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "wetland_types.csv",
+      "rows": 49,
+      "numeric_values": 147,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "source_projects.csv",
+      "rows": 34,
+      "numeric_values": 136,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "polygon_vintage_overlaps.csv",
+      "rows": 15841,
+      "numeric_values": 63364,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "runway_geometry.csv",
+      "rows": 8,
+      "numeric_values": 16,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    }
+  ],
+  "footprint_features": 34,
+  "geojson_numeric_values": 19502,
+  "maximum_geojson_error": 0.0,
+  "diagnostic_pixels_identical": true,
+  "diagnostic_size": [
+    3600,
+    1980
+  ],
+  "source_inputs_unchanged": 11,
+  "source_geopackage_bytes": 34970001408,
+  "area_denominators_checked": true,
+  "all_source_year_labels_retained": true,
+  "invalid_inputs_rejected": [
+    "duplicate_reference",
+    "duplicate_layer",
+    "wrong_crs"
+  ],
+  "existing_outputs_preserved": true,
+  "new_model_fits": 0,
+  "new_random_draws": 0,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "formal_manuscript_figures_added": 0,
+  "unchanged_geometry_calculations_verified": true,
+  "visual_inspection": {
+    "reviewed": true,
+    "preview": "spatial_context_preview.png",
+    "explanatory_footer_visible": true,
+    "axis_labels_visible": true,
+    "clipping_observed": false,
+    "airport_titles_visible": true,
+    "panels": 8,
+    "scope": "Visual inspection of the auxiliary diagnostic preview; no new formal manuscript figure."
+  },
+  "release_verification_scope": {
+    "retained_computational_record": true,
+    "help_checked": true,
+    "optional_imports_deferred_until_after_argument_parsing": true,
+    "computational_rerun_in_this_release_check": false
+  }
+}

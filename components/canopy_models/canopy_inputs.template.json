@@ -1,0 +1,9 @@
+{
+  "paths": {
+    "analysis_events": "DATA/analysis_extended.parquet",
+    "environment": "DATA/environment.parquet",
+    "canopy_measurements": "DATA/canopy_measurements.csv",
+    "glmm_config": "DATA/hierarchical_reference.json",
+    "hgb_config": "DATA/boosting_reference.json"
+  }
+}

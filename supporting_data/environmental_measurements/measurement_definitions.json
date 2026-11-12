@@ -1,0 +1,98 @@
+{
+  "product": "Annual NLCD Collection 1.2",
+  "map_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "resolution_m": 30,
+  "airport_references": 1581,
+  "airport_year_rows": 17391,
+  "final_analytic_airports": 1383,
+  "zone_radii_km": {
+    "b03": [
+      0,
+      3
+    ],
+    "b08": [
+      0,
+      8
+    ],
+    "b13": [
+      0,
+      13
+    ],
+    "r00_03": [
+      0,
+      3
+    ],
+    "r03_08": [
+      3,
+      8
+    ],
+    "r08_13": [
+      8,
+      13
+    ]
+  },
+  "landcover_codes": {
+    "water": [
+      11
+    ],
+    "developed": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "forest": [
+      41,
+      42,
+      43
+    ],
+    "shrub": [
+      52
+    ],
+    "grassland": [
+      71
+    ],
+    "pasture": [
+      81
+    ],
+    "cropland": [
+      82
+    ],
+    "wetland": [
+      90,
+      95
+    ],
+    "other": [
+      12,
+      31
+    ]
+  },
+  "landcover_nodata_code": 250,
+  "landcover_denominator": "Valid land-cover cells within each airport-centered zone. No valid coverage produces missing fractions, not zeros.",
+  "coverage": "Valid 30 m pixel area divided by geometric area, capped at one; land-cover and impervious coverage must each reach 0.95 in every ring. Reference identity screening also applies.",
+  "imperviousness": "Separate from the nine-part composition; valid values 0–100, divided by 100 for fitting.",
+  "disc_inputs": [
+    "water_fraction",
+    "wetland_fraction",
+    "cropland_fraction",
+    "grassland_fraction",
+    "pasture_fraction",
+    "imperviousness_proportion"
+  ],
+  "ring_inputs": "Water plus wetland and cropland in each of r00_03, r03_08 and r08_13; six variables.",
+  "timing": "Calendar-year measurements from a retrospective collection; reference year does not establish historical product availability.",
+  "selection_scope": "Fitted representations change variables and spatial support; selected radius is not an ecological boundary.",
+  "public_release_status": "not published"
+}

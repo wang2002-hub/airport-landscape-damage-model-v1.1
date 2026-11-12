@@ -1,0 +1,66 @@
+{
+  "target_airports": [
+    "KDEN",
+    "KJFK",
+    "KMIA",
+    "KMSP",
+    "KBOS",
+    "KSFO",
+    "KSAT",
+    "KSTL"
+  ],
+  "years": [
+    2015,
+    2025
+  ],
+  "development_years": [
+    2015,
+    2022
+  ],
+  "calibration_year": 2023,
+  "test_years": [
+    2024,
+    2025
+  ],
+  "inner_temporal_years": [
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "spatial_folds": 5,
+  "information_blocks": [
+    "E",
+    "EL",
+    "EB",
+    "EBL"
+  ],
+  "families": [
+    "glmm",
+    "hgb"
+  ],
+  "scales": [
+    "b03",
+    "b08",
+    "b13",
+    "rings"
+  ],
+  "hgb_candidates": [
+    {
+      "max_depth": 2,
+      "max_iter": 150,
+      "learning_rate": 0.05,
+      "l2_regularization": 10,
+      "min_samples_leaf": 40
+    },
+    {
+      "max_depth": 3,
+      "max_iter": 150,
+      "learning_rate": 0.05,
+      "l2_regularization": 10,
+      "min_samples_leaf": 40
+    }
+  ],
+  "seed": 20261028,
+  "analysis_status": "Retrospective analysis; target summaries had been examined. This configuration is not a prospective preregistration."
+}

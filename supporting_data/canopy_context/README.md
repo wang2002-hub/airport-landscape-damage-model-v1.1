@@ -1,0 +1,11 @@
+# Canopy and annual map context
+
+`static_canopy_contrasts.csv` retains the four national temporal canopy comparisons, including favorable and unfavorable point estimates. Each uses 11,124 reports and fixed-prediction paired intervals. Static 2015 canopy enters at 3 km for hierarchical regression and 8 km for boosting. These measurements are distinct from the descriptive 13 km target context.
+
+`multiscale_landscape_variation.csv` is an unchanged retained calculation output with 36 rows: six variables for three cumulative discs and three rings. Each representation includes 1,375 airports and 15,125 airport-years. It supplies Supporting Figure L1 in supporting_assets/landscape_variation, where the complete image, caption and identical source data are available. Between-airport SD uses eleven-year airport means; within-airport SD is the square root of mean within-airport sample variance. Annual changes are absolute consecutive-year changes. Values are in percentage points. `landscape_variation_display.csv` preserves the original 18 rounded disc rows.
+
+`target_canopy_context.csv` preserves all eight target airports and their 2015, 2020 and 2025 values, plus minimum valid coverage. The three source dates are separate observations with no interpolation. Map changes can combine classification variation and physical change. Neither these summaries nor the canopy comparisons identify vegetation-management effects. `measurement_context.json` retains source definitions, coverage summaries and the retrospective product-vintage boundary. Full original table notes are in `canopy_context_source_tables.json`.
+
+These files reorganize existing outputs; no models or uncertainty calculations were rerun. The current publication package has not yet been publicly released.
+
+The source paragraph in measurement_context.json preserves archived figure labels for provenance. Its static-canopy comparison is now Supplementary Figure S12B; the landscape-variation image is Supporting Figure L1. Supplementary Figure S3 shows calibration across report-volume groups. publication_figure_locators supplies the current locations. Historical table labels in the source paragraph identify archived context records.

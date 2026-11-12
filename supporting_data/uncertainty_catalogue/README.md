@@ -1,0 +1,9 @@
+# Uncertainty catalogue
+
+uncertainty_catalogue.csv is the complete fourteen-row catalogue in Supplementary Table S6. uncertainty_definitions.json supplies procedure counts, failed attempts and formula locations. This catalogue describes existing analyses; it contains no newly generated intervals or fitted models.
+
+Primary total-damage intervals use 498 successful development fits, each paired with twenty synchronized target-year samples. These produce 9,960 dependent summaries per airport. Absolute and relative ratios have separate eight-airport simultaneous families on the log scale. Relative ratios recompute the pool from the same fit and year draw, retaining the airport's contribution. Approximate Holm-adjusted probabilities and maximum-statistic intervals are different constructions.
+
+Damage-extent intervals use the same eligible population and saved development/year draws, with annual national coding proportions recomputed within development resamples. The sixteen airport-by-subtype ratios form a separate natural-scale family. Negative lower endpoints are truncated at zero. Pooled subtype intervals remain pointwise. No combined guarantee across these families or alternative specifications is asserted.
+
+The separate landscape-development contrast has 198 successes from 200 attempts; calibration failures 25 and 132 remain recorded. Its target reports stay fixed. Primary joint bootstrap failures are 224 and 336. Fixed-prediction, development-only, circular-block, conditional count and conditional rank summaries retain their own units and interpretations. Table S6 and Appendix A explain these distinctions. Recent two-year target windows are descriptive, and year-deletion ranges are not confidence intervals. These support files are local and have not been publicly released.

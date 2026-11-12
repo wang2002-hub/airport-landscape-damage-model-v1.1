@@ -1,0 +1,10 @@
+{
+  "paths": {
+    "map_airports": "DATA/map_airports.csv",
+    "airport_summary": "DATA/airport_summary.csv",
+    "ne_50m_admin_1_states_provinces": "DATA/ne_50m_admin_1_states_provinces.zip",
+    "landscape_national_verified": "DATA/landscape_national_verified.csv",
+    "landscape_auxiliary_verified": "DATA/landscape_auxiliary_verified.csv",
+    "multiscale_variation": "DATA/multiscale_variation.csv"
+  }
+}

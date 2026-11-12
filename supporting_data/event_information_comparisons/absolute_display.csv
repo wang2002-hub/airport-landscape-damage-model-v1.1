@@ -1,0 +1,9 @@
+﻿Family,Block,Scale,Brier,Log loss,AUC,O/E
+Hierarchical,E,None,0.052235,0.202383,0.737,0.974
+Hierarchical,EL,b03,0.051945,0.201463,0.738,0.973
+Hierarchical,EB,None,0.044644,0.168917,0.841,0.978
+Hierarchical,EBL,rings,0.044628,0.168898,0.841,0.977
+Boosting,E,None,0.051043,0.196729,0.756,0.972
+Boosting,EL,b08,0.051072,0.196515,0.757,0.973
+Boosting,EB,None,0.043971,0.165929,0.849,0.992
+Boosting,EBL,b08,0.044007,0.166069,0.848,0.996

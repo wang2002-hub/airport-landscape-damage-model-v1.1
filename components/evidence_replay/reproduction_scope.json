@@ -1,0 +1,37 @@
+{
+  "entry_point": "replay_aggregates.py",
+  "inputs": [
+    "joint_draws.csv.gz",
+    "pointwise_intervals.csv",
+    "target_counts.csv",
+    "pooled_targets.csv",
+    "target_comparisons.csv",
+    "national_airport_counts.csv",
+    "dispersion_factors.csv",
+    "national_profile_summary.csv",
+    "reference_overlap.csv",
+    "damage_composition.csv",
+    "extent_restriction.csv",
+    "missing_labels.csv"
+  ],
+  "outputs": [
+    "verification.json",
+    "pooled_recomputed.csv",
+    "target_comparisons_recomputed.csv"
+  ],
+  "network_required": false,
+  "event_level_inputs": false,
+  "model_fitting": false,
+  "random_sampling": false,
+  "scope": "Saved aggregate and joint-draw replay",
+  "excluded_workflows": [
+    "event-level cohort reconstruction",
+    "national model training and calibration",
+    "conditional probability mass-function reconstruction",
+    "partial-pooling and rank generation",
+    "full event-level loss comparisons",
+    "raster extraction",
+    "article and figure generation"
+  ],
+  "complete_study_release": false
+}

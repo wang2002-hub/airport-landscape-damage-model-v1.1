@@ -1,0 +1,13 @@
+Evidence group,Evidence to locate,Main text,Supplementary location
+Evidence for the main comparisons,National performance and report composition,3.2; 4.1,"S4; Tables S7 and S8; Figures S2 and S3; performance, weighting and standardization files identified in S4.1–S4.2"
+Evidence for the main comparisons,National limits and conditional rank uncertainty,3.3; 3.5; 4.2,S5; Table S9; Figures S4 and S5; complete conditional-profile files in S5.1 and effect/rank files in S5.2
+Evidence for the main comparisons,Local and pooled O/E with comparison uncertainty,3.4; 4.3,"S6; Tables S10, S11, S12, S13 and S14; supporting_data/target_comparisons/target_uncertainty_full.csv; Figures S6 and S7; main Table 2; annual_influence_ranges.csv"
+Evidence for the main comparisons,Reference agreement and local probability losses,3.5; 4.4,S7; Table S15; supporting_data/reference_agreement/full_population_spearman_matrix.csv; Table S14 for absolute losses; Figure S8; complete agreement files in S7.1 and model/input files in S7.2
+Evidence for the main comparisons,"Damage extent, reporting composition and unresolved outcomes",3.6; 4.5,"S8; Tables S16, S17, S18, S19, S20, S21, S22, S23 and S24; supporting_data/reporting_sources/coding_support.md; Figures S10 and S9; supporting files in S8.2–S8.4"
+Evidence for the main comparisons,Landscape increments and environmental sensitivities,3.2; 4.6,"S9; Tables S25, S26, S27, S28 and S29; Figures S11–S12; Supporting Figure L1 in supporting_assets/landscape_variation; selected_representation_display.csv in supporting_data/environmental_measurements; other supporting files identified in S9.1–S9.5"
+Methods and provenance,"Eligible reports, damage labels and recorded inputs",2.1–2.3,"S1; Tables S1, S2, S3, S4 and S5; Figure S1; input-distribution support files identified in S1.3"
+Methods and provenance,Reference specifications and validation partitions,3.1; 3.7,S2; Table S4; supporting_data/validation_records/numerical_checks.md; validation and fit-count files identified in S2.3
+Methods and provenance,Which uncertainties vary in each comparison,3.3–3.6,S3; Table S6; Appendix A.3–A.5 in the manuscript
+Methods and provenance,"Recorded consequences, missingness and data requirements",5.4,"S10; Table S30; consequence_completeness.csv, recorded_amounts.csv and source_inventory_snapshot.csv"
+Methods and provenance,Auxiliary source roles and numerical replay scope,2.3; 3.7; 5.4,"S11; source_roles.csv, computational_resources.csv and execution_inventory.csv"
+Methods and provenance,Reporting guidance and evidence availability,3.7; declarations,S12; complete TRIPOD correspondence files in S12.1; reporting_boundaries.csv and selected_item_map.json in S12.2

@@ -1,0 +1,41 @@
+{
+  "display_files": {
+    "report_collections.csv": {
+      "caption": "source record SRC-S4. Report collections and their overlap",
+      "note": "Train, calibration and test partition the national collection. National all combines them. Recent targets are contained within the full target collection. Airport counts across years are not additive.",
+      "rows": 6
+    },
+    "unavailable_inputs.csv": {
+      "caption": "source record SRC-S5. Unavailable information before imputation or category pooling",
+      "note": "Cells give counts and percentages of all reports in source record SRC-S4. Zero denotes no unavailable values. All unavailable cells here originate from source missing values. Explicit Unknown codes and invalid numeric values contribute zero. Environmental completeness applies after eligibility screening. The numerical archive separates all 38 variables and all three unavailable-value components.",
+      "rows": 15
+    },
+    "categorical_inputs.csv": {
+      "caption": "source record SRC-S6. Recorded categorical inputs across temporal and target collections",
+      "note": "Each field sums to the full collection. Unknown represents source missingness in these retained records. Rare levels are shown before model pooling. Aircraft and engine codes retain their FAA codes; they are not relabeled from inference. Rounding can make percentages differ slightly from 100%.",
+      "rows": 40
+    },
+    "numeric_inputs.csv": {
+      "caption": "source record SRC-S7. Numeric input distributions before model transformations",
+      "note": "Cells give the median [first quartile, third quartile] among available values. Valid counts equal source record SRC-S4 counts minus source record SRC-S5 unavailable counts. Landscape distributions are report-weighted and repeat airport-year measurements across reports. Month sine and cosine retain their derived units. Raw year, height, distance and speed precede their model transformations. All candidate scales are shown; individual fits select and screen terms within training data.",
+      "rows": 30
+    }
+  },
+  "full_precision_files": [
+    "population_counts.csv",
+    "predictor_dictionary.csv",
+    "predictor_missingness_by_population.csv",
+    "predictor_missingness_all_airports.csv",
+    "categorical_distributions_by_population.csv",
+    "numeric_distributions_by_population.csv"
+  ],
+  "coverage": "38 primary and seven-field inputs across 19 overlapping populations; missingness at all 1,383 airports. Auxiliary sensitivity inputs have separate coverage audits.",
+  "roles": "predictor_dictionary.csv identifies primary, seven-field extension and landscape candidate inputs. The 24 landscape candidates are alternatives, not terms all retained in every fit.",
+  "population_overlap": "Train, Calibration and Test partition National all. Targets are excluded from national fitting and calibration in every year. Recent targets is nested within Targets. Airport counts across temporal partitions are not additive.",
+  "denominators": "Categorical counts include source-missing Unknown and sum to each full collection. Numeric quartiles use valid values; valid equals population count minus unavailable count. Landscape values are report-weighted, with airport-year measurements repeated across reports.",
+  "unavailable_components": "Source missingness, explicit unknown codes and invalid numeric values are separate. In these retained records all unavailable values arise from source missingness. Categorical Unknown denotes these missing source fields; explicit_unknown remains zero.",
+  "speed_rule": "Recorded speed must be between zero and 400 indicated knots, inclusive. All recorded speeds in these retained collections satisfy the rule.",
+  "environmental_completeness": "Complete after environmental coverage and coordinate eligibility screens; not a statement about the original registry.",
+  "scope": "Descriptive summaries before encoding, pooling, imputation and numerical transformation. Training-only preprocessing remains unchanged. No missingness mechanism is established.",
+  "public_release_status": "not published"
+}

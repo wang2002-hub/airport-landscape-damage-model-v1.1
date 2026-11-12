@@ -1,0 +1,7 @@
+﻿Component,Recorded dimension,Interpretation
+Recorded source inventory,388 files; 102.21 GB,Includes auxiliary and overlapping inputs; not marginal predictor cost.
+National environmental panel,"1,375 airports × 11 years = 15,125 airport-years",Measurement reuse does not create independent reports.
+Three cumulative discs,"272,250 values; six variables per airport-year per disc","Derived table dimensions, not raster pixels or labor hours."
+Ring candidate,"90,750 values; six terms per airport-year","Different feature representation, not a pure radius contrast."
+Human acquisition and checking time,Not recorded,Cannot estimate labor expense or maintenance cost.
+Data fees and net monetary benefit,Not established,"No assumed purchase fee, savings or return on investment."

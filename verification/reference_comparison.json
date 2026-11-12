@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "test": "source_preflight",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "pdf_text",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "collisions",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "relocated_analysis",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "relocated_figure",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "reject_hash_compare_references",
+      "exit_code": 1,
+      "expected_success": false
+    },
+    {
+      "test": "reject_overwrite_compare_references",
+      "exit_code": 2,
+      "expected_success": false
+    },
+    {
+      "test": "reject_hash_plot_reference_comparison",
+      "exit_code": 1,
+      "expected_success": false
+    },
+    {
+      "test": "reject_overwrite_plot_reference_comparison",
+      "exit_code": 2,
+      "expected_success": false
+    }
+  ],
+  "figure_pixels_identical_to_current_document_asset": true,
+  "relocated_figure_pixels_identical": true,
+  "five_documents_unchanged": true,
+  "scope": "One reference-comparison analysis component and Figure 4; other figure exporters remain pending.",
+  "verification_driver_environment": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "execution_environment": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "visual_review": {
+    "panels": "A and B inspected; text, ticks and legends readable; no cropping or ambiguous annotations.",
+    "intentional_overlays": "Open squares emphasize four existing point locations; legend symbols are intentional.",
+    "static_width_warning": "165.1 mm retained to match current manuscript asset; common Nature defaults are not imposed on this reproduction task.",
+    "final_submission_format_check": "Current figure export verified, not a new journal-compliance certification."
+  }
+}

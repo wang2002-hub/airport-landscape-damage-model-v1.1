@@ -1,0 +1,9 @@
+# Damage extent partition and allocation benchmarks
+
+Table S16 places both subtypes within each airport row. In paired cells the upper line is undetermined extent (M?) and the lower line is documented extent. Both use the same eligible-report count. Every count, expected count, ratio, interval and difference from the two original displays remains present. Original display CSVs and definitions preserve the complete source tables. Table S17 continues to display JFK and pooled comparisons for all three allocation schemes.
+
+extent_decomposition_points.csv contains 27 airport-or-pool allocation records. extent_decomposition_intervals.csv contains 135 metric summaries, including all airports, three allocations and split-half checks. extent_simultaneous_intervals.csv contains the sixteen annual airport-by-subtype intervals. Pooled ratios and alternate allocations are outside that simultaneous family. coding_stratum_fallbacks.csv preserves bootstrap fallback counts, which must not be confused with the original collection-wide count of twelve reports under the year-by-channel allocation.
+
+The conditional damage probabilities are allocated using retrospective national coding proportions. The subtype counts and expectations sum to their total-damage counterparts before rounding. This accounting identity is not evidence of subtype probability calibration or a causal contribution from documentation. Joint intervals reuse 498 saved development fits and 20 synchronized target-year resamples per fit, giving 9,960 dependent summaries. No fitting or resampling was repeated for this catalogue. Files have not been publicly released.
+
+The fallback_target_reports field in the point file is a collection-wide count repeated on each airport row and the pooled row. It is not additive across rows.

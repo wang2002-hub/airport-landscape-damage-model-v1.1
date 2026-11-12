@@ -1,0 +1,761 @@
+population,field,label,level,n,count,percent
+Train,aircraft_mass_class,Aircraft mass class,1,30427,2551,8.384001051697506
+Train,aircraft_mass_class,Aircraft mass class,2,30427,1713,5.629868209156341
+Train,aircraft_mass_class,Aircraft mass class,3,30427,5315,17.46803825549676
+Train,aircraft_mass_class,Aircraft mass class,4,30427,20512,67.41381010286916
+Train,aircraft_mass_class,Aircraft mass class,5,30427,161,0.5291353074571926
+Train,aircraft_mass_class,Aircraft mass class,Unknown,30427,175,0.5751470733230355
+Train,phase,Flight phase,Approach,30427,13709,45.05537844677425
+Train,phase,Flight phase,Climb,30427,4152,13.645775133927105
+Train,phase,Flight phase,Landing Roll,30427,7616,25.0304006310185
+Train,phase,Flight phase,Take-off Run,30427,4950,16.268445788280147
+Train,bird_size_reported,Bird size,Large,30427,1574,5.173037105202616
+Train,bird_size_reported,Bird size,Medium,30427,4259,13.997436487330331
+Train,bird_size_reported,Bird size,Small,30427,19812,65.11322180957703
+Train,bird_size_reported,Bird size,Unknown,30427,4782,15.716304597890032
+Train,number_struck_category,Number struck,1,30427,26413,86.80776941532191
+Train,number_struck_category,Number struck,11-100,30427,201,0.660597495645315
+Train,number_struck_category,Number struck,2-10,30427,3785,12.43960955730108
+Train,number_struck_category,Number struck,More than 100,30427,5,0.0164327735235153
+Train,number_struck_category,Number struck,Unknown,30427,23,0.07559075820817038
+Train,TIME_OF_DAY,Time of day,Dawn,30427,1028,3.3785782364347456
+Train,TIME_OF_DAY,Time of day,Day,30427,18300,60.143951096066
+Train,TIME_OF_DAY,Time of day,Dusk,30427,1515,4.979130377625135
+Train,TIME_OF_DAY,Time of day,Night,30427,7082,23.27538041870707
+Train,TIME_OF_DAY,Time of day,Unknown,30427,2502,8.222959871167056
+Train,AC_CLASS,Aircraft class,A,30427,29948,98.42574029644723
+Train,AC_CLASS,Aircraft class,B,30427,296,0.9728201925921057
+Train,AC_CLASS,Aircraft class,C,30427,2,0.00657310940940612
+Train,AC_CLASS,Aircraft class,J,30427,2,0.00657310940940612
+Train,AC_CLASS,Aircraft class,Unknown,30427,179,0.5882932921418477
+Train,TYPE_ENG,Engine type,A,30427,2542,8.354422059355178
+Train,TYPE_ENG,Engine type,B,30427,15,0.049298320570545895
+Train,TYPE_ENG,Engine type,C,30427,1516,4.982416932329839
+Train,TYPE_ENG,Engine type,D,30427,25874,85.03631642948697
+Train,TYPE_ENG,Engine type,F,30427,262,0.8610773326322017
+Train,TYPE_ENG,Engine type,Unknown,30427,218,0.716468925625267
+Train,NUM_ENGS,Engine count,1,30427,2550,8.380714496992802
+Train,NUM_ENGS,Engine count,2,30427,26812,88.11910474249844
+Train,NUM_ENGS,Engine count,3,30427,635,2.086962237486443
+Train,NUM_ENGS,Engine count,4,30427,201,0.660597495645315
+Train,NUM_ENGS,Engine count,Unknown,30427,229,0.7526210273770007
+Calibration,aircraft_mass_class,Aircraft mass class,1,4616,404,8.752166377816291
+Calibration,aircraft_mass_class,Aircraft mass class,2,4616,208,4.506065857885615
+Calibration,aircraft_mass_class,Aircraft mass class,3,4616,407,8.817157712305026
+Calibration,aircraft_mass_class,Aircraft mass class,4,4616,3544,76.77642980935875
+Calibration,aircraft_mass_class,Aircraft mass class,5,4616,31,0.67157712305026
+Calibration,aircraft_mass_class,Aircraft mass class,Unknown,4616,22,0.47660311958405543
+Calibration,phase,Flight phase,Approach,4616,2050,44.410745233968804
+Calibration,phase,Flight phase,Climb,4616,611,13.236568457538995
+Calibration,phase,Flight phase,Landing Roll,4616,1165,25.238301559792028
+Calibration,phase,Flight phase,Take-off Run,4616,790,17.114384748700175
+Calibration,bird_size_reported,Bird size,Large,4616,185,4.007798960138648
+Calibration,bird_size_reported,Bird size,Medium,4616,533,11.54679376083189
+Calibration,bird_size_reported,Bird size,Small,4616,2847,61.67677642980936
+Calibration,bird_size_reported,Bird size,Unknown,4616,1051,22.768630849220106
+Calibration,number_struck_category,Number struck,1,4616,4005,86.763431542461
+Calibration,number_struck_category,Number struck,11-100,4616,29,0.6282495667244368
+Calibration,number_struck_category,Number struck,2-10,4616,580,12.564991334488735
+Calibration,number_struck_category,Number struck,More than 100,4616,1,0.021663778162911613
+Calibration,number_struck_category,Number struck,Unknown,4616,1,0.021663778162911613
+Calibration,TIME_OF_DAY,Time of day,Dawn,4616,123,2.664644714038128
+Calibration,TIME_OF_DAY,Time of day,Day,4616,2812,60.918544194107454
+Calibration,TIME_OF_DAY,Time of day,Dusk,4616,195,4.224436741767764
+Calibration,TIME_OF_DAY,Time of day,Night,4616,1186,25.693240901213173
+Calibration,TIME_OF_DAY,Time of day,Unknown,4616,300,6.499133448873484
+Calibration,AC_CLASS,Aircraft class,A,4616,4536,98.26689774696708
+Calibration,AC_CLASS,Aircraft class,B,4616,55,1.1915077989601386
+Calibration,AC_CLASS,Aircraft class,C,4616,0,0.0
+Calibration,AC_CLASS,Aircraft class,J,4616,0,0.0
+Calibration,AC_CLASS,Aircraft class,Unknown,4616,25,0.5415944540727903
+Calibration,TYPE_ENG,Engine type,A,4616,401,8.687175043327557
+Calibration,TYPE_ENG,Engine type,B,4616,7,0.15164644714038128
+Calibration,TYPE_ENG,Engine type,C,4616,125,2.7079722703639515
+Calibration,TYPE_ENG,Engine type,D,4616,4004,86.74176776429809
+Calibration,TYPE_ENG,Engine type,F,4616,50,1.0831889081455806
+Calibration,TYPE_ENG,Engine type,Unknown,4616,29,0.6282495667244368
+Calibration,NUM_ENGS,Engine count,1,4616,413,8.947140381282496
+Calibration,NUM_ENGS,Engine count,2,4616,4098,88.77816291161179
+Calibration,NUM_ENGS,Engine count,3,4616,53,1.1481802426343155
+Calibration,NUM_ENGS,Engine count,4,4616,19,0.41161178509532065
+Calibration,NUM_ENGS,Engine count,Unknown,4616,33,0.7149046793760832
+Test,aircraft_mass_class,Aircraft mass class,1,11124,1030,9.25925925925926
+Test,aircraft_mass_class,Aircraft mass class,2,11124,463,4.162171880618483
+Test,aircraft_mass_class,Aircraft mass class,3,11124,991,8.908665947500898
+Test,aircraft_mass_class,Aircraft mass class,4,11124,8518,76.57317511686443
+Test,aircraft_mass_class,Aircraft mass class,5,11124,61,0.548363897878461
+Test,aircraft_mass_class,Aircraft mass class,Unknown,11124,61,0.548363897878461
+Test,phase,Flight phase,Approach,11124,4909,44.129809421071556
+Test,phase,Flight phase,Climb,11124,1330,11.956130888169723
+Test,phase,Flight phase,Landing Roll,11124,3007,27.031643293779215
+Test,phase,Flight phase,Take-off Run,11124,1878,16.882416396979504
+Test,bird_size_reported,Bird size,Large,11124,484,4.350952894642215
+Test,bird_size_reported,Bird size,Medium,11124,1120,10.068320747932399
+Test,bird_size_reported,Bird size,Small,11124,6657,59.84358144552319
+Test,bird_size_reported,Bird size,Unknown,11124,2863,25.737144911902192
+Test,number_struck_category,Number struck,1,11124,9910,89.08665947500899
+Test,number_struck_category,Number struck,11-100,11124,73,0.6562387630348795
+Test,number_struck_category,Number struck,2-10,11124,1133,10.185185185185185
+Test,number_struck_category,Number struck,More than 100,11124,1,0.008989572096368213
+Test,number_struck_category,Number struck,Unknown,11124,7,0.06292700467457749
+Test,TIME_OF_DAY,Time of day,Dawn,11124,337,3.029485796476088
+Test,TIME_OF_DAY,Time of day,Day,11124,7036,63.250629270046744
+Test,TIME_OF_DAY,Time of day,Dusk,11124,498,4.47680690399137
+Test,TIME_OF_DAY,Time of day,Night,11124,2986,26.842862279755483
+Test,TIME_OF_DAY,Time of day,Unknown,11124,267,2.4002157497303127
+Test,AC_CLASS,Aircraft class,A,11124,10934,98.29198130169004
+Test,AC_CLASS,Aircraft class,B,11124,124,1.1147069399496583
+Test,AC_CLASS,Aircraft class,C,11124,0,0.0
+Test,AC_CLASS,Aircraft class,J,11124,0,0.0
+Test,AC_CLASS,Aircraft class,Unknown,11124,66,0.593311758360302
+Test,TYPE_ENG,Engine type,A,11124,1062,9.546925566343042
+Test,TYPE_ENG,Engine type,B,11124,13,0.11686443725278677
+Test,TYPE_ENG,Engine type,C,11124,269,2.418194893923049
+Test,TYPE_ENG,Engine type,D,11124,9586,86.17403811578569
+Test,TYPE_ENG,Engine type,F,11124,119,1.0697590794678173
+Test,TYPE_ENG,Engine type,Unknown,11124,75,0.674217907227616
+Test,NUM_ENGS,Engine count,1,11124,1100,9.888529306005035
+Test,NUM_ENGS,Engine count,2,11124,9822,88.29557713052859
+Test,NUM_ENGS,Engine count,3,11124,70,0.6292700467457749
+Test,NUM_ENGS,Engine count,4,11124,48,0.43149946062567424
+Test,NUM_ENGS,Engine count,Unknown,11124,84,0.7551240560949298
+Targets,aircraft_mass_class,Aircraft mass class,1,5936,6,0.10107816711590296
+Targets,aircraft_mass_class,Aircraft mass class,2,5936,67,1.1287061994609164
+Targets,aircraft_mass_class,Aircraft mass class,3,5936,293,4.935983827493262
+Targets,aircraft_mass_class,Aircraft mass class,4,5936,5403,91.02088948787062
+Targets,aircraft_mass_class,Aircraft mass class,5,5936,150,2.526954177897574
+Targets,aircraft_mass_class,Aircraft mass class,Unknown,5936,17,0.2863881401617251
+Targets,phase,Flight phase,Approach,5936,2351,39.60579514824798
+Targets,phase,Flight phase,Climb,5936,683,11.506064690026955
+Targets,phase,Flight phase,Landing Roll,5936,1738,29.278975741239893
+Targets,phase,Flight phase,Take-off Run,5936,1164,19.609164420485175
+Targets,bird_size_reported,Bird size,Large,5936,281,4.7338274932614555
+Targets,bird_size_reported,Bird size,Medium,5936,742,12.5
+Targets,bird_size_reported,Bird size,Small,5936,3879,65.34703504043127
+Targets,bird_size_reported,Bird size,Unknown,5936,1034,17.419137466307276
+Targets,number_struck_category,Number struck,1,5936,5116,86.18598382749326
+Targets,number_struck_category,Number struck,11-100,5936,50,0.8423180592991913
+Targets,number_struck_category,Number struck,2-10,5936,764,12.870619946091644
+Targets,number_struck_category,Number struck,More than 100,5936,5,0.08423180592991913
+Targets,number_struck_category,Number struck,Unknown,5936,1,0.016846361185983826
+Targets,TIME_OF_DAY,Time of day,Dawn,5936,177,2.9818059299191373
+Targets,TIME_OF_DAY,Time of day,Day,5936,3685,62.078840970350406
+Targets,TIME_OF_DAY,Time of day,Dusk,5936,215,3.621967654986523
+Targets,TIME_OF_DAY,Time of day,Night,5936,1295,21.816037735849058
+Targets,TIME_OF_DAY,Time of day,Unknown,5936,564,9.501347708894878
+Targets,AC_CLASS,Aircraft class,A,5936,5915,99.64622641509433
+Targets,AC_CLASS,Aircraft class,B,5936,7,0.1179245283018868
+Targets,AC_CLASS,Aircraft class,C,5936,0,0.0
+Targets,AC_CLASS,Aircraft class,J,5936,0,0.0
+Targets,AC_CLASS,Aircraft class,Unknown,5936,14,0.2358490566037736
+Targets,TYPE_ENG,Engine type,A,5936,38,0.6401617250673854
+Targets,TYPE_ENG,Engine type,B,5936,0,0.0
+Targets,TYPE_ENG,Engine type,C,5936,49,0.8254716981132075
+Targets,TYPE_ENG,Engine type,D,5936,5826,98.14690026954177
+Targets,TYPE_ENG,Engine type,F,5936,7,0.1179245283018868
+Targets,TYPE_ENG,Engine type,Unknown,5936,16,0.2695417789757412
+Targets,NUM_ENGS,Engine count,1,5936,14,0.2358490566037736
+Targets,NUM_ENGS,Engine count,2,5936,5809,97.86051212938006
+Targets,NUM_ENGS,Engine count,3,5936,56,0.9433962264150944
+Targets,NUM_ENGS,Engine count,4,5936,40,0.6738544474393531
+Targets,NUM_ENGS,Engine count,Unknown,5936,17,0.2863881401617251
+Recent targets,aircraft_mass_class,Aircraft mass class,1,1615,1,0.06191950464396285
+Recent targets,aircraft_mass_class,Aircraft mass class,2,1615,6,0.3715170278637771
+Recent targets,aircraft_mass_class,Aircraft mass class,3,1615,37,2.291021671826625
+Recent targets,aircraft_mass_class,Aircraft mass class,4,1615,1525,94.42724458204334
+Recent targets,aircraft_mass_class,Aircraft mass class,5,1615,39,2.414860681114551
+Recent targets,aircraft_mass_class,Aircraft mass class,Unknown,1615,7,0.43343653250773995
+Recent targets,phase,Flight phase,Approach,1615,615,38.080495356037154
+Recent targets,phase,Flight phase,Climb,1615,168,10.402476780185758
+Recent targets,phase,Flight phase,Landing Roll,1615,443,27.430340557275542
+Recent targets,phase,Flight phase,Take-off Run,1615,389,24.08668730650155
+Recent targets,bird_size_reported,Bird size,Large,1615,57,3.5294117647058822
+Recent targets,bird_size_reported,Bird size,Medium,1615,149,9.226006191950464
+Recent targets,bird_size_reported,Bird size,Small,1615,1025,63.46749226006192
+Recent targets,bird_size_reported,Bird size,Unknown,1615,384,23.777089783281735
+Recent targets,number_struck_category,Number struck,1,1615,1407,87.12074303405572
+Recent targets,number_struck_category,Number struck,11-100,1615,8,0.4953560371517028
+Recent targets,number_struck_category,Number struck,2-10,1615,199,12.321981424148607
+Recent targets,number_struck_category,Number struck,More than 100,1615,1,0.06191950464396285
+Recent targets,number_struck_category,Number struck,Unknown,1615,0,0.0
+Recent targets,TIME_OF_DAY,Time of day,Dawn,1615,41,2.538699690402477
+Recent targets,TIME_OF_DAY,Time of day,Day,1615,1078,66.74922600619195
+Recent targets,TIME_OF_DAY,Time of day,Dusk,1615,52,3.219814241486068
+Recent targets,TIME_OF_DAY,Time of day,Night,1615,375,23.21981424148607
+Recent targets,TIME_OF_DAY,Time of day,Unknown,1615,69,4.272445820433436
+Recent targets,AC_CLASS,Aircraft class,A,1615,1608,99.56656346749226
+Recent targets,AC_CLASS,Aircraft class,B,1615,2,0.1238390092879257
+Recent targets,AC_CLASS,Aircraft class,C,1615,0,0.0
+Recent targets,AC_CLASS,Aircraft class,J,1615,0,0.0
+Recent targets,AC_CLASS,Aircraft class,Unknown,1615,5,0.30959752321981426
+Recent targets,TYPE_ENG,Engine type,A,1615,3,0.18575851393188855
+Recent targets,TYPE_ENG,Engine type,B,1615,0,0.0
+Recent targets,TYPE_ENG,Engine type,C,1615,6,0.3715170278637771
+Recent targets,TYPE_ENG,Engine type,D,1615,1598,98.94736842105263
+Recent targets,TYPE_ENG,Engine type,F,1615,2,0.1238390092879257
+Recent targets,TYPE_ENG,Engine type,Unknown,1615,6,0.3715170278637771
+Recent targets,NUM_ENGS,Engine count,1,1615,3,0.18575851393188855
+Recent targets,NUM_ENGS,Engine count,2,1615,1597,98.88544891640866
+Recent targets,NUM_ENGS,Engine count,3,1615,3,0.18575851393188855
+Recent targets,NUM_ENGS,Engine count,4,1615,5,0.30959752321981426
+Recent targets,NUM_ENGS,Engine count,Unknown,1615,7,0.43343653250773995
+National all,aircraft_mass_class,Aircraft mass class,1,46167,3985,8.631706630277037
+National all,aircraft_mass_class,Aircraft mass class,2,46167,2384,5.163861632767994
+National all,aircraft_mass_class,Aircraft mass class,3,46167,6713,14.540689236900816
+National all,aircraft_mass_class,Aircraft mass class,4,46167,32574,70.5568912859835
+National all,aircraft_mass_class,Aircraft mass class,5,46167,253,0.5480104836788182
+National all,aircraft_mass_class,Aircraft mass class,Unknown,46167,258,0.5588407303918383
+National all,phase,Flight phase,Approach,46167,20668,44.76790781293998
+National all,phase,Flight phase,Climb,46167,6093,13.197738644486321
+National all,phase,Flight phase,Landing Roll,46167,11788,25.53338965061624
+National all,phase,Flight phase,Take-off Run,46167,7618,16.500963891957458
+National all,bird_size_reported,Bird size,Large,46167,2243,4.858448675460827
+National all,bird_size_reported,Bird size,Medium,46167,5912,12.805683713474993
+National all,bird_size_reported,Bird size,Small,46167,29316,63.49990252777958
+National all,bird_size_reported,Bird size,Unknown,46167,8696,18.8359650832846
+National all,number_struck_category,Number struck,1,46167,40328,87.3524378885351
+National all,number_struck_category,Number struck,11-100,46167,303,0.6563129508090194
+National all,number_struck_category,Number struck,2-10,46167,5498,11.908939285636928
+National all,number_struck_category,Number struck,More than 100,46167,7,0.015162345398228172
+National all,number_struck_category,Number struck,Unknown,46167,31,0.06714752962072476
+National all,TIME_OF_DAY,Time of day,Dawn,46167,1488,3.2230814217947885
+National all,TIME_OF_DAY,Time of day,Day,46167,28148,60.96995689561808
+National all,TIME_OF_DAY,Time of day,Dusk,46167,2208,4.782636948469686
+National all,TIME_OF_DAY,Time of day,Night,46167,11254,24.37671930166569
+National all,TIME_OF_DAY,Time of day,Unknown,46167,3069,6.647605432451751
+National all,AC_CLASS,Aircraft class,A,46167,45418,98.37762904238959
+National all,AC_CLASS,Aircraft class,B,46167,475,1.0288734377369118
+National all,AC_CLASS,Aircraft class,C,46167,2,0.004332098685208049
+National all,AC_CLASS,Aircraft class,J,46167,2,0.004332098685208049
+National all,AC_CLASS,Aircraft class,Unknown,46167,270,0.5848333225030866
+National all,TYPE_ENG,Engine type,A,46167,4005,8.675027617129118
+National all,TYPE_ENG,Engine type,B,46167,35,0.07581172699114086
+National all,TYPE_ENG,Engine type,C,46167,1910,4.137154244373686
+National all,TYPE_ENG,Engine type,D,46167,39464,85.48097125652522
+National all,TYPE_ENG,Engine type,F,46167,431,0.9335672666623346
+National all,TYPE_ENG,Engine type,Unknown,46167,322,0.6974678883184959
+National all,NUM_ENGS,Engine count,1,46167,4063,8.800658479000152
+National all,NUM_ENGS,Engine count,2,46167,40732,88.22752182294712
+National all,NUM_ENGS,Engine count,3,46167,758,1.6418654016938505
+National all,NUM_ENGS,Engine count,4,46167,268,0.5805012238178786
+National all,NUM_ENGS,Engine count,Unknown,46167,346,0.7494530725409925
+DEN,aircraft_mass_class,Aircraft mass class,1,1780,0,0.0
+DEN,aircraft_mass_class,Aircraft mass class,2,1780,5,0.2808988764044944
+DEN,aircraft_mass_class,Aircraft mass class,3,1780,122,6.853932584269663
+DEN,aircraft_mass_class,Aircraft mass class,4,1780,1632,91.68539325842697
+DEN,aircraft_mass_class,Aircraft mass class,5,1780,10,0.5617977528089888
+DEN,aircraft_mass_class,Aircraft mass class,Unknown,1780,11,0.6179775280898876
+DEN,phase,Flight phase,Approach,1780,314,17.640449438202246
+DEN,phase,Flight phase,Climb,1780,138,7.752808988764045
+DEN,phase,Flight phase,Landing Roll,1780,847,47.58426966292135
+DEN,phase,Flight phase,Take-off Run,1780,481,27.02247191011236
+DEN,bird_size_reported,Bird size,Large,1780,30,1.6853932584269662
+DEN,bird_size_reported,Bird size,Medium,1780,121,6.797752808988764
+DEN,bird_size_reported,Bird size,Small,1780,1420,79.7752808988764
+DEN,bird_size_reported,Bird size,Unknown,1780,209,11.741573033707866
+DEN,number_struck_category,Number struck,1,1780,1527,85.78651685393258
+DEN,number_struck_category,Number struck,11-100,1780,6,0.33707865168539325
+DEN,number_struck_category,Number struck,2-10,1780,247,13.876404494382022
+DEN,number_struck_category,Number struck,More than 100,1780,0,0.0
+DEN,number_struck_category,Number struck,Unknown,1780,0,0.0
+DEN,TIME_OF_DAY,Time of day,Dawn,1780,27,1.5168539325842696
+DEN,TIME_OF_DAY,Time of day,Day,1780,1237,69.49438202247191
+DEN,TIME_OF_DAY,Time of day,Dusk,1780,50,2.808988764044944
+DEN,TIME_OF_DAY,Time of day,Night,1780,154,8.651685393258427
+DEN,TIME_OF_DAY,Time of day,Unknown,1780,312,17.528089887640448
+DEN,AC_CLASS,Aircraft class,A,1780,1770,99.43820224719101
+DEN,AC_CLASS,Aircraft class,B,1780,0,0.0
+DEN,AC_CLASS,Aircraft class,C,1780,0,0.0
+DEN,AC_CLASS,Aircraft class,J,1780,0,0.0
+DEN,AC_CLASS,Aircraft class,Unknown,1780,10,0.5617977528089888
+DEN,TYPE_ENG,Engine type,A,1780,0,0.0
+DEN,TYPE_ENG,Engine type,B,1780,0,0.0
+DEN,TYPE_ENG,Engine type,C,1780,18,1.0112359550561798
+DEN,TYPE_ENG,Engine type,D,1780,1752,98.42696629213484
+DEN,TYPE_ENG,Engine type,F,1780,0,0.0
+DEN,TYPE_ENG,Engine type,Unknown,1780,10,0.5617977528089888
+DEN,NUM_ENGS,Engine count,1,1780,2,0.11235955056179775
+DEN,NUM_ENGS,Engine count,2,1780,1755,98.59550561797752
+DEN,NUM_ENGS,Engine count,3,1780,9,0.5056179775280899
+DEN,NUM_ENGS,Engine count,4,1780,3,0.16853932584269662
+DEN,NUM_ENGS,Engine count,Unknown,1780,11,0.6179775280898876
+JFK,aircraft_mass_class,Aircraft mass class,1,810,0,0.0
+JFK,aircraft_mass_class,Aircraft mass class,2,810,0,0.0
+JFK,aircraft_mass_class,Aircraft mass class,3,810,17,2.0987654320987654
+JFK,aircraft_mass_class,Aircraft mass class,4,810,733,90.49382716049382
+JFK,aircraft_mass_class,Aircraft mass class,5,810,60,7.407407407407407
+JFK,aircraft_mass_class,Aircraft mass class,Unknown,810,0,0.0
+JFK,phase,Flight phase,Approach,810,466,57.53086419753087
+JFK,phase,Flight phase,Climb,810,82,10.123456790123457
+JFK,phase,Flight phase,Landing Roll,810,166,20.493827160493826
+JFK,phase,Flight phase,Take-off Run,810,96,11.851851851851851
+JFK,bird_size_reported,Bird size,Large,810,55,6.790123456790123
+JFK,bird_size_reported,Bird size,Medium,810,117,14.444444444444445
+JFK,bird_size_reported,Bird size,Small,810,482,59.50617283950617
+JFK,bird_size_reported,Bird size,Unknown,810,156,19.25925925925926
+JFK,number_struck_category,Number struck,1,810,683,84.32098765432099
+JFK,number_struck_category,Number struck,11-100,810,10,1.2345679012345678
+JFK,number_struck_category,Number struck,2-10,810,115,14.197530864197532
+JFK,number_struck_category,Number struck,More than 100,810,1,0.12345679012345678
+JFK,number_struck_category,Number struck,Unknown,810,1,0.12345679012345678
+JFK,TIME_OF_DAY,Time of day,Dawn,810,34,4.197530864197531
+JFK,TIME_OF_DAY,Time of day,Day,810,412,50.864197530864196
+JFK,TIME_OF_DAY,Time of day,Dusk,810,29,3.580246913580247
+JFK,TIME_OF_DAY,Time of day,Night,810,308,38.02469135802469
+JFK,TIME_OF_DAY,Time of day,Unknown,810,27,3.3333333333333335
+JFK,AC_CLASS,Aircraft class,A,810,810,100.0
+JFK,AC_CLASS,Aircraft class,B,810,0,0.0
+JFK,AC_CLASS,Aircraft class,C,810,0,0.0
+JFK,AC_CLASS,Aircraft class,J,810,0,0.0
+JFK,AC_CLASS,Aircraft class,Unknown,810,0,0.0
+JFK,TYPE_ENG,Engine type,A,810,0,0.0
+JFK,TYPE_ENG,Engine type,B,810,0,0.0
+JFK,TYPE_ENG,Engine type,C,810,0,0.0
+JFK,TYPE_ENG,Engine type,D,810,810,100.0
+JFK,TYPE_ENG,Engine type,F,810,0,0.0
+JFK,TYPE_ENG,Engine type,Unknown,810,0,0.0
+JFK,NUM_ENGS,Engine count,1,810,0,0.0
+JFK,NUM_ENGS,Engine count,2,810,786,97.03703703703704
+JFK,NUM_ENGS,Engine count,3,810,4,0.49382716049382713
+JFK,NUM_ENGS,Engine count,4,810,20,2.4691358024691357
+JFK,NUM_ENGS,Engine count,Unknown,810,0,0.0
+MIA,aircraft_mass_class,Aircraft mass class,1,570,0,0.0
+MIA,aircraft_mass_class,Aircraft mass class,2,570,2,0.3508771929824561
+MIA,aircraft_mass_class,Aircraft mass class,3,570,26,4.56140350877193
+MIA,aircraft_mass_class,Aircraft mass class,4,570,529,92.80701754385964
+MIA,aircraft_mass_class,Aircraft mass class,5,570,11,1.9298245614035088
+MIA,aircraft_mass_class,Aircraft mass class,Unknown,570,2,0.3508771929824561
+MIA,phase,Flight phase,Approach,570,233,40.87719298245614
+MIA,phase,Flight phase,Climb,570,99,17.36842105263158
+MIA,phase,Flight phase,Landing Roll,570,121,21.228070175438596
+MIA,phase,Flight phase,Take-off Run,570,117,20.526315789473685
+MIA,bird_size_reported,Bird size,Large,570,37,6.491228070175438
+MIA,bird_size_reported,Bird size,Medium,570,37,6.491228070175438
+MIA,bird_size_reported,Bird size,Small,570,338,59.29824561403509
+MIA,bird_size_reported,Bird size,Unknown,570,158,27.719298245614034
+MIA,number_struck_category,Number struck,1,570,514,90.17543859649123
+MIA,number_struck_category,Number struck,11-100,570,0,0.0
+MIA,number_struck_category,Number struck,2-10,570,56,9.824561403508772
+MIA,number_struck_category,Number struck,More than 100,570,0,0.0
+MIA,number_struck_category,Number struck,Unknown,570,0,0.0
+MIA,TIME_OF_DAY,Time of day,Dawn,570,9,1.5789473684210527
+MIA,TIME_OF_DAY,Time of day,Day,570,436,76.49122807017544
+MIA,TIME_OF_DAY,Time of day,Dusk,570,20,3.508771929824561
+MIA,TIME_OF_DAY,Time of day,Night,570,65,11.403508771929825
+MIA,TIME_OF_DAY,Time of day,Unknown,570,40,7.017543859649122
+MIA,AC_CLASS,Aircraft class,A,570,569,99.82456140350877
+MIA,AC_CLASS,Aircraft class,B,570,0,0.0
+MIA,AC_CLASS,Aircraft class,C,570,0,0.0
+MIA,AC_CLASS,Aircraft class,J,570,0,0.0
+MIA,AC_CLASS,Aircraft class,Unknown,570,1,0.17543859649122806
+MIA,TYPE_ENG,Engine type,A,570,1,0.17543859649122806
+MIA,TYPE_ENG,Engine type,B,570,0,0.0
+MIA,TYPE_ENG,Engine type,C,570,4,0.7017543859649122
+MIA,TYPE_ENG,Engine type,D,570,563,98.7719298245614
+MIA,TYPE_ENG,Engine type,F,570,0,0.0
+MIA,TYPE_ENG,Engine type,Unknown,570,2,0.3508771929824561
+MIA,NUM_ENGS,Engine count,1,570,0,0.0
+MIA,NUM_ENGS,Engine count,2,570,560,98.24561403508773
+MIA,NUM_ENGS,Engine count,3,570,3,0.5263157894736842
+MIA,NUM_ENGS,Engine count,4,570,5,0.8771929824561403
+MIA,NUM_ENGS,Engine count,Unknown,570,2,0.3508771929824561
+MSP,aircraft_mass_class,Aircraft mass class,1,433,0,0.0
+MSP,aircraft_mass_class,Aircraft mass class,2,433,5,1.1547344110854503
+MSP,aircraft_mass_class,Aircraft mass class,3,433,25,5.773672055427252
+MSP,aircraft_mass_class,Aircraft mass class,4,433,401,92.60969976905312
+MSP,aircraft_mass_class,Aircraft mass class,5,433,0,0.0
+MSP,aircraft_mass_class,Aircraft mass class,Unknown,433,2,0.4618937644341801
+MSP,phase,Flight phase,Approach,433,260,60.046189376443415
+MSP,phase,Flight phase,Climb,433,42,9.699769053117782
+MSP,phase,Flight phase,Landing Roll,433,67,15.473441108545035
+MSP,phase,Flight phase,Take-off Run,433,64,14.780600461893764
+MSP,bird_size_reported,Bird size,Large,433,34,7.852193995381063
+MSP,bird_size_reported,Bird size,Medium,433,63,14.549653579676674
+MSP,bird_size_reported,Bird size,Small,433,268,61.89376443418014
+MSP,bird_size_reported,Bird size,Unknown,433,68,15.704387990762125
+MSP,number_struck_category,Number struck,1,433,382,88.2217090069284
+MSP,number_struck_category,Number struck,11-100,433,3,0.6928406466512702
+MSP,number_struck_category,Number struck,2-10,433,48,11.085450346420323
+MSP,number_struck_category,Number struck,More than 100,433,0,0.0
+MSP,number_struck_category,Number struck,Unknown,433,0,0.0
+MSP,TIME_OF_DAY,Time of day,Dawn,433,12,2.771362586605081
+MSP,TIME_OF_DAY,Time of day,Day,433,235,54.27251732101617
+MSP,TIME_OF_DAY,Time of day,Dusk,433,19,4.387990762124711
+MSP,TIME_OF_DAY,Time of day,Night,433,124,28.637413394919168
+MSP,TIME_OF_DAY,Time of day,Unknown,433,43,9.930715935334874
+MSP,AC_CLASS,Aircraft class,A,433,432,99.7690531177829
+MSP,AC_CLASS,Aircraft class,B,433,0,0.0
+MSP,AC_CLASS,Aircraft class,C,433,0,0.0
+MSP,AC_CLASS,Aircraft class,J,433,0,0.0
+MSP,AC_CLASS,Aircraft class,Unknown,433,1,0.23094688221709006
+MSP,TYPE_ENG,Engine type,A,433,1,0.23094688221709006
+MSP,TYPE_ENG,Engine type,B,433,0,0.0
+MSP,TYPE_ENG,Engine type,C,433,3,0.6928406466512702
+MSP,TYPE_ENG,Engine type,D,433,427,98.61431870669746
+MSP,TYPE_ENG,Engine type,F,433,0,0.0
+MSP,TYPE_ENG,Engine type,Unknown,433,2,0.4618937644341801
+MSP,NUM_ENGS,Engine count,1,433,1,0.23094688221709006
+MSP,NUM_ENGS,Engine count,2,433,423,97.6905311778291
+MSP,NUM_ENGS,Engine count,3,433,7,1.6166281755196306
+MSP,NUM_ENGS,Engine count,4,433,0,0.0
+MSP,NUM_ENGS,Engine count,Unknown,433,2,0.4618937644341801
+BOS,aircraft_mass_class,Aircraft mass class,1,729,3,0.411522633744856
+BOS,aircraft_mass_class,Aircraft mass class,2,729,29,3.978052126200274
+BOS,aircraft_mass_class,Aircraft mass class,3,729,35,4.801097393689986
+BOS,aircraft_mass_class,Aircraft mass class,4,729,639,87.65432098765432
+BOS,aircraft_mass_class,Aircraft mass class,5,729,21,2.880658436213992
+BOS,aircraft_mass_class,Aircraft mass class,Unknown,729,2,0.27434842249657065
+BOS,phase,Flight phase,Approach,729,325,44.58161865569273
+BOS,phase,Flight phase,Climb,729,95,13.031550068587105
+BOS,phase,Flight phase,Landing Roll,729,151,20.713305898491083
+BOS,phase,Flight phase,Take-off Run,729,158,21.67352537722908
+BOS,bird_size_reported,Bird size,Large,729,56,7.681755829903978
+BOS,bird_size_reported,Bird size,Medium,729,191,26.200274348422496
+BOS,bird_size_reported,Bird size,Small,729,394,54.046639231824415
+BOS,bird_size_reported,Bird size,Unknown,729,88,12.071330589849108
+BOS,number_struck_category,Number struck,1,729,593,81.3443072702332
+BOS,number_struck_category,Number struck,11-100,729,7,0.9602194787379973
+BOS,number_struck_category,Number struck,2-10,729,129,17.695473251028808
+BOS,number_struck_category,Number struck,More than 100,729,0,0.0
+BOS,number_struck_category,Number struck,Unknown,729,0,0.0
+BOS,TIME_OF_DAY,Time of day,Dawn,729,31,4.252400548696845
+BOS,TIME_OF_DAY,Time of day,Day,729,467,64.06035665294925
+BOS,TIME_OF_DAY,Time of day,Dusk,729,28,3.840877914951989
+BOS,TIME_OF_DAY,Time of day,Night,729,185,25.377229080932786
+BOS,TIME_OF_DAY,Time of day,Unknown,729,18,2.4691358024691357
+BOS,AC_CLASS,Aircraft class,A,729,724,99.31412894375858
+BOS,AC_CLASS,Aircraft class,B,729,3,0.411522633744856
+BOS,AC_CLASS,Aircraft class,C,729,0,0.0
+BOS,AC_CLASS,Aircraft class,J,729,0,0.0
+BOS,AC_CLASS,Aircraft class,Unknown,729,2,0.27434842249657065
+BOS,TYPE_ENG,Engine type,A,729,26,3.5665294924554183
+BOS,TYPE_ENG,Engine type,B,729,0,0.0
+BOS,TYPE_ENG,Engine type,C,729,13,1.7832647462277091
+BOS,TYPE_ENG,Engine type,D,729,685,93.96433470507544
+BOS,TYPE_ENG,Engine type,F,729,3,0.411522633744856
+BOS,TYPE_ENG,Engine type,Unknown,729,2,0.27434842249657065
+BOS,NUM_ENGS,Engine count,1,729,3,0.411522633744856
+BOS,NUM_ENGS,Engine count,2,729,717,98.35390946502058
+BOS,NUM_ENGS,Engine count,3,729,3,0.411522633744856
+BOS,NUM_ENGS,Engine count,4,729,4,0.5486968449931413
+BOS,NUM_ENGS,Engine count,Unknown,729,2,0.27434842249657065
+SFO,aircraft_mass_class,Aircraft mass class,1,493,0,0.0
+SFO,aircraft_mass_class,Aircraft mass class,2,493,3,0.6085192697768763
+SFO,aircraft_mass_class,Aircraft mass class,3,493,36,7.302231237322515
+SFO,aircraft_mass_class,Aircraft mass class,4,493,406,82.3529411764706
+SFO,aircraft_mass_class,Aircraft mass class,5,493,48,9.736308316430021
+SFO,aircraft_mass_class,Aircraft mass class,Unknown,493,0,0.0
+SFO,phase,Flight phase,Approach,493,210,42.59634888438134
+SFO,phase,Flight phase,Climb,493,48,9.736308316430021
+SFO,phase,Flight phase,Landing Roll,493,151,30.628803245436107
+SFO,phase,Flight phase,Take-off Run,493,84,17.038539553752535
+SFO,bird_size_reported,Bird size,Large,493,49,9.939148073022313
+SFO,bird_size_reported,Bird size,Medium,493,112,22.718052738336713
+SFO,bird_size_reported,Bird size,Small,493,272,55.172413793103445
+SFO,bird_size_reported,Bird size,Unknown,493,60,12.170385395537526
+SFO,number_struck_category,Number struck,1,493,392,79.5131845841785
+SFO,number_struck_category,Number struck,11-100,493,21,4.259634888438134
+SFO,number_struck_category,Number struck,2-10,493,77,15.61866125760649
+SFO,number_struck_category,Number struck,More than 100,493,3,0.6085192697768763
+SFO,number_struck_category,Number struck,Unknown,493,0,0.0
+SFO,TIME_OF_DAY,Time of day,Dawn,493,21,4.259634888438134
+SFO,TIME_OF_DAY,Time of day,Day,493,280,56.79513184584179
+SFO,TIME_OF_DAY,Time of day,Dusk,493,17,3.4482758620689653
+SFO,TIME_OF_DAY,Time of day,Night,493,132,26.774847870182555
+SFO,TIME_OF_DAY,Time of day,Unknown,493,43,8.72210953346856
+SFO,AC_CLASS,Aircraft class,A,493,493,100.0
+SFO,AC_CLASS,Aircraft class,B,493,0,0.0
+SFO,AC_CLASS,Aircraft class,C,493,0,0.0
+SFO,AC_CLASS,Aircraft class,J,493,0,0.0
+SFO,AC_CLASS,Aircraft class,Unknown,493,0,0.0
+SFO,TYPE_ENG,Engine type,A,493,1,0.2028397565922921
+SFO,TYPE_ENG,Engine type,B,493,0,0.0
+SFO,TYPE_ENG,Engine type,C,493,0,0.0
+SFO,TYPE_ENG,Engine type,D,493,492,99.7971602434077
+SFO,TYPE_ENG,Engine type,F,493,0,0.0
+SFO,TYPE_ENG,Engine type,Unknown,493,0,0.0
+SFO,NUM_ENGS,Engine count,1,493,0,0.0
+SFO,NUM_ENGS,Engine count,2,493,484,98.17444219066937
+SFO,NUM_ENGS,Engine count,3,493,1,0.2028397565922921
+SFO,NUM_ENGS,Engine count,4,493,8,1.6227180527383367
+SFO,NUM_ENGS,Engine count,Unknown,493,0,0.0
+SAT,aircraft_mass_class,Aircraft mass class,1,560,3,0.5357142857142857
+SAT,aircraft_mass_class,Aircraft mass class,2,560,11,1.9642857142857142
+SAT,aircraft_mass_class,Aircraft mass class,3,560,13,2.3214285714285716
+SAT,aircraft_mass_class,Aircraft mass class,4,560,533,95.17857142857143
+SAT,aircraft_mass_class,Aircraft mass class,5,560,0,0.0
+SAT,aircraft_mass_class,Aircraft mass class,Unknown,560,0,0.0
+SAT,phase,Flight phase,Approach,560,289,51.607142857142854
+SAT,phase,Flight phase,Climb,560,86,15.357142857142858
+SAT,phase,Flight phase,Landing Roll,560,93,16.607142857142858
+SAT,phase,Flight phase,Take-off Run,560,92,16.428571428571427
+SAT,bird_size_reported,Bird size,Large,560,8,1.4285714285714286
+SAT,bird_size_reported,Bird size,Medium,560,35,6.25
+SAT,bird_size_reported,Bird size,Small,560,330,58.92857142857143
+SAT,bird_size_reported,Bird size,Unknown,560,187,33.392857142857146
+SAT,number_struck_category,Number struck,1,560,519,92.67857142857143
+SAT,number_struck_category,Number struck,11-100,560,0,0.0
+SAT,number_struck_category,Number struck,2-10,560,41,7.321428571428571
+SAT,number_struck_category,Number struck,More than 100,560,0,0.0
+SAT,number_struck_category,Number struck,Unknown,560,0,0.0
+SAT,TIME_OF_DAY,Time of day,Dawn,560,21,3.75
+SAT,TIME_OF_DAY,Time of day,Day,560,295,52.67857142857143
+SAT,TIME_OF_DAY,Time of day,Dusk,560,20,3.5714285714285716
+SAT,TIME_OF_DAY,Time of day,Night,560,174,31.071428571428573
+SAT,TIME_OF_DAY,Time of day,Unknown,560,50,8.928571428571429
+SAT,AC_CLASS,Aircraft class,A,560,557,99.46428571428571
+SAT,AC_CLASS,Aircraft class,B,560,3,0.5357142857142857
+SAT,AC_CLASS,Aircraft class,C,560,0,0.0
+SAT,AC_CLASS,Aircraft class,J,560,0,0.0
+SAT,AC_CLASS,Aircraft class,Unknown,560,0,0.0
+SAT,TYPE_ENG,Engine type,A,560,1,0.17857142857142858
+SAT,TYPE_ENG,Engine type,B,560,0,0.0
+SAT,TYPE_ENG,Engine type,C,560,8,1.4285714285714286
+SAT,TYPE_ENG,Engine type,D,560,548,97.85714285714286
+SAT,TYPE_ENG,Engine type,F,560,3,0.5357142857142857
+SAT,TYPE_ENG,Engine type,Unknown,560,0,0.0
+SAT,NUM_ENGS,Engine count,1,560,5,0.8928571428571429
+SAT,NUM_ENGS,Engine count,2,560,527,94.10714285714286
+SAT,NUM_ENGS,Engine count,3,560,28,5.0
+SAT,NUM_ENGS,Engine count,4,560,0,0.0
+SAT,NUM_ENGS,Engine count,Unknown,560,0,0.0
+STL,aircraft_mass_class,Aircraft mass class,1,561,0,0.0
+STL,aircraft_mass_class,Aircraft mass class,2,561,12,2.1390374331550803
+STL,aircraft_mass_class,Aircraft mass class,3,561,19,3.3868092691622103
+STL,aircraft_mass_class,Aircraft mass class,4,561,530,94.4741532976827
+STL,aircraft_mass_class,Aircraft mass class,5,561,0,0.0
+STL,aircraft_mass_class,Aircraft mass class,Unknown,561,0,0.0
+STL,phase,Flight phase,Approach,561,254,45.27629233511586
+STL,phase,Flight phase,Climb,561,93,16.577540106951872
+STL,phase,Flight phase,Landing Roll,561,142,25.311942959001783
+STL,phase,Flight phase,Take-off Run,561,72,12.834224598930481
+STL,bird_size_reported,Bird size,Large,561,12,2.1390374331550803
+STL,bird_size_reported,Bird size,Medium,561,66,11.764705882352942
+STL,bird_size_reported,Bird size,Small,561,375,66.84491978609626
+STL,bird_size_reported,Bird size,Unknown,561,108,19.25133689839572
+STL,number_struck_category,Number struck,1,561,506,90.19607843137256
+STL,number_struck_category,Number struck,11-100,561,3,0.5347593582887701
+STL,number_struck_category,Number struck,2-10,561,51,9.090909090909092
+STL,number_struck_category,Number struck,More than 100,561,1,0.17825311942959002
+STL,number_struck_category,Number struck,Unknown,561,0,0.0
+STL,TIME_OF_DAY,Time of day,Dawn,561,22,3.9215686274509802
+STL,TIME_OF_DAY,Time of day,Day,561,323,57.57575757575758
+STL,TIME_OF_DAY,Time of day,Dusk,561,32,5.704099821746881
+STL,TIME_OF_DAY,Time of day,Night,561,153,27.272727272727273
+STL,TIME_OF_DAY,Time of day,Unknown,561,31,5.52584670231729
+STL,AC_CLASS,Aircraft class,A,561,560,99.82174688057042
+STL,AC_CLASS,Aircraft class,B,561,1,0.17825311942959002
+STL,AC_CLASS,Aircraft class,C,561,0,0.0
+STL,AC_CLASS,Aircraft class,J,561,0,0.0
+STL,AC_CLASS,Aircraft class,Unknown,561,0,0.0
+STL,TYPE_ENG,Engine type,A,561,8,1.4260249554367201
+STL,TYPE_ENG,Engine type,B,561,0,0.0
+STL,TYPE_ENG,Engine type,C,561,3,0.5347593582887701
+STL,TYPE_ENG,Engine type,D,561,549,97.86096256684492
+STL,TYPE_ENG,Engine type,F,561,1,0.17825311942959002
+STL,TYPE_ENG,Engine type,Unknown,561,0,0.0
+STL,NUM_ENGS,Engine count,1,561,3,0.5347593582887701
+STL,NUM_ENGS,Engine count,2,561,557,99.28698752228163
+STL,NUM_ENGS,Engine count,3,561,1,0.17825311942959002
+STL,NUM_ENGS,Engine count,4,561,0,0.0
+STL,NUM_ENGS,Engine count,Unknown,561,0,0.0
+Outer fold 1,aircraft_mass_class,Aircraft mass class,1,8027,1001,12.470412358290769
+Outer fold 1,aircraft_mass_class,Aircraft mass class,2,8027,519,6.465678335617292
+Outer fold 1,aircraft_mass_class,Aircraft mass class,3,8027,840,10.46468169926498
+Outer fold 1,aircraft_mass_class,Aircraft mass class,4,8027,5581,69.52784352809269
+Outer fold 1,aircraft_mass_class,Aircraft mass class,5,8027,32,0.39865454092438024
+Outer fold 1,aircraft_mass_class,Aircraft mass class,Unknown,8027,54,0.6727295378098916
+Outer fold 1,phase,Flight phase,Approach,8027,3630,45.22237448610938
+Outer fold 1,phase,Flight phase,Climb,8027,1104,13.753581661891117
+Outer fold 1,phase,Flight phase,Landing Roll,8027,2001,24.92836676217765
+Outer fold 1,phase,Flight phase,Take-off Run,8027,1292,16.09567708982185
+Outer fold 1,bird_size_reported,Bird size,Large,8027,375,4.671732901457581
+Outer fold 1,bird_size_reported,Bird size,Medium,8027,1604,19.98255886383456
+Outer fold 1,bird_size_reported,Bird size,Small,8027,4676,58.25339479257506
+Outer fold 1,bird_size_reported,Bird size,Unknown,8027,1372,17.092313442132802
+Outer fold 1,number_struck_category,Number struck,1,8027,6923,86.24641833810888
+Outer fold 1,number_struck_category,Number struck,11-100,8027,52,0.6478136290021178
+Outer fold 1,number_struck_category,Number struck,2-10,8027,1044,13.006104397657905
+Outer fold 1,number_struck_category,Number struck,More than 100,8027,0,0.0
+Outer fold 1,number_struck_category,Number struck,Unknown,8027,8,0.09966363523109506
+Outer fold 1,TIME_OF_DAY,Time of day,Dawn,8027,229,2.852871558490096
+Outer fold 1,TIME_OF_DAY,Time of day,Day,8027,5029,62.65105269714713
+Outer fold 1,TIME_OF_DAY,Time of day,Dusk,8027,361,4.497321539803164
+Outer fold 1,TIME_OF_DAY,Time of day,Night,8027,1924,23.96910427307836
+Outer fold 1,TIME_OF_DAY,Time of day,Unknown,8027,484,6.02964993148125
+Outer fold 1,AC_CLASS,Aircraft class,A,8027,7852,97.81985797931979
+Outer fold 1,AC_CLASS,Aircraft class,B,8027,109,1.35791703002367
+Outer fold 1,AC_CLASS,Aircraft class,C,8027,0,0.0
+Outer fold 1,AC_CLASS,Aircraft class,J,8027,0,0.0
+Outer fold 1,AC_CLASS,Aircraft class,Unknown,8027,66,0.8222249906565342
+Outer fold 1,TYPE_ENG,Engine type,A,8027,998,12.433038495079108
+Outer fold 1,TYPE_ENG,Engine type,B,8027,2,0.024915908807773765
+Outer fold 1,TYPE_ENG,Engine type,C,8027,564,7.026286283792201
+Outer fold 1,TYPE_ENG,Engine type,D,8027,6292,78.38544910925626
+Outer fold 1,TYPE_ENG,Engine type,F,8027,92,1.146131805157593
+Outer fold 1,TYPE_ENG,Engine type,Unknown,8027,79,0.9841783979070636
+Outer fold 1,NUM_ENGS,Engine count,1,8027,1063,13.242805531331756
+Outer fold 1,NUM_ENGS,Engine count,2,8027,6727,83.80465927494706
+Outer fold 1,NUM_ENGS,Engine count,3,8027,114,1.4202068020431045
+Outer fold 1,NUM_ENGS,Engine count,4,8027,36,0.44848635853992774
+Outer fold 1,NUM_ENGS,Engine count,Unknown,8027,87,1.0838420331381586
+Outer fold 2,aircraft_mass_class,Aircraft mass class,1,7195,635,8.825573314801947
+Outer fold 2,aircraft_mass_class,Aircraft mass class,2,7195,371,5.156358582348854
+Outer fold 2,aircraft_mass_class,Aircraft mass class,3,7195,977,13.578874218207089
+Outer fold 2,aircraft_mass_class,Aircraft mass class,4,7195,5118,71.13273106323835
+Outer fold 2,aircraft_mass_class,Aircraft mass class,5,7195,45,0.6254343293954134
+Outer fold 2,aircraft_mass_class,Aircraft mass class,Unknown,7195,49,0.6810284920083391
+Outer fold 2,phase,Flight phase,Approach,7195,3036,42.19596942321056
+Outer fold 2,phase,Flight phase,Climb,7195,1018,14.148714384989576
+Outer fold 2,phase,Flight phase,Landing Roll,7195,1908,26.518415566365533
+Outer fold 2,phase,Flight phase,Take-off Run,7195,1233,17.13690062543433
+Outer fold 2,bird_size_reported,Bird size,Large,7195,234,3.2522585128561503
+Outer fold 2,bird_size_reported,Bird size,Medium,7195,693,9.631688672689368
+Outer fold 2,bird_size_reported,Bird size,Small,7195,4697,65.28144544822794
+Outer fold 2,bird_size_reported,Bird size,Unknown,7195,1571,21.834607366226546
+Outer fold 2,number_struck_category,Number struck,1,7195,6300,87.56080611535789
+Outer fold 2,number_struck_category,Number struck,11-100,7195,45,0.6254343293954134
+Outer fold 2,number_struck_category,Number struck,2-10,7195,848,11.785962473940236
+Outer fold 2,number_struck_category,Number struck,More than 100,7195,1,0.01389854065323141
+Outer fold 2,number_struck_category,Number struck,Unknown,7195,1,0.01389854065323141
+Outer fold 2,TIME_OF_DAY,Time of day,Dawn,7195,253,3.516330785267547
+Outer fold 2,TIME_OF_DAY,Time of day,Day,7195,4460,61.98749131341209
+Outer fold 2,TIME_OF_DAY,Time of day,Dusk,7195,484,6.726893676164003
+Outer fold 2,TIME_OF_DAY,Time of day,Night,7195,1446,20.09728978457262
+Outer fold 2,TIME_OF_DAY,Time of day,Unknown,7195,552,7.671994440583739
+Outer fold 2,AC_CLASS,Aircraft class,A,7195,7077,98.3599722029187
+Outer fold 2,AC_CLASS,Aircraft class,B,7195,64,0.8895066018068103
+Outer fold 2,AC_CLASS,Aircraft class,C,7195,1,0.01389854065323141
+Outer fold 2,AC_CLASS,Aircraft class,J,7195,0,0.0
+Outer fold 2,AC_CLASS,Aircraft class,Unknown,7195,53,0.7366226546212647
+Outer fold 2,TYPE_ENG,Engine type,A,7195,628,8.728283530229326
+Outer fold 2,TYPE_ENG,Engine type,B,7195,26,0.3613620569840167
+Outer fold 2,TYPE_ENG,Engine type,C,7195,229,3.182765809589993
+Outer fold 2,TYPE_ENG,Engine type,D,7195,6191,86.04586518415566
+Outer fold 2,TYPE_ENG,Engine type,F,7195,59,0.8200138985406532
+Outer fold 2,TYPE_ENG,Engine type,Unknown,7195,62,0.8617095205003474
+Outer fold 2,NUM_ENGS,Engine count,1,7195,642,8.922863099374565
+Outer fold 2,NUM_ENGS,Engine count,2,7195,6382,88.70048644892286
+Outer fold 2,NUM_ENGS,Engine count,3,7195,80,1.111883252258513
+Outer fold 2,NUM_ENGS,Engine count,4,7195,26,0.3613620569840167
+Outer fold 2,NUM_ENGS,Engine count,Unknown,7195,65,0.9034051424600417
+Outer fold 3,aircraft_mass_class,Aircraft mass class,1,7826,647,8.26731408126757
+Outer fold 3,aircraft_mass_class,Aircraft mass class,2,7826,500,6.3889598773319705
+Outer fold 3,aircraft_mass_class,Aircraft mass class,3,7826,1694,21.645796064400717
+Outer fold 3,aircraft_mass_class,Aircraft mass class,4,7826,4893,62.52236135957066
+Outer fold 3,aircraft_mass_class,Aircraft mass class,5,7826,43,0.5494505494505495
+Outer fold 3,aircraft_mass_class,Aircraft mass class,Unknown,7826,49,0.6261180679785331
+Outer fold 3,phase,Flight phase,Approach,7826,3321,42.435471505238944
+Outer fold 3,phase,Flight phase,Climb,7826,1008,12.880143112701253
+Outer fold 3,phase,Flight phase,Landing Roll,7826,2085,26.641962688474315
+Outer fold 3,phase,Flight phase,Take-off Run,7826,1412,18.042422693585483
+Outer fold 3,bird_size_reported,Bird size,Large,7826,326,4.165601840020445
+Outer fold 3,bird_size_reported,Bird size,Medium,7826,1067,13.634040378226425
+Outer fold 3,bird_size_reported,Bird size,Small,7826,5097,65.12905698952211
+Outer fold 3,bird_size_reported,Bird size,Unknown,7826,1336,17.071300792231025
+Outer fold 3,number_struck_category,Number struck,1,7826,6781,86.64707385637618
+Outer fold 3,number_struck_category,Number struck,11-100,7826,55,0.7027855865065168
+Outer fold 3,number_struck_category,Number struck,2-10,7826,983,12.560695118834653
+Outer fold 3,number_struck_category,Number struck,More than 100,7826,2,0.025555839509327882
+Outer fold 3,number_struck_category,Number struck,Unknown,7826,5,0.0638895987733197
+Outer fold 3,TIME_OF_DAY,Time of day,Dawn,7826,262,3.3478149757219526
+Outer fold 3,TIME_OF_DAY,Time of day,Day,7826,4844,61.89624329159213
+Outer fold 3,TIME_OF_DAY,Time of day,Dusk,7826,341,4.357270636340404
+Outer fold 3,TIME_OF_DAY,Time of day,Night,7826,1827,23.34525939177102
+Outer fold 3,TIME_OF_DAY,Time of day,Unknown,7826,552,7.053411704574495
+Outer fold 3,AC_CLASS,Aircraft class,A,7826,7720,98.64554050600562
+Outer fold 3,AC_CLASS,Aircraft class,B,7826,57,0.7283414260158446
+Outer fold 3,AC_CLASS,Aircraft class,C,7826,1,0.012777919754663941
+Outer fold 3,AC_CLASS,Aircraft class,J,7826,1,0.012777919754663941
+Outer fold 3,AC_CLASS,Aircraft class,Unknown,7826,47,0.6005622284692053
+Outer fold 3,TYPE_ENG,Engine type,A,7826,701,8.957321748019423
+Outer fold 3,TYPE_ENG,Engine type,B,7826,2,0.025555839509327882
+Outer fold 3,TYPE_ENG,Engine type,C,7826,271,3.4628162535139277
+Outer fold 3,TYPE_ENG,Engine type,D,7826,6746,86.19984666496295
+Outer fold 3,TYPE_ENG,Engine type,F,7826,48,0.6133401482238692
+Outer fold 3,TYPE_ENG,Engine type,Unknown,7826,58,0.7411193457705085
+Outer fold 3,NUM_ENGS,Engine count,1,7826,675,8.62509583439816
+Outer fold 3,NUM_ENGS,Engine count,2,7826,6902,88.19320214669052
+Outer fold 3,NUM_ENGS,Engine count,3,7826,165,2.10835675951955
+Outer fold 3,NUM_ENGS,Engine count,4,7826,23,0.2938921543572706
+Outer fold 3,NUM_ENGS,Engine count,Unknown,7826,61,0.7794531050345004
+Outer fold 4,aircraft_mass_class,Aircraft mass class,1,11583,1032,8.90960890960891
+Outer fold 4,aircraft_mass_class,Aircraft mass class,2,11583,460,3.971337304670638
+Outer fold 4,aircraft_mass_class,Aircraft mass class,3,11583,1204,10.39454372787706
+Outer fold 4,aircraft_mass_class,Aircraft mass class,4,11583,8787,75.86117586117587
+Outer fold 4,aircraft_mass_class,Aircraft mass class,5,11583,52,0.4489337822671156
+Outer fold 4,aircraft_mass_class,Aircraft mass class,Unknown,11583,48,0.4144004144004144
+Outer fold 4,phase,Flight phase,Approach,11583,5294,45.70491237157904
+Outer fold 4,phase,Flight phase,Climb,11583,1544,13.329879996546664
+Outer fold 4,phase,Flight phase,Landing Roll,11583,2823,24.371924371924372
+Outer fold 4,phase,Flight phase,Take-off Run,11583,1922,16.593283259949928
+Outer fold 4,bird_size_reported,Bird size,Large,11583,684,5.905205905205905
+Outer fold 4,bird_size_reported,Bird size,Medium,11583,1058,9.134075800742467
+Outer fold 4,bird_size_reported,Bird size,Small,11583,7351,63.46369679703013
+Outer fold 4,bird_size_reported,Bird size,Unknown,11583,2490,21.497021497021496
+Outer fold 4,number_struck_category,Number struck,1,11583,10282,88.76802210135544
+Outer fold 4,number_struck_category,Number struck,11-100,11583,53,0.4575671242337909
+Outer fold 4,number_struck_category,Number struck,2-10,11583,1240,10.705344038677373
+Outer fold 4,number_struck_category,Number struck,More than 100,11583,1,0.0086333419666753
+Outer fold 4,number_struck_category,Number struck,Unknown,11583,7,0.0604333937667271
+Outer fold 4,TIME_OF_DAY,Time of day,Dawn,11583,334,2.88353621686955
+Outer fold 4,TIME_OF_DAY,Time of day,Day,11583,6910,59.65639298972632
+Outer fold 4,TIME_OF_DAY,Time of day,Dusk,11583,507,4.377104377104377
+Outer fold 4,TIME_OF_DAY,Time of day,Night,11583,3009,25.977725977725978
+Outer fold 4,TIME_OF_DAY,Time of day,Unknown,11583,823,7.105240438573772
+Outer fold 4,AC_CLASS,Aircraft class,A,11583,11401,98.4287317620651
+Outer fold 4,AC_CLASS,Aircraft class,B,11583,135,1.1655011655011656
+Outer fold 4,AC_CLASS,Aircraft class,C,11583,0,0.0
+Outer fold 4,AC_CLASS,Aircraft class,J,11583,1,0.0086333419666753
+Outer fold 4,AC_CLASS,Aircraft class,Unknown,11583,46,0.3971337304670638
+Outer fold 4,TYPE_ENG,Engine type,A,11583,1002,8.650608650608651
+Outer fold 4,TYPE_ENG,Engine type,B,11583,1,0.0086333419666753
+Outer fold 4,TYPE_ENG,Engine type,C,11583,363,3.133903133903134
+Outer fold 4,TYPE_ENG,Engine type,D,11583,10034,86.62695329361996
+Outer fold 4,TYPE_ENG,Engine type,F,11583,126,1.0878010878010878
+Outer fold 4,TYPE_ENG,Engine type,Unknown,11583,57,0.4921004921004921
+Outer fold 4,NUM_ENGS,Engine count,1,11583,986,8.512475179141846
+Outer fold 4,NUM_ENGS,Engine count,2,11583,10196,88.02555469222136
+Outer fold 4,NUM_ENGS,Engine count,3,11583,286,2.4691358024691357
+Outer fold 4,NUM_ENGS,Engine count,4,11583,53,0.4575671242337909
+Outer fold 4,NUM_ENGS,Engine count,Unknown,11583,62,0.5352672019338686
+Outer fold 5,aircraft_mass_class,Aircraft mass class,1,11536,670,5.807905686546463
+Outer fold 5,aircraft_mass_class,Aircraft mass class,2,11536,534,4.628987517337032
+Outer fold 5,aircraft_mass_class,Aircraft mass class,3,11536,1998,17.319694868238557
+Outer fold 5,aircraft_mass_class,Aircraft mass class,4,11536,8195,71.03848821081831
+Outer fold 5,aircraft_mass_class,Aircraft mass class,5,11536,81,0.7021497919556172
+Outer fold 5,aircraft_mass_class,Aircraft mass class,Unknown,11536,58,0.5027739251040222
+Outer fold 5,phase,Flight phase,Approach,11536,5387,46.697295423023576
+Outer fold 5,phase,Flight phase,Climb,11536,1419,12.300624133148405
+Outer fold 5,phase,Flight phase,Landing Roll,11536,2971,25.754160887656035
+Outer fold 5,phase,Flight phase,Take-off Run,11536,1759,15.247919556171983
+Outer fold 5,bird_size_reported,Bird size,Large,11536,624,5.4091539528432735
+Outer fold 5,bird_size_reported,Bird size,Medium,11536,1490,12.916088765603329
+Outer fold 5,bird_size_reported,Bird size,Small,11536,7495,64.97052704576977
+Outer fold 5,bird_size_reported,Bird size,Unknown,11536,1927,16.704230235783633
+Outer fold 5,number_struck_category,Number struck,1,11536,10042,87.0492371705964
+Outer fold 5,number_struck_category,Number struck,11-100,11536,98,0.8495145631067961
+Outer fold 5,number_struck_category,Number struck,2-10,11536,1383,11.988557558945908
+Outer fold 5,number_struck_category,Number struck,More than 100,11536,3,0.026005547850208043
+Outer fold 5,number_struck_category,Number struck,Unknown,11536,10,0.08668515950069348
+Outer fold 5,TIME_OF_DAY,Time of day,Dawn,11536,410,3.5540915395284327
+Outer fold 5,TIME_OF_DAY,Time of day,Day,11536,6905,59.85610263522885
+Outer fold 5,TIME_OF_DAY,Time of day,Dusk,11536,515,4.464285714285714
+Outer fold 5,TIME_OF_DAY,Time of day,Night,11536,3048,26.421636615811373
+Outer fold 5,TIME_OF_DAY,Time of day,Unknown,11536,658,5.703883495145631
+Outer fold 5,AC_CLASS,Aircraft class,A,11536,11368,98.54368932038835
+Outer fold 5,AC_CLASS,Aircraft class,B,11536,110,0.9535367545076283
+Outer fold 5,AC_CLASS,Aircraft class,C,11536,0,0.0
+Outer fold 5,AC_CLASS,Aircraft class,J,11536,0,0.0
+Outer fold 5,AC_CLASS,Aircraft class,Unknown,11536,58,0.5027739251040222
+Outer fold 5,TYPE_ENG,Engine type,A,11536,676,5.859916782246879
+Outer fold 5,TYPE_ENG,Engine type,B,11536,4,0.03467406380027739
+Outer fold 5,TYPE_ENG,Engine type,C,11536,483,4.186893203883495
+Outer fold 5,TYPE_ENG,Engine type,D,11536,10201,88.42753120665742
+Outer fold 5,TYPE_ENG,Engine type,F,11536,106,0.9188626907073509
+Outer fold 5,TYPE_ENG,Engine type,Unknown,11536,66,0.5721220527045769
+Outer fold 5,NUM_ENGS,Engine count,1,11536,697,6.041955617198336
+Outer fold 5,NUM_ENGS,Engine count,2,11536,10525,91.23613037447988
+Outer fold 5,NUM_ENGS,Engine count,3,11536,113,0.9795423023578363
+Outer fold 5,NUM_ENGS,Engine count,4,11536,130,1.1269070735090152
+Outer fold 5,NUM_ENGS,Engine count,Unknown,11536,71,0.6154646324549237

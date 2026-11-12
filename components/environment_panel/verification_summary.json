@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "comparisons": [
+    {
+      "file": "airport_year_environment.parquet",
+      "rows": 17391,
+      "columns": 285,
+      "numeric_values": 3882936,
+      "maximum_absolute_error": 2.220446049250313e-14,
+      "missing_patterns_equal": true
+    },
+    {
+      "file": "airport_year_environment_lag1.parquet",
+      "rows": 15810,
+      "columns": 285,
+      "numeric_values": 3497172,
+      "maximum_absolute_error": 2.220446049250313e-14,
+      "missing_patterns_equal": true
+    },
+    {
+      "file": "landscape_changes.parquet",
+      "rows": 113832,
+      "columns": 27,
+      "numeric_values": 2731968,
+      "maximum_absolute_error": 2.2648549702353193e-14,
+      "missing_patterns_equal": true
+    }
+  ],
+  "cache_airports": 8,
+  "cache_numeric_checks": 15144,
+  "cache_maximum_error": 7.105427357601002e-15,
+  "raw_product_records": 26,
+  "raw_products_located_in_archives": 26,
+  "raw_products_at_old_paths": 0,
+  "invalid_inputs": [
+    {
+      "case": "composition",
+      "rejected": true,
+      "expected_message": "Composition closure mismatch."
+    },
+    {
+      "case": "missing_zone",
+      "rejected": true,
+      "expected_message": "Incomplete airport-year-zone grid."
+    },
+    {
+      "case": "coverage",
+      "rejected": true,
+      "expected_message": "Coverage denominator mismatch."
+    }
+  ],
+  "existing_outputs_preserved": true,
+  "source_inputs_unchanged": 4,
+  "new_fits": 0,
+  "raw_raster_extraction_replayed": false,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false
+}

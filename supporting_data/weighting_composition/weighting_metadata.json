@@ -1,0 +1,17 @@
+{
+  "coverage": "All 24 equal-airport score rows, all 12 report-volume groups under two weighting schemes and all eight target standardization rows.",
+  "scores": "airport_equal_scores.csv averages each airport mean score with equal airport weights. National report-weighted counterparts appear in national_performance.csv. hierarchical_ebl_weighting.csv contains both weightings for the primary national reference.",
+  "signs": {
+    "report_volume_display.csv": "Observed minus predicted probability, in percentage points.",
+    "report_volume_calibration.csv": "Observed minus predicted probability, on the probability scale.",
+    "hierarchical_ebl_weighting.csv": "Observed minus predicted probability, on the probability scale.",
+    "airport_equal_scores.csv": "Bias is predicted minus observed probability, in percentage points."
+  },
+  "grouping": "Separate quantile grouping in each evaluation; ties stay together, yielding six groups. All airports, including zero-damage airports, remain represented.",
+  "uncertainty": "2,000 within-group airport resamples of fixed outcomes and predictions. The same sampled airports supply observed and predicted values. Figure intervals are marginal; table gap intervals are paired. Fixed membership and boundaries. Pointwise, with neither development uncertainty nor simultaneous coverage across groups.",
+  "overlap": "National geographic 2015–2025 and temporal 2024–2025 evaluations overlap in reports and airports; their agreement is descriptive, not independent replication. Report count is not flight exposure.",
+  "standardization": "Phase, recorded aircraft mass and bird size define national strata. At least 20 national reports from five airports are required; all eight targets are excluded. Supported target weights sum to one. Supported-target proportions use the reports supplying the weights; full-target proportions use all eligible target reports.",
+  "unsupported_count_derivation": "All reports minus supported reports; deterministic count subtraction only. Other displayed values retain source rounding. No damage count is inferred from rounded percentages.",
+  "inference": "Standardization is descriptive, carries no confidence interval or causal-adjustment claim, and does not change frozen model predictions. Target score rows cover 2015–2025 under frozen temporal-development models, as retrospective geographic assessment.",
+  "public_release_status": "not published"
+}

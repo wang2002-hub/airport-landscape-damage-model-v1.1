@@ -1,0 +1,5 @@
+Conditional damage-extent coding comparisons
+
+coding_loss_layout.json defines the combined display. coding_overall_display.csv, coding_period_display.csv and coding_loss_source_displays.json retain the full original cells and definitions. The separate conditional_coding directory retains period_model_scores.csv with all fifteen full-precision records, annual_composition.csv and coding_model_fit.json.
+
+The five displayed population-period blocks each contain calibrated EB, uncalibrated EB and the national 2023 constant. National testing covers 2024–2025. Overall targets cover 2015–2025; the three target periods partition those same309 damage reports and252 M? outcomes. Do not add the overall and period counts. M? is known damage with undetermined extent, not an unresolved binary damage label. Expected counts are sums of conditional probabilities; percentage predictions are their means. Losses remain in original units. These scores are descriptive and have no sampling or development intervals. Original calibration-transfer failures are retained; this comparison does not select a strategy using target performance.

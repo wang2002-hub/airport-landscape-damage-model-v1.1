@@ -1,0 +1,31 @@
+panel,label,population,n,airports,source_missing,person_missing
+final,known,National,46167,1375,0,206
+final,known,Eight targets,5936,8,0,16
+final,known,KDEN,1780,1,0,4
+final,known,KJFK,810,1,0,2
+final,known,KMIA,570,1,0,0
+final,known,KMSP,433,1,0,2
+final,known,KBOS,729,1,0,1
+final,known,KSFO,493,1,0,1
+final,known,KSAT,560,1,0,3
+final,known,KSTL,561,1,0,3
+near,known,National,48983,1453,0,214
+near,known,Eight targets,5936,8,0,16
+near,known,KDEN,1780,1,0,4
+near,known,KJFK,810,1,0,2
+near,known,KMIA,570,1,0,0
+near,known,KMSP,433,1,0,2
+near,known,KBOS,729,1,0,1
+near,known,KSFO,493,1,0,1
+near,known,KSAT,560,1,0,3
+near,known,KSTL,561,1,0,3
+near,unresolved,National,8995,543,0,12
+near,unresolved,Eight targets,1340,8,0,1
+near,unresolved,KDEN,481,1,0,0
+near,unresolved,KJFK,271,1,0,1
+near,unresolved,KMIA,43,1,0,0
+near,unresolved,KMSP,115,1,0,0
+near,unresolved,KBOS,135,1,0,0
+near,unresolved,KSFO,134,1,0,0
+near,unresolved,KSAT,78,1,0,0
+near,unresolved,KSTL,83,1,0,0

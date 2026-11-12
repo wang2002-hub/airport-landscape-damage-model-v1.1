@@ -1,0 +1,77 @@
+{
+  "note": "Paths are relative to the repository root. Every input is a bundled aggregate or saved-prediction summary; no event-level data are required.",
+  "inputs": {
+    "annual_composition": {
+      "path": "../../supporting_data/conditional_coding/annual_composition.csv",
+      "sha256": "2ecf312bdbeb51053d935286e3a70e698382848c587e42e9a76e42b8a336af60"
+    },
+    "annual_influence_by_year": {
+      "path": "../../supporting_data/annual_influence/annual_influence_by_year.csv",
+      "sha256": "8b5d88cb31b1a0a4e221c38277227f1d905574bda4f3e57c583e441c63a5b746"
+    },
+    "reporting_category_by_year": {
+      "path": "../../supporting_data/reporting_sources/reporting_category_by_year.csv",
+      "sha256": "ad318cdbfb39326d5468627cf69282b5dfe31ee11ee41a9d8a72b9127bb99bc0"
+    },
+    "report_volume_calibration": {
+      "path": "../../supporting_data/weighting_composition/report_volume_calibration.csv",
+      "sha256": "c9fbfa857caff589ffc0d6565bcbc52440c23a2d6f01acb1e59538578b193890"
+    },
+    "coding_model_benchmarks": {
+      "path": "../../supporting_data/conditional_coding/coding_model_benchmarks.csv",
+      "sha256": "aeb2b74aa4be7e1525c0da84041d800be4bc59531f32254c0cae9fff620cd899"
+    },
+    "period_model_scores": {
+      "path": "../../supporting_data/conditional_coding/period_model_scores.csv",
+      "sha256": "bb24a6c4e27e20199ce74d004c9c9fc07656289ecb6a590b38a38440caa2e0a5"
+    },
+    "population_counts": {
+      "path": "../../supporting_data/validation_records/population_counts.csv",
+      "sha256": "4b6522312f15f390fab916420198f74b824e28421ebacc0c933decd110f0af90"
+    },
+    "national_performance": {
+      "path": "../../supporting_data/national_performance/national_performance.csv",
+      "sha256": "306c5c6d657aa7ac92021270f152ec82074c4cf1de3410873a8c34cc575475ca"
+    },
+    "national_extent_dispersion": {
+      "path": "../../supporting_data/national_endpoints/national_extent_dispersion.csv",
+      "sha256": "d1fcf2f50d1a6638decf8e1d33411413644363e5737518a036f61a006f993dfa"
+    },
+    "national_summary": {
+      "path": "../../components/national_profile_figures/inputs/national_summary.csv",
+      "sha256": "6afeebc125c599059a95a24fdc7778a924bc73a923c9a3fcd79693b2f767e9a0"
+    },
+    "national_profiles": {
+      "path": "../../components/national_profile_figures/inputs/national_profiles.csv",
+      "sha256": "4fceac5bded5d3480ea088d0cf0b9628516944cfb7dacafad139dd029de6e9e9"
+    },
+    "target_absolute": {
+      "path": "../../supporting_data/target_comparisons/target_absolute_counts_and_intervals.csv",
+      "sha256": "2796565704359fb96b867c2fc3683c863880d2b20157aef725580f100596c52d"
+    },
+    "target_relative": {
+      "path": "../../supporting_data/target_comparisons/target_relative_comparisons.csv",
+      "sha256": "2832c49b471840611937d80e7f64a8300479b04dc372891a3a7929b73f4c3767"
+    },
+    "extent_points": {
+      "path": "../../supporting_data/extent_partition/extent_decomposition_points.csv",
+      "sha256": "ad36b5a7315e198550c230aca028d8e480307e62485dd95a7a63a249e8311f26"
+    },
+    "extent_intervals": {
+      "path": "../../supporting_data/extent_partition/extent_decomposition_intervals.csv",
+      "sha256": "fdcbe0df14d3328342286112b898fa35786da4190bafd34605feb78695576961"
+    },
+    "extent_simultaneous": {
+      "path": "../../supporting_data/extent_partition/extent_simultaneous_intervals.csv",
+      "sha256": "828597e5dd4b4d6fba1de66e466f26c3098ef4310a9c4e2842dec283ce4f2767"
+    },
+    "coding_standardization": {
+      "path": "../../supporting_data/reporting_sources/reporting_coding_standardization.csv",
+      "sha256": "729c044be5ed2efbb8591464006cf6e4184559ddec7f61a9577adfb570ffb231"
+    },
+    "airport_comparisons": {
+      "path": "../../components/airport_review_figures/inputs/airport_comparisons.csv",
+      "sha256": "6de9db4e0d86911a9171af5effc672477a42b7cf80280707dda2741ea8ab3ba2"
+    }
+  }
+}

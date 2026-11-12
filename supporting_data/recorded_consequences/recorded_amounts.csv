@@ -1,0 +1,9 @@
+﻿airport,n,damage,engine_yes,downtime_recorded,downtime_missing,downtime_median,downtime_sum_recorded,repair_recorded,repair_missing,repair_median_nominal
+KBOS,729,57,20,23,34,31.0,1337.6,17,40,20000.0
+KDEN,1780,60,21,15,45,12.0,2234.5,8,52,18392.5
+KJFK,810,65,31,27,38,28.0,1423.5200000000002,8,57,30219.5
+KMIA,570,25,9,5,20,18.0,1213.0,2,23,112000.0
+KMSP,433,32,10,2,30,7.5,15.0,1,31,228.0
+KSAT,560,17,5,2,15,1.5,3.0,1,16,600.0
+KSFO,493,27,11,6,21,24.0,144.0,2,25,1252500.0
+KSTL,561,26,7,4,22,20.75,94.5,4,22,5500.0

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "replayed_attempts": 200,
+  "successful_attempts": 198,
+  "failed_attempts": [
+    25,
+    132
+  ],
+  "fit_records": 4383,
+  "numeric_values_compared": 39284,
+  "maximum_numeric_error": 0.0,
+  "successful_loss_rows": 1980,
+  "interval_rows": 20,
+  "interval_quantiles_compared": 60,
+  "input_and_retained_record_files_unchanged": 202,
+  "invalid_duplicate_events_rejected": true,
+  "invalid_attempt_ids_rejected": true,
+  "incomplete_summary_rejected": true,
+  "existing_outputs_preserved": true,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "new_scientific_attempt_ids": 0,
+  "raw_raster_extraction_replayed": false,
+  "unchanged_mathematical_function_checks": [
+    "losses",
+    "run after explicit input/output substitutions"
+  ]
+}

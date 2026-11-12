@@ -1,0 +1,83 @@
+{
+  "replicate": 132,
+  "success": false,
+  "seconds": 1.8431892395019531,
+  "error": "Traceback (most recent call last):\n  File \"<local-path>\", line 28, in run\n    b=checked_fit(train,'glmm',scale,1,None,records,f'{block}_final');b['calibrator'],cr=fit_calibrator(cal.damage_binary.to_numpy(),predict_bundle(b,cal));assert cr['success']\n                                                                                                                                                                   ~~^^^^^^^^^^^\nAssertionError\n",
+  "fits": [
+    {
+      "label": "EB_None_2019",
+      "n": 16958,
+      "airports": 859,
+      "damage": 1063,
+      "seconds": 0.11000871658325195,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 48,
+      "max_abs_gradient": 0.0011081371808658595,
+      "negative_loglik_penalized": 2994.2492218703933,
+      "sigma": 0.3184317019656383,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0011081371808658595
+    },
+    {
+      "label": "EB_None_2020",
+      "n": 21578,
+      "airports": 960,
+      "damage": 1389,
+      "seconds": 0.12624406814575195,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 42,
+      "max_abs_gradient": 0.0007799269200095454,
+      "negative_loglik_penalized": 3863.235365077522,
+      "sigma": 0.27357668078189284,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0007799269200095454
+    },
+    {
+      "label": "EB_None_2021",
+      "n": 24430,
+      "airports": 1049,
+      "damage": 1624,
+      "seconds": 0.13502049446105957,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 43,
+      "max_abs_gradient": 0.00032635775909718685,
+      "negative_loglik_penalized": 4471.8286857097955,
+      "sigma": 0.2709870073023747,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.00032635775909718685
+    },
+    {
+      "label": "EB_None_2022",
+      "n": 28631,
+      "airports": 1113,
+      "damage": 1937,
+      "seconds": 0.16500234603881836,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 44,
+      "max_abs_gradient": 0.002154534492287886,
+      "negative_loglik_penalized": 5201.398694576511,
+      "sigma": 0.3043152679725436,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.002154534492287886
+    },
+    {
+      "label": "EB_final",
+      "n": 33064,
+      "airports": 1181,
+      "damage": 2226,
+      "seconds": 0.1749882698059082,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 40,
+      "max_abs_gradient": 0.0010055813402534337,
+      "negative_loglik_penalized": 6032.702632074838,
+      "sigma": 0.3111218868719023,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0010055813402534337
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "scheme": "spatial",
+  "fold": 1,
+  "family": "hgb",
+  "block": "EL",
+  "selected_scale": "b03",
+  "params": {
+    "max_depth": 2,
+    "max_iter": 150,
+    "learning_rate": 0.05,
+    "l2_regularization": 10,
+    "min_samples_leaf": 40
+  },
+  "calibration": {
+    "success": true,
+    "intercept": 0.2776021348839844,
+    "slope": 1.1212304314448678,
+    "n": 38140,
+    "damages": 2357,
+    "bound_hit": false
+  },
+  "encoder": {
+    "training_correlation_audit": [
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "wetland_fraction",
+        "pearson_r": 0.04409063613473941,
+        "spearman_r": 0.37419460577276015,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.14976848140985927,
+        "spearman_r": -0.10952867352526545,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.14251939903688032,
+        "spearman_r": -0.021136630683677153,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.08930364971272797,
+        "spearman_r": 0.041988316085872474,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.11718895588031192,
+        "spearman_r": 0.068904741500398,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": 0.01612405556872728,
+        "spearman_r": 0.025347370037892565,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.15477545628903638,
+        "spearman_r": -0.07813987807647836,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.08807383534057169,
+        "spearman_r": 0.026798072186677645,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.0022923112607958745,
+        "spearman_r": 0.27342340574344093,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.1152962994316085,
+        "spearman_r": 0.0032962884847259405,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": 0.021266305264797215,
+        "spearman_r": 0.05849163538773403,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.2413431460796535,
+        "spearman_r": -0.1280058901751745,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.4115243621476946,
+        "spearman_r": -0.4027873128007655,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.19151357543057976,
+        "spearman_r": -0.3267568031331457,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "pasture_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.38727995640290397,
+        "spearman_r": -0.43072113764124614,
+        "n_training_airport_years": 4555,
+        "flag_abs_gt_0_8": false
+      }
+    ],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": "b03",
+    "geography": false,
+    "bird_adjustment": 0,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct"
+    ],
+    "medians": {
+      "year": 0.2,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998,
+      "water_fraction": 0.0039773450426371,
+      "wetland_fraction": 0.0165860180822615,
+      "cropland_fraction": 0.0001273317629082,
+      "grassland_fraction": 0.0004456327985739,
+      "pasture_fraction": 0.01024906507643455,
+      "impervious_mean_pct": 0.3826181760305587
+    },
+    "means": {
+      "year": 0.07185631882538017,
+      "month_sin": -0.2739410559807693,
+      "month_cos": -0.2351624878457081,
+      "water_fraction": 0.04222648159028921,
+      "wetland_fraction": 0.049068628549495716,
+      "cropland_fraction": 0.05118787955478157,
+      "grassland_fraction": 0.01662011606091023,
+      "pasture_fraction": 0.04101370781149288,
+      "impervious_mean_pct": 0.3682024890088978
+    },
+    "standard_deviations": {
+      "year": 0.6599453063381977,
+      "month_sin": 0.680889082241661,
+      "month_cos": 0.6372165721655918,
+      "water_fraction": 0.09309746408544325,
+      "wetland_fraction": 0.08315568766744812,
+      "cropland_fraction": 0.1288311020834407,
+      "grassland_fraction": 0.06675550217616402,
+      "pasture_fraction": 0.08831263635190256,
+      "impervious_mean_pct": 0.1672830039078147
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=5",
+      "aircraft_mass_class=Unknown",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb"
+    ],
+    "training_events": 38140,
+    "training_airports": 1082,
+    "training_year_min": 2015,
+    "training_year_max": 2025,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "test_qc": {
+    "n_rows": 8027,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 0,
+    "finite_matrix": true
+  },
+  "target_qc": {
+    "n_rows": 5936,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 0,
+    "finite_matrix": true
+  },
+  "candidates": [
+    {
+      "mean_logloss": 0.2056521060640033,
+      "scale": "b03",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.19617411287617814,
+        0.20454445260786283,
+        0.20845717162971053,
+        0.21343268714226168
+      ]
+    },
+    {
+      "mean_logloss": 0.20574996780327667,
+      "scale": "b03",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.19614353298184922,
+        0.20455890597448695,
+        0.20858624834696365,
+        0.21371118390980678
+      ]
+    },
+    {
+      "mean_logloss": 0.2064146173027483,
+      "scale": "b08",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.19789382200799732,
+        0.20486734968831916,
+        0.20962065619036746,
+        0.2132766413243092
+      ]
+    },
+    {
+      "mean_logloss": 0.20643239475395372,
+      "scale": "b08",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.1976337116708767,
+        0.2046821179869794,
+        0.2098351858496236,
+        0.21357856350833512
+      ]
+    },
+    {
+      "mean_logloss": 0.20569826211205153,
+      "scale": "b13",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.19698215723319176,
+        0.20367603846089066,
+        0.20923109366938455,
+        0.21290375908473913
+      ]
+    },
+    {
+      "mean_logloss": 0.20593204006835578,
+      "scale": "b13",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.19651981009808459,
+        0.20435852677161068,
+        0.20889986077484468,
+        0.2139499626288831
+      ]
+    },
+    {
+      "mean_logloss": 0.20571693841966163,
+      "scale": "rings",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.19670215012975045,
+        0.2038961507311959,
+        0.2095206152919189,
+        0.21274883752578122
+      ]
+    },
+    {
+      "mean_logloss": 0.2058290629315324,
+      "scale": "rings",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.1968147968669459,
+        0.20369412723539213,
+        0.20950970545996897,
+        0.21329762216382267
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "label": "b03_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.2376878261566162
+    },
+    {
+      "label": "b03_0_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.23004913330078125
+    },
+    {
+      "label": "b03_0_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.2107534408569336
+    },
+    {
+      "label": "b03_0_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.2214066982269287
+    },
+    {
+      "label": "b03_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.2915470600128174
+    },
+    {
+      "label": "b03_1_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.27132511138916016
+    },
+    {
+      "label": "b03_1_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.24473047256469727
+    },
+    {
+      "label": "b03_1_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.2459862232208252
+    },
+    {
+      "label": "b08_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.24146366119384766
+    },
+    {
+      "label": "b08_0_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.2350296974182129
+    },
+    {
+      "label": "b08_0_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.20628070831298828
+    },
+    {
+      "label": "b08_0_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.2099919319152832
+    },
+    {
+      "label": "b08_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.27266550064086914
+    },
+    {
+      "label": "b08_1_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.26845359802246094
+    },
+    {
+      "label": "b08_1_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.24301600456237793
+    },
+    {
+      "label": "b08_1_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.24692320823669434
+    },
+    {
+      "label": "b13_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.23289823532104492
+    },
+    {
+      "label": "b13_0_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.2374424934387207
+    },
+    {
+      "label": "b13_0_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.20807147026062012
+    },
+    {
+      "label": "b13_0_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.20993494987487793
+    },
+    {
+      "label": "b13_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.2797129154205322
+    },
+    {
+      "label": "b13_1_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.2660531997680664
+    },
+    {
+      "label": "b13_1_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.2400202751159668
+    },
+    {
+      "label": "b13_1_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.24086928367614746
+    },
+    {
+      "label": "rings_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.22823643684387207
+    },
+    {
+      "label": "rings_0_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.21700119972229004
+    },
+    {
+      "label": "rings_0_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.18920040130615234
+    },
+    {
+      "label": "rings_0_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.19622421264648438
+    },
+    {
+      "label": "rings_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.25543689727783203
+    },
+    {
+      "label": "rings_1_inner1",
+      "n": 30314,
+      "airports": 790,
+      "damage": 1868,
+      "seconds": 0.24200224876403809
+    },
+    {
+      "label": "rings_1_inner2",
+      "n": 26557,
+      "airports": 823,
+      "damage": 1615,
+      "seconds": 0.21948695182800293
+    },
+    {
+      "label": "rings_1_inner3",
+      "n": 26604,
+      "airports": 786,
+      "damage": 1641,
+      "seconds": 0.21724247932434082
+    },
+    {
+      "label": "final",
+      "n": 38140,
+      "airports": 1082,
+      "damage": 2357,
+      "seconds": 0.2895941734313965
+    }
+  ],
+  "seconds": 9.56943655014038
+}

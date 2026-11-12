@@ -1,0 +1,258 @@
+[
+  {
+    "scenario": "exclude_M_question",
+    "population": "train",
+    "n": 28911,
+    "damage": 624,
+    "airports": 1052,
+    "event_id_sha256": "badcb06beb7f5d1af03f1432e4a21fec49f508eb85bf4318140752a010c190f8"
+  },
+  {
+    "scenario": "exclude_M_question",
+    "population": "calibration",
+    "n": 4380,
+    "damage": 51,
+    "airports": 516,
+    "event_id_sha256": "e961177bce81dd604cc2f08bc880e7b6d2f97649a7b40d8d0e0a3abedfb877bf"
+  },
+  {
+    "scenario": "exclude_M_question",
+    "population": "national",
+    "n": 10573,
+    "damage": 118,
+    "airports": 732,
+    "event_id_sha256": "abc8b11aa7cffb80ae33358e8e159c7c37b4a04f515cd4382b58104e625cb13a"
+  },
+  {
+    "scenario": "exclude_M_question",
+    "population": "target",
+    "n": 5684,
+    "damage": 57,
+    "airports": 8,
+    "event_id_sha256": "c959c3dc8ae6565c7e01e24501c61a472edfff89a97cd4cb8e08a503ea1d87e7"
+  },
+  {
+    "scenario": "label70",
+    "population": "train",
+    "n": 27628,
+    "damage": 1935,
+    "airports": 1159,
+    "event_id_sha256": "101f92f6b0fde6fcec8e9a8f4c9537dcb021bcc61ca95584e8d2a9e63ce06512"
+  },
+  {
+    "scenario": "label70",
+    "population": "calibration",
+    "n": 4180,
+    "damage": 252,
+    "airports": 486,
+    "event_id_sha256": "ccb74a3d52ddd3501be6931532377bed22e3251a30886586ac13804df92cc15c"
+  },
+  {
+    "scenario": "label70",
+    "population": "national",
+    "n": 10485,
+    "damage": 620,
+    "airports": 776,
+    "event_id_sha256": "973e6b93317317d47e49a18c9739a77fd34b3f625bca53a092914d8983998fb7"
+  },
+  {
+    "scenario": "label70",
+    "population": "target",
+    "n": 5623,
+    "damage": 292,
+    "airports": 8,
+    "event_id_sha256": "f222abc0a0120d01740f3029f1d0c503838fed736747cfcc6e953f78a2a577c9"
+  },
+  {
+    "scenario": "label80",
+    "population": "train",
+    "n": 23141,
+    "damage": 1699,
+    "airports": 1159,
+    "event_id_sha256": "79a69761649df35130eb215b6a7e0b925100159e465d9b6eda23647c12456929"
+  },
+  {
+    "scenario": "label80",
+    "population": "calibration",
+    "n": 3288,
+    "damage": 210,
+    "airports": 444,
+    "event_id_sha256": "2978a8b151cb07f62dd0d8f7a676ff41b85ba749a61ea7078cfa798de44a2ee5"
+  },
+  {
+    "scenario": "label80",
+    "population": "national",
+    "n": 8953,
+    "damage": 544,
+    "airports": 756,
+    "event_id_sha256": "e03c931b2482b67d3cab8557c86032a2fcb4512b6aaee7d4e82d577723a68ab1"
+  },
+  {
+    "scenario": "label80",
+    "population": "target",
+    "n": 3429,
+    "damage": 176,
+    "airports": 8,
+    "event_id_sha256": "55dc08fdbe8f68ade870b342fb9c1da6727d84bb17c32cb14491ad62b42726bc"
+  },
+  {
+    "scenario": "contemporary2016",
+    "population": "train",
+    "n": 26207,
+    "damage": 1873,
+    "airports": 1104,
+    "event_id_sha256": "2fa19b9fe9185480f98ccb35b9b6e5320ccbd7367a28a5195f93f8aad5b844a9"
+  },
+  {
+    "scenario": "contemporary2016",
+    "population": "calibration",
+    "n": 4616,
+    "damage": 287,
+    "airports": 557,
+    "event_id_sha256": "d8ceaf0b7ab26bcdc98d6807496ad948a9db8b5c6a31acf23614f9bad2cbfaaf"
+  },
+  {
+    "scenario": "contemporary2016",
+    "population": "national",
+    "n": 11124,
+    "damage": 669,
+    "airports": 803,
+    "event_id_sha256": "f528a0e571585aa67bf732d63aa31b8df52bd95148cdc4f71ede5a4c38585e80"
+  },
+  {
+    "scenario": "contemporary2016",
+    "population": "target",
+    "n": 5451,
+    "damage": 284,
+    "airports": 8,
+    "event_id_sha256": "9be8af29ffcc5544635370c5772af12195eb6c59b9483a61f8cbe9ee388c9aa6"
+  },
+  {
+    "scenario": "lagged",
+    "population": "train",
+    "n": 26207,
+    "damage": 1873,
+    "airports": 1104,
+    "event_id_sha256": "2fa19b9fe9185480f98ccb35b9b6e5320ccbd7367a28a5195f93f8aad5b844a9"
+  },
+  {
+    "scenario": "lagged",
+    "population": "calibration",
+    "n": 4616,
+    "damage": 287,
+    "airports": 557,
+    "event_id_sha256": "d8ceaf0b7ab26bcdc98d6807496ad948a9db8b5c6a31acf23614f9bad2cbfaaf"
+  },
+  {
+    "scenario": "lagged",
+    "population": "national",
+    "n": 11124,
+    "damage": 669,
+    "airports": 803,
+    "event_id_sha256": "f528a0e571585aa67bf732d63aa31b8df52bd95148cdc4f71ede5a4c38585e80"
+  },
+  {
+    "scenario": "lagged",
+    "population": "target",
+    "n": 5451,
+    "damage": 284,
+    "airports": 8,
+    "event_id_sha256": "9be8af29ffcc5544635370c5772af12195eb6c59b9483a61f8cbe9ee388c9aa6"
+  },
+  {
+    "scenario": "fixed2015",
+    "population": "train",
+    "n": 26207,
+    "damage": 1873,
+    "airports": 1104,
+    "event_id_sha256": "2fa19b9fe9185480f98ccb35b9b6e5320ccbd7367a28a5195f93f8aad5b844a9"
+  },
+  {
+    "scenario": "fixed2015",
+    "population": "calibration",
+    "n": 4616,
+    "damage": 287,
+    "airports": 557,
+    "event_id_sha256": "d8ceaf0b7ab26bcdc98d6807496ad948a9db8b5c6a31acf23614f9bad2cbfaaf"
+  },
+  {
+    "scenario": "fixed2015",
+    "population": "national",
+    "n": 11124,
+    "damage": 669,
+    "airports": 803,
+    "event_id_sha256": "f528a0e571585aa67bf732d63aa31b8df52bd95148cdc4f71ede5a4c38585e80"
+  },
+  {
+    "scenario": "fixed2015",
+    "population": "target",
+    "n": 5451,
+    "damage": 284,
+    "airports": 8,
+    "event_id_sha256": "9be8af29ffcc5544635370c5772af12195eb6c59b9483a61f8cbe9ee388c9aa6"
+  },
+  {
+    "scenario": "ilr",
+    "population": "train",
+    "n": 30427,
+    "damage": 2140,
+    "airports": 1161,
+    "event_id_sha256": "2bf720612f7d7524ac962c9b1834df39f6e5d577c1b3d848d5e1a6e7eb0ddf81"
+  },
+  {
+    "scenario": "ilr",
+    "population": "calibration",
+    "n": 4616,
+    "damage": 287,
+    "airports": 557,
+    "event_id_sha256": "d8ceaf0b7ab26bcdc98d6807496ad948a9db8b5c6a31acf23614f9bad2cbfaaf"
+  },
+  {
+    "scenario": "ilr",
+    "population": "national",
+    "n": 11124,
+    "damage": 669,
+    "airports": 803,
+    "event_id_sha256": "f528a0e571585aa67bf732d63aa31b8df52bd95148cdc4f71ede5a4c38585e80"
+  },
+  {
+    "scenario": "ilr",
+    "population": "target",
+    "n": 5936,
+    "damage": 309,
+    "airports": 8,
+    "event_id_sha256": "8a5840418fef156613873e4c6e78850a769130558e4f197f1b20a0ce727cf326"
+  },
+  {
+    "scenario": "buffer50",
+    "population": "train",
+    "n": 28247,
+    "damage": 1924,
+    "airports": 1113,
+    "event_id_sha256": "f01072b3216f88cacca7f1b1495c3d39b63fcb45c40bd346c5c7e6b5ee905210"
+  },
+  {
+    "scenario": "buffer50",
+    "population": "calibration",
+    "n": 4319,
+    "damage": 269,
+    "airports": 523,
+    "event_id_sha256": "32ecd27121c032e04bb082d44533efc860648b96a2ddf42dfa92b1fec4298e5a"
+  },
+  {
+    "scenario": "buffer50",
+    "population": "national",
+    "n": 10423,
+    "damage": 606,
+    "airports": 761,
+    "event_id_sha256": "bfa1e3c20809a76c87c5d684e843a0bb5df1c9f116c13b6c7aab7d97c1d0b6ab"
+  },
+  {
+    "scenario": "buffer50",
+    "population": "target",
+    "n": 5936,
+    "damage": 309,
+    "airports": 8,
+    "event_id_sha256": "8a5840418fef156613873e4c6e78850a769130558e4f197f1b20a0ce727cf326"
+  }
+]

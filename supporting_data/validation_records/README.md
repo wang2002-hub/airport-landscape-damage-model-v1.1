@@ -1,0 +1,11 @@
+# Model development and validation records
+
+The manuscript specifies reference models in Section 3.1. Supplementary Sections S2.1 and S2.2 retain model settings, selection, calibration and data-separation rules. Table S4 gives population counts; its National all row corresponds to the combined geographic evaluation population. supporting_data/validation_records/numerical_checks.md retains numerical and partition checks with their distinct scopes.
+
+validation_partition_pairs.csv gives all 29 training/evaluation pairs in numeric columns. These comprise four forward temporal pairs, five outer geographic pairs and twenty inner geographic pairs. partition_counts_display.csv contains the same values in the original compact display. Each count refers to reports, damage outcomes or airports as identified by its header. Inner evaluation groups partition the associated outer training collection. Temporal airport counts are not additive across years.
+
+saved_fit_population_checks.csv preserves 922 saved training records: 768 primary, 26 ordinary and 128 seven-field fits. Candidate settings and validation roles reuse records; this file does not describe 922 independent populations. Its 48 primary configuration files each include the final fit and their relevant component fits. Ordinary temporal EB uses a fixed specification. Seven-field comparisons retain the original temporal training, calibration and test roles.
+
+evaluation_populations.csv retains all six evaluation-population summaries and numerical_checks.csv retains all seven numerical-check rows. display_definitions.json preserves their headers and notes. validation_metadata.json explains the mapping to Table S4 and the scope of the fit records. population_counts.csv retains the complete existing population inventory, whose overlapping groups cannot be added to obtain a cohort total.
+
+The numerical checks distinguish computational agreement from predictive evaluation. Reduced-data adaptive quadrature used 1,674 reports, 152 damage outcomes and 160 airports. These checks do not certify all explored resampling runs or prospective safety benefits. Resampling failures remain in their dedicated records and S3. These files are prepared locally for packaging and are not publicly released.

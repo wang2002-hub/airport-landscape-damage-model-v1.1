@@ -1,0 +1,32 @@
+{
+  "model_names": {
+    "ordinary_EB": "Ordinary EB",
+    "glmm_EB": "Hierarchical EB",
+    "glmm_EBL": "Hierarchical EBL",
+    "hgb_EB": "Boosting EB",
+    "hgb_EBL": "Boosting EBL"
+  },
+  "national_evaluation": {
+    "airports": 1375,
+    "reports": 46167,
+    "damage": 3096,
+    "zero_damage_airports": 602,
+    "design": "geographic outer-fold predictions"
+  },
+  "levels": {
+    "95": {
+      "nominal_tail_probability": 0.05,
+      "nominal_expected_count_upper_bound": 68.75
+    },
+    "998": {
+      "nominal_tail_probability": 0.002,
+      "nominal_expected_count_upper_bound": 2.75
+    }
+  },
+  "conditional_scope": "Fixed report probabilities and conditional independence. Flags occur strictly outside discrete count limits. Expected exceedances sum actual tail probabilities. These are not simultaneous national confidence intervals.",
+  "width_scope": "Estimate the mean squared standardized residual from all airports, E at least five, or at least 100 reports; bound the factor below by one. Apply each factor to all national airports. Widen each side about E by its square root, preserving count bounds. Nominal coverage is unestablished.",
+  "display_scope": "For hierarchical EBL, main E-at-least-five display has 144 airports and six flags. All 1,231 lower-E airports remain in the analysis, including all 602 zero-damage airports. No pseudocount is added for the zero-damage strip.",
+  "target_scope": "Eight targets use separate frozen temporal predictions. Width sensitivity transfers the national hierarchical EBL factor of 1.675509. Conditional target ranges differ from joint development-and-year intervals.",
+  "units": "Ranges are damage counts. Figure 2B divides count ranges by the corresponding E for display. Factors are dimensionless.",
+  "public_release_status": "not published"
+}

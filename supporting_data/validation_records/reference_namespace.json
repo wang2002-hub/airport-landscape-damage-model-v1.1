@@ -1,0 +1,6 @@
+{
+  "source_definitions": "SRC-S identifiers identify supporting records. They are not manuscript table numbers.",
+  "current_tables": "Table S1 through Table S30 use the manuscript numbering.",
+  "index": "../table_reference_index/record_index.json",
+  "source_metadata_scope": "Embedded source paragraphs, figure references and citation namespaces remain provenance as declared in their record; they are not current manuscript instructions."
+}

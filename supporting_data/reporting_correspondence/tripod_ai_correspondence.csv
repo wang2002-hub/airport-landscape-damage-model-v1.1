@@ -1,0 +1,53 @@
+Item,Topic,Location,Status,Evidence
+1,Identification,Title,P,"The title identifies case-mix profiling of airport bird-strike damage reports, uncertainty and damage-extent documentation. Model development and evaluation are described in the abstract rather than named in the title."
+2,Synopsis,Abstract,P,"The abstract reports study size, held-out airports, reference procedures, pooled subtype O/E estimates and whether joint intervals include one. Detailed eligibility, full predictor definitions, probability losses, numerical interval endpoints and registration are not provided."
+3a,Rationale,1; 5.2,R,The review problem is linked to bird-strike prediction and institutional profiling research.
+3b,Users,1; 5.1; 5.3,R,Safety analysts review defined report collections before considering operational explanations.
+3c,Equity context,5.5,NA,Human health inequalities are outside this airport-report analysis. Reporting selection remains an applicability concern.
+4,Aims,1; 3.1,R,The study develops and evaluates national references for retrospective local report review.
+5a,Sources,2.1; S1.1; S11.1,R,"FAA reports and environmental products supply development and evaluation data. The targets are selected, not random."
+5b,Timing,2.1; S2.2; S11.1,R,"Incident years cover 2015–2025. Training, calibration, testing and product timing are distinguished."
+6a,Setting,2.2; S1.1; Figure S1,R,"The final cohort covers 1,383 US airports: 1,375 national airports and eight excluded targets."
+6b,Eligibility,2.1; S1.1; Table S1,R,"Species, location, phase, height, distance, outcome and environmental screens define eligibility."
+6c,Treatment,5.5,NA,"Clinical treatment is inapplicable. Wildlife interventions are unmeasured, and management effects are outside the estimand."
+7,Preparation,S1.1–S1.2; Table S3,R,"Deduplication, map linkage, coverage checks and partition-specific encoding are described."
+8a,Endpoint,2.1; S1.1; Table S2,R,Recorded damage is a binary outcome for the reported incident. M? remains known damage with undetermined extent.
+8b,Assessors,S8.3; reporting_category_composition.csv and reporting_population_audit.csv,P,Reporter categories are described. Individual qualifications and inter-rater reliability are unavailable in the reported audit.
+8c,Blinding,2.1; 5.5,U,A standardized source-level blinding procedure is not documented. Holding out target labels addresses a different issue.
+9a,Candidate inputs,2.3; S1.2; S9.3,R,"Event, bird and landscape blocks have explicit roles. Stronger event information is exploratory."
+9b,Measurements,2.3; S1.2; S9.1,P,Definitions and timing are given. Bird attributes may follow investigation; source-level assessor blinding is undocumented.
+9c,Input assessors,S1.2; S8.3,P,Field roles and reporter categories are available. Individual predictor-assessor qualifications are not established.
+10,Size rationale,2.2; S1.1; S2.3; Table S4; validation_partition_pairs.csv,P,The registry snapshot and fixed windows determine sample size. Empirical intervals describe precision; no formal prospective recruitment calculation is asserted.
+11,Missingness,S1.2; S1.3; Table S5; input-distribution support files; numerical archive,P,Missingness and handling are given for 38 primary and seven-field inputs across 19 populations. Auxiliary sensitivity inputs retain their separate coverage audits.
+12a,Partitions,3.1; S2.2; Table S4; validation_partition_pairs.csv,R,Temporal and geographic partitions exclude the eight targets from national fitting and calibration.
+12b,Encoding,S1.2; S9.3,R,"Scaling, rare levels, correlation screening and transformed added variables use training information."
+12c,Estimation,S2.1–S2.2; supporting_data/validation_records/numerical_checks.md,R,"Model families, penalties, selection, calibration and numerical acceptance checks are specified."
+12d,Clustering,3.3–3.5; S3; S5,R,"Airport effects, geographic groups and joint target uncertainty have separate definitions."
+12e,Scoring,3.2; S4; S7.2,R,"Probability losses, ranking measures and calibration are distinguished from aggregate O/E and reference agreement."
+12f,Updating,3.6; S8.1–S8.2,R,National calibration precedes evaluation. The extent-restricted refit is separate from restricting the frozen predictions.
+12g,Prediction,3.1; S2.1; S11.2,P,Marginal prediction and calibration rules are described. Public execution still depends on a verified matching release.
+13,Imbalance,S2.1; S2.3,R,"The audited primary, ordinary and seven-field pipelines use neither outcome-class reweighting nor synthetic class balancing. Bootstrap resampling assesses uncertainty."
+14,Fairness,5.5; S4.2,P,Weighting and reporting selection are examined. Equal-airport weighting is not a formal fairness evaluation.
+15,Outputs,3.2–3.4; 5.3,R,Report probabilities are summed into expectations. Conditional limits and simultaneous intervals are separate from action thresholds.
+16,Transfer,2.2; S7.2; S8.3,R,"Time windows, target exclusion, input support and reporting composition describe differences between collections."
+17,Ethics,S1.1; Data and analytical provenance,R,"Retrospective analysis of public event records and environmental data, with no participant recruitment, interviews or interventions. The selected report fields exclude personal names and contact details. The authors obtained neither ethics approval nor an institutional determination of exemption."
+18a,Support,Funding and competing interests; S12.1,R,No specific grant supported the study.
+18b,Interests,Funding and competing interests; supplied declaration of interests,R,The authors declare no known competing financial interests. They report no personal relationships that could have appeared to influence this work.
+18c,Protocol,3.7; 5.5; S11.2; Data and analytical provenance,P,Local specifications document exploratory analyses after target summaries were viewed. These specifications were not prospectively registered.
+18d,Registration,Data and analytical provenance,R,"The study was not preregistered. Local exploratory specifications are analytical records, not prospective registration."
+18e,Data access,S11.2; Data and analytical provenance,P,Retained input hashes and provider sources are documented. Aggregate replay inputs are identified; the current data archive has not yet been publicly released.
+18f,Code access,3.7; S11.2; Data and analytical provenance,P,"Relocated entries reproduce the cohort, original and enhanced references, national profiles, conditional ranks, saved joint summaries, coding/reporting diagnostics, landscape summaries, predictor reporting and the archived set of six main and twelve supplementary figures. Seven bootstrap attempts were refitted, retaining both failures. Same-year and previous-year environment panels were reconstructed from zonal measurements; all eight target caches were checked. Eight sensitivity scenarios and four information blocks reproduced 511,564 predictions with matched sample counts and fit metadata. Eight static-canopy configurations reproduced 136,480 predictions and their paired summaries. All 200 landscape development attempts were replayed, reproducing 198 successes and calibration failures 25 and 132. All 88 surface-weather files reproduced 5,936 target matching records and descriptive strata, retaining unmatched reports. Eight-airport wetland, source-vintage and runway diagnostics matched their tables and geometry outputs. Confidence summaries and raw acquisition, forecast, precipitation and activity audits were reconstructed, including detail/total separation. Nine descriptive context tables were rebuilt from the cohort, environment panel, canopy and frozen probabilities, including independent support and year-deletion checks. Raw-raster extraction was replayed for all eight targets and the DEN alternative. Pixel-derived measurements matched; the alternative area difference was below 1e-10 square kilometres. A fresh extraction of every national airport and clean installation were not tested. The current code archive has not yet been publicly released."
+19,Involvement,Data and analytical provenance,R,No airport personnel or members of the public participated in the study design.
+20a,Flow,S1.1; Tables S1 and S2; Figure 1,R,"The screens retain 52,103 reports. The national and target collections contain 3,096 and 309 damage outcomes."
+20b,Characteristics,S1.3; Tables S4 and S5; input-distribution support files; numerical archive,P,"Counts, missingness, categories and numeric quartiles describe 38 inputs in temporal and target collections. Auxiliary scenario inputs are outside these combined summaries."
+20c,Comparability,S1.3; S4.2; S7.2; Table S5; input-distribution support files,P,Matched distributions describe temporal and target populations for primary and seven-field inputs. Broader auxiliary analyses retain separate descriptions.
+21,Analysis counts,S2.3; Table S4; validation_partition_pairs.csv; numerical archive,R,"All primary temporal and nested geographic pairs are tabulated. Saved counts match 768 primary, 26 ordinary and 128 seven-field fits; repeated uses are not independent reports."
+22,Executable model,S2.1; S11.2,P,"Saved encoders, coefficients and calibration records support prediction. Public completeness of those objects is unverified here."
+23a,Performance,4.1; 4.3–4.6; S4; S6–S9,R,Losses and uncertainty retain their evaluation populations. Recent two-year windows receive descriptive estimates.
+23b,Variation,4.2–4.4; S4–S7,P,National weighting and eight local losses reveal variation. National per-airport loss uncertainty is not comprehensively tabulated.
+24,Updated results,4.5; S8.1–S8.2,R,Restricted-population refits and coding calibration results are reported with separate interpretation boundaries.
+25,Interpretation,5.1–5.4; 6,R,Application claims concern evidence review. Reference agreement and management effectiveness are separated.
+26,Limitations,5.5,R,"Selection, missing labels, retrospective timing, exploratory choices and conditional uncertainty constrain generalization."
+27a,Input quality,5.3; S1.2; S8,R,"The proposed review checks labels, eligibility and support before interpreting a local discrepancy."
+27b,Interaction,5.3; Figure 6,P,Analyst tasks are explicit. Required training and usability have not been evaluated.
+27c,Further use,5.3; 5.5; 6,R,"Prospective evaluation of review consistency, decisions and subsequent outcomes is proposed."

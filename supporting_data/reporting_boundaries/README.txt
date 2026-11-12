@@ -1,0 +1,7 @@
+Selected reporting boundaries
+
+reporting_boundaries.csv preserves six selected topics, their manuscript locations and the full qualifications. reporting_boundary_definition.json retains the display definitions and note. These are summaries of selected items, not additional ratings.
+
+The separate reporting_correspondence directory contains tripod_ai_correspondence.csv (52 items), tripod_cluster_correspondence.csv (37 items), and selected_item_map.json. The map links each selected topic to exact guideline item identifiers. Complete item statuses, explanations and locations remain in those correspondence files. R denotes disclosure; P denotes partial coverage or a stated limitation; U denotes undocumented information; NA identifies a clinical requirement outside this setting. The guidelines supply full item wording. The codes are not combined into a compliance score.
+
+A reported status does not imply approval, prospective registration, public access, evaluated management benefit or methodological certification. Ethics approval and an institutional exemption determination were not obtained. The study was not preregistered and had no airport-personnel or public involvement in its design. The current data and code archives are unpublished. Replay did not test fresh extraction for every national airport or a clean installation. Funding and AI-use declarations remain in the manuscript.

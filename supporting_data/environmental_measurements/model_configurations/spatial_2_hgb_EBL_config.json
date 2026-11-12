@@ -1,0 +1,663 @@
+{
+  "scheme": "spatial",
+  "fold": 2,
+  "family": "hgb",
+  "block": "EBL",
+  "selected_scale": "rings",
+  "params": {
+    "max_depth": 3,
+    "max_iter": 150,
+    "learning_rate": 0.05,
+    "l2_regularization": 10,
+    "min_samples_leaf": 40
+  },
+  "calibration": {
+    "success": true,
+    "intercept": 0.1256411384610285,
+    "slope": 1.0755290070120058,
+    "n": 38972,
+    "damages": 2686,
+    "bound_hit": false
+  },
+  "encoder": {
+    "training_correlation_audit": [
+      {
+        "feature_a": "water_wetland_r00_03",
+        "feature_b": "cropland_r00_03",
+        "pearson_r": -0.19313631281498791,
+        "spearman_r": -0.10133077324366925,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_wetland_r00_03",
+        "feature_b": "water_wetland_r03_08",
+        "pearson_r": 0.8178631833492583,
+        "spearman_r": 0.8150762893858863,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": true
+      },
+      {
+        "feature_a": "cropland_r00_03",
+        "feature_b": "water_wetland_r03_08",
+        "pearson_r": -0.22157825472519252,
+        "spearman_r": -0.15114065229102047,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_wetland_r00_03",
+        "feature_b": "cropland_r03_08",
+        "pearson_r": -0.18827693597423706,
+        "spearman_r": -0.10389637899044489,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_r00_03",
+        "feature_b": "cropland_r03_08",
+        "pearson_r": 0.8892853383749816,
+        "spearman_r": 0.9141971674171456,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": true
+      },
+      {
+        "feature_a": "water_wetland_r00_03",
+        "feature_b": "water_wetland_r08_13",
+        "pearson_r": 0.7128458378945914,
+        "spearman_r": 0.7243771762841155,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_r00_03",
+        "feature_b": "water_wetland_r08_13",
+        "pearson_r": -0.2315652628269839,
+        "spearman_r": -0.19902843326017503,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_wetland_r00_03",
+        "feature_b": "cropland_r08_13",
+        "pearson_r": -0.17637617211220263,
+        "spearman_r": -0.09681693783004268,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_r00_03",
+        "feature_b": "cropland_r08_13",
+        "pearson_r": 0.7997900629273323,
+        "spearman_r": 0.8468462935437814,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": true
+      },
+      {
+        "feature_a": "water_wetland_r08_13",
+        "feature_b": "cropland_r08_13",
+        "pearson_r": -0.2704351427362136,
+        "spearman_r": -0.19237140594121063,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      }
+    ],
+    "screening_enabled": true,
+    "dropped_features": [
+      {
+        "feature": "water_wetland_r03_08",
+        "reason": "correlated_with_water_wetland_r00_03"
+      },
+      {
+        "feature": "cropland_r03_08",
+        "reason": "correlated_with_cropland_r00_03"
+      },
+      {
+        "feature": "cropland_r08_13",
+        "reason": "correlated_with_cropland_r00_03"
+      }
+    ],
+    "scale": "rings",
+    "geography": false,
+    "bird_adjustment": 1,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_wetland_r00_03",
+      "cropland_r00_03",
+      "water_wetland_r08_13"
+    ],
+    "medians": {
+      "year": 0.2,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998,
+      "water_wetland_r00_03": 0.0499538642654872,
+      "cropland_r00_03": 0.0003182686187141,
+      "water_wetland_r08_13": 0.08018508868378041
+    },
+    "means": {
+      "year": 0.07191830031817718,
+      "month_sin": -0.2634758746047738,
+      "month_cos": -0.2107740885384624,
+      "water_wetland_r00_03": 0.09953380996584332,
+      "cropland_r00_03": 0.05568419599157419,
+      "water_wetland_r08_13": 0.1632369111196522
+    },
+    "standard_deviations": {
+      "year": 0.6578095617881432,
+      "month_sin": 0.6821602454116356,
+      "month_cos": 0.6487003519977209,
+      "water_wetland_r00_03": 0.13134110971900975,
+      "cropland_r00_03": 0.12833958335187318,
+      "water_wetland_r08_13": 0.17461254952615532
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Unknown"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach",
+      "bird_size_reported": "Small",
+      "number_struck_category": "1"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_wetland_r00_03",
+      "cropland_r00_03",
+      "water_wetland_r08_13",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb",
+      "bird_size_reported=Unknown",
+      "bird_size_reported=Medium",
+      "bird_size_reported=Large",
+      "number_struck_category=2-10",
+      "number_struck_category=11-100",
+      "number_struck_category=Unknown"
+    ],
+    "training_events": 38972,
+    "training_airports": 1140,
+    "training_year_min": 2015,
+    "training_year_max": 2025,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Unknown",
+        "More than 100"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ],
+      "bird_size_reported": [
+        "Large",
+        "Medium",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "11-100",
+        "2-10",
+        "Unknown"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "test_qc": {
+    "n_rows": 7195,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 1,
+    "finite_matrix": true
+  },
+  "target_qc": {
+    "n_rows": 5936,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 5,
+    "finite_matrix": true
+  },
+  "candidates": [
+    {
+      "mean_logloss": 0.1912259912997916,
+      "scale": "b03",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24269706998382717,
+        0.17467510877898065,
+        0.17189078921527937,
+        0.17564099722107918
+      ]
+    },
+    {
+      "mean_logloss": 0.19019531114426685,
+      "scale": "b03",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24120270444601008,
+        0.17354197677797722,
+        0.17053343408130434,
+        0.17550312927177567
+      ]
+    },
+    {
+      "mean_logloss": 0.19107136940772823,
+      "scale": "b08",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24295082140656912,
+        0.1743709046451889,
+        0.17166100725491973,
+        0.1753027443242352
+      ]
+    },
+    {
+      "mean_logloss": 0.19030328312129086,
+      "scale": "b08",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24198273144022334,
+        0.17357599772180857,
+        0.17060337722434338,
+        0.17505102609878806
+      ]
+    },
+    {
+      "mean_logloss": 0.19106910857949724,
+      "scale": "b13",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24281800309488644,
+        0.17423959009973522,
+        0.17175612210845007,
+        0.17546271901491728
+      ]
+    },
+    {
+      "mean_logloss": 0.19065934786450278,
+      "scale": "b13",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24240813486985288,
+        0.17345602668331445,
+        0.17103059281080604,
+        0.17574263709403787
+      ]
+    },
+    {
+      "mean_logloss": 0.1910825771845771,
+      "scale": "rings",
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.2425986852377608,
+        0.17431059188411904,
+        0.17185142797227151,
+        0.17556960364415702
+      ]
+    },
+    {
+      "mean_logloss": 0.19010184088069637,
+      "scale": "rings",
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.24094011437444363,
+        0.17346746068100857,
+        0.17059649230128937,
+        0.1754032961660439
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "label": "b03_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.29001951217651367
+    },
+    {
+      "label": "b03_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.283829927444458
+    },
+    {
+      "label": "b03_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.24602508544921875
+    },
+    {
+      "label": "b03_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.2489910125732422
+    },
+    {
+      "label": "b03_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.3067905902862549
+    },
+    {
+      "label": "b03_1_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.3082098960876465
+    },
+    {
+      "label": "b03_1_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.2784559726715088
+    },
+    {
+      "label": "b03_1_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.2817702293395996
+    },
+    {
+      "label": "b08_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.2706778049468994
+    },
+    {
+      "label": "b08_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.272869348526001
+    },
+    {
+      "label": "b08_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.2521529197692871
+    },
+    {
+      "label": "b08_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.24614429473876953
+    },
+    {
+      "label": "b08_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.3074643611907959
+    },
+    {
+      "label": "b08_1_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.3182189464569092
+    },
+    {
+      "label": "b08_1_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.28841567039489746
+    },
+    {
+      "label": "b08_1_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.31827306747436523
+    },
+    {
+      "label": "b13_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.28592634201049805
+    },
+    {
+      "label": "b13_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.2786104679107666
+    },
+    {
+      "label": "b13_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.24914765357971191
+    },
+    {
+      "label": "b13_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.24796819686889648
+    },
+    {
+      "label": "b13_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.3092343807220459
+    },
+    {
+      "label": "b13_1_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.31438255310058594
+    },
+    {
+      "label": "b13_1_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.2774364948272705
+    },
+    {
+      "label": "b13_1_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.2838129997253418
+    },
+    {
+      "label": "rings_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.24783658981323242
+    },
+    {
+      "label": "rings_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.26615262031555176
+    },
+    {
+      "label": "rings_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.22300314903259277
+    },
+    {
+      "label": "rings_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.2222301959991455
+    },
+    {
+      "label": "rings_1_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.2794303894042969
+    },
+    {
+      "label": "rings_1_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.3085329532623291
+    },
+    {
+      "label": "rings_1_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.26019740104675293
+    },
+    {
+      "label": "rings_1_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.25980329513549805
+    },
+    {
+      "label": "final",
+      "n": 38972,
+      "airports": 1140,
+      "damage": 2686,
+      "seconds": 0.35607123374938965
+    }
+  ],
+  "seconds": 11.050981521606445
+}

@@ -1,0 +1,141 @@
+{
+  "success": true,
+  "airports": [
+    "KDEN",
+    "KJFK",
+    "KMIA",
+    "KMSP",
+    "KBOS",
+    "KSFO",
+    "KSAT",
+    "KSTL",
+    "KDEN_ALT"
+  ],
+  "positions": 9,
+  "raster_products": 26,
+  "cache_comparisons": [
+    {
+      "airport": "KDEN",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "a1e72708e924a17edd20ea51adc330d2631105be1277408cb6f1248b1e816b6c"
+    },
+    {
+      "airport": "KJFK",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "762eaf5198cd0f47a8e14b6a085036d5b8699c5e0eb77427b97eced27213995c"
+    },
+    {
+      "airport": "KMIA",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "4c1ec37619dd52311efe6ac91c028f1c755f532dfd882da23868858c7856aedf"
+    },
+    {
+      "airport": "KMSP",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "84c8eb1852140aa8d603bcf398ad3b3cd583dbb1752907e6e25f861057af31b3"
+    },
+    {
+      "airport": "KBOS",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "5a862824f9de29b0c1513c1e8ac1166bc608c7d28e0f3e543b0675ed4b185283"
+    },
+    {
+      "airport": "KSFO",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "ac0054cb2fd5cff941a97f94d15d23d6d1c5e9eba335c1161310beb130c10a91"
+    },
+    {
+      "airport": "KSAT",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "3e2d679bc9d834e828fe18cacca12bedd034d12a371d31fe236df6c8b6490538"
+    },
+    {
+      "airport": "KSTL",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 0.0,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "28ac8bb3104f840ed0929927ef99e44bfd34c0ecda96be60f7d5b60f2bf226f5"
+    },
+    {
+      "airport": "KDEN_ALT",
+      "fields": 23,
+      "numeric_values": 95880,
+      "maximum_float_error": 3.979039320256561e-12,
+      "integers_exact": true,
+      "shape_dtype_missingness_equal": true,
+      "reference_cache_sha256": "be0f3a2a1849b617050c1fca6f360ac2c16103965de67d7019f2437b3b2255b6"
+    }
+  ],
+  "numeric_values": 862920,
+  "maximum_float_error": 3.979039320256561e-12,
+  "integers_exact": true,
+  "synthetic_tests": {
+    "checkerboard_shdi": 0.6931471805599453,
+    "diagonal_8_neighbour_connected": true,
+    "edge_once_and_outer_excluded": true,
+    "nodata_edges_excluded": true,
+    "centre_mask_expected_2": 2,
+    "all_touched_expected_4": 4,
+    "passed": true
+  },
+  "staged_inputs_unchanged": 29,
+  "source_archive_size_mtime_unchanged": true,
+  "source_archive_full_post_hash_checked": false,
+  "cache_reused": false,
+  "invalid_inputs_rejected": [
+    "duplicate_product",
+    "duplicate_airport"
+  ],
+  "existing_outputs_preserved": true,
+  "new_model_fits": 0,
+  "new_random_draws": 0,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "national_all_airport_extraction_replayed": false,
+  "core_geometry_and_pixel_functions_unchanged": true,
+  "floating_difference_location": [
+    {
+      "field": "areas_km2",
+      "maximum_absolute_error": 3.979039320256561e-12,
+      "different_elements": 6
+    }
+  ],
+  "release_verification_scope": {
+    "retained_computational_record": true,
+    "help_checked": true,
+    "optional_imports_deferred_until_after_argument_parsing": true,
+    "computational_rerun_in_this_release_check": false
+  }
+}

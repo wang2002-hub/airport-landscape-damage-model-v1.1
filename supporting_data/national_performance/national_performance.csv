@@ -1,0 +1,19 @@
+﻿Evaluation,Family,Block,Brier,Log loss,AUC,AP,O/E
+Geographic,Ordinary,EB,0.049941,0.183442,0.846,0.380,1.000
+Geographic,Hierarchical,E,0.058700,0.222005,0.732,0.185,0.997
+Geographic,Hierarchical,EL,0.058676,0.222114,0.731,0.187,0.982
+Geographic,Hierarchical,EB,0.049916,0.183398,0.846,0.380,0.998
+Geographic,Hierarchical,EBL,0.049957,0.183570,0.846,0.380,1.007
+Geographic,Boosting,E,0.058355,0.220488,0.738,0.191,1.001
+Geographic,Boosting,EL,0.058438,0.220733,0.738,0.194,1.000
+Geographic,Boosting,EB,0.049679,0.182743,0.847,0.382,0.999
+Geographic,Boosting,EBL,0.049749,0.182909,0.847,0.381,1.009
+Temporal,Ordinary,EB,0.044929,0.168726,0.846,0.374,0.969
+Temporal,Hierarchical,E,0.053062,0.204328,0.740,0.176,0.970
+Temporal,Hierarchical,EL,0.052883,0.203600,0.742,0.183,0.970
+Temporal,Hierarchical,EB,0.044925,0.168712,0.846,0.374,0.973
+Temporal,Hierarchical,EBL,0.044951,0.168692,0.846,0.376,0.974
+Temporal,Boosting,E,0.052515,0.201768,0.749,0.187,0.983
+Temporal,Boosting,EL,0.052681,0.201871,0.751,0.187,0.980
+Temporal,Boosting,EB,0.044754,0.168293,0.846,0.380,0.996
+Temporal,Boosting,EBL,0.044885,0.168674,0.846,0.379,1.003

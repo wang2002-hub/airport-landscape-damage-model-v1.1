@@ -1,0 +1,76 @@
+{
+  "package_status": "prepared_and_locally_checked",
+  "components": 24,
+  "registered_entries": 42,
+  "python_sources_syntax_checked": 90,
+  "all_registered_help_interfaces_passed": true,
+  "five_submission_files_hash_bound": true,
+  "current_analysis_checks": [
+    "Damage-extent partition outputs replayed with local saved inputs, including failed fit records.",
+    "Coding and volume diagnostics reproduced with absolute and relocated relative input bindings.",
+    "Reference-comparison tables reproduced and Figure 4 matched.",
+    "Included saved aggregate and documentation evidence replayed."
+  ],
+  "current_pixel_verified_figures": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "S3",
+    "S4",
+    "S11",
+    "S12",
+    "graphical_abstract"
+  ],
+  "retained_asset_and_route_only_figures": [
+    "1",
+    "S1",
+    "S2",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10"
+  ],
+  "visual_checks": "Ten current re-exported figures were visually reviewed; automated geometry/text checks retained in local audit records.",
+  "retained_component_records": "Other component verification_summary.json files are retained source checks, not claims of all components being executed again in one environment.",
+  "environment": "Python 3.12. Analysis and drawing dependency scopes are separate. Optional GIS imports are deferred where needed so help remains accessible.",
+  "not_claimed": [
+    "Clean-machine dependency installation",
+    "All raw raster extractions or complete national model refits",
+    "A single complete end-to-end reproduction",
+    "Prospective or operational validation",
+    "Remote repository publication"
+  ],
+  "data_scope": "40 report-level Parquet prediction tables plus compact supporting evidence are included. Large raw inputs, the event cohort and some saved fits are external.",
+  "evidence_records": [
+    {
+      "file": "verification/documentation_partition.json",
+      "sha256": "de08ea8516623c40d589fe80f8385ff87ed30ef496f47ff3905e06ac40115ee3",
+      "source_record_sha256": "d16fccad0b57e562673a49e0ec956ec348fa443150b41d0f423d8aceae601bb7"
+    },
+    {
+      "file": "verification/coding_and_volume_diagnostics.json",
+      "sha256": "e62c45bcfc0c2ee546efc813e68c1354f676b9b333585bf99da45684131ea491",
+      "source_record_sha256": "629c889a446d94fae3ccd279f04c2124e6ac66cb6d487d289e5c418a33c3eeeb"
+    },
+    {
+      "file": "verification/reference_comparison.json",
+      "sha256": "8abada245c95c918fcbc9fd7100391cbd9a0a9227b0b4e5ab91fa24c36b9d43d",
+      "source_record_sha256": "8f33e5132fcb14db9785611bb3b20cd359ebd27d59a373486a157de23977e77b"
+    },
+    {
+      "file": "verification/airport_figures.json",
+      "sha256": "a8d8cf2954a5eddfe363b30b32ec85c32b561d6abc043e6db95552dcc92958ce",
+      "source_record_sha256": "e249cd4c0b550829385d5387df411e69a7e89479ec9a166071252ecd9a5a741f"
+    },
+    {
+      "file": "verification/assembled_interfaces_and_figures.json",
+      "sha256": "1ffcba12458896774891e68722b3c3cac482b2ced0fc898ac4a52a0890579c6f",
+      "source_record_sha256": "2ee0b5fc70f6b1ce4d4004e1bc2e9ce1e205bd8309938f87fd7d683d65f5e84b"
+    }
+  ],
+  "archive_check": "CRC, full extracted membership, SHA-256, standard-library replay and documentation replay are checked during delivery; the external delivery report records the archive hash."
+}

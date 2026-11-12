@@ -1,0 +1,38 @@
+Item,Topic,Location,Status,Evidence
+1,Identification,Title,P,"The title identifies case-mix profiling of airport bird-strike damage reports, uncertainty and damage-extent documentation. Model development and evaluation are described in the abstract rather than named in the title."
+2,Synopsis,Abstract,P,"The abstract reports study size, held-out airports, reference procedures, pooled subtype O/E estimates and whether joint intervals include one. Detailed eligibility, full predictor definitions, probability losses, numerical interval endpoints and registration are not provided."
+3a,Rationale,1; 5.2,R,The study connects local aviation review to institutional profiling and prior damage models.
+3b,Aims,1; 3.1,R,National reference development and evaluation support a defined retrospective review question.
+4a,Eligibility,2.1–2.2; S1.1,R,Report and airport screens distinguish the national source from the eight held-out targets.
+4b,Provenance,S1.1; S11.1,R,Retained FAA data and environmental collections are identified with their analytical roles.
+5,Size,S1.1; S2.3; Table S4; validation_partition_pairs.csv,P,Available registry records determine report and airport counts. Empirical precision is described without claiming prospectively powered local comparisons.
+6a,Outcome,2.1; S1.1; S8.1,R,Binary damage and extent coding use distinct definitions. Coding composition varies across airports.
+6b,Predictors,2.3; S1.2; S9,R,"Information blocks, units, map scales and timing are defined for each model family."
+7a,Preparation,S1.1–S1.2,R,"Record selection, linkage, quality checks and within-training encoding are described."
+7b,Bias methods,3.6; 5.5; S8,P,Reporting and coding diagnostics assess applicability. A formal airport-by-airport risk-of-bias assessment was not reported.
+7c,Transfer definitions,2.2; S2.2; S7.2,R,"Common definitions coexist with distinct periods, report compositions and input support."
+7d,Missingness,S1.2; S1.3; numerical archive,P,"Missingness is summarized for 38 primary and seven-field inputs at all 1,383 airports, including sparse collections. Auxiliary inputs retain separate coverage checks."
+8a,Encoding,S1.2; S9.3,R,Training-based transformations and category handling are specified.
+8b,Estimation,3.1; S2,R,"Model families, penalties, tuning and airport-separated validation are described."
+8c,Parameter variation,S2.1; S5.2,R,Hierarchical regression estimates airport intercept variation. Full-data conditional ranks are analyzed separately.
+8d,Prediction,S2.1; S11.2,P,Marginal integration and calibration are specified. The exact public implementation still requires a matching release check.
+8e,Metrics,3.2; S4.1; S7.2,R,Probability loss and calibration are reported separately from profile direction and rank agreement.
+8f,Performance variation,3.2–3.5; S4.2; S6,R,Report and airport weighting answer distinct questions. Local losses and joint relative ratios describe different variation.
+8g,Updating,3.6; S8.1–S8.2,R,Calibration uses national development information. Restricted refitting changes the reference separately from population restriction.
+9,Sensitivity design,3.6–3.7; S3; S7–S9,R,"Purposes, changed populations and exploratory timing are explicit. Additional target results had already been viewed."
+10a,Flow,S1.1; Table S1; Figure 1,R,"The final national set includes 1,375 airports; the target set adds eight excluded airports."
+10b,Characteristics,S1.3; Tables S4 and S5; input-distribution support files; numerical archive,P,Every airport has missingness counts for 38 inputs. Distributions also cover all targets and geographic groups; full distributions at every other individual airport are outside these summaries.
+10c,Comparability,S1.3; S4.2; S7.2; Table S5; input-distribution support files,P,Primary and seven-field predictor distributions permit comparisons between temporal and target collections. Cluster-specific auxiliary distributions remain outside the combined summaries.
+11,Bias findings,"S7.2 local_input_support.csv; S8; Tables S16, S17, S18, S19, S20, S21, S22, S23 and S24; supporting_data/reporting_sources/coding_support.md; complete files identified in S8.2–S8.4",P,"Input support, coding and label availability are quantified. These do not constitute a formal cluster-level bias rating."
+12a,Model changes,S2.1; S5.2,R,The random-intercept model and its selection rule are specified. Conditional profile diagnostics do not trigger cluster exclusion.
+12b,Model access,S2.1; S11.2,P,Saved parameters support replay. Public access to all model objects and exact dependencies needs verification.
+13a,Performance,S4; S6–S7,P,National and eight-target estimates retain uncertainty. Comprehensive loss intervals for every national airport are absent.
+13b,Heterogeneity,4.1–4.4; S4–S7,R,"Weighting contrasts, local losses and profile dispersion are distinct results. They do not establish one universal heterogeneity statistic."
+14,Updated results,4.5; S8.1–S8.2,R,Restricted refitting and coding calibration retain unfavorable as well as favorable findings.
+15,Sensitivity findings,S3; S5–S9,R,"Interval, reference, coding, label and landscape sensitivities retain changed denominators and uncertainty definitions."
+16a,Interpretation,5.1–5.2,R,Local comparisons are interpreted alongside reference performance and existing research.
+16b,Validation context,4.1; 5.1; 5.5,R,"National temporal, geographic and target assessments have different roles. Local transfer limits temper national average performance."
+16c,Limitations,5.5,R,"Selection, incomplete records, retrospective information and conditional uncertainty remain explicit."
+17,Applicability,5.3; 5.5; 6,R,The proposed review process needs prospective evaluation before claims about management benefits.
+18,Resources,3.7; S11.2,P,"Analysis records and replay scope are described. Matching public data, code and protocol locators require verification."
+19,Funding,S12.1,R,No specific grant supported the study.

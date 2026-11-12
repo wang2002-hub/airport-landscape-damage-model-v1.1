@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 76,
+  "max_abs_gradient": 0.005521282578629257,
+  "negative_loglik_penalized": 9324.035511292735,
+  "sigma": 0.3456255228517357,
+  "rho_boundary": false
+}

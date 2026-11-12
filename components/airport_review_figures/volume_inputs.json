@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "calibration_with_paired_gaps": {
+      "path": "inputs/calibration_with_paired_gaps.csv",
+      "sha256": "c9fbfa857caff589ffc0d6565bcbc52440c23a2d6f01acb1e59538578b193890"
+    }
+  }
+}

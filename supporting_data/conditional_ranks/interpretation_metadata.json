@@ -1,0 +1,16 @@
+{
+  "population": {
+    "reports": 52103,
+    "damage": 3405,
+    "airports": 1383,
+    "targets": 8
+  },
+  "fit": "Full-data explanatory hierarchical EBL, fixed three-kilometer representation; includes target outcomes. Not geographic held-out evaluation.",
+  "effect_intervals": "Conditional grid-based effect quantiles at estimated coefficients and variance. Odds intervals exponentiate effect endpoints.",
+  "ranks": "5000 conditional vectors; ranks computed across all 1383 airports within each draw; rank one is largest effect. Split halves contain 2500 draws each.",
+  "numerical_checks": "The estimation script asserted small boundary mass for every grid. The fit metadata records adaptive-integration comparisons for four means. Split-half rank endpoints are Monte Carlo diagnostics, not independent replication.",
+  "external_ratio_join": "All 1383 explanatory rows remain. External O/E and E are available for the 1375 national geographic profiles. Eight target entries are empty because targets use temporal predictions.",
+  "uncertainty": "Fixed coefficient and variance estimates; no simultaneous coverage claim or validated safety ordering.",
+  "legacy_display_note": "display_definition.json preserves the source table verbatim. Its broad attribution of all intervals to 5000 vectors is clarified here: effect intervals use grid quantiles, rank intervals use the draws.",
+  "public_release_status": "not published"
+}

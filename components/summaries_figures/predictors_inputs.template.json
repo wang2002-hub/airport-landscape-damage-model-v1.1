@@ -1,0 +1,10 @@
+{
+  "paths": {
+    "cohort": "DATA/cohort.parquet",
+    "extended_cohort": "DATA/extended_cohort.parquet",
+    "analysis_config": "DATA/analysis_config.json",
+    "national_results": "DATA/national_results",
+    "simple_run": "DATA/simple_run.json",
+    "enhanced_results": "DATA/enhanced_results"
+  }
+}

@@ -1,0 +1,9 @@
+# Local probability comparisons and input support
+
+Table S15 retains all 32 primary complex-minus-ordinary paired contrasts. local_paired_losses.csv preserves original-unit estimates and pointwise endpoints; multiply them by 1,000 to obtain displayed S34 values. Negative differences favor the complex procedure. EB comparisons match input blocks, while EBL versus ordinary EB also adds landscape inputs. There are no paired intervals for the seven-field extensions.
+
+local_model_metrics.csv contains all 144 airport/specification/period records: nine references at eight airports in each of two overlapping periods. Five specifications are primary and four are enhanced. Each full-period specification evaluates 5,936 reports and 309 damage outcomes. Recent specifications evaluate the nested 1,615 reports and 77 damage outcomes. Expected counts, O/E, signed mean differences, absolute Brier and log losses are distinct summaries. Differences were computed before rounding; subtracting printed absolute losses can differ in the final digit. Primary and enhanced count display CSVs preserve all original cells.
+
+local_input_support.csv gives all 16 airport-family records, training-range and percentile flags, numerical missingness, unseen-category cells, categories not retained individually, and finite-matrix checks. A report is flagged if any environmental input is outside its specified univariate limits. These are marginal diagnostics. Categorical fields count cells and must not be presented as distinct reports. All unseen counts are zero, while some cells map to categories pooled during training. input_support_display.csv preserves the original display. All outcome, support and interval boundaries remain in local_comparison_metadata.json and display_definitions.json.
+
+The files are copies of saved results; no fitting or resampling was repeated. The current package has not been publicly released.

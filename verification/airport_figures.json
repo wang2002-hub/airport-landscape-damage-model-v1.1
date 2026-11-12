@@ -1,0 +1,168 @@
+{
+  "automated_checks_passed": true,
+  "visual_review_pending": false,
+  "figures": [
+    {
+      "id": "3",
+      "stem": "fig03_airport_comparisons",
+      "pixel_identical_to_active": true,
+      "width": 3900,
+      "height": 2880,
+      "geometry_passed": true,
+      "png_sha256": "07e2818b465ff8a93eafb2a0072977d262117ba1e6366ec00254b0e54de28321"
+    },
+    {
+      "id": "5",
+      "stem": "fig05_damage_extent",
+      "pixel_identical_to_active": true,
+      "width": 3900,
+      "height": 2880,
+      "geometry_passed": true,
+      "png_sha256": "3a71b6a58952b026669a48e3beac9087d9b36d59421d83790659519860421039"
+    },
+    {
+      "id": "6",
+      "stem": "fig06_review_protocol",
+      "pixel_identical_to_active": true,
+      "width": 3900,
+      "height": 3420,
+      "geometry_passed": true,
+      "png_sha256": "0acb6e673b1a1ca8a75e243d1112dc3c67d7290c01e905b4e58219f6d1a832f7"
+    },
+    {
+      "id": "S3",
+      "stem": "figS03_report_volume_calibration",
+      "pixel_identical_to_active": true,
+      "width": 3900,
+      "height": 3360,
+      "geometry_passed": true,
+      "png_sha256": "42f46983a0ae6f583f34ac85d5c7553d8523d0f24f6a24b67a2d216b3f7da1ec"
+    }
+  ],
+  "tests": [
+    {
+      "test": "airports_render",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "airports_source",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "3_text",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "3_collisions",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "5_text",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "5_collisions",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "airports_reject_hash",
+      "exit_code": 1,
+      "expected_success": false
+    },
+    {
+      "test": "airports_reject_overwrite",
+      "exit_code": 2,
+      "expected_success": false
+    },
+    {
+      "test": "workflow_render",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "workflow_source",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "6_text",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "6_collisions",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "workflow_reject_hash",
+      "exit_code": 1,
+      "expected_success": false
+    },
+    {
+      "test": "workflow_reject_overwrite",
+      "exit_code": 2,
+      "expected_success": false
+    },
+    {
+      "test": "volume_render",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "volume_source",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "S3_text",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "S3_collisions",
+      "exit_code": 0,
+      "expected_success": true
+    },
+    {
+      "test": "volume_reject_hash",
+      "exit_code": 1,
+      "expected_success": false
+    },
+    {
+      "test": "volume_reject_overwrite",
+      "exit_code": 2,
+      "expected_success": false
+    },
+    {
+      "test": "execution_environment",
+      "exit_code": 0,
+      "expected_success": true
+    }
+  ],
+  "execution_environment": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2"
+  },
+  "five_documents_unchanged": true,
+  "inputs_unchanged": true,
+  "scope": "Figures 3,5,6,S3 exporters only; full release remains pending.",
+  "visual_review_passed": true,
+  "visual_notes": {
+    "3": "Both interval families visible; pool is pointwise and annotated; relative JFK endpoint includes one.",
+    "5": "Pooled counts and pointwise intervals distinct from local simultaneous intervals; embedded bar labels are intentional.",
+    "6": "Branch cards and arrows readable; B+C illustration and retrospective limitation preserved; text inside boxes intentional.",
+    "S3": "All four panels readable; time windows, weighting and marginal observed/predicted intervals remain distinguishable."
+  },
+  "static_warning_review": {
+    "FINAL-WIDTH": "165.1 mm preserved to match current manuscript; general Nature width defaults do not require redesign here.",
+    "LOG-GUARD": "Local ratio and bound columns have an explicit positivity assertion before log axes. The hash-bound pooled ratio and limits are positive and visually within the axis; static detector did not recognize the existing local guard."
+  }
+}

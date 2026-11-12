@@ -1,0 +1,24 @@
+{
+  "population": "National temporal test reports,2024–2025",
+  "n": 11124,
+  "damage": 669,
+  "airports": 803,
+  "comparison_count": 4,
+  "canopy_source_year": 2015,
+  "canopy_radius_km": {
+    "glmm": 3,
+    "hgb": 8
+  },
+  "land_cover_settings": [
+    "annual_landcover",
+    "fixed2015_landcover"
+  ],
+  "interval_resamples": 2000,
+  "resampling_unit": "airport; paired on identical reports",
+  "fixed": "Predictions, original model settings and canopy scale choices",
+  "loss_units": "Brier/logloss original units; delta is augmented minus base; relative_brier_change_pct is percent of base Brier. Displayed Brier deltas and intervals are multiplied by1000.",
+  "interval_scope": "low/high are95% paired fixed-prediction Brier intervals, not logloss intervals or development-refit uncertainty.",
+  "interpretation": "All four intervals span zero. A zero-spanning interval does not establish equivalent performance. These retrospective prediction comparisons do not measure vegetation-management effects.",
+  "separate_context": "target_canopy_context.csv covers13km target means at2015,2020,2025 without interpolation; it is not the canopy predictor used in these four comparisons.",
+  "source_sha256": "c257bf38600a86bf016d3165334b59d07fcfa74f0e5d23de01382fc67c861b3c"
+}

@@ -1,0 +1,12 @@
+﻿Source,Coverage,Use in this analysis,Boundary
+FAA strike reports,2015–2025 study window,Outcome and event/bird inputs,Selected reports; unknown damage stays unknown.
+Annual NLCD cover and imperviousness,2015–2025; national,Primary landscape inputs; spatial and annual summaries,Retained extraction reused; later product release.
+NLCD LndCnf,2025; national,"Eight targets; 3, 8 and 13 km confidence summaries",Means use valid values 1–100; excluded codes are not all low confidence. Valid coverage uses buffer pixels.
+NLCD tree canopy,"2015, 2020, 2025",Static-2015 national sensitivity; three-year context,No annual interpolation; fixed-date retrospective addition.
+Surface weather,Eight targets; 11 years,Verified time basis and local residual diagnostics,"Local only; frozen probabilities, no weather-effect model."
+Hourly precipitation,Eight targets; 11 files each,Source boundary and completeness audit,Incomplete annual boundaries; unresolved timezone. Missing entries are not zero rainfall.
+FD temperature and wind,Eight targets; forecasts,Reference/valid-time and duplicate-key checks,Forecasts at altitude. Eleven supplemental JFK exports overlap primary keys and are not appended.
+TFMSC activity,DEN only; 2015–2025,"26,857 classification rows; 35,100 subtotals; one grand total",132 DEN months; table rows are not flights. No common eight-airport movement denominator.
+Sentinel-2 L2A,13 archives; 2026 acquisitions,Acquisition-date audit,Outside the outcome period; not a historical predictor.
+State wetland packages,Eight states; mixed source dates,"Local polygon, class and project-date intersections","Mixed vintages; local background, not annual truth."
+Airport vectors and facility records,Eight targets; documented snapshots,"Reference, runway-geometry and buffer figure","Snapshot geometry, not historical runway use."

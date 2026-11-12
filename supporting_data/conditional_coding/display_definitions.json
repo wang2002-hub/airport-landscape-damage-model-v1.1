@@ -1,0 +1,394 @@
+{
+  "supp_diagnostics.coding_losses": {
+    "caption": "source record SRC-S37. Conditional M? prediction among recorded damage reports",
+    "headers": [
+      "Population",
+      "Damage / M?",
+      "Coding reference",
+      "Expected M?",
+      "Brier",
+      "Log loss"
+    ],
+    "rows": [
+      [
+        "National test",
+        "669 / 551",
+        "Calibrated EB",
+        "614.248",
+        "0.151302",
+        "0.505940"
+      ],
+      [
+        "National test",
+        "669 / 551",
+        "Uncalibrated EB",
+        "627.664",
+        "0.156561",
+        "0.532142"
+      ],
+      [
+        "National test",
+        "669 / 551",
+        "2023 constant",
+        "550.118",
+        "0.145274",
+        "0.465870"
+      ],
+      [
+        "Targets",
+        "309 / 252",
+        "Calibrated EB",
+        "172.340",
+        "0.267840",
+        "0.836298"
+      ],
+      [
+        "Targets",
+        "309 / 252",
+        "Uncalibrated EB",
+        "249.137",
+        "0.132860",
+        "0.440056"
+      ],
+      [
+        "Targets",
+        "309 / 252",
+        "2023 constant",
+        "254.091",
+        "0.150484",
+        "0.478253"
+      ]
+    ],
+    "widths": [
+      1.1,
+      0.9,
+      1.3,
+      1.0,
+      1.1,
+      1.1
+    ],
+    "note": "National test is 2024–2025; targets are 2015–2025. Every row concerns known damage reports only. The constant is 236/287 from national 2023 damage reports. Expected M? sums conditional coding probabilities over damaged reports. Losses are absolute values in original units. All three versions remain visible because calibration changed transfer performance; no target outcomes fitted or calibrated the model.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_diagnostics.annual_coding": {
+    "caption": "source record SRC-S37A. Annual damage extent composition",
+    "headers": [
+      "Year",
+      "National M?/damage",
+      "M? (%)",
+      "Eight targets M?/damage",
+      "M? (%)"
+    ],
+    "rows": [
+      [
+        "2015",
+        "86/267",
+        "32.2",
+        "6/25",
+        "24.0"
+      ],
+      [
+        "2016",
+        "127/245",
+        "51.8",
+        "18/23",
+        "78.3"
+      ],
+      [
+        "2017",
+        "197/259",
+        "76.1",
+        "22/31",
+        "71.0"
+      ],
+      [
+        "2018",
+        "224/285",
+        "78.6",
+        "21/26",
+        "80.8"
+      ],
+      [
+        "2019",
+        "267/307",
+        "87.0",
+        "16/17",
+        "94.1"
+      ],
+      [
+        "2020",
+        "176/217",
+        "81.1",
+        "20/22",
+        "90.9"
+      ],
+      [
+        "2021",
+        "218/274",
+        "79.6",
+        "17/19",
+        "89.5"
+      ],
+      [
+        "2022",
+        "221/286",
+        "77.3",
+        "30/32",
+        "93.8"
+      ],
+      [
+        "2023",
+        "236/287",
+        "82.2",
+        "33/37",
+        "89.2"
+      ],
+      [
+        "2024",
+        "266/321",
+        "82.9",
+        "29/30",
+        "96.7"
+      ],
+      [
+        "2025",
+        "285/348",
+        "81.9",
+        "40/47",
+        "85.1"
+      ],
+      [
+        "All years",
+        "2303/3096",
+        "74.4",
+        "252/309",
+        "81.6"
+      ]
+    ],
+    "widths": [
+      0.7,
+      1.9,
+      0.8,
+      2.1,
+      1.0
+    ],
+    "note": "National counts exclude all eight targets. Damage includes both M? and extent-documented outcomes. M? records known damage with undetermined extent; it is distinct from an unresolved binary damage label. Counts cover the eligible cohort in the retained database snapshot. All-year totals combine 46,167 national and 5,936 target eligible reports, respectively. Annual percentages are descriptive; no trend test or causal interpretation of coding practice is implied. Figure S9A uses these values."
+  },
+  "supp_diagnostics.coding_periods": {
+    "caption": "source record SRC-S37B. Conditional coding performance by target calendar period",
+    "headers": [
+      "Period",
+      "Damage (M?)",
+      "Observed M? (%)",
+      "Version",
+      "Predicted M? (%)",
+      "Brier loss",
+      "Log loss"
+    ],
+    "rows": [
+      [
+        "2015–2022",
+        "195 (150)",
+        "76.9",
+        "Calibrated",
+        "34.2",
+        "0.365632",
+        "1.089445"
+      ],
+      [
+        "2015–2022",
+        "195 (150)",
+        "76.9",
+        "Uncalibrated",
+        "72.7",
+        "0.153157",
+        "0.478450"
+      ],
+      [
+        "2015–2022",
+        "195 (150)",
+        "76.9",
+        "2023 constant",
+        "82.2",
+        "0.180331",
+        "0.549190"
+      ],
+      [
+        "2023",
+        "37 (33)",
+        "89.2",
+        "Calibrated",
+        "88.0",
+        "0.099426",
+        "0.359156"
+      ],
+      [
+        "2023",
+        "37 (33)",
+        "89.2",
+        "Uncalibrated",
+        "92.5",
+        "0.097732",
+        "0.353053"
+      ],
+      [
+        "2023",
+        "37 (33)",
+        "89.2",
+        "2023 constant",
+        "82.2",
+        "0.101264",
+        "0.361273"
+      ],
+      [
+        "2024–2025",
+        "77 (69)",
+        "89.6",
+        "Calibrated",
+        "94.8",
+        "0.101112",
+        "0.424489"
+      ],
+      [
+        "2024–2025",
+        "77 (69)",
+        "89.6",
+        "Uncalibrated",
+        "94.9",
+        "0.098340",
+        "0.384628"
+      ],
+      [
+        "2024–2025",
+        "77 (69)",
+        "89.6",
+        "2023 constant",
+        "82.2",
+        "0.098549",
+        "0.354820"
+      ]
+    ],
+    "widths": [
+      0.9,
+      0.8,
+      0.8,
+      1.1,
+      0.9,
+      1,
+      1
+    ],
+    "note": "All rows concern damage reports at the eight target airports, excluded from national model development and calibration. The calendar windows follow the original national training, calibration and test periods. Rows within each period use identical reports. Both fitted versions share saved coefficients; only the calibrated version applies the 2023 transformation. The constant is 236/287. Smaller losses indicate better predictions. These are exploratory point summaries with no development uncertainty intervals or preferred-model selection. Period counts sum to 309 damage reports and 252 M? outcomes. source record SRC-S37 preserves full-period target and national test scores."
+  },
+  "supp_diagnostics.subtypes": {
+    "caption": "source record SRC-S38. Auxiliary subtype expectations from the calibrated coding model",
+    "headers": [
+      "Airport",
+      "Reports",
+      "Total E",
+      "M? observed / expected",
+      "Documented observed / expected",
+      "M? O/E",
+      "Documented O/E"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "1780",
+        "55.837",
+        "48 / 32.072",
+        "12 / 23.765",
+        "1.497",
+        "0.505"
+      ],
+      [
+        "JFK",
+        "810",
+        "44.802",
+        "58 / 26.726",
+        "7 / 18.076",
+        "2.170",
+        "0.387"
+      ],
+      [
+        "MIA",
+        "570",
+        "28.202",
+        "21 / 16.164",
+        "4 / 12.039",
+        "1.299",
+        "0.332"
+      ],
+      [
+        "MSP",
+        "433",
+        "25.470",
+        "27 / 14.614",
+        "5 / 10.857",
+        "1.848",
+        "0.461"
+      ],
+      [
+        "BOS",
+        "729",
+        "48.488",
+        "45 / 27.757",
+        "12 / 20.730",
+        "1.621",
+        "0.579"
+      ],
+      [
+        "SFO",
+        "493",
+        "31.737",
+        "23 / 17.084",
+        "4 / 14.654",
+        "1.346",
+        "0.273"
+      ],
+      [
+        "SAT",
+        "560",
+        "18.306",
+        "11 / 9.802",
+        "6 / 8.504",
+        "1.122",
+        "0.706"
+      ],
+      [
+        "STL",
+        "561",
+        "22.798",
+        "19 / 11.715",
+        "7 / 11.083",
+        "1.622",
+        "0.632"
+      ]
+    ],
+    "widths": [
+      0.65,
+      0.6,
+      0.8,
+      1.35,
+      1.5,
+      0.7,
+      0.9
+    ],
+    "note": "All eligible target reports enter the sums. Expected M? is the sum of total-damage probability times conditional M? probability. Documented expectations use the complementary coding probability. Subtype expectations sum to total E, while subtype discrepancies sum arithmetically to total O minus E. The calibrated coding model performs poorly on target damage reports (source record SRC-S37); these point decompositions are auxiliary, have no development intervals and do not quantify causal coding contributions.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

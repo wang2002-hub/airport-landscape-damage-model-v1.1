@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "airport_comparisons": {
+      "path": "inputs/airport_comparisons.csv",
+      "sha256": "6de9db4e0d86911a9171af5effc672477a42b7cf80280707dda2741ea8ab3ba2"
+    },
+    "pooled_comparison": {
+      "path": "inputs/pooled_comparison.csv",
+      "sha256": "e5aa6e034c6215735a63f248f9cc2cb9ef10232f31604975a96014131cd03101"
+    },
+    "damage_extent": {
+      "path": "inputs/damage_extent.csv",
+      "sha256": "f6944a2bdf66115a13b2e70770e02bfa845845301d286d45cf58ed8fac4d312c"
+    }
+  }
+}

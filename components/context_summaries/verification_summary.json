@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "tables": [
+    {
+      "file": "canopy_target_context.csv",
+      "rows": 24,
+      "numeric_values": 120,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "landscape_variation.csv",
+      "rows": 6,
+      "numeric_values": 36,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "target_landscape_context.csv",
+      "rows": 88,
+      "numeric_values": 616,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "standardization_reference_strata.csv",
+      "rows": 96,
+      "numeric_values": 384,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "case_mix_standardization.csv",
+      "rows": 8,
+      "numeric_values": 72,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "local_annual_predictions.csv",
+      "rows": 88,
+      "numeric_values": 528,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "leave_one_year_out.csv",
+      "rows": 88,
+      "numeric_values": 440,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "leave_one_year_out_summary.csv",
+      "rows": 8,
+      "numeric_values": 32,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "map_airports.csv",
+      "rows": 1383,
+      "numeric_values": 4149,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    }
+  ],
+  "national_reports": 46167,
+  "national_airports": 1375,
+  "target_reports": 5936,
+  "target_damage": 309,
+  "support_checks": [
+    {
+      "airport": "KBOS",
+      "supported_reports": 714,
+      "unsupported_reports": 15
+    },
+    {
+      "airport": "KDEN",
+      "supported_reports": 1778,
+      "unsupported_reports": 2
+    },
+    {
+      "airport": "KJFK",
+      "supported_reports": 779,
+      "unsupported_reports": 31
+    },
+    {
+      "airport": "KMIA",
+      "supported_reports": 562,
+      "unsupported_reports": 8
+    },
+    {
+      "airport": "KMSP",
+      "supported_reports": 433,
+      "unsupported_reports": 0
+    },
+    {
+      "airport": "KSAT",
+      "supported_reports": 560,
+      "unsupported_reports": 0
+    },
+    {
+      "airport": "KSFO",
+      "supported_reports": 466,
+      "unsupported_reports": 27
+    },
+    {
+      "airport": "KSTL",
+      "supported_reports": 561,
+      "unsupported_reports": 0
+    }
+  ],
+  "national_environment_airports": 1375,
+  "national_environment_years": 15125,
+  "annual_and_deletion_rows": 88,
+  "source_inputs_unchanged": 4,
+  "invalid_inputs_rejected": [
+    "duplicate_environment",
+    "duplicate_canopy",
+    "wrong_prediction_label"
+  ],
+  "existing_outputs_preserved": true,
+  "new_model_fits": 0,
+  "new_random_draws": 0,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "retained_calculation_block_unchanged": true
+}

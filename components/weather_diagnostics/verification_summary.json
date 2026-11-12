@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "weather_files": 88,
+  "target_reports": 5936,
+  "matched_any_surface_timestamp": 5655,
+  "no_surface_timestamp_match": 281,
+  "audit_rows": 8,
+  "timezone_rows": 88,
+  "stratum_rows": 384,
+  "stratum_population_checks": 108,
+  "surface_rows_after_station_time_filter": 8564345,
+  "conflicting_timestamp_keys": 14815,
+  "variable_matches": {
+    "tmpf": {
+      "matched_reports": 5653,
+      "unmatched_reports": 283,
+      "maximum_lag_minutes": 59.0
+    },
+    "sknt": {
+      "matched_reports": 5654,
+      "unmatched_reports": 282,
+      "maximum_lag_minutes": 59.0
+    },
+    "p01i": {
+      "matched_reports": 5457,
+      "unmatched_reports": 479,
+      "maximum_lag_minutes": 60.0
+    }
+  },
+  "comparisons": [
+    {
+      "file": "target_weather_matched.parquet",
+      "rows": 5936,
+      "columns": 368,
+      "numeric_values": 1429875,
+      "maximum_numeric_error": 0.0,
+      "dtypes_and_missingness_matched": true
+    },
+    {
+      "file": "weather_match_audit.csv",
+      "rows": 8,
+      "columns": 14,
+      "numeric_values": 104,
+      "maximum_numeric_error": 0.0,
+      "dtypes_and_missingness_matched": true
+    },
+    {
+      "file": "timezone_evidence.csv",
+      "rows": 88,
+      "columns": 6,
+      "numeric_values": 352,
+      "maximum_numeric_error": 0.0,
+      "dtypes_and_missingness_matched": true
+    },
+    {
+      "file": "residual_strata.csv",
+      "rows": 384,
+      "columns": 10,
+      "numeric_values": 2304,
+      "maximum_numeric_error": 0.0,
+      "dtypes_and_missingness_matched": true
+    }
+  ],
+  "invalid_inputs_rejected": [
+    "duplicate_events",
+    "wrong_prediction_label",
+    "duplicate_weather_file",
+    "invalid_timezone"
+  ],
+  "existing_outputs_preserved": true,
+  "source_inputs_unchanged": 90,
+  "new_model_fits": 0,
+  "new_random_draws": 0,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "unchanged_matching_loop_verified": true
+}

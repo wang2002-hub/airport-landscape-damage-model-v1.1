@@ -1,0 +1,203 @@
+{
+  "landscape": {
+    "paired_gains": {
+      "kind": "file",
+      "sha256": "c920200aebd3875b5964ad8892590ec7d92bd5d1947a4d450406226b257f748a",
+      "bytes": 12717
+    },
+    "performance": {
+      "kind": "file",
+      "sha256": "bdca9f512bf54d5824efff6979f3728092dc1c78c7e956b7a8c3f5ef88b6e7c8",
+      "bytes": 60426
+    },
+    "cohort": {
+      "kind": "file",
+      "sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8",
+      "bytes": 25605965
+    },
+    "national_results": {
+      "kind": "directory",
+      "records": "Per-file hashes are recorded in the analysis outputs."
+    },
+    "pipeline_values": {
+      "kind": "file",
+      "sha256": "df54ba9d4d427f775a3fa9cfd48b737bad537dda261859db28e997419545851c",
+      "bytes": 123517
+    },
+    "pipeline_summary": {
+      "kind": "file",
+      "sha256": "a5505e4c1184665eca66f9329f185822fb76f1b69bc3620e20d664399b218e37",
+      "bytes": 1726
+    },
+    "pipeline_records": {
+      "kind": "directory",
+      "records": "Per-file hashes are recorded in the analysis outputs."
+    },
+    "canopy_contrasts": {
+      "kind": "file",
+      "sha256": "0d14b0fe102502fa68bb42ea39b12b1761d5f99abbbbb961efc36cdf3dc4cbc2",
+      "bytes": 1225
+    },
+    "enhanced_contrasts": {
+      "kind": "file",
+      "sha256": "88a0806e04289f5f4fb7705a9bcf90796b703024575f32744a68bdf95b348ec2",
+      "bytes": 377
+    },
+    "enhanced_results": {
+      "kind": "directory",
+      "records": "Per-file hashes are recorded in the analysis outputs."
+    },
+    "landscape_variation": {
+      "kind": "file",
+      "sha256": "21892bf8d43e2b2aa919cdd9a8283d45779389775e22d6274f7a66ea43182445",
+      "bytes": 5538
+    },
+    "resource_measurement": {
+      "kind": "file",
+      "sha256": "0e507ff57d21600f68a2929c20b3d01023554f35e8dc3fdfa936b45568dd2b83",
+      "bytes": 707
+    },
+    "canopy_context": {
+      "kind": "file",
+      "sha256": "d57d991c28e72d384f92ebd6b258d072ec3ecacfea97ef0caccd3ece04b87a7d",
+      "bytes": 1680
+    },
+    "bootstrap_scope": {
+      "kind": "file",
+      "sha256": "4a68f47c56487e857e986c2685361dbf29e268af82590b5bd21c59500e8e8aa3",
+      "bytes": 498
+    },
+    "canopy_glmm_annual_base_EBL": {
+      "kind": "file",
+      "sha256": "0d5bc2f331fa213cb36ce2a9697d73bdab3b12322d7e7e549d9e642c3960ff2c",
+      "bytes": 409073
+    },
+    "canopy_glmm_annual_canopy_EBL": {
+      "kind": "file",
+      "sha256": "524195da0031384e0e1b6ac9cbafd9eac961a904e7e3e27eed3fa0e58bb04525",
+      "bytes": 409073
+    },
+    "canopy_glmm_fixed2015_base_EBL": {
+      "kind": "file",
+      "sha256": "2825c06ad8bebea04a6f35e92b68ab6c1904766bad8436b41d41d75c9745a3d9",
+      "bytes": 409073
+    },
+    "canopy_glmm_fixed2015_canopy_EBL": {
+      "kind": "file",
+      "sha256": "fe68114fcb449099405f87242cd748fc9514a44f8c0be58508c255c671a4e6af",
+      "bytes": 409073
+    },
+    "canopy_hgb_annual_base_EBL": {
+      "kind": "file",
+      "sha256": "f9cf713f14c2d16f74f81b868d3cd1b96ef4fdddfa76f9dcbc088ea8ae01de61",
+      "bytes": 311071
+    },
+    "canopy_hgb_annual_canopy_EBL": {
+      "kind": "file",
+      "sha256": "f1ad8bb9fe3a36353def30f613e7b9bffc36ce1a321c1a3cd9afb637f167d1fe",
+      "bytes": 319199
+    },
+    "canopy_hgb_fixed2015_base_EBL": {
+      "kind": "file",
+      "sha256": "71850b2083c1f5a83d6bddecb208f3a28c18e89b23e9335691a10ce575736779",
+      "bytes": 340305
+    },
+    "canopy_hgb_fixed2015_canopy_EBL": {
+      "kind": "file",
+      "sha256": "244a034a88db04f11f68f6b4007e7172c2dc27d3832c2f41ec1a642b2f18bae1",
+      "bytes": 324191
+    }
+  },
+  "predictors": {
+    "cohort": {
+      "kind": "file",
+      "sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8",
+      "bytes": 25605965
+    },
+    "extended_cohort": {
+      "kind": "file",
+      "sha256": "7b3a7c5b0eb74305c7bfbf9f061259045c7a26315ea808f02ff8567242b03871",
+      "bytes": 27328406
+    },
+    "analysis_config": {
+      "kind": "file",
+      "sha256": "b8ab4694213aafb6ac9cf7fcd25fa706805547679d2682462d84b103d11b3a69",
+      "bytes": 1100
+    },
+    "national_results": {
+      "kind": "directory",
+      "records": "Per-file hashes are recorded in the analysis outputs."
+    },
+    "simple_run": {
+      "kind": "file",
+      "sha256": "6a653d35b274dbf5463a2a9e80860357ab011ced09ce79a17f8ba6c933b71bd9",
+      "bytes": 39642
+    },
+    "enhanced_results": {
+      "kind": "directory",
+      "records": "Per-file hashes are recorded in the analysis outputs."
+    }
+  },
+  "main_figures": {
+    "national_funnel_limit_audit": {
+      "kind": "file",
+      "sha256": "de00b9161a09599975a69e363c2d0e08e22255797d1aec159244899f4cc5c9b4",
+      "bytes": 934913
+    },
+    "target_funnel_limit_audit": {
+      "kind": "file",
+      "sha256": "edf5af6c68ed8436c67ffac0ec818e8839527bd9aa3ea7849113287d22b8597a",
+      "bytes": 2095
+    },
+    "national_funnel_summary": {
+      "kind": "file",
+      "sha256": "873f2a7dedd66f915b746983a1781a76b765e1d8af05198e79354a18cc1b5bf5",
+      "bytes": 2590
+    },
+    "target_simultaneous_relative": {
+      "kind": "file",
+      "sha256": "017563a4870396be6583360fe11c47e9826a8bd22db5f0442bf94e968fb0606d",
+      "bytes": 3352
+    },
+    "pooled_targets": {
+      "kind": "file",
+      "sha256": "50e1da97bb7d71c7ea81d7a3426de5a516f975160b161709a06e13fd10da3120",
+      "bytes": 104
+    },
+    "extent_population_and_refit": {
+      "kind": "file",
+      "sha256": "acc45bee18da4b7bd2e6d2251b4588b1df371361a4136407f8d35692bc2dd85d",
+      "bytes": 1204
+    },
+    "damage_subtype_decomposition": {
+      "kind": "file",
+      "sha256": "f143887addd2cce8e6ce434066884b082bc663e0fdc7a19cd235a103e025dcd5",
+      "bytes": 1741
+    },
+    "reference_rank_concordance": {
+      "kind": "file",
+      "sha256": "d4ae2f8ce82df0e0d1dbcd27ad490cdf485296bc4dc320855776c85e73529314",
+      "bytes": 2530
+    },
+    "cohort": {
+      "kind": "file",
+      "sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8",
+      "bytes": 25605965
+    },
+    "primary_joint_intervals": {
+      "kind": "file",
+      "sha256": "f0cd8a28b5ae00d91a5142622231a8bcfc0d17f930c516a2d3b95acd9840b16c",
+      "bytes": 2600
+    },
+    "target_label_completeness": {
+      "kind": "file",
+      "sha256": "04f568fa59213aeb8603664697bcdfa496cb10952f155dfebc84891c0eff8d34",
+      "bytes": 293
+    },
+    "local_losses": {
+      "kind": "file",
+      "sha256": "f2db3ece5a6d990640fd452dd3003c7dd104ae25e17c68c09ad96b9b97384903",
+      "bytes": 7858
+    }
+  }
+}

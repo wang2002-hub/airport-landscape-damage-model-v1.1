@@ -1,0 +1,338 @@
+{
+  "supp_results.funnel": {
+    "caption": "source record SRC-S17. National conditional limits and width sensitivity",
+    "headers": [
+      "Reference",
+      "Level",
+      "Outside conditional limits",
+      "Expected outside",
+      "Nominal upper bound",
+      "Outside widened limits"
+    ],
+    "rows": [
+      [
+        "Ordinary EB",
+        "95%",
+        "38",
+        "12.866",
+        "68.75",
+        "31"
+      ],
+      [
+        "Ordinary EB",
+        "99.8%",
+        "5",
+        "0.330",
+        "2.75",
+        "2"
+      ],
+      [
+        "Hierarchical EB",
+        "95%",
+        "39",
+        "12.750",
+        "68.75",
+        "32"
+      ],
+      [
+        "Hierarchical EB",
+        "99.8%",
+        "5",
+        "0.336",
+        "2.75",
+        "2"
+      ],
+      [
+        "Hierarchical EBL",
+        "95%",
+        "42",
+        "12.693",
+        "68.75",
+        "34"
+      ],
+      [
+        "Hierarchical EBL",
+        "99.8%",
+        "6",
+        "0.345",
+        "2.75",
+        "2"
+      ],
+      [
+        "Boosting EB",
+        "95%",
+        "40",
+        "12.629",
+        "68.75",
+        "32"
+      ],
+      [
+        "Boosting EB",
+        "99.8%",
+        "5",
+        "0.335",
+        "2.75",
+        "3"
+      ],
+      [
+        "Boosting EBL",
+        "95%",
+        "42",
+        "12.407",
+        "68.75",
+        "32"
+      ],
+      [
+        "Boosting EBL",
+        "99.8%",
+        "5",
+        "0.339",
+        "2.75",
+        "3"
+      ]
+    ],
+    "widths": [
+      1.2,
+      0.55,
+      1.25,
+      1.1,
+      1.15,
+      1.25
+    ],
+    "note": "Every row includes 1,375 national airports, 46,167 reports and 3,096 damage outcomes. Expected exceedances sum exact airport-specific tail probabilities at the discrete limits. The nominal bound is the number of airports times the nominal tail probability. Widening uses each reference's all-airport factor from source record SRC-S18. These limits condition on fixed probabilities and conditional independence; they are not simultaneous confidence intervals.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_results.dispersion": {
+    "caption": "source record SRC-S18. Dispersion estimation sets and national exceedances",
+    "headers": [
+      "Reference",
+      "Factor estimation set",
+      "Estimation airports",
+      "Factor",
+      "Outside widened 99.8% limits"
+    ],
+    "rows": [
+      [
+        "Ordinary EB",
+        "All airports",
+        "1375",
+        "1.701778",
+        "2"
+      ],
+      [
+        "Ordinary EB",
+        "E at least 5",
+        "148",
+        "2.285645",
+        "1"
+      ],
+      [
+        "Ordinary EB",
+        "At least 100 reports",
+        "97",
+        "2.573183",
+        "1"
+      ],
+      [
+        "Hierarchical EB",
+        "All airports",
+        "1375",
+        "1.698533",
+        "2"
+      ],
+      [
+        "Hierarchical EB",
+        "E at least 5",
+        "147",
+        "2.285368",
+        "1"
+      ],
+      [
+        "Hierarchical EB",
+        "At least 100 reports",
+        "97",
+        "2.552875",
+        "1"
+      ],
+      [
+        "Hierarchical EBL",
+        "All airports",
+        "1375",
+        "1.675509",
+        "2"
+      ],
+      [
+        "Hierarchical EBL",
+        "E at least 5",
+        "144",
+        "2.428201",
+        "1"
+      ],
+      [
+        "Hierarchical EBL",
+        "At least 100 reports",
+        "97",
+        "2.669935",
+        "1"
+      ],
+      [
+        "Boosting EB",
+        "All airports",
+        "1375",
+        "1.697800",
+        "3"
+      ],
+      [
+        "Boosting EB",
+        "E at least 5",
+        "142",
+        "2.372514",
+        "1"
+      ],
+      [
+        "Boosting EB",
+        "At least 100 reports",
+        "97",
+        "2.558841",
+        "1"
+      ],
+      [
+        "Boosting EBL",
+        "All airports",
+        "1375",
+        "1.685713",
+        "3"
+      ],
+      [
+        "Boosting EBL",
+        "E at least 5",
+        "139",
+        "2.573068",
+        "1"
+      ],
+      [
+        "Boosting EBL",
+        "At least 100 reports",
+        "97",
+        "2.725531",
+        "1"
+      ]
+    ],
+    "widths": [
+      1.3,
+      1.6,
+      1.05,
+      1.05,
+      1.5
+    ],
+    "note": "All widened limits are evaluated on the same 1,375 national airports. Subsets change the factor estimation set, not the evaluation population. The factor is at least one and otherwise equals the mean squared standardized residual in that set. Multiplying each side of the conditional count range about E by the square root of this factor is a width sensitivity; its nominal coverage is unestablished.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_results.target_limits": {
+    "caption": "source record SRC-S19. Target conditional count limits under frozen temporal predictions",
+    "headers": [
+      "Airport",
+      "O",
+      "E",
+      "O/E",
+      "Conditional 99.8% count range",
+      "Widened count range"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "60",
+        "55.837",
+        "1.075",
+        "36–78",
+        "30.160–84.525"
+      ],
+      [
+        "JFK",
+        "65",
+        "44.802",
+        "1.451",
+        "27–64",
+        "21.759–69.652"
+      ],
+      [
+        "MIA",
+        "25",
+        "28.202",
+        "0.886",
+        "15–44",
+        "11.113–48.651"
+      ],
+      [
+        "MSP",
+        "32",
+        "25.470",
+        "1.256",
+        "13–40",
+        "9.329–44.278"
+      ],
+      [
+        "BOS",
+        "57",
+        "48.488",
+        "1.176",
+        "30–69",
+        "24.557–75.039"
+      ],
+      [
+        "SFO",
+        "27",
+        "31.737",
+        "0.851",
+        "17–49",
+        "12.661–54.082"
+      ],
+      [
+        "SAT",
+        "17",
+        "18.306",
+        "0.929",
+        "7–32",
+        "3.671–36.032"
+      ],
+      [
+        "STL",
+        "26",
+        "22.798",
+        "1.140",
+        "10–37",
+        "6.232–41.181"
+      ]
+    ],
+    "widths": [
+      0.65,
+      0.4,
+      0.8,
+      0.7,
+      1.8,
+      2.1500000000000004
+    ],
+    "note": "These eight airports are separate from the national geographic folds. Width sensitivity transfers the national hierarchical EBL factor of 1.675509 to their own probability vectors. A count outside a conditional range describes a fixed-reference discrepancy. Joint development-and-year absolute intervals appear in Table 2, panel A, and source record SRC-S22; relative intervals appear in source record SRC-S23A.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

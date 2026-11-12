@@ -1,0 +1,36 @@
+{
+  "inputs": {
+    "calibration_reference": {
+      "path": "data/calibration_reference.csv",
+      "sha256": "0ce4e665bd5fd061d86b203adbf061148eea12f5aac7eca916a6cb07399dd916"
+    },
+    "membership_reference": {
+      "path": "data/membership_reference.csv",
+      "sha256": "e44b2ed886c6326dbc29ac0ff20d3d600b60b9725ca0448dde13d9a56b5285ff"
+    },
+    "geographic_predictions_1": {
+      "path": "data/geographic_predictions_1.parquet",
+      "sha256": "e360b5d5f9de49defe47ee63a2389ba2b6c60ec83bf82afc47d9c443b6e0a0db"
+    },
+    "geographic_predictions_2": {
+      "path": "data/geographic_predictions_2.parquet",
+      "sha256": "118435460d17bfd54ab1e7f5b8524305281398a71a2ad66a9adff7506d6fb902"
+    },
+    "geographic_predictions_3": {
+      "path": "data/geographic_predictions_3.parquet",
+      "sha256": "0d8f9c97331e44b0b8784933e50ef064743875247d538e51e7165a6ac6bc3739"
+    },
+    "geographic_predictions_4": {
+      "path": "data/geographic_predictions_4.parquet",
+      "sha256": "3388c3f40536e005eda9d6e01371f22002f7ad9867ef39bcf11f882a698b8dea"
+    },
+    "geographic_predictions_5": {
+      "path": "data/geographic_predictions_5.parquet",
+      "sha256": "3d6c15f411a6bd1922e3cde10f6a5df81c7cd934f077ede3b35346374ce48dee"
+    },
+    "temporal_predictions": {
+      "path": "data/temporal_predictions.parquet",
+      "sha256": "d25cddd1baf2d4e84df1413dc1d853905d9b86ad781e35c3c7db317b066752b5"
+    }
+  }
+}

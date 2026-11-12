@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "national_calibration_deciles": "DATA/national_calibration_deciles.csv",
+    "case_mix_standardization": "DATA/case_mix_standardization.csv",
+    "national_funnel_summary": "DATA/national_funnel_summary.csv",
+    "funnel_dispersion_factors": "DATA/funnel_dispersion_factors.csv",
+    "target_funnel_limit_audit": "DATA/target_funnel_limit_audit.csv",
+    "national_funnel_limit_audit": "DATA/national_funnel_limit_audit.csv",
+    "national_funnel_width_sensitivity": "DATA/national_funnel_width_sensitivity.csv",
+    "airport_partial_pooling": "DATA/airport_partial_pooling.csv",
+    "partial_pooling_fit": "DATA/partial_pooling_fit.json"
+  }
+}

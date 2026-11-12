@@ -1,0 +1,30 @@
+{
+  "paths": {
+    "paired_gains": "DATA/paired_gains.csv",
+    "performance": "DATA/performance.csv",
+    "cohort": "DATA/cohort.parquet",
+    "national_results": "DATA/national_results",
+    "pipeline_values": "DATA/pipeline_values.csv",
+    "pipeline_summary": "DATA/pipeline_summary.csv",
+    "pipeline_records": "DATA/pipeline_records",
+    "canopy_contrasts": "DATA/canopy_contrasts.csv",
+    "enhanced_contrasts": "DATA/enhanced_contrasts.csv",
+    "enhanced_results": "DATA/enhanced_results",
+    "landscape_variation": "DATA/landscape_variation.csv",
+    "resource_measurement": "DATA/resource_measurement.json",
+    "canopy_context": "DATA/canopy_context.csv",
+    "bootstrap_scope": "DATA/bootstrap_scope.json",
+    "canopy_glmm_annual_base_EBL": "DATA/canopy_glmm_annual_base_EBL.parquet",
+    "canopy_glmm_annual_canopy_EBL": "DATA/canopy_glmm_annual_canopy_EBL.parquet",
+    "canopy_glmm_fixed2015_base_EBL": "DATA/canopy_glmm_fixed2015_base_EBL.parquet",
+    "canopy_glmm_fixed2015_canopy_EBL": "DATA/canopy_glmm_fixed2015_canopy_EBL.parquet",
+    "canopy_hgb_annual_base_EBL": "DATA/canopy_hgb_annual_base_EBL.parquet",
+    "canopy_hgb_annual_canopy_EBL": "DATA/canopy_hgb_annual_canopy_EBL.parquet",
+    "canopy_hgb_fixed2015_base_EBL": "DATA/canopy_hgb_fixed2015_base_EBL.parquet",
+    "canopy_hgb_fixed2015_canopy_EBL": "DATA/canopy_hgb_fixed2015_canopy_EBL.parquet"
+  },
+  "labels": {
+    "canopy_annual": "annual_landcover",
+    "canopy_fixed": "fixed2015_landcover"
+  }
+}

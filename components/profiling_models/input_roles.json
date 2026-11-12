@@ -1,0 +1,6 @@
+{
+  "profiles": "Geographic out-of-fold national predictions; all national airports retained.",
+  "partial_pooling": "Full cohort including targets; conditional effects at estimated hyperparameters.",
+  "enhanced_references": "Temporal train through 2022, calibrate on 2023, evaluate 2024-2025 and held-out targets.",
+  "replay": "Retrospective reconstruction of saved analyses, not new independent evidence."
+}

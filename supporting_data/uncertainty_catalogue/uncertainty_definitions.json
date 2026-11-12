@@ -1,0 +1,53 @@
+{
+  "caption": "source record SRC-S11. Populations and varying components in the uncertainty analyses",
+  "note": "Main-text links: Sections 3.3–3.6, conditional limits, joint target comparisons and damage-extent partition. Counts identify successful fits or draws. The 20 year resamples per fit share one development fit; 9,960 summaries represent 498 successful fits. Absolute and relative total-damage ratios have separate eight-comparison families, not combined sixteen-comparison protection. The subtype partition has its own sixteen-comparison family. Recent target windows have two years and receive descriptive estimates.",
+  "reference_namespace": "journal_fit_integration_42_references",
+  "formula_locations": {
+    "pooled_and_relative_ratios": "Appendix A.2",
+    "conditional_limits": "Appendix A.3",
+    "total_and_relative_intervals": "Appendix A.4",
+    "damage_extent_partition": "Appendix A.5"
+  },
+  "primary_attempts": {
+    "attempted": 500,
+    "successful": 498,
+    "failed": [
+      224,
+      336
+    ],
+    "year_resamples_per_fit": 20,
+    "joint_summaries_per_airport": 9960
+  },
+  "landscape_development_attempts": {
+    "attempted": 200,
+    "successful": 198,
+    "failed": [
+      25,
+      132
+    ],
+    "target_reports": "fixed",
+    "national_test_airports": "resampled with histories"
+  },
+  "families": {
+    "absolute_total_damage": {
+      "comparisons": 8,
+      "scale": "log",
+      "method": "single-step maximum statistic; separate approximate Holm-adjusted marginal tail probabilities"
+    },
+    "relative_total_damage": {
+      "comparisons": 8,
+      "scale": "log",
+      "denominator": "same-draw pool including the evaluated airport",
+      "method": "single-step maximum statistic; separate approximate Holm-adjusted marginal tail probabilities"
+    },
+    "damage_extent": {
+      "comparisons": 16,
+      "scale": "natural",
+      "method": "single-step maximum statistic",
+      "lower_endpoint": "truncated at zero",
+      "pooled_subtypes": "pointwise"
+    }
+  },
+  "scope": "Families do not provide combined protection across analyses. Draws sharing a fitted model are dependent. Sensitivities retain their stated populations and varying components. No new fitting or resampling is represented by this catalogue.",
+  "public_release_status": "not published"
+}

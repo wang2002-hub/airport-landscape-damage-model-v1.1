@@ -1,0 +1,181 @@
+{
+  "training_reports": 2140,
+  "training_undetermined": 1516,
+  "training_airports": 638,
+  "calibration": {
+    "success": true,
+    "intercept": -3.4391523666941404,
+    "slope": 2.1900563345828967,
+    "n": 287,
+    "damages": 236
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "success": true,
+      "gradient": 0.00012200597645717795,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ],
+  "encoder": {
+    "training_correlation_audit": [],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": null,
+    "geography": false,
+    "bird_adjustment": 1,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos"
+    ],
+    "medians": {
+      "year": -0.2,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -1.8369701987210297e-16
+    },
+    "means": {
+      "year": -0.2918691588785046,
+      "month_sin": -0.09627933886162682,
+      "month_cos": 0.007517970686037267
+    },
+    "standard_deviations": {
+      "year": 0.4582262242607107,
+      "month_sin": 0.7290413684735257,
+      "month_cos": 0.677622647259801
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Take-off Run",
+        "Landing Roll"
+      ],
+      "bird_size_reported": [
+        "Medium",
+        "Large",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach",
+      "bird_size_reported": "Medium",
+      "number_struck_category": "1"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=2",
+      "phase=Climb",
+      "phase=Take-off Run",
+      "phase=Landing Roll",
+      "bird_size_reported=Large",
+      "bird_size_reported=Small",
+      "bird_size_reported=Unknown",
+      "number_struck_category=2-10",
+      "number_struck_category=11-100"
+    ],
+    "training_events": 2140,
+    "training_airports": 638,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "1",
+        "3",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Take-off Run",
+        "Landing Roll"
+      ],
+      "bird_size_reported": [
+        "Medium",
+        "Large",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Unknown",
+        "More than 100"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ],
+      "bird_size_reported": [
+        "Large",
+        "Medium",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "11-100",
+        "2-10"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "beta": [
+    1.2121699393828493,
+    0.6822442765984728,
+    -0.04052950141327727,
+    0.08214527026266821,
+    -0.37231780669098313,
+    -0.012904296397406369,
+    -0.3840465800957763,
+    -0.1057518266606001,
+    0.0507997959740623,
+    0.05519179898841342,
+    0.01815476004020963,
+    -0.4086581245686267,
+    0.06101329892216126,
+    0.07593473281112662,
+    0.7670009145729711
+  ],
+  "calibrator": [
+    -3.4391523666941404,
+    2.1900563345828967
+  ],
+  "seconds": 0.3415112999500707,
+  "input_sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8",
+  "scope": "Exploratory conditional coding model; no target fitting; point subtype expectations, without development uncertainty intervals."
+}

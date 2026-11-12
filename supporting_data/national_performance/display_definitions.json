@@ -1,0 +1,350 @@
+{
+  "supp_results.national": {
+    "caption": "source record SRC-S12. National probability and ranking performance",
+    "headers": [
+      "Evaluation",
+      "Family",
+      "Block",
+      "Brier",
+      "Log loss",
+      "AUC",
+      "AP",
+      "O/E"
+    ],
+    "rows": [
+      [
+        "Geographic",
+        "Ordinary",
+        "EB",
+        "0.049941",
+        "0.183442",
+        "0.846",
+        "0.380",
+        "1.000"
+      ],
+      [
+        "Geographic",
+        "Hierarchical",
+        "E",
+        "0.058700",
+        "0.222005",
+        "0.732",
+        "0.185",
+        "0.997"
+      ],
+      [
+        "Geographic",
+        "Hierarchical",
+        "EL",
+        "0.058676",
+        "0.222114",
+        "0.731",
+        "0.187",
+        "0.982"
+      ],
+      [
+        "Geographic",
+        "Hierarchical",
+        "EB",
+        "0.049916",
+        "0.183398",
+        "0.846",
+        "0.380",
+        "0.998"
+      ],
+      [
+        "Geographic",
+        "Hierarchical",
+        "EBL",
+        "0.049957",
+        "0.183570",
+        "0.846",
+        "0.380",
+        "1.007"
+      ],
+      [
+        "Geographic",
+        "Boosting",
+        "E",
+        "0.058355",
+        "0.220488",
+        "0.738",
+        "0.191",
+        "1.001"
+      ],
+      [
+        "Geographic",
+        "Boosting",
+        "EL",
+        "0.058438",
+        "0.220733",
+        "0.738",
+        "0.194",
+        "1.000"
+      ],
+      [
+        "Geographic",
+        "Boosting",
+        "EB",
+        "0.049679",
+        "0.182743",
+        "0.847",
+        "0.382",
+        "0.999"
+      ],
+      [
+        "Geographic",
+        "Boosting",
+        "EBL",
+        "0.049749",
+        "0.182909",
+        "0.847",
+        "0.381",
+        "1.009"
+      ],
+      [
+        "Temporal",
+        "Ordinary",
+        "EB",
+        "0.044929",
+        "0.168726",
+        "0.846",
+        "0.374",
+        "0.969"
+      ],
+      [
+        "Temporal",
+        "Hierarchical",
+        "E",
+        "0.053062",
+        "0.204328",
+        "0.740",
+        "0.176",
+        "0.970"
+      ],
+      [
+        "Temporal",
+        "Hierarchical",
+        "EL",
+        "0.052883",
+        "0.203600",
+        "0.742",
+        "0.183",
+        "0.970"
+      ],
+      [
+        "Temporal",
+        "Hierarchical",
+        "EB",
+        "0.044925",
+        "0.168712",
+        "0.846",
+        "0.374",
+        "0.973"
+      ],
+      [
+        "Temporal",
+        "Hierarchical",
+        "EBL",
+        "0.044951",
+        "0.168692",
+        "0.846",
+        "0.376",
+        "0.974"
+      ],
+      [
+        "Temporal",
+        "Boosting",
+        "E",
+        "0.052515",
+        "0.201768",
+        "0.749",
+        "0.187",
+        "0.983"
+      ],
+      [
+        "Temporal",
+        "Boosting",
+        "EL",
+        "0.052681",
+        "0.201871",
+        "0.751",
+        "0.187",
+        "0.980"
+      ],
+      [
+        "Temporal",
+        "Boosting",
+        "EB",
+        "0.044754",
+        "0.168293",
+        "0.846",
+        "0.380",
+        "0.996"
+      ],
+      [
+        "Temporal",
+        "Boosting",
+        "EBL",
+        "0.044885",
+        "0.168674",
+        "0.846",
+        "0.379",
+        "1.003"
+      ]
+    ],
+    "widths": [
+      0.85,
+      0.95,
+      0.55,
+      0.95,
+      0.95,
+      0.65,
+      0.65,
+      0.95
+    ],
+    "note": "AP is average precision. Geographic evaluation has 3,096 positives in 46,167 reports; temporal evaluation has 669 positives in 11,124 reports. Ordinary EB uses the same evaluation reports; its AP is calculated from the retained predictions. Lower Brier and log loss indicate better probability scores.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_results.contrasts": {
+    "caption": "source record SRC-S13. Paired complex minus ordinary logistic EB comparisons",
+    "headers": [
+      "Evaluation",
+      "Complex comparator",
+      "ΔBrier × 1,000 [95% interval]",
+      "ΔLog loss × 1,000 [95% interval]"
+    ],
+    "rows": [
+      [
+        "Temporal",
+        "Hierarchical EB",
+        "-0.003 [-0.020, 0.013]",
+        "-0.014 [-0.070, 0.045]"
+      ],
+      [
+        "Temporal",
+        "Hierarchical EBL",
+        "0.023 [-0.084, 0.129]",
+        "-0.034 [-0.422, 0.371]"
+      ],
+      [
+        "Temporal",
+        "Boosting EB",
+        "-0.175 [-0.490, 0.143]",
+        "-0.433 [-1.465, 0.613]"
+      ],
+      [
+        "Temporal",
+        "Boosting EBL",
+        "-0.044 [-0.401, 0.330]",
+        "-0.052 [-1.269, 1.262]"
+      ],
+      [
+        "Geographic",
+        "Hierarchical EB",
+        "-0.025 [-0.046, -0.007]",
+        "-0.044 [-0.125, 0.026]"
+      ],
+      [
+        "Geographic",
+        "Hierarchical EBL",
+        "0.017 [-0.056, 0.090]",
+        "0.128 [-0.115, 0.377]"
+      ],
+      [
+        "Geographic",
+        "Boosting EB",
+        "-0.261 [-0.429, -0.097]",
+        "-0.699 [-1.204, -0.200]"
+      ],
+      [
+        "Geographic",
+        "Boosting EBL",
+        "-0.191 [-0.405, 0.016]",
+        "-0.532 [-1.182, 0.073]"
+      ]
+    ],
+    "widths": [
+      0.8,
+      1.5,
+      2.1,
+      2.1
+    ],
+    "note": "Negative differences favor the complex comparator. All intervals use 2,000 national airport resamples of fixed matched predictions. No interval refits either model. EB comparisons compare modeling procedures under the same variables; EBL comparisons also add landscape information.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_results.calibration": {
+    "caption": "source record SRC-S14. National diagnostic calibration coefficients",
+    "headers": [
+      "Family",
+      "Diagnostic parameter",
+      "Estimate",
+      "95% interval"
+    ],
+    "rows": [
+      [
+        "Hierarchical",
+        "calibration in large",
+        "-0.033",
+        "[-0.133, 0.064]"
+      ],
+      [
+        "Hierarchical",
+        "joint intercept",
+        "0.184",
+        "[0.019, 0.331]"
+      ],
+      [
+        "Hierarchical",
+        "joint slope",
+        "1.104",
+        "[1.039, 1.175]"
+      ],
+      [
+        "Boosting",
+        "calibration in large",
+        "0.004",
+        "[-0.095, 0.100]"
+      ],
+      [
+        "Boosting",
+        "joint intercept",
+        "0.176",
+        "[0.020, 0.313]"
+      ],
+      [
+        "Boosting",
+        "joint slope",
+        "1.081",
+        "[1.018, 1.146]"
+      ]
+    ],
+    "widths": [
+      1.15,
+      2.05,
+      1.3,
+      2.0
+    ],
+    "note": "Frozen national temporal EBL predictions. Calibration-in-the-large fixes slope at one. Joint intercept and slope are fitted together. All intervals use 1,000 airport-cluster resamples; no coefficient updates the test predictions.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1
+    ]
+  }
+}

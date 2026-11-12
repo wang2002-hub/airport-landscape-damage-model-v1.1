@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "profile_models": 5,
+  "national_airports": 1375,
+  "national_profile_rows": 6875,
+  "profile_output_tables": 8,
+  "count_limit_output_tables": 6,
+  "conditional_count_rows": 6875,
+  "widened_limit_rows": 41250,
+  "independent_fft_checks": 10,
+  "partial_pooling_fit": 1,
+  "partial_pooling_airports": 1383,
+  "conditional_draws_per_airport": 5000,
+  "enhanced_configurations": 8,
+  "enhanced_internal_and_final_fits": 128,
+  "enhanced_prediction_rows": 136480,
+  "enhanced_contrasts": 4,
+  "paired_draws_per_contrast": 2000,
+  "numeric_frame_checks": 795028,
+  "maximum_frame_error": 0.0,
+  "numeric_json_checks": 1253,
+  "maximum_json_error": 0,
+  "pooled_point_computed_from_inputs": true,
+  "invalid_probability_rejected": true,
+  "duplicate_events_rejected": true,
+  "existing_output_preserved": true,
+  "original_input_files_unchanged": 61,
+  "new_scientific_analyses": 0,
+  "new_independent_random_draws": 0,
+  "retained_draws_regenerated": true,
+  "same_host_environment": true,
+  "relocated_directory": true,
+  "empty_working_directory": true,
+  "clean_machine_install_tested": false,
+  "full_study_reproduction": false,
+  "unchanged_numerical_functions": {
+    "profile_airports.py": [
+      "pb",
+      "jacc"
+    ],
+    "audit_count_limits.py": [
+      "pmf_recurrence",
+      "pmf_fft",
+      "outside"
+    ],
+    "partial_pooling.py": [
+      "f"
+    ],
+    "fit_enhanced_references.py": [
+      "fit"
+    ],
+    "enhanced_encoder.py": [
+      "ExtendedEncoder"
+    ]
+  },
+  "pooled_point_definition": "n = target rows; O = sum of target damage labels; E = sum of frozen target probabilities.",
+  "interpretation": "Same-host component reconstruction. Conditional rank intervals retain fitted hyperparameters. Control-limit and joint-interval meanings remain distinct."
+}

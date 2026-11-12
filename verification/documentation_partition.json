@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "numerical_comparisons": [
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "annual_damage_extent.csv",
+      "rows": 22,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "coding_stratum_fallbacks.csv",
+      "rows": 1494,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "extent_decomposition_intervals.csv",
+      "rows": 135,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "extent_decomposition_points.csv",
+      "rows": 27,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "extent_joint_draws.csv.gz",
+      "rows": 268920,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "extent_simultaneous_intervals.csv",
+      "rows": 16,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "national_crossfit_coding_rates.csv",
+      "rows": 55,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "national_extent_dispersion.csv",
+      "rows": 12,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "national_extent_profiles.csv",
+      "rows": 4898,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "relative_airport_simultaneous.csv",
+      "rows": 16,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "report_volume_calibration.csv",
+      "rows": 24,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "explicit_absolute_inputs",
+      "file": "report_volume_membership.csv",
+      "rows": 2178,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "annual_damage_extent.csv",
+      "rows": 22,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "coding_stratum_fallbacks.csv",
+      "rows": 1494,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "extent_decomposition_intervals.csv",
+      "rows": 135,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "extent_decomposition_points.csv",
+      "rows": 27,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "extent_joint_draws.csv.gz",
+      "rows": 268920,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "extent_simultaneous_intervals.csv",
+      "rows": 16,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "national_crossfit_coding_rates.csv",
+      "rows": 55,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "national_extent_dispersion.csv",
+      "rows": 12,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "national_extent_profiles.csv",
+      "rows": 4898,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "relative_airport_simultaneous.csv",
+      "rows": 16,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "report_volume_calibration.csv",
+      "rows": 24,
+      "max_absolute_error": 0.0,
+      "passed": true
+    },
+    {
+      "run": "relocated_relative_inputs",
+      "file": "report_volume_membership.csv",
+      "rows": 2178,
+      "max_absolute_error": 0.0,
+      "passed": true
+    }
+  ],
+  "interface_checks": [
+    {
+      "test": "relative_inputs",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "reject_checksum_mismatch",
+      "passed": true,
+      "exit_code": 1
+    },
+    {
+      "test": "reject_existing_output",
+      "passed": true,
+      "exit_code": 2
+    }
+  ],
+  "input_files_verified": 1007,
+  "all_original_input_hashes_unchanged": true,
+  "five_document_hashes_unchanged": true,
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "pyarrow": "26.0.0",
+  "scope": "Existing-cohort and saved-prediction recomputation, not raw cohort rebuilding or model refitting."
+}

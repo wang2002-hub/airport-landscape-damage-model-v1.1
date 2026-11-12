@@ -1,0 +1,9 @@
+# Conditional airport effects and rank uncertainty
+
+Figure S5 displays the target effects and ranks and the complete distribution of rank-interval widths. target_effects_and_ranks.csv preserves all eight rows and displayed values of the corresponding table. conditional_effects_and_ranks.csv preserves full precision for all 1,383 airports, including report counts, conditional effects, effect quantiles and rank summaries. Its split-half columns describe Monte Carlo variation in rank endpoints.
+
+conditional_fit_metadata.json contains the original fit metadata and adaptive-integration checks for four conditional means. conditional_fit_optimization.json preserves the optimization record. conditional_rank_input_record.json preserves the original input hash. These records have been copied unchanged; no model was fitted or posterior vector redrawn for this catalogue.
+
+Effect means and quantiles use a one-dimensional probability grid. Rank intervals use 5,000 conditional vectors at fixed coefficients and airport-effect variance. Odds multipliers exponentiate mean log-odds effects, and their endpoints exponentiate the effect quantiles. They are not observed-to-expected ratios. The intervals omit coefficient and variance uncertainty and do not supply simultaneous coverage.
+
+conditional_effects_and_external_ratios.csv links all explanatory rows to the national geographic O/E and E columns. The eight target rows have empty external columns because those airports use a separate temporal prediction design. The explanatory fit includes all target outcomes; it is not held-out performance evaluation. display_definition.json preserves the old display and note for traceability; interpretation_metadata.json clarifies that effect and rank intervals use different numerical summaries. All files are prepared locally and have not been publicly released.

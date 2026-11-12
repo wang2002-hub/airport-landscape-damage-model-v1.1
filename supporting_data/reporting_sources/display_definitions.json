@@ -1,0 +1,752 @@
+{
+  "supp_diagnostics.source_final": {
+    "caption": "source record SRC-S39. Final known-label reporting composition",
+    "headers": [
+      "Population",
+      "Reports",
+      "Electronic form %",
+      "Multiple types %",
+      "Airport operations %",
+      "Pilot %"
+    ],
+    "rows": [
+      [
+        "National",
+        "46,167",
+        "52.5",
+        "34.0",
+        "40.7",
+        "32.1"
+      ],
+      [
+        "DEN",
+        "1,780",
+        "76.2",
+        "20.2",
+        "51.6",
+        "35.7"
+      ],
+      [
+        "JFK",
+        "810",
+        "48.4",
+        "43.5",
+        "64.4",
+        "13.0"
+      ],
+      [
+        "MIA",
+        "570",
+        "47.9",
+        "31.8",
+        "20.0",
+        "45.3"
+      ],
+      [
+        "MSP",
+        "433",
+        "43.4",
+        "48.3",
+        "50.8",
+        "19.9"
+      ],
+      [
+        "BOS",
+        "729",
+        "40.6",
+        "52.7",
+        "64.5",
+        "17.6"
+      ],
+      [
+        "SFO",
+        "493",
+        "42.8",
+        "49.9",
+        "60.0",
+        "12.4"
+      ],
+      [
+        "SAT",
+        "560",
+        "52.3",
+        "22.9",
+        "14.3",
+        "50.7"
+      ],
+      [
+        "STL",
+        "561",
+        "76.6",
+        "16.8",
+        "27.3",
+        "58.1"
+      ]
+    ],
+    "widths": [
+      0.85,
+      0.7,
+      1.15,
+      1.1,
+      1.55,
+      1.15
+    ],
+    "note": "All rows use the final analytical cohort. National excludes all eight targets. Every percentage uses the full row count, including missing field values. The first two percentage columns are SOURCE categories; the last two are PERSON categories. Categories displayed within each field are incomplete. Full categories, missingness and year-specific denominators are retained in the archive. Electronic form means SOURCE = FAA Form 5200-7-E. Multiple refers to multiple report types for one strike, not a count of reporters. PERSON categories remain separate.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_diagnostics.source_labels": {
+    "caption": "source record SRC-S40. Near-airport reporting composition stratified by label availability",
+    "headers": [
+      "Population",
+      "Label",
+      "Reports",
+      "Electronic form %",
+      "Multiple types %",
+      "Airport operations %",
+      "Pilot %"
+    ],
+    "rows": [
+      [
+        "National",
+        "known",
+        "48,983",
+        "52.3",
+        "34.2",
+        "41.3",
+        "31.8"
+      ],
+      [
+        "National",
+        "unknown",
+        "8,995",
+        "43.4",
+        "30.0",
+        "60.5",
+        "4.6"
+      ],
+      [
+        "DEN",
+        "known",
+        "1,780",
+        "76.2",
+        "20.2",
+        "51.6",
+        "35.7"
+      ],
+      [
+        "DEN",
+        "unknown",
+        "481",
+        "69.0",
+        "17.5",
+        "80.2",
+        "3.5"
+      ],
+      [
+        "JFK",
+        "known",
+        "810",
+        "48.4",
+        "43.5",
+        "64.4",
+        "13.0"
+      ],
+      [
+        "JFK",
+        "unknown",
+        "271",
+        "18.8",
+        "39.1",
+        "41.3",
+        "2.2"
+      ],
+      [
+        "MIA",
+        "known",
+        "570",
+        "47.9",
+        "31.8",
+        "20.0",
+        "45.3"
+      ],
+      [
+        "MIA",
+        "unknown",
+        "43",
+        "20.9",
+        "11.6",
+        "23.3",
+        "7.0"
+      ],
+      [
+        "MSP",
+        "known",
+        "433",
+        "43.4",
+        "48.3",
+        "50.8",
+        "19.9"
+      ],
+      [
+        "MSP",
+        "unknown",
+        "115",
+        "38.3",
+        "40.9",
+        "52.2",
+        "4.3"
+      ],
+      [
+        "BOS",
+        "known",
+        "729",
+        "40.6",
+        "52.7",
+        "64.5",
+        "17.6"
+      ],
+      [
+        "BOS",
+        "unknown",
+        "135",
+        "17.8",
+        "42.2",
+        "49.6",
+        "3.7"
+      ],
+      [
+        "SFO",
+        "known",
+        "493",
+        "42.8",
+        "49.9",
+        "60.0",
+        "12.4"
+      ],
+      [
+        "SFO",
+        "unknown",
+        "134",
+        "31.3",
+        "35.8",
+        "53.7",
+        "3.0"
+      ],
+      [
+        "SAT",
+        "known",
+        "560",
+        "52.3",
+        "22.9",
+        "14.3",
+        "50.7"
+      ],
+      [
+        "SAT",
+        "unknown",
+        "78",
+        "35.9",
+        "15.4",
+        "42.3",
+        "3.8"
+      ],
+      [
+        "STL",
+        "known",
+        "561",
+        "76.6",
+        "16.8",
+        "27.3",
+        "58.1"
+      ],
+      [
+        "STL",
+        "unknown",
+        "83",
+        "72.3",
+        "13.3",
+        "77.1",
+        "6.0"
+      ]
+    ],
+    "widths": [
+      0.75,
+      0.7,
+      0.7,
+      1.1,
+      1.1,
+      1.35,
+      0.8
+    ],
+    "note": "All rows use near-airport reports before the environmental screen, separated into known and unknown damage labels. National excludes all eight targets. Every percentage uses the full row count, including missing field values. The first two percentage columns are SOURCE categories; the last two are PERSON categories. Categories displayed within each field are incomplete. Full categories, missingness and year-specific denominators are retained in the archive. Electronic form means SOURCE = FAA Form 5200-7-E. Multiple refers to multiple report types for one strike, not a count of reporters. PERSON categories remain separate.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_diagnostics.jfk_strata": {
+    "caption": "source record SRC-S41. JFK full-period reports by channel and reporter category",
+    "headers": [
+      "Field",
+      "Category",
+      "Reports",
+      "Damage",
+      "Expected damage",
+      "O/E",
+      "M?"
+    ],
+    "rows": [
+      [
+        "SOURCE",
+        "Air Transport Report",
+        "3",
+        "2",
+        "0.174",
+        "11.493",
+        "2"
+      ],
+      [
+        "SOURCE",
+        "Airport Report",
+        "0",
+        "0",
+        "0.000",
+        "—",
+        "0"
+      ],
+      [
+        "SOURCE",
+        "Daily Report",
+        "4",
+        "0",
+        "0.109",
+        "0.000",
+        "0"
+      ],
+      [
+        "SOURCE",
+        "FAA Form 5200-7",
+        "11",
+        "0",
+        "0.504",
+        "0.000",
+        "0"
+      ],
+      [
+        "SOURCE",
+        "FAA Form 5200-7-E",
+        "392",
+        "29",
+        "19.093",
+        "1.519",
+        "27"
+      ],
+      [
+        "SOURCE",
+        "MOR",
+        "46",
+        "2",
+        "1.283",
+        "1.559",
+        "1"
+      ],
+      [
+        "SOURCE",
+        "Missing",
+        "0",
+        "0",
+        "0.000",
+        "—",
+        "0"
+      ],
+      [
+        "SOURCE",
+        "Multiple",
+        "352",
+        "32",
+        "23.615",
+        "1.355",
+        "28"
+      ],
+      [
+        "SOURCE",
+        "NTSB",
+        "0",
+        "0",
+        "0.000",
+        "—",
+        "0"
+      ],
+      [
+        "SOURCE",
+        "Other",
+        "2",
+        "0",
+        "0.024",
+        "0.000",
+        "0"
+      ],
+      [
+        "PERSON",
+        "Air Transport Operations",
+        "27",
+        "5",
+        "1.585",
+        "3.154",
+        "3"
+      ],
+      [
+        "PERSON",
+        "Airport Operations",
+        "522",
+        "42",
+        "28.690",
+        "1.464",
+        "41"
+      ],
+      [
+        "PERSON",
+        "Missing",
+        "2",
+        "0",
+        "0.062",
+        "0.000",
+        "0"
+      ],
+      [
+        "PERSON",
+        "Other",
+        "60",
+        "3",
+        "2.985",
+        "1.005",
+        "3"
+      ],
+      [
+        "PERSON",
+        "Pilot",
+        "105",
+        "9",
+        "7.792",
+        "1.155",
+        "7"
+      ],
+      [
+        "PERSON",
+        "Tower",
+        "94",
+        "6",
+        "3.687",
+        "1.627",
+        "4"
+      ]
+    ],
+    "widths": [
+      0.7,
+      1.9,
+      0.7,
+      0.65,
+      1.05,
+      0.8,
+      0.7
+    ],
+    "note": "Each field partitions the same 810 reports, 65 damage outcomes and 58 M? outcomes. Expected damage sums the frozen temporal hierarchical EBL probabilities. Empty categories remain listed; their O/E is undefined. Categories with fewer than five damage outcomes remain descriptive. SOURCE and PERSON totals must not be added together. Full category tables for every airport and matched 2024–2025 national comparisons accompany the document.",
+    "alignments": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_diagnostics.coding_standardization": {
+    "caption": "source record SRC-S42. M? composition relative to national year and reporting strata",
+    "headers": [
+      "Airport",
+      "Damage",
+      "M?",
+      "Year expected then ratio",
+      "Year and SOURCE expected then ratio",
+      "Year and PERSON expected then ratio"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "60",
+        "48",
+        "44.436\n1.080",
+        "44.515\n1.078",
+        "44.943\n1.068"
+      ],
+      [
+        "JFK",
+        "65",
+        "58",
+        "49.141\n1.180",
+        "49.545\n1.171",
+        "49.514\n1.171"
+      ],
+      [
+        "MIA",
+        "25",
+        "21",
+        "18.419\n1.140",
+        "18.932\n1.109",
+        "18.559\n1.132"
+      ],
+      [
+        "MSP",
+        "32",
+        "27",
+        "23.979\n1.126",
+        "23.910\n1.129",
+        "24.161\n1.118"
+      ],
+      [
+        "BOS",
+        "57",
+        "45",
+        "43.255\n1.040",
+        "43.379\n1.037",
+        "43.373\n1.038"
+      ],
+      [
+        "SFO",
+        "27",
+        "23",
+        "21.170\n1.086",
+        "21.399\n1.075",
+        "21.320\n1.079"
+      ],
+      [
+        "SAT",
+        "17",
+        "11",
+        "11.861\n0.927",
+        "12.096\n0.909",
+        "11.749\n0.936"
+      ],
+      [
+        "STL",
+        "26",
+        "19",
+        "17.977\n1.057",
+        "18.642\n1.019",
+        "17.736\n1.071"
+      ],
+      [
+        "Pooled",
+        "309",
+        "252",
+        "230.238\n1.095",
+        "232.419\n1.084",
+        "231.354\n1.089"
+      ]
+    ],
+    "widths": [
+      0.65,
+      0.75,
+      0.5,
+      1.3,
+      1.65,
+      1.65
+    ],
+    "note": "All 309 target damage reports have supported national reference cells. Expected values apply national observed M? fractions to target damage counts in matched cells. Ratios divide target M? counts by these descriptive expectations. Year plus SOURCE and year plus PERSON are separate standardizations, not simultaneous adjustment. National proportions use all corresponding years retrospectively. These are M? composition ratios among damaged reports, not total-damage model O/E values.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "supp_diagnostics.coding_support": {
+    "caption": "Composition sensitivity requiring five national damage reports per cell",
+    "headers": [
+      "Airport",
+      "Year plus",
+      "Supported damage / M?",
+      "Excluded damage / M?",
+      "Expected M?",
+      "Ratio"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "SOURCE",
+        "60 / 48",
+        "0 / 0",
+        "44.515",
+        "1.078"
+      ],
+      [
+        "DEN",
+        "PERSON",
+        "60 / 48",
+        "0 / 0",
+        "44.943",
+        "1.068"
+      ],
+      [
+        "JFK",
+        "SOURCE",
+        "63 / 56",
+        "2 / 2",
+        "47.879",
+        "1.170"
+      ],
+      [
+        "JFK",
+        "PERSON",
+        "65 / 58",
+        "0 / 0",
+        "49.514",
+        "1.171"
+      ],
+      [
+        "MIA",
+        "SOURCE",
+        "25 / 21",
+        "0 / 0",
+        "18.932",
+        "1.109"
+      ],
+      [
+        "MIA",
+        "PERSON",
+        "25 / 21",
+        "0 / 0",
+        "18.559",
+        "1.132"
+      ],
+      [
+        "MSP",
+        "SOURCE",
+        "32 / 27",
+        "0 / 0",
+        "23.910",
+        "1.129"
+      ],
+      [
+        "MSP",
+        "PERSON",
+        "32 / 27",
+        "0 / 0",
+        "24.161",
+        "1.118"
+      ],
+      [
+        "BOS",
+        "SOURCE",
+        "57 / 45",
+        "0 / 0",
+        "43.379",
+        "1.037"
+      ],
+      [
+        "BOS",
+        "PERSON",
+        "55 / 44",
+        "2 / 1",
+        "42.457",
+        "1.036"
+      ],
+      [
+        "SFO",
+        "SOURCE",
+        "27 / 23",
+        "0 / 0",
+        "21.399",
+        "1.075"
+      ],
+      [
+        "SFO",
+        "PERSON",
+        "27 / 23",
+        "0 / 0",
+        "21.320",
+        "1.079"
+      ],
+      [
+        "SAT",
+        "SOURCE",
+        "16 / 11",
+        "1 / 0",
+        "11.763",
+        "0.935"
+      ],
+      [
+        "SAT",
+        "PERSON",
+        "17 / 11",
+        "0 / 0",
+        "11.749",
+        "0.936"
+      ],
+      [
+        "STL",
+        "SOURCE",
+        "26 / 19",
+        "0 / 0",
+        "18.642",
+        "1.019"
+      ],
+      [
+        "STL",
+        "PERSON",
+        "26 / 19",
+        "0 / 0",
+        "17.736",
+        "1.071"
+      ],
+      [
+        "Pooled",
+        "SOURCE",
+        "306 / 250",
+        "3 / 2",
+        "230.419",
+        "1.085"
+      ],
+      [
+        "Pooled",
+        "PERSON",
+        "307 / 251",
+        "2 / 1",
+        "230.437",
+        "1.089"
+      ]
+    ],
+    "widths": [
+      0.65,
+      0.9,
+      1.35,
+      1.35,
+      1.2,
+      1.05
+    ],
+    "note": "The supported M? count is the numerator for each displayed ratio. Expected M? uses the same supported damage reports. Year-only references already satisfy this threshold and are unchanged. The primary descriptions retain all records; this sensitivity addresses sparse reference cells. Full annual support-cell counts and both periods remain in the numerical tables.",
+    "alignments": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

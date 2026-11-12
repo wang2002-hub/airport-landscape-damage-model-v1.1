@@ -1,0 +1,283 @@
+{
+  "train_n": 27628,
+  "cal_n": 4180,
+  "test_n": 10485,
+  "target_n": 5623,
+  "fits": [
+    {
+      "label": "final",
+      "n": 27628,
+      "airports": 1159,
+      "damage": 1935,
+      "seconds": 0.14928436279296875,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 44,
+      "max_abs_gradient": 0.0005876426419021644,
+      "negative_loglik_penalized": 6188.601461026296,
+      "sigma": 0.4863302154693394,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0005876426419021644
+    }
+  ],
+  "calibration": {
+    "success": true,
+    "intercept": -0.433819037551469,
+    "slope": 0.9056899877838083,
+    "n": 4180,
+    "damages": 252
+  },
+  "encoder": {
+    "training_correlation_audit": [
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "wetland_fraction",
+        "pearson_r": 0.09204085481704818,
+        "spearman_r": 0.4338378978582191,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.1491949877085945,
+        "spearman_r": -0.09634094275784132,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.12039283505992412,
+        "spearman_r": -0.0028910969234140597,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.08989070330526343,
+        "spearman_r": 0.03649258444578123,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.11519406572768724,
+        "spearman_r": 0.07257033323178919,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": 0.005439495474152328,
+        "spearman_r": 0.09584605167941901,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.13058258644227577,
+        "spearman_r": 0.030618511290486747,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.031210159269290962,
+        "spearman_r": 0.19445641181235257,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.00041261261064387246,
+        "spearman_r": 0.2649347502991719,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.12189452839762466,
+        "spearman_r": -0.00269026146019059,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.0030669812344630907,
+        "spearman_r": 0.03094451787628144,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.24817913872963435,
+        "spearman_r": -0.16843793305010935,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.39491482650026055,
+        "spearman_r": -0.3759225767593548,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.19723887745154636,
+        "spearman_r": -0.2793223676707084,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "pasture_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.36778045445760826,
+        "spearman_r": -0.44212421455453876,
+        "n_training_airport_years": 3622,
+        "flag_abs_gt_0_8": false
+      }
+    ],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": "b03",
+    "geography": false,
+    "bird_adjustment": 0,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct"
+    ],
+    "medians": {
+      "year": -0.4,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998,
+      "water_fraction": 0.0044883017666719,
+      "wetland_fraction": 0.0149344032607311,
+      "cropland_fraction": 0.0002864873468088,
+      "grassland_fraction": 0.0005412030627096999,
+      "pasture_fraction": 0.0081813262025276,
+      "impervious_mean_pct": 0.38891074611662846
+    },
+    "means": {
+      "year": -0.31895178804111773,
+      "month_sin": -0.24982204913208536,
+      "month_cos": -0.21309465698832425,
+      "water_fraction": 0.046407191274222194,
+      "wetland_fraction": 0.04653237826324126,
+      "cropland_fraction": 0.05791518717027504,
+      "grassland_fraction": 0.022372439650774786,
+      "pasture_fraction": 0.04040002848634857,
+      "impervious_mean_pct": 0.3696323052007105
+    },
+    "standard_deviations": {
+      "year": 0.47533780341525733,
+      "month_sin": 0.685520511643415,
+      "month_cos": 0.6498009226267879,
+      "water_fraction": 0.09728659399154937,
+      "wetland_fraction": 0.07992347455266674,
+      "cropland_fraction": 0.13485924876086178,
+      "grassland_fraction": 0.07199421176266985,
+      "pasture_fraction": 0.09225319766624257,
+      "impervious_mean_pct": 0.17581216534006766
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb"
+    ],
+    "training_events": 27628,
+    "training_airports": 1159,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "excluded_near_target_airports": []
+}

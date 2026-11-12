@@ -1,0 +1,13 @@
+# Numerical and partition checks
+
+Check | Result | Scope
+--- | --- | ---
+Main model fitting | 48 final models; 768 component fits; zero main hierarchical failures | Primary temporal and geographic model development.
+Ordinary EB fitting | 26 completed fits | One temporal fit and five sets of four inner fits plus one outer fit.
+Gradient agreement | Maximum absolute difference 9.54e-08 | Analytical versus finite-difference gradients; 30,427 development reports.
+Marginal quadrature | Maximum probability difference 3.33e-16 | 30 versus 60 nodes in the fitted development model.
+Independent likelihood fit | Maximum probability difference 0.000281 | Laplace versus adaptive quadrature; 1,674 reports, 152 outcomes and 160 airports.
+Adaptive integration | Objective difference 5.68e-14 | 15 versus 30 nodes at the checked adaptive optimum.
+Geographic separation | 589 airport pairs within 26 km; zero cross-fold violations | Independent coordinate audit of national outer-fold assignment.
+
+Main-text link: Section 3.1, reference fitting and geographic partition design. These checks assess numerical agreement and partition separation, rather than predictive validity or the success of every explored bootstrap attempt.

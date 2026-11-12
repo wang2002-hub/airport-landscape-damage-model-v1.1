@@ -1,0 +1,149 @@
+{
+  "files": [
+    {
+      "file": "components/analysis_core/model_core.py",
+      "sha256": "cfc9e9e9c06dca6c50d0bf0c6067b59bb6c245afd786b061695be4f16c4f06ac",
+      "evidence": [
+        {
+          "line": 9,
+          "text": "from sklearn.ensemble import HistGradientBoostingClassifier"
+        },
+        {
+          "line": 54,
+          "text": "    def fit(self,d):"
+        },
+        {
+          "line": 88,
+          "text": "    def __init__(self,ridge=1e-4,maxiter=250):self.ridge=ridge;self.maxiter=maxiter"
+        },
+        {
+          "line": 89,
+          "text": "    def setup(self,X,y,groups):"
+        },
+        {
+          "line": 92,
+          "text": "    def mode(self,beta,rho):"
+        },
+        {
+          "line": 99,
+          "text": "    def objective(self,theta,weights=None,return_scores=False):"
+        },
+        {
+          "line": 110,
+          "text": "    def fit(self,X,y,groups,weights=None,start=None):"
+        },
+        {
+          "line": 119,
+          "text": "    def predict(self,X,order=30):"
+        },
+        {
+          "line": 137,
+          "text": "    def objective(self,beta,weights=None,return_scores=False):"
+        },
+        {
+          "line": 147,
+          "text": "    def fit(self,X,y,groups,weights=None,start=None):"
+        },
+        {
+          "line": 155,
+          "text": "    elif kind=='hgb':model=HistGradientBoostingClassifier(**params,early_stopping=False,random_state=SEED).fit(X[:,1:],y)"
+        },
+        {
+          "line": 162,
+          "text": "def fit_calibrator(y,p):"
+        }
+      ]
+    },
+    {
+      "file": "components/analysis_core/fit_references.py",
+      "sha256": "24417f259f245309ec1b9b153d30ef5b11ced55959c2fb7b1c49ac183d432dac",
+      "evidence": [
+        {
+          "line": 14,
+          "text": "def checked_fit(d,kind,scale,bird,params,records,label,**kw):"
+        },
+        {
+          "line": 22,
+          "text": "  r['max_projected_gradient']=float(abs(grad).max());records.append(r)"
+        },
+        {
+          "line": 23,
+          "text": "  if not r['success'] or r['max_projected_gradient']>.025:raise RuntimeError('Unacceptable convergence '+str(r))"
+        },
+        {
+          "line": 43,
+          "text": "    opts.append((float(np.mean(losses)),scale,pi,params,np.concatenate(ips),np.concatenate(ys),losses))"
+        },
+        {
+          "line": 44,
+          "text": "  best=min(enumerate(opts),key=lambda x:(x[1][0],x[0]))[1];loss,scale,pi,params,cp,cy,_=best"
+        },
+        {
+          "line": 47,
+          "text": "  b['calibrator'],cr=fit_calibrator(cy,cp);assert cr['success'];cr['bound_hit']=bool(abs(cr['slope']-.05)<1e-5 or abs(cr['slope']-5)<1e-5 or abs(cr['intercept'])>9.999)"
+        },
+        {
+          "line": 56,
+          "text": " except Exception:"
+        }
+      ]
+    },
+    {
+      "file": "components/analysis_core/fit_simple_reference.py",
+      "sha256": "a60b7b4b278367ad2738ffa8bc6ceddcc533db75db7ff8eff448a3681dba911f",
+      "evidence": [
+        {
+          "line": 18,
+          "text": "def fit(df,label):"
+        },
+        {
+          "line": 19,
+          "text": " t=time.perf_counter();df=df.reset_index(drop=True);enc=Encoder(None,False,1).fit(df);X=enc.transform(df);y=df.damage_binary.to_numpy(float);pen=np.ones(X.shape[1]);pen[0]=0;ridge=1e-4"
+        },
+        {
+          "line": 24,
+          "text": "  r=minimize(fun,beta,jac=True,method='L-BFGS-B',options={'maxiter':1000,'ftol':1e-12 if attempt==0 else 1e-14,'gtol':1e-7,'maxls':40,'maxcor':30});attempts.append(dict(attempt=attempt,success=bool(r.success),message=str(r.message),iterations=int(r.nit),gradient=float(abs(r.jac).max()),objective=float(r.fun)));beta=r.x"
+        },
+        {
+          "line": 27,
+          "text": " assert r.success and abs(r.jac).max()<=.025,record"
+        }
+      ]
+    },
+    {
+      "file": "components/analysis_core/analysis_config.json",
+      "sha256": "b8ab4694213aafb6ac9cf7fcd25fa706805547679d2682462d84b103d11b3a69",
+      "evidence": [
+        {
+          "line": 25,
+          "text": "  \"inner_temporal_years\": ["
+        },
+        {
+          "line": 42,
+          "text": "  \"scales\": ["
+        },
+        {
+          "line": 48,
+          "text": "  \"hgb_candidates\": ["
+        },
+        {
+          "line": 50,
+          "text": "      \"max_depth\": 2,"
+        },
+        {
+          "line": 51,
+          "text": "      \"max_iter\": 150,"
+        },
+        {
+          "line": 57,
+          "text": "      \"max_depth\": 3,"
+        },
+        {
+          "line": 58,
+          "text": "      \"max_iter\": 150,"
+        }
+      ]
+    }
+  ],
+  "scope": "Primary hierarchical, boosting and ordinary EB development routines; algorithms and saved outputs unchanged."
+}

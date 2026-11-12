@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "events": {
+      "path": "data/events.parquet",
+      "sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8"
+    },
+    "coding_fit": {
+      "path": "data/coding_fit.json",
+      "sha256": "8e80d3ff628fff5fc9180ca490a1092c786a6b1494b2d39e60f43750943ca5e5"
+    },
+    "benchmarks": {
+      "path": "data/benchmarks.csv",
+      "sha256": "aeb2b74aa4be7e1525c0da84041d800be4bc59531f32254c0cae9fff620cd899"
+    },
+    "annual_reference": {
+      "path": "data/annual_reference.csv",
+      "sha256": "7f0b0a52ac29108d11ab6732c5008230d5c83d2918812729972303a22a7810f7"
+    },
+    "annual_extent": {
+      "path": "data/annual_extent.csv",
+      "sha256": "2ecf312bdbeb51053d935286e3a70e698382848c587e42e9a76e42b8a336af60"
+    },
+    "target_predictions": {
+      "path": "data/target_predictions.parquet",
+      "sha256": "18daad4254aeba0b7f8ff2291d77b68eb23040d993428991e5fff3c0926c3fe9"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿Field,Category,Reports,Damage,Expected damage,O/E,M?
+SOURCE,Air Transport Report,3,2,0.174,11.493,2
+SOURCE,Airport Report,0,0,0.000,—,0
+SOURCE,Daily Report,4,0,0.109,0.000,0
+SOURCE,FAA Form 5200-7,11,0,0.504,0.000,0
+SOURCE,FAA Form 5200-7-E,392,29,19.093,1.519,27
+SOURCE,MOR,46,2,1.283,1.559,1
+SOURCE,Missing,0,0,0.000,—,0
+SOURCE,Multiple,352,32,23.615,1.355,28
+SOURCE,NTSB,0,0,0.000,—,0
+SOURCE,Other,2,0,0.024,0.000,0
+PERSON,Air Transport Operations,27,5,1.585,3.154,3
+PERSON,Airport Operations,522,42,28.690,1.464,41
+PERSON,Missing,2,0,0.062,0.000,0
+PERSON,Other,60,3,2.985,1.005,3
+PERSON,Pilot,105,9,7.792,1.155,7
+PERSON,Tower,94,6,3.687,1.627,4

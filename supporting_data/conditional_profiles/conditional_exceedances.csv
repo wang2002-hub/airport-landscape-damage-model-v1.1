@@ -1,0 +1,11 @@
+﻿Reference,Level,Outside conditional limits,Expected outside,Nominal upper bound,Outside widened limits
+Ordinary EB,95%,38,12.866,68.75,31
+Ordinary EB,99.8%,5,0.330,2.75,2
+Hierarchical EB,95%,39,12.750,68.75,32
+Hierarchical EB,99.8%,5,0.336,2.75,2
+Hierarchical EBL,95%,42,12.693,68.75,34
+Hierarchical EBL,99.8%,6,0.345,2.75,2
+Boosting EB,95%,40,12.629,68.75,32
+Boosting EB,99.8%,5,0.335,2.75,3
+Boosting EBL,95%,42,12.407,68.75,32
+Boosting EBL,99.8%,5,0.339,2.75,3

@@ -1,0 +1,140 @@
+{
+  "supp_context.enhanced_absolute": {
+    "caption": "source record SRC-S54. Seven-field enhanced models on the national temporal test",
+    "headers": [
+      "Family",
+      "Block",
+      "Scale",
+      "Brier",
+      "Log loss",
+      "AUC",
+      "O/E"
+    ],
+    "rows": [
+      [
+        "Hierarchical",
+        "E",
+        "None",
+        "0.052235",
+        "0.202383",
+        "0.737",
+        "0.974"
+      ],
+      [
+        "Hierarchical",
+        "EL",
+        "b03",
+        "0.051945",
+        "0.201463",
+        "0.738",
+        "0.973"
+      ],
+      [
+        "Hierarchical",
+        "EB",
+        "None",
+        "0.044644",
+        "0.168917",
+        "0.841",
+        "0.978"
+      ],
+      [
+        "Hierarchical",
+        "EBL",
+        "rings",
+        "0.044628",
+        "0.168898",
+        "0.841",
+        "0.977"
+      ],
+      [
+        "Boosting",
+        "E",
+        "None",
+        "0.051043",
+        "0.196729",
+        "0.756",
+        "0.972"
+      ],
+      [
+        "Boosting",
+        "EL",
+        "b08",
+        "0.051072",
+        "0.196515",
+        "0.757",
+        "0.973"
+      ],
+      [
+        "Boosting",
+        "EB",
+        "None",
+        "0.043971",
+        "0.165929",
+        "0.849",
+        "0.992"
+      ],
+      [
+        "Boosting",
+        "EBL",
+        "b08",
+        "0.044007",
+        "0.166069",
+        "0.848",
+        "0.996"
+      ]
+    ],
+    "widths": [
+      1.1,
+      0.55,
+      0.7,
+      1.2,
+      1.2,
+      0.8,
+      0.95
+    ],
+    "note": "Training-only forward selection is repeated for every block. E already includes the seven added event variables. All rows use 11,124 reports and 669 recorded damage outcomes."
+  },
+  "supp_context.enhanced_paired": {
+    "caption": "source record SRC-S55. Landscape increments after strengthening event information",
+    "headers": [
+      "Family",
+      "Comparison",
+      "ΔBrier × 1,000",
+      "95% interval × 1,000"
+    ],
+    "rows": [
+      [
+        "Hierarchical",
+        "EL minus E",
+        "-0.290",
+        "[-0.520, -0.080]"
+      ],
+      [
+        "Hierarchical",
+        "EBL minus EB",
+        "-0.016",
+        "[-0.080, 0.042]"
+      ],
+      [
+        "Boosting",
+        "EL minus E",
+        "0.029",
+        "[-0.349, 0.414]"
+      ],
+      [
+        "Boosting",
+        "EBL minus EB",
+        "0.036",
+        "[-0.165, 0.238]"
+      ]
+    ],
+    "widths": [
+      1.05,
+      1.5,
+      1.7,
+      2.25
+    ],
+    "note": "Brier differences are augmented minus baseline; negative values favor landscapes. Two thousand national airport resamples condition on fitted predictions. Intervals omit new model-refitting and candidate-selection uncertainty."
+  }
+}

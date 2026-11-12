@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "scenarios": 8,
+  "configurations": 32,
+  "fit_records": 32,
+  "calibration_fits": 32,
+  "prediction_rows": 511564,
+  "maximum_probability_error": 0.0,
+  "metadata_comparisons": 32,
+  "membership_rows": 32,
+  "map_scenarios_identical_event_sets": true,
+  "distance_rows": 1383,
+  "invalid_duplicate_events_rejected": true,
+  "invalid_duplicate_environment_rejected": true,
+  "existing_outputs_preserved": true,
+  "input_files_unchanged": 2,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "new_sensitivity_scenarios": 0,
+  "raw_raster_extraction_replayed": false,
+  "unchanged_function_checks": [
+    "maps",
+    "checked_fit"
+  ]
+}

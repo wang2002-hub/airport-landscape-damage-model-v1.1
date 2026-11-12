@@ -1,0 +1,22 @@
+{
+  "display_to_configuration": {
+    "Ev": "E",
+    "EL": "EL",
+    "EB": "EB",
+    "EBL": "EBL"
+  },
+  "display_definitions": {
+    "Ev": "event information only",
+    "EL": "event and landscape information",
+    "EB": "event and bird information",
+    "EBL": "event, bird and landscape information"
+  },
+  "quantity_symbols": {
+    "E": "expected damage count",
+    "O": "observed damage count"
+  },
+  "contrast_labels": {
+    "E_to_EL": "Ev → EL",
+    "EB_to_EBL": "EB → EBL"
+  }
+}

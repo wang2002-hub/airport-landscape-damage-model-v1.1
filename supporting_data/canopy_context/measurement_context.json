@@ -1,0 +1,12 @@
+{
+  "source_paragraph": "Static canopy additions produced small changes with paired Brier intervals spanning zero (Figure S11B). source record SRC-S58 adds the 2015 canopy measurement at 3 km for hierarchical regression and 8 km for boosting [39]. The same 11,124 national test reports enter each pair. Annual-land-cover and fixed-2015 variants retain the same static canopy source. These checks hold the original settings fixed and use 2,000 airport resamples of saved predictions. source record SRC-S59 and Figure S12 describe map variation independently of model performance. Each radius includes 1,375 national airports and 15,125 airport-years, with equal weight for each airport-year. Between-airport standard deviation uses eleven-year airport means. Within-airport standard deviation is the square root of the mean sample variance across years. At 3 km, median eleven-year ranges are 0.10 percentage points for water, 0.06 for wetlands and 0.71 for cropland. Disc and ring summaries retain the same units and calculation rules. source record SRC-S60 provides the target canopy context at 13 km for 2015, 2020 and 2025. The national static extraction covers all 1,383 study airports. Minimum valid coverage is approximately 99.92%, 99.19% and 96.99% at 3, 8 and 13 km. Canopy measures overhead tree cover under a separate product definition from the forest land-cover class. The version 2025.6 product was released after the study period, keeping this analysis retrospective.",
+  "interpretation_boundary": "The three canopy dates remain separate observations, with no annual interpolation. Annual land-cover differences can reflect classification variation as well as physical change. The variation summaries describe the available maps. They neither explain prediction errors nor evaluate vegetation management effects on strike outcomes.",
+  "source_reference_number": 39,
+  "citation_namespace": "journal_fit_integration_42_references",
+  "role": "Retained measurement definitions and coverage information accompanying the numerical context tables",
+  "publication_figure_locators": {
+    "static_canopy_contrasts": "Supplementary Figure S12B",
+    "landscape_variation": "Supporting Figure L1 in supporting_assets/landscape_variation"
+  },
+  "source_figure_namespace": "Figure labels in source_paragraph are archived provenance identifiers, not publication locators."
+}

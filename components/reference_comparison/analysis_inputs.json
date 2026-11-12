@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "national_profiles": {
+      "path": "inputs/national_profiles.csv",
+      "sha256": "b8221b66ca6b18526efcae218fec556a5a643d969989a4c3a22c9b76a1c97052"
+    },
+    "rank_concordance": {
+      "path": "inputs/saved_rank_concordance.csv",
+      "sha256": "5717fa5d96edbdc81e142c7aa70cd3bd201c44335c70072579bfa434d9c3daef"
+    },
+    "flag_overlap": {
+      "path": "inputs/saved_flag_overlap.csv",
+      "sha256": "7206c12ecc3492d2d52560e4d8c6ee34b24669322c9a128b92ce1e0abd1d5030"
+    }
+  }
+}

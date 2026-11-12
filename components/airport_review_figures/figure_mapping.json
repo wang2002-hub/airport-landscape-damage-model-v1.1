@@ -1,0 +1,22 @@
+[
+  {
+    "id": "3",
+    "stem": "fig03_airport_comparisons",
+    "current_image_sha256": "07e2818b465ff8a93eafb2a0072977d262117ba1e6366ec00254b0e54de28321"
+  },
+  {
+    "id": "5",
+    "stem": "fig05_damage_extent",
+    "current_image_sha256": "3a71b6a58952b026669a48e3beac9087d9b36d59421d83790659519860421039"
+  },
+  {
+    "id": "6",
+    "stem": "fig06_review_protocol",
+    "current_image_sha256": "0acb6e673b1a1ca8a75e243d1112dc3c67d7290c01e905b4e58219f6d1a832f7"
+  },
+  {
+    "id": "S3",
+    "stem": "figS03_report_volume_calibration",
+    "current_image_sha256": "42f46983a0ae6f583f34ac85d5c7553d8523d0f24f6a24b67a2d216b3f7da1ec"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "paths": {
+    "near_reports": "DATA/near_reports.parquet",
+    "analysis_events": "DATA/analysis_events.parquet",
+    "airport_year_audit": "DATA/airport_year_audit.csv",
+    "airport_year_quality": "DATA/airport_year_quality.csv",
+    "annual_coding_composition": "DATA/annual_coding_composition.csv",
+    "coding_model_benchmarks": "DATA/coding_model_benchmarks.csv",
+    "coding_model_fit": "DATA/coding_model_fit.json",
+    "coding_target_predictions_private": "DATA/coding_target_predictions_private.parquet"
+  }
+}

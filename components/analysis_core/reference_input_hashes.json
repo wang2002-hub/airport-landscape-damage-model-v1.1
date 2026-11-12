@@ -1,0 +1,26 @@
+{
+  "raw_selected.parquet": {
+    "sha256": "88f7119f9c0d60d815c682b3506856ae1c9b782dd6c0a45fdc04617bb7e917c2",
+    "bytes": 9821627
+  },
+  "taxon_reference.csv": {
+    "sha256": "5971e3d54d372df09e3e722a629ede66d635443a9077e0837756d151abd40dcf",
+    "bytes": 20933
+  },
+  "airport_reference.csv": {
+    "sha256": "367fa09a51328c4384f55cc3ef67cdaf7e664ce75a30daa1f6acde847e06c0f2",
+    "bytes": 33511
+  },
+  "environment.parquet": {
+    "sha256": "275071fdf2cf78f5376a611b1773da4474270a6fb1d44e1c0ef6d5dbe9c7ae7f",
+    "bytes": 26072681
+  },
+  "spatial_folds.csv": {
+    "sha256": "917ee175b659e596c6b59fbce382e41df961058b2f7d8d80ccb61cd7aac37e9b",
+    "bytes": 237123
+  },
+  "analysis_events.parquet": {
+    "sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8",
+    "bytes": 25605965
+  }
+}

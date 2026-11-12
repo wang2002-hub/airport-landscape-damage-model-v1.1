@@ -1,0 +1,17 @@
+{
+  "scope": "Current exporter interface and syntax checked. Output figures listed here supersede the component-wide figure counts in the retained source test record. External configured inputs are required for these exporters.",
+  "registered_figure_ids": [
+    "S1",
+    "S2",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10"
+  ],
+  "current_release_help_passed": true,
+  "current_release_all_figures_rerun": false,
+  "retained_source_record_sha256": "ce0639959ae5fc7bfce43141e731737f5608428581170fc2d7e5041871cc836d",
+  "reference": "See root figure_correspondence.csv and verification_summary.json for current figure routes and verification coverage."
+}

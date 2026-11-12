@@ -1,0 +1,280 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "list_entries",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "aggregate_replay",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "documentation_replay",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "national_profile_figures",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "landscape_comparison_figures",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "graphical_abstract",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "2_text",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "2_collision",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "S4_text",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "S4_collision",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "S11_text",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "S11_collision",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "S12_text",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "S12_collision",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "graphical_text",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "graphical_collision",
+      "exit_code": 0,
+      "evidence": "successful saved output from preceding invocation"
+    },
+    {
+      "test": "help_analysis_core_prepare_cohort",
+      "exit_code": 0
+    },
+    {
+      "test": "help_analysis_core_fit_references",
+      "exit_code": 0
+    },
+    {
+      "test": "help_analysis_core_fit_simple_reference",
+      "exit_code": 0
+    },
+    {
+      "test": "help_canopy_models_fit_canopy_models",
+      "exit_code": 0
+    },
+    {
+      "test": "help_context_summaries_summarize_context",
+      "exit_code": 0
+    },
+    {
+      "test": "help_environment_panel_rebuild_environment_panel",
+      "exit_code": 0
+    },
+    {
+      "test": "help_evidence_replay_replay_aggregates",
+      "exit_code": 0
+    },
+    {
+      "test": "help_landscape_bootstrap_bootstrap_landscape",
+      "exit_code": 0
+    },
+    {
+      "test": "help_landscape_bootstrap_summarize_landscape_bootstrap",
+      "exit_code": 0
+    },
+    {
+      "test": "help_profiling_models_profile_airports",
+      "exit_code": 0
+    },
+    {
+      "test": "help_profiling_models_audit_count_limits",
+      "exit_code": 0
+    },
+    {
+      "test": "help_profiling_models_partial_pooling",
+      "exit_code": 0
+    },
+    {
+      "test": "help_profiling_models_fit_enhanced_references",
+      "exit_code": 0
+    },
+    {
+      "test": "help_raster_extraction_extract_landscape",
+      "exit_code": 0
+    },
+    {
+      "test": "help_sensitivity_models_fit_sensitivity",
+      "exit_code": 0
+    },
+    {
+      "test": "help_source_scope_audit_source_scope",
+      "exit_code": 0
+    },
+    {
+      "test": "help_spatial_context_audit_spatial_context",
+      "exit_code": 0
+    },
+    {
+      "test": "help_summaries_figures_landscape_contrasts",
+      "exit_code": 0
+    },
+    {
+      "test": "help_summaries_figures_summarize_predictors",
+      "exit_code": 0
+    },
+    {
+      "test": "help_summaries_figures_draw_study_design",
+      "exit_code": 0
+    },
+    {
+      "test": "help_supplement_figures_draw_geography_landscape",
+      "exit_code": 0
+    },
+    {
+      "test": "help_supplement_figures_draw_profile_diagnostics",
+      "exit_code": 0
+    },
+    {
+      "test": "help_supplement_figures_draw_local_uncertainty",
+      "exit_code": 0
+    },
+    {
+      "test": "help_supplement_figures_draw_reference_overlap",
+      "exit_code": 0
+    },
+    {
+      "test": "help_supplement_figures_draw_reporting_coding",
+      "exit_code": 0
+    },
+    {
+      "test": "help_uncertainty_diagnostics_joint_uncertainty",
+      "exit_code": 0
+    },
+    {
+      "test": "help_uncertainty_diagnostics_summarize_joint_uncertainty",
+      "exit_code": 0
+    },
+    {
+      "test": "help_uncertainty_diagnostics_coding_diagnostics",
+      "exit_code": 0
+    },
+    {
+      "test": "help_uncertainty_diagnostics_reporting_diagnostics",
+      "exit_code": 0
+    },
+    {
+      "test": "help_weather_diagnostics_match_surface_weather",
+      "exit_code": 0
+    },
+    {
+      "test": "help_documentation_evidence_replay_documentation",
+      "exit_code": 0
+    },
+    {
+      "test": "help_documentation_partition_analyze_partition",
+      "exit_code": 0
+    },
+    {
+      "test": "help_coding_transfer_diagnose_coding",
+      "exit_code": 0
+    },
+    {
+      "test": "help_report_volume_calibration_diagnose_volume",
+      "exit_code": 0
+    },
+    {
+      "test": "help_reference_comparison_compare_references",
+      "exit_code": 0
+    },
+    {
+      "test": "help_reference_comparison_plot_reference_comparison",
+      "exit_code": 0
+    },
+    {
+      "test": "help_airport_review_figures_plot_airport_comparisons",
+      "exit_code": 0
+    },
+    {
+      "test": "help_airport_review_figures_plot_review_workflow",
+      "exit_code": 0
+    },
+    {
+      "test": "help_airport_review_figures_plot_volume_calibration",
+      "exit_code": 0
+    },
+    {
+      "test": "help_national_profile_figures_plot_national_profiles",
+      "exit_code": 0
+    },
+    {
+      "test": "help_landscape_comparison_figures_plot_landscape_comparisons",
+      "exit_code": 0
+    },
+    {
+      "test": "help_graphical_abstract_plot_graphical_abstract",
+      "exit_code": 0
+    }
+  ],
+  "image_identity": [
+    {
+      "figure": "2",
+      "pixel_identical": true
+    },
+    {
+      "figure": "S4",
+      "pixel_identical": true
+    },
+    {
+      "figure": "S11",
+      "pixel_identical": true
+    },
+    {
+      "figure": "S12",
+      "pixel_identical": true
+    },
+    {
+      "figure": "graphical_abstract",
+      "pixel_identical": true
+    }
+  ],
+  "syntax_files": 90,
+  "registered_components": 24,
+  "registered_entries": 42,
+  "five_documents_unchanged": true,
+  "scope": "Current included evidence replays, five remaining figure exports and all entry help interfaces tested locally. Previously verified current components are bound through their file hashes. No complete raw-data/model-training rerun or clean-install certification."
+}

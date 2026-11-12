@@ -1,0 +1,7 @@
+# Outcome-dependent restriction
+
+extent_population_and_refit.csv contains the complete saved full-precision results for all eight target airports. The full population has 5,936 reports and 309 damage outcomes. Excluding 252 M? records, each a known positive outcome, leaves 5,684 reports and 57 positive outcomes. No airport is omitted.
+
+Full E sums the full-population any-damage probabilities. Frozen restricted E sums those same predictions only over retained reports. Its numerical O/E is an estimand-mismatch counterexample because selection depends on an observed positive category. It is not a matched risk estimate for the selected collection. Matched restricted E instead comes from national fitting and recalibration after applying the same exclusion rule. Full-versus-restricted differences combine selection and refitting; the observed contrast does not identify a separate causal contribution from either process.
+
+Table S19 displays full/restricted counts and the eight matched restricted point estimates. restriction_display.csv and display_definition.json retain all original display values, including the frozen counterexamples. Full-population reference results are also in manuscript Table 2A. Same-population documented-extent estimates in S36A use a different denominator and target; their uncertainty intervals cannot be assigned to the restricted point estimates. No model fitting or resampling was repeated. These files have not been publicly released.

@@ -1,0 +1,5 @@
+﻿Family,Land cover setting,Base Brier,Added canopy Brier,"Change × 1,000 [95% interval]"
+Hierarchical,Annual land cover,0.044951,0.044946,"-0.005 [-0.064, 0.053]"
+Hierarchical,Fixed 2015 land cover,0.044953,0.044950,"-0.004 [-0.058, 0.053]"
+Boosting,Annual land cover,0.044885,0.044879,"-0.005 [-0.104, 0.098]"
+Boosting,Fixed 2015 land cover,0.044728,0.044761,"0.033 [-0.066, 0.134]"

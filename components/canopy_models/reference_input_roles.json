@@ -1,0 +1,22 @@
+{
+  "analysis_events": {
+    "sha256": "7b3a7c5b0eb74305c7bfbf9f061259045c7a26315ea808f02ff8567242b03871",
+    "bytes": 27328406
+  },
+  "environment": {
+    "sha256": "275071fdf2cf78f5376a611b1773da4474270a6fb1d44e1c0ef6d5dbe9c7ae7f",
+    "bytes": 26072681
+  },
+  "canopy_measurements": {
+    "sha256": "a1545428e7caab881d970e6ec71731dc62ef12e85e6fe4aac3ad1544fae01446",
+    "bytes": 1855093
+  },
+  "glmm_config": {
+    "sha256": "fdfaff32ee39278b4a25910fb5b1cd5fdc3d3a1f451882ff8d3bf04a56c6791c",
+    "bytes": 18839
+  },
+  "hgb_config": {
+    "sha256": "bf45df8039e37e07cfb372ba303db80dddf78cc151d0bbb0de5d1528602ca98a",
+    "bytes": 17717
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "caption": "source record SRC-S66. Selected reporting boundaries and evidence locations",
+  "headers": [
+    "Topic",
+    "Locations",
+    "Evidence boundary"
+  ],
+  "rows": [
+    [
+      "Identification",
+      "Title; Abstract",
+      "P: The title emphasizes profiling. The abstract provides an abbreviated account of design, results and uncertainty."
+    ],
+    [
+      "Source assessment",
+      "2.1; 5.5; S1.2; S8",
+      "P/U: Assessor qualifications and blinding are incomplete or undocumented. Coding diagnostics do not constitute a formal cluster-level bias assessment."
+    ],
+    [
+      "Size and input coverage",
+      "2.2; S1.3; S2.3; S4.2",
+      "P: Available records determine sample size. Primary and seven-field input summaries have broader coverage than auxiliary inputs and individual-airport distributions."
+    ],
+    [
+      "Performance and use",
+      "4.1–4.4; 5.3; 5.5; S4–S7",
+      "P: Comprehensive national per-airport loss intervals, formal fairness assessment and usability evaluation remain outside the reported evidence."
+    ],
+    [
+      "Research status",
+      "3.7; declarations",
+      "R/P: No ethics approval or institutional exemption determination was obtained. The study was not preregistered and had no airport-personnel or public design involvement."
+    ],
+    [
+      "Access and replay",
+      "3.7; S2.1; S11.2; declarations",
+      "P: The current data and code archives are unpublished. Recorded replay excludes a fresh extraction of every national airport and a clean installation test."
+    ]
+  ],
+  "widths": [
+    1.05,
+    1.35,
+    4.1
+  ],
+  "note": "Main-text link: Section 3.7, use of TRIPOD-Cluster and TRIPOD+AI to distinguish analytical roles. Combined status labels describe the selected items, not a new rating. The selected_item_map.json file lists their identifiers."
+}

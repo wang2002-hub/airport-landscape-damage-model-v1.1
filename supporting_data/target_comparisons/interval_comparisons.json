@@ -1,0 +1,83 @@
+{
+  "caption": "Absolute O/E under three sources of interval uncertainty",
+  "headers": [
+    "Airport",
+    "Original O/E",
+    "Development-only 95% interval",
+    "Joint-year 95% interval",
+    "Joint-block 95% interval"
+  ],
+  "rows": [
+    [
+      "DEN",
+      "1.075",
+      "0.866–1.268",
+      "0.810–1.407",
+      "0.809–1.440"
+    ],
+    [
+      "JFK",
+      "1.451",
+      "1.186–1.702",
+      "1.061–1.842",
+      "1.085–1.832"
+    ],
+    [
+      "MIA",
+      "0.886",
+      "0.758–1.014",
+      "0.487–1.224",
+      "0.428–1.263"
+    ],
+    [
+      "MSP",
+      "1.256",
+      "1.094–1.440",
+      "0.904–1.659",
+      "0.917–1.643"
+    ],
+    [
+      "BOS",
+      "1.176",
+      "0.880–1.474",
+      "0.836–1.537",
+      "0.842–1.519"
+    ],
+    [
+      "SFO",
+      "0.851",
+      "0.618–1.069",
+      "0.494–1.224",
+      "0.524–1.217"
+    ],
+    [
+      "SAT",
+      "0.929",
+      "0.784–1.074",
+      "0.615–1.369",
+      "0.633–1.283"
+    ],
+    [
+      "STL",
+      "1.140",
+      "0.968–1.288",
+      "0.710–1.592",
+      "0.678–1.651"
+    ]
+  ],
+  "widths": [
+    0.65,
+    0.8,
+    1.65,
+    1.65,
+    1.75
+  ],
+  "note": "Main-text links: Sections 3.4 and 4.3. Points use the frozen hierarchical EBL reference; intervals are pointwise percentiles for observed report collections. Development-only intervals vary 498 national fits on fixed target records. Joint procedures add 20 synchronized year or block resamples per fit, giving 9,960 dependent summaries. Joint-year sampling is primary; circular two-year blocks connect 2025 to 2015. target_uncertainty_full.csv also gives predicted probabilities and predicted-minus-observed differences with all three interval sets. Figure S6 compares uncertainty sources; Table S10 gives simultaneous absolute intervals.",
+  "alignments": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ]
+}

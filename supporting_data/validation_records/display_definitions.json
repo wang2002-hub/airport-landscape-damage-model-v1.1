@@ -1,0 +1,268 @@
+{
+  "supp_methods.populations": {
+    "caption": "source record SRC-S8. Validation and target evaluation populations",
+    "headers": [
+      "Population",
+      "Reports",
+      "Damage",
+      "Airports"
+    ],
+    "rows": [
+      [
+        "National development 2015–2022",
+        "30,427",
+        "2,140",
+        "1,161"
+      ],
+      [
+        "National calibration 2023",
+        "4,616",
+        "287",
+        "557"
+      ],
+      [
+        "National temporal test 2024–2025",
+        "11,124",
+        "669",
+        "803"
+      ],
+      [
+        "National geographic evaluation 2015–2025",
+        "46,167",
+        "3,096",
+        "1,375"
+      ],
+      [
+        "Eight targets 2015–2025",
+        "5,936",
+        "309",
+        "8"
+      ],
+      [
+        "Eight targets 2024–2025",
+        "1,615",
+        "77",
+        "8"
+      ]
+    ],
+    "widths": [
+      3.65,
+      0.95,
+      0.9,
+      1.0
+    ],
+    "note": "Temporal national partitions are disjoint. Geographic evaluation reuses all national years in outer held-out groups. Airports can appear in several temporal partitions, so their counts are not additive. Target windows overlap."
+  },
+  "supp_methods.numerical": {
+    "caption": "Numerical and partition checks",
+    "headers": [
+      "Check",
+      "Result",
+      "Scope"
+    ],
+    "rows": [
+      [
+        "Main model fitting",
+        "48 final models; 768 component fits; zero main hierarchical failures",
+        "Primary temporal and geographic model development."
+      ],
+      [
+        "Ordinary EB fitting",
+        "26 completed fits",
+        "One temporal fit and five sets of four inner fits plus one outer fit."
+      ],
+      [
+        "Gradient agreement",
+        "Maximum absolute difference 9.54e-08",
+        "Analytical versus finite-difference gradients; 30,427 development reports."
+      ],
+      [
+        "Marginal quadrature",
+        "Maximum probability difference 3.33e-16",
+        "30 versus 60 nodes in the fitted development model."
+      ],
+      [
+        "Independent likelihood fit",
+        "Maximum probability difference 0.000281",
+        "Laplace versus adaptive quadrature; 1,674 reports, 152 outcomes and 160 airports."
+      ],
+      [
+        "Adaptive integration",
+        "Objective difference 5.68e-14",
+        "15 versus 30 nodes at the checked adaptive optimum."
+      ],
+      [
+        "Geographic separation",
+        "589 airport pairs within 26 km; zero cross-fold violations",
+        "Independent coordinate audit of national outer-fold assignment."
+      ]
+    ],
+    "widths": [
+      1.35,
+      2.05,
+      3.1
+    ],
+    "note": "These checks assess numerical agreement and partition separation. They are separate from predictive validation and do not imply that every explored bootstrap attempt succeeded."
+  },
+  "supp_methods.nested_partition_counts": {
+    "caption": "source record SRC-S10. Training and evaluation counts for each validation pair",
+    "headers": [
+      "Pair",
+      "Training n / damage / airports",
+      "Evaluation n / damage / airports"
+    ],
+    "rows": [
+      [
+        "Temporal 2019",
+        "15,509 / 1,056 / 845",
+        "4,119 / 307 / 529"
+      ],
+      [
+        "Temporal 2020",
+        "19,628 / 1,363 / 950",
+        "2,776 / 217 / 522"
+      ],
+      [
+        "Temporal 2021",
+        "22,404 / 1,580 / 1,023",
+        "3,842 / 274 / 546"
+      ],
+      [
+        "Temporal 2022",
+        "26,246 / 1,854 / 1,093",
+        "4,181 / 286 / 542"
+      ],
+      [
+        "Outer 1",
+        "38,140 / 2,357 / 1,082",
+        "8,027 / 739 / 293"
+      ],
+      [
+        "Outer 1 inner 2",
+        "30,945 / 1,947 / 847",
+        "7,195 / 410 / 235"
+      ],
+      [
+        "Outer 1 inner 3",
+        "30,314 / 1,868 / 790",
+        "7,826 / 489 / 292"
+      ],
+      [
+        "Outer 1 inner 4",
+        "26,557 / 1,615 / 823",
+        "11,583 / 742 / 259"
+      ],
+      [
+        "Outer 1 inner 5",
+        "26,604 / 1,641 / 786",
+        "11,536 / 716 / 296"
+      ],
+      [
+        "Outer 2",
+        "38,972 / 2,686 / 1,140",
+        "7,195 / 410 / 235"
+      ],
+      [
+        "Outer 2 inner 1",
+        "30,945 / 1,947 / 847",
+        "8,027 / 739 / 293"
+      ],
+      [
+        "Outer 2 inner 3",
+        "31,146 / 2,197 / 848",
+        "7,826 / 489 / 292"
+      ],
+      [
+        "Outer 2 inner 4",
+        "27,389 / 1,944 / 881",
+        "11,583 / 742 / 259"
+      ],
+      [
+        "Outer 2 inner 5",
+        "27,436 / 1,970 / 844",
+        "11,536 / 716 / 296"
+      ],
+      [
+        "Outer 3",
+        "38,341 / 2,607 / 1,083",
+        "7,826 / 489 / 292"
+      ],
+      [
+        "Outer 3 inner 1",
+        "30,314 / 1,868 / 790",
+        "8,027 / 739 / 293"
+      ],
+      [
+        "Outer 3 inner 2",
+        "31,146 / 2,197 / 848",
+        "7,195 / 410 / 235"
+      ],
+      [
+        "Outer 3 inner 4",
+        "26,758 / 1,865 / 824",
+        "11,583 / 742 / 259"
+      ],
+      [
+        "Outer 3 inner 5",
+        "26,805 / 1,891 / 787",
+        "11,536 / 716 / 296"
+      ],
+      [
+        "Outer 4",
+        "34,584 / 2,354 / 1,116",
+        "11,583 / 742 / 259"
+      ],
+      [
+        "Outer 4 inner 1",
+        "26,557 / 1,615 / 823",
+        "8,027 / 739 / 293"
+      ],
+      [
+        "Outer 4 inner 2",
+        "27,389 / 1,944 / 881",
+        "7,195 / 410 / 235"
+      ],
+      [
+        "Outer 4 inner 3",
+        "26,758 / 1,865 / 824",
+        "7,826 / 489 / 292"
+      ],
+      [
+        "Outer 4 inner 5",
+        "23,048 / 1,638 / 820",
+        "11,536 / 716 / 296"
+      ],
+      [
+        "Outer 5",
+        "34,631 / 2,380 / 1,079",
+        "11,536 / 716 / 296"
+      ],
+      [
+        "Outer 5 inner 1",
+        "26,604 / 1,641 / 786",
+        "8,027 / 739 / 293"
+      ],
+      [
+        "Outer 5 inner 2",
+        "27,436 / 1,970 / 844",
+        "7,195 / 410 / 235"
+      ],
+      [
+        "Outer 5 inner 3",
+        "26,805 / 1,891 / 787",
+        "7,826 / 489 / 292"
+      ],
+      [
+        "Outer 5 inner 4",
+        "23,048 / 1,638 / 820",
+        "11,583 / 742 / 259"
+      ]
+    ],
+    "widths": [
+      1.6,
+      2.45,
+      2.25
+    ],
+    "note": "Temporal labels identify the validation year; training uses preceding national years. Outer labels identify the held-out geographic group. Inner labels identify its nested held-out group. Within each outer training collection, inner evaluation predictions jointly supply calibration. These collections recur across candidate fits and are not independent samples. The ordinary temporal reference uses its fixed specification without forward candidate selection."
+  }
+}

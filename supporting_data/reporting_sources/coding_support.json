@@ -1,0 +1,102 @@
+{
+  "caption": "Composition sensitivity requiring five national damage reports per cell",
+  "headers": [
+    "Airport",
+    "Year plus",
+    "Supported\ndamage / M?",
+    "Excluded\ndamage / M?",
+    "Expected\nM?",
+    "Ratio"
+  ],
+  "rows": [
+    [
+      "DEN",
+      "SOURCE\nPERSON",
+      "60 / 48\n60 / 48",
+      "0 / 0\n0 / 0",
+      "44.515\n44.943",
+      "1.078\n1.068"
+    ],
+    [
+      "JFK",
+      "SOURCE\nPERSON",
+      "63 / 56\n65 / 58",
+      "2 / 2\n0 / 0",
+      "47.879\n49.514",
+      "1.170\n1.171"
+    ],
+    [
+      "MIA",
+      "SOURCE\nPERSON",
+      "25 / 21\n25 / 21",
+      "0 / 0\n0 / 0",
+      "18.932\n18.559",
+      "1.109\n1.132"
+    ],
+    [
+      "MSP",
+      "SOURCE\nPERSON",
+      "32 / 27\n32 / 27",
+      "0 / 0\n0 / 0",
+      "23.910\n24.161",
+      "1.129\n1.118"
+    ],
+    [
+      "BOS",
+      "SOURCE\nPERSON",
+      "57 / 45\n55 / 44",
+      "0 / 0\n2 / 1",
+      "43.379\n42.457",
+      "1.037\n1.036"
+    ],
+    [
+      "SFO",
+      "SOURCE\nPERSON",
+      "27 / 23\n27 / 23",
+      "0 / 0\n0 / 0",
+      "21.399\n21.320",
+      "1.075\n1.079"
+    ],
+    [
+      "SAT",
+      "SOURCE\nPERSON",
+      "16 / 11\n17 / 11",
+      "1 / 0\n0 / 0",
+      "11.763\n11.749",
+      "0.935\n0.936"
+    ],
+    [
+      "STL",
+      "SOURCE\nPERSON",
+      "26 / 19\n26 / 19",
+      "0 / 0\n0 / 0",
+      "18.642\n17.736",
+      "1.019\n1.071"
+    ],
+    [
+      "Pooled",
+      "SOURCE\nPERSON",
+      "306 / 250\n307 / 251",
+      "3 / 2\n2 / 1",
+      "230.419\n230.437",
+      "1.085\n1.089"
+    ]
+  ],
+  "widths": [
+    0.65,
+    0.9,
+    1.35,
+    1.35,
+    1.2,
+    1.05
+  ],
+  "alignments": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "note": "Main-text link: Section 4.5, M? composition is compared within damaged reports. Each cell shows SOURCE above PERSON, comparing two standardizations of the same events. The supported M? count is the ratio numerator, and its expectation uses the same supported damage reports. Year-only references already meet the five-report threshold. Primary comparisons in Table S22 include all records; this sensitivity excludes sparse national reference cells and reports the excluded counts explicitly. All 108 population-period-scheme-threshold results and 595 underlying cells remain in reporting_coding_standardization.csv and reporting_coding_support_cells.csv. These are descriptive point comparisons, without uncertainty intervals."
+}

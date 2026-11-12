@@ -1,0 +1,23 @@
+{
+  "populations": {
+    "Geographic": {
+      "reports": 46167,
+      "damage": 3096,
+      "design": "national outer geographic evaluation"
+    },
+    "Temporal": {
+      "reports": 11124,
+      "damage": 669,
+      "years": "2024–2025"
+    }
+  },
+  "weighting": "One equal weight per report; distinct from the airport-equal summaries in S4.2.",
+  "configuration_coverage": "18 rows: two evaluations, each with eight complex family/block combinations and one ordinary EB reference. The compact S12 shows the ten bird-informed rows.",
+  "information_blocks": "E: event; B: bird; L: landscape. E and EL are retained in national_performance.csv.",
+  "paired_contrast": "Complex comparator minus ordinary EB within the same evaluation population; loss differences and limits are multiplied by 1,000. Negative values favor the complex comparator.",
+  "paired_uncertainty": "2,000 national airport resamples with fixed matched predictions. Model fitting, selection and calibration remain fixed.",
+  "rounding": "Absolute scores and paired differences retain their existing independent rounding. Do not recompute paired contrasts or intervals from the displayed absolute scores.",
+  "calibration": "Six parameter estimates for frozen temporal EBL predictions: calibration-in-the-large with slope fixed at one, and jointly fitted intercept/slope for each of two families. Intervals use 1,000 airport-cluster resamples; these diagnostics do not update predictions.",
+  "ranking": "AUC denotes ROC AUC; AP denotes average precision. These differ from probability loss and summed O/E.",
+  "public_release_status": "not published"
+}

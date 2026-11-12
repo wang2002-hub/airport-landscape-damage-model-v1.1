@@ -1,0 +1,254 @@
+[
+  {
+    "key": "roca",
+    "number": 1,
+    "text": "Roca-González, J.L., Vera-Lopez, J.A., Rodriguez-Bermudez, G. (2020). Organisational and costing aspects to prevent wildlife strikes on airports: A case study of Spanish airport security managers. Safety Science, 122, 104520. https://doi.org/10.1016/j.ssci.2019.104520",
+    "doi": "10.1016/j.ssci.2019.104520"
+  },
+  {
+    "key": "reporting",
+    "number": 2,
+    "text": "Allan, J., Baxter, A., Callaby, R. (2016). The impact of variation in reporting practices on the validity of recommended birdstrike risk assessment processes for aerodromes. Journal of Air Transport Management, 57, 101-106. https://doi.org/10.1016/j.jairtraman.2016.07.012",
+    "doi": "10.1016/j.jairtraman.2016.07.012"
+  },
+  {
+    "key": "management",
+    "number": 3,
+    "text": "Altringer, L., Begier, M.J., Washburn, J.E., Shwiff, S.A. (2024). Estimating the impact of airport wildlife hazards management on realized wildlife strike risk. Scientific Reports, 14(1), 29018. https://doi.org/10.1038/s41598-024-79946-3",
+    "doi": "10.1038/s41598-024-79946-3"
+  },
+  {
+    "key": "normand",
+    "number": 4,
+    "text": "Normand, S.-L.T., Glickman, M.E., Gatsonis, C.A. (1997). Statistical methods for profiling providers of medical care: Issues and applications. Journal of the American Statistical Association, 92(439), 803–814. https://doi.org/10.1080/01621459.1997.10474036",
+    "doi": "10.1080/01621459.1997.10474036"
+  },
+  {
+    "key": "funnel",
+    "number": 5,
+    "text": "Spiegelhalter, D.J. (2005). Funnel plots for comparing institutional performance. Statistics in Medicine, 24(8), 1185–1202. https://doi.org/10.1002/sim.1970",
+    "doi": "10.1002/sim.1970"
+  },
+  {
+    "key": "goldstein",
+    "number": 6,
+    "text": "Goldstein, H., Spiegelhalter, D.J. (1996). League tables and their limitations: Statistical issues in comparisons of institutional performance. Journal of the Royal Statistical Society Series A, 159(3), 385–409. https://doi.org/10.2307/2983325",
+    "doi": "10.2307/2983325"
+  },
+  {
+    "key": "shahian",
+    "number": 7,
+    "text": "Shahian, D.M., Normand, S.-L.T. (2008). Comparison of risk-adjusted hospital outcomes. Circulation, 117(15), 1955–1963. https://doi.org/10.1161/CIRCULATIONAHA.107.747873",
+    "doi": "10.1161/CIRCULATIONAHA.107.747873"
+  },
+  {
+    "key": "jones",
+    "number": 8,
+    "text": "Jones, H.E., Spiegelhalter, D.J. (2011). The identification of unusual health-care providers from a hierarchical model. The American Statistician, 65(3), 154–163. https://doi.org/10.1198/tast.2011.10190",
+    "doi": "10.1198/tast.2011.10190"
+  },
+  {
+    "key": "allan",
+    "number": 9,
+    "text": "Allan, J. (2006). A heuristic risk assessment technique for birdstrike management at airports. Risk Analysis, 26(3), 723–729. https://doi.org/10.1111/j.1539-6924.2006.00776.x",
+    "doi": "10.1111/j.1539-6924.2006.00776.x"
+  },
+  {
+    "key": "misra",
+    "number": 10,
+    "text": "Misra, S., Toppo, I., Mendonca, F.A.C. (2022). Assessment of aircraft damage due to bird strikes: a machine learning approach. International Journal of Sustainable Aviation, 8(2), 136–151. https://doi.org/10.1504/IJSA.2022.122328",
+    "doi": "10.1504/IJSA.2022.122328"
+  },
+  {
+    "key": "blackwell",
+    "number": 11,
+    "text": "Blackwell, B.F., DeVault, T.L., Fernández-Juricic, E., Dolbeer, R.A. (2009). Wildlife collisions with aircraft: A missing component of land-use planning for airports. Landscape and Urban Planning, 93(1), 1-9. https://doi.org/10.1016/j.landurbplan.2009.07.005",
+    "doi": "10.1016/j.landurbplan.2009.07.005"
+  },
+  {
+    "key": "landscape",
+    "number": 12,
+    "text": "Pfeiffer, M.B., Kougher, J.D., DeVault, T.L. (2018). Civil airports from a landscape perspective: A multi-scale approach with implications for reducing bird strikes. Landscape and Urban Planning, 179, 38-45. https://doi.org/10.1016/j.landurbplan.2018.07.004",
+    "doi": "10.1016/j.landurbplan.2018.07.004"
+  },
+  {
+    "key": "zhang_aviation_network",
+    "number": 13,
+    "text": "Zhang, X., Mahadevan, S. (2021). Bayesian network modeling of accident investigation reports for aviation safety assessment. Reliability Engineering & System Safety, 209, 107371. https://doi.org/10.1016/j.ress.2020.107371",
+    "doi": "10.1016/j.ress.2020.107371"
+  },
+  {
+    "key": "rose_structural_topics",
+    "number": 14,
+    "text": "Rose, R.L., Puranik, T.G., Mavris, D.N., Rao, A.H. (2022). Application of structural topic modeling to aviation safety data. Reliability Engineering & System Safety, 224, 108522. https://doi.org/10.1016/j.ress.2022.108522",
+    "doi": "10.1016/j.ress.2022.108522"
+  },
+  {
+    "key": "xiong_coupling",
+    "number": 15,
+    "text": "Xiong, M., Wang, H., Che, C., Sun, M. (2024). Application of text mining and coupling theory to depth cognition of aviation safety risk. Reliability Engineering & System Safety, 245, 110032. https://doi.org/10.1016/j.ress.2024.110032",
+    "doi": "10.1016/j.ress.2024.110032"
+  },
+  {
+    "key": "faa",
+    "number": 16,
+    "text": "Federal Aviation Administration (n.d.). National Wildlife Strike Database field descriptions. https://wildlife.faa.gov/assets/fieldlist.pdf (accessed 2 November 2026).",
+    "doi": null
+  },
+  {
+    "key": "missing",
+    "number": 17,
+    "text": "Schafer, J.L., Graham, J.W. (2002). Missing data: Our view of the state of the art. Psychological Methods, 7(2), 147-177. https://doi.org/10.1037/1082-989x.7.2.147",
+    "doi": "10.1037/1082-989x.7.2.147"
+  },
+  {
+    "key": "validation",
+    "number": 18,
+    "text": "Steyerberg, E.W., Harrell, F.E. (2016). Prediction models need appropriate internal, internal–external, and external validation. Journal of Clinical Epidemiology, 69, 245-247. https://doi.org/10.1016/j.jclinepi.2015.04.005",
+    "doi": "10.1016/j.jclinepi.2015.04.005"
+  },
+  {
+    "key": "nlcd",
+    "number": 19,
+    "text": "U.S. Geological Survey (2024). Annual National Land Cover Database (NLCD) Collection 1 Products (version 1.2, June 2026). U.S. Geological Survey data release. https://doi.org/10.5066/P94UXNTS",
+    "doi": "10.5066/P94UXNTS"
+  },
+  {
+    "key": "breslow",
+    "number": 20,
+    "text": "Breslow, N.E., Clayton, D.G. (1993). Approximate Inference in Generalized Linear Mixed Models. Journal of the American Statistical Association, 88(421), 9-25. https://doi.org/10.1080/01621459.1993.10594284",
+    "doi": "10.1080/01621459.1993.10594284"
+  },
+  {
+    "key": "boosting",
+    "number": 21,
+    "text": "Friedman, J.H. (2001). Greedy function approximation: A gradient boosting machine. The Annals of Statistics, 29(5), 1189-1232. https://doi.org/10.1214/aos/1013203451",
+    "doi": "10.1214/aos/1013203451"
+  },
+  {
+    "key": "sklearn",
+    "number": 22,
+    "text": "Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825–2830. https://jmlr.org/papers/v12/pedregosa11a.html",
+    "doi": null
+  },
+  {
+    "key": "nested",
+    "number": 23,
+    "text": "Varma, S., Simon, R. (2006). Bias in error estimation when using cross-validation for model selection. BMC Bioinformatics, 7(1), 91. https://doi.org/10.1186/1471-2105-7-91",
+    "doi": "10.1186/1471-2105-7-91"
+  },
+  {
+    "key": "structured",
+    "number": 24,
+    "text": "Roberts, D.R., Bahn, V., Ciuti, S., Boyce, M.S., Elith, J., Guillera‐Arroita, G., et al. (2017). Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913-929. https://doi.org/10.1111/ecog.02881",
+    "doi": "10.1111/ecog.02881"
+  },
+  {
+    "key": "brier",
+    "number": 25,
+    "text": "Brier, G.W. (1950). Verification of forecasts expressed in terms of probability. Monthly Weather Review, 78(1), 1-3. https://doi.org/10.1175/1520-0493(1950)078%3C0001:VOFEIT%3E2.0.CO;2",
+    "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2"
+  },
+  {
+    "key": "scores",
+    "number": 26,
+    "text": "Gneiting, T., Raftery, A.E. (2007). Strictly Proper Scoring Rules, Prediction, and Estimation. Journal of the American Statistical Association, 102(477), 359-378. https://doi.org/10.1198/016214506000001437",
+    "doi": "10.1198/016214506000001437"
+  },
+  {
+    "key": "performance",
+    "number": 27,
+    "text": "Steyerberg, E.W., Vickers, A.J., Cook, N.R., Gerds, T., Gonen, M., Obuchowski, N., et al. (2010). Assessing the performance of prediction models: a framework for traditional and novel measures. Epidemiology, 21(1), 128-138. https://doi.org/10.1097/ede.0b013e3181c30fb2",
+    "doi": "10.1097/ede.0b013e3181c30fb2"
+  },
+  {
+    "key": "calibration",
+    "number": 28,
+    "text": "Van Calster, B., McLernon, D.J., van Smeden, M., Wynants, L., Steyerberg, E.W. (2019). Calibration: the Achilles heel of predictive analytics. BMC Medicine, 17(1), 230. https://doi.org/10.1186/s12916-019-1466-7",
+    "doi": "10.1186/s12916-019-1466-7"
+  },
+  {
+    "key": "bootstrap",
+    "number": 29,
+    "text": "Efron, B. (1979). Bootstrap Methods: Another Look at the Jackknife. The Annals of Statistics, 7(1), 1-26. https://doi.org/10.1214/aos/1176344552",
+    "doi": "10.1214/aos/1176344552"
+  },
+  {
+    "key": "romano",
+    "number": 30,
+    "text": "Romano, J.P., Wolf, M. (2005). Stepwise multiple testing as formalized data snooping. Econometrica, 73(4), 1237–1282. https://doi.org/10.1111/j.1468-0262.2005.00615.x",
+    "doi": "10.1111/j.1468-0262.2005.00615.x"
+  },
+  {
+    "key": "holm",
+    "number": 31,
+    "text": "Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65–70. https://www.jstor.org/stable/4615733",
+    "doi": null
+  },
+  {
+    "key": "bounds",
+    "number": 32,
+    "text": "Horowitz, J.L., Manski, C.F. (2000). Nonparametric analysis of randomized experiments with missing covariate and outcome data. Journal of the American Statistical Association, 95(449), 77–84. https://doi.org/10.1080/01621459.2000.10473902",
+    "doi": "10.1080/01621459.2000.10473902"
+  },
+  {
+    "key": "composition",
+    "number": 33,
+    "text": "Egozcue, J.J., Pawlowsky-Glahn, V., Mateu-Figueras, G., Barceló-Vidal, C. (2003). Isometric Logratio Transformations for Compositional Data Analysis. Mathematical Geology, 35(3), 279-300. https://doi.org/10.1023/a:1023818214614",
+    "doi": "10.1023/a:1023818214614"
+  },
+  {
+    "key": "cluster",
+    "number": 34,
+    "text": "Debray, T.P.A., Collins, G.S., Riley, R.D., Snell, K.I.E., Van Calster, B., Reitsma, J.B., Moons, K.G.M. (2023). Transparent reporting of multivariable prediction models developed or validated using clustered data (TRIPOD-Cluster): explanation and elaboration. BMJ, 380, e071058. https://doi.org/10.1136/bmj-2022-071058",
+    "doi": "10.1136/bmj-2022-071058"
+  },
+  {
+    "key": "tripodai",
+    "number": 35,
+    "text": "Collins, G.S., Moons, K.G.M., Dhiman, P., Riley, R.D., Beam, A.L., Van Calster, B., et al. (2024). TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ, 385, e078378. https://doi.org/10.1136/bmj-2023-078378",
+    "doi": "10.1136/bmj-2023-078378"
+  },
+  {
+    "key": "leveson_indicators",
+    "number": 36,
+    "text": "Leveson, N. (2015). A systems approach to risk management through leading safety indicators. Reliability Engineering & System Safety, 136, 17-34. https://doi.org/10.1016/j.ress.2014.10.008",
+    "doi": "10.1016/j.ress.2014.10.008"
+  },
+  {
+    "key": "naturalearth_states",
+    "number": 37,
+    "text": "Natural Earth (n.d.). Admin 1 – States, provinces. 1:50,000,000, version 5.1.1. https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-1-states-provinces/ (accessed 2 November 2026).",
+    "doi": null
+  },
+  {
+    "key": "zeros",
+    "number": 38,
+    "text": "Martín-Fernández, J.A., Barceló-Vidal, C., Pawlowsky-Glahn, V. (2003). Dealing with Zeros and Missing Values in Compositional Data Sets Using Nonparametric Imputation. Mathematical Geology, 35(3), 253-278. https://doi.org/10.1023/a:1023866030544",
+    "doi": "10.1023/a:1023866030544"
+  },
+  {
+    "key": "canopy",
+    "number": 39,
+    "text": "USDA Forest Service (2026). Tree Canopy Cover Datasets. Version 2025.6 product suite. https://data.fs.usda.gov/geodata/rastergateway/treecanopycover/ (accessed 28 October 2026).",
+    "doi": null
+  },
+  {
+    "key": "iemsfc",
+    "number": 40,
+    "text": "Iowa Environmental Mesonet (n.d.). ASOS/AWOS/METAR data download. Iowa State University. https://mesonet.agron.iastate.edu/request/download.phtml (accessed 28 October 2026).",
+    "doi": null
+  },
+  {
+    "key": "iemfd",
+    "number": 41,
+    "text": "Iowa Environmental Mesonet (n.d.). Temps and Winds Aloft (FD) Data Download. Iowa State University. https://mesonet2.agron.iastate.edu/request/tempwind_aloft.php (accessed 28 October 2026).",
+    "doi": null
+  },
+  {
+    "key": "nwi",
+    "number": 42,
+    "text": "U.S. Fish and Wildlife Service (n.d.). Wetlands data limitations, exclusions and precautions. National Wetlands Inventory. https://www.fws.gov/page/wetlands-data-limitations-exclusions-and-precautions (accessed 28 October 2026).",
+    "doi": null
+  }
+]

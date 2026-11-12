@@ -1,0 +1,39 @@
+field,label,kind,raw_field,unit,block
+aircraft_mass_class,Aircraft mass class,categorical,AC_MASS,recorded category,Primary
+phase,Flight phase,categorical,PHASE_OF_FLIGHT,recorded category,Primary
+bird_size_reported,Bird size,categorical,SIZE,recorded category,Primary
+number_struck_category,Number struck,categorical,NUM_STRUCK,recorded category,Primary
+TIME_OF_DAY,Time of day,categorical,TIME_OF_DAY,recorded category,Seven-field extension
+AC_CLASS,Aircraft class,categorical,AC_CLASS,recorded category,Seven-field extension
+TYPE_ENG,Engine type,categorical,TYPE_ENG,recorded category,Seven-field extension
+NUM_ENGS,Engine count,categorical,NUM_ENGS,recorded category,Seven-field extension
+year,Incident year,numeric,year,year,Primary
+month_sin,Month sine,numeric,month_sin,unitless,Primary
+month_cos,Month cosine,numeric,month_cos,unitless,Primary
+water_fraction__b03,Water 3 km,numeric,water_fraction__b03,percent,Landscape candidate
+wetland_fraction__b03,Wetland 3 km,numeric,wetland_fraction__b03,percent,Landscape candidate
+cropland_fraction__b03,Cropland 3 km,numeric,cropland_fraction__b03,percent,Landscape candidate
+grassland_fraction__b03,Grassland 3 km,numeric,grassland_fraction__b03,percent,Landscape candidate
+pasture_fraction__b03,Pasture 3 km,numeric,pasture_fraction__b03,percent,Landscape candidate
+impervious_mean_pct__b03,Imperviousness 3 km,numeric,impervious_mean_pct__b03,percent,Landscape candidate
+water_fraction__b08,Water 8 km,numeric,water_fraction__b08,percent,Landscape candidate
+wetland_fraction__b08,Wetland 8 km,numeric,wetland_fraction__b08,percent,Landscape candidate
+cropland_fraction__b08,Cropland 8 km,numeric,cropland_fraction__b08,percent,Landscape candidate
+grassland_fraction__b08,Grassland 8 km,numeric,grassland_fraction__b08,percent,Landscape candidate
+pasture_fraction__b08,Pasture 8 km,numeric,pasture_fraction__b08,percent,Landscape candidate
+impervious_mean_pct__b08,Imperviousness 8 km,numeric,impervious_mean_pct__b08,percent,Landscape candidate
+water_fraction__b13,Water 13 km,numeric,water_fraction__b13,percent,Landscape candidate
+wetland_fraction__b13,Wetland 13 km,numeric,wetland_fraction__b13,percent,Landscape candidate
+cropland_fraction__b13,Cropland 13 km,numeric,cropland_fraction__b13,percent,Landscape candidate
+grassland_fraction__b13,Grassland 13 km,numeric,grassland_fraction__b13,percent,Landscape candidate
+pasture_fraction__b13,Pasture 13 km,numeric,pasture_fraction__b13,percent,Landscape candidate
+impervious_mean_pct__b13,Imperviousness 13 km,numeric,impervious_mean_pct__b13,percent,Landscape candidate
+water_wetland__r00_03,Water plus wetland 0–3 km,numeric,water_wetland__r00_03,percent,Landscape candidate
+cropland__r00_03,Cropland 0–3 km,numeric,cropland__r00_03,percent,Landscape candidate
+water_wetland__r03_08,Water plus wetland 3–8 km,numeric,water_wetland__r03_08,percent,Landscape candidate
+cropland__r03_08,Cropland 3–8 km,numeric,cropland__r03_08,percent,Landscape candidate
+water_wetland__r08_13,Water plus wetland 8–13 km,numeric,water_wetland__r08_13,percent,Landscape candidate
+cropland__r08_13,Cropland 8–13 km,numeric,cropland__r08_13,percent,Landscape candidate
+HEIGHT,Height,numeric,HEIGHT,ft,Seven-field extension
+DISTANCE,Distance,numeric,DISTANCE,nautical miles,Seven-field extension
+SPEED,Speed,numeric,SPEED,indicated knots,Seven-field extension

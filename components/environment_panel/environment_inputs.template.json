@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "zone_environment": "DATA/zone_environment.parquet",
+    "airport_reference": "DATA/airport_reference.csv",
+    "structure": "DATA/landscape_structure.csv",
+    "transitions": "DATA/transition_common_area.csv"
+  }
+}

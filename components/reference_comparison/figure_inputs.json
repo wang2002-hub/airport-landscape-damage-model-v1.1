@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "paired_profiles": {
+      "path": "inputs/paired_profiles.csv",
+      "sha256": "de4daa608771c322a6208ed181adebb39dd9d33241bfe699627570d9cb453f53"
+    },
+    "paired_set_comparisons": {
+      "path": "inputs/paired_set_comparisons.csv",
+      "sha256": "fa1e1512d9c247a33fc623fe646ea3e550736ba78d9e4ad4c0db1c37cebcfa40"
+    }
+  }
+}

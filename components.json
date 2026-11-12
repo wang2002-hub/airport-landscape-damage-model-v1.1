@@ -1,0 +1,252 @@
+[
+  {
+    "component": "analysis_core",
+    "entries": [
+      "prepare_cohort.py",
+      "fit_references.py",
+      "fit_simple_reference.py"
+    ],
+    "manifest": "components/analysis_core/manifest_sha256.csv",
+    "manifest_sha256": "044f552c85a26cf51c0aa05688ed1b0a0c5fc32d8ab97641187f3ea9c790e396",
+    "files": 12
+  },
+  {
+    "component": "canopy_models",
+    "entries": [
+      "fit_canopy_models.py"
+    ],
+    "manifest": "components/canopy_models/manifest_sha256.csv",
+    "manifest_sha256": "bd3bbe3fccc6159a184f7c462625aab3d3e73bb528b63146f28b2d4da704b3e4",
+    "files": 11
+  },
+  {
+    "component": "context_summaries",
+    "entries": [
+      "summarize_context.py"
+    ],
+    "manifest": "components/context_summaries/manifest_sha256.csv",
+    "manifest_sha256": "cbfb0a17f999c87b0025c1209262c6f82e912dd402a52957c4857a5ca2a4a3ba",
+    "files": 7
+  },
+  {
+    "component": "environment_panel",
+    "entries": [
+      "rebuild_environment_panel.py"
+    ],
+    "manifest": "components/environment_panel/manifest_sha256.csv",
+    "manifest_sha256": "575963deae5f1803cc6b37bee513a242309182b2ae78a791d89e24718818e0c8",
+    "files": 8
+  },
+  {
+    "component": "evidence_replay",
+    "entries": [
+      "replay_aggregates.py"
+    ],
+    "manifest": "components/evidence_replay/manifest_sha256.csv",
+    "manifest_sha256": "f9f285dccc819ef8baa7c85d146bb51c8ea0cb0d050526e1c73e279c94bbfe45",
+    "files": 16
+  },
+  {
+    "component": "landscape_bootstrap",
+    "entries": [
+      "bootstrap_landscape.py",
+      "summarize_landscape_bootstrap.py"
+    ],
+    "manifest": "components/landscape_bootstrap/manifest_sha256.csv",
+    "manifest_sha256": "b62c2ad1f62b996f44895170fb96cfbcd9464ae80ae5aba3ea15dc85f9a5d4f7",
+    "files": 11
+  },
+  {
+    "component": "profiling_models",
+    "entries": [
+      "profile_airports.py",
+      "audit_count_limits.py",
+      "partial_pooling.py",
+      "fit_enhanced_references.py"
+    ],
+    "manifest": "components/profiling_models/manifest_sha256.csv",
+    "manifest_sha256": "c5cb86e4acd9ead2df4db36de0b496b01059230a8ad37bb6fdd79cec182c576e",
+    "files": 16
+  },
+  {
+    "component": "raster_extraction",
+    "entries": [
+      "extract_landscape.py"
+    ],
+    "manifest": "components/raster_extraction/manifest_sha256.csv",
+    "manifest_sha256": "c290b0a9ca1b3e6b58ec03a05774efdc07eace005ea281d49576bfce96d4fdc8",
+    "files": 8
+  },
+  {
+    "component": "sensitivity_models",
+    "entries": [
+      "fit_sensitivity.py"
+    ],
+    "manifest": "components/sensitivity_models/manifest_sha256.csv",
+    "manifest_sha256": "3941a2b73cb4beb7cc68a79698fb8a7b2a670cc44fca3aa04c89a1da243be624",
+    "files": 11
+  },
+  {
+    "component": "source_scope",
+    "entries": [
+      "audit_source_scope.py"
+    ],
+    "manifest": "components/source_scope/manifest_sha256.csv",
+    "manifest_sha256": "9d2b29b7f3687ca758518c1416ffdbe939ffe7573f657e4a5f06d529f8db561c",
+    "files": 7
+  },
+  {
+    "component": "spatial_context",
+    "entries": [
+      "audit_spatial_context.py"
+    ],
+    "manifest": "components/spatial_context/manifest_sha256.csv",
+    "manifest_sha256": "956b260359dffc78dcd341f19029093e200bbb6d79e8824a7ef4e53909372969",
+    "files": 7
+  },
+  {
+    "component": "summaries_figures",
+    "entries": [
+      "landscape_contrasts.py",
+      "summarize_predictors.py",
+      "draw_study_design.py"
+    ],
+    "manifest": "components/summaries_figures/manifest_sha256.csv",
+    "manifest_sha256": "5981ce6cbac02f93449f114fc53b05c30e6736db7260378a46b9ef1448293d82",
+    "files": 12
+  },
+  {
+    "component": "supplement_figures",
+    "entries": [
+      "draw_geography_landscape.py",
+      "draw_profile_diagnostics.py",
+      "draw_local_uncertainty.py",
+      "draw_reference_overlap.py",
+      "draw_reporting_coding.py"
+    ],
+    "manifest": "components/supplement_figures/manifest_sha256.csv",
+    "manifest_sha256": "5155f96fc136bd3b59bb8badbcd0c403427e2e003a73dacc95a9ca210dcbb923",
+    "files": 16
+  },
+  {
+    "component": "uncertainty_diagnostics",
+    "entries": [
+      "joint_uncertainty.py",
+      "summarize_joint_uncertainty.py",
+      "coding_diagnostics.py",
+      "reporting_diagnostics.py"
+    ],
+    "manifest": "components/uncertainty_diagnostics/manifest_sha256.csv",
+    "manifest_sha256": "5fe3a124dcfc7708455f0e1f1116d2c4a2468d70702fef326f055ca54500eaac",
+    "files": 13
+  },
+  {
+    "component": "weather_diagnostics",
+    "entries": [
+      "match_surface_weather.py"
+    ],
+    "manifest": "components/weather_diagnostics/manifest_sha256.csv",
+    "manifest_sha256": "1c5cd51647dd1d5a4133d19d7a135a53c9c7a51f73be218cfea4aaae3dfc46fd",
+    "files": 7
+  },
+  {
+    "component": "documentation_evidence",
+    "entries": [
+      "replay_documentation.py"
+    ],
+    "manifest": "components/documentation_evidence/manifest_sha256.csv",
+    "manifest_sha256": "d11ee151b7ce7de61efbf4438e6078e2001426915b4af2cb0c1507409f45710b",
+    "files": 9
+  },
+  {
+    "component": "documentation_partition",
+    "entries": [
+      "analyze_partition.py"
+    ],
+    "manifest": "components/documentation_partition/manifest_sha256.csv",
+    "manifest_sha256": "ebfb04beea25fe97f7f18b272c43485c90bb6bc588b65269d7aa4587b1c28e9b",
+    "files": 4
+  },
+  {
+    "component": "coding_transfer",
+    "entries": [
+      "diagnose_coding.py"
+    ],
+    "manifest": "components/coding_transfer/manifest_sha256.csv",
+    "manifest_sha256": "c72edb09a15933144f683bd595d93c65e87f6c020624fcf9a59592c8df77d651",
+    "files": 6
+  },
+  {
+    "component": "report_volume_calibration",
+    "entries": [
+      "diagnose_volume.py"
+    ],
+    "manifest": "components/report_volume_calibration/manifest_sha256.csv",
+    "manifest_sha256": "b8ee27d76258abfbb391b5fabbc987084043db3c79106645aaa2384437d3d7d8",
+    "files": 5
+  },
+  {
+    "component": "reference_comparison",
+    "entries": [
+      "compare_references.py",
+      "plot_reference_comparison.py"
+    ],
+    "manifest": "components/reference_comparison/manifest_sha256.csv",
+    "manifest_sha256": "62301605069db53df19baf7f0949be6b50245e417f302779a2534592e7903d91",
+    "files": 13
+  },
+  {
+    "component": "airport_review_figures",
+    "entries": [
+      "plot_airport_comparisons.py",
+      "plot_review_workflow.py",
+      "plot_volume_calibration.py"
+    ],
+    "manifest": "components/airport_review_figures/manifest_sha256.csv",
+    "manifest_sha256": "9bab728cccabf1f45d91ccbff660b7cd81ca31973adbeff1b4152ccd565de3a5",
+    "files": 15
+  },
+  {
+    "component": "national_profile_figures",
+    "entries": [
+      "plot_national_profiles.py"
+    ],
+    "manifest": "components/national_profile_figures/manifest_sha256.csv",
+    "manifest_sha256": "6018836ff741f6d045896d14f076a18109ea33c04c337b7bb141f12b6651ae59",
+    "files": 9
+  },
+  {
+    "component": "landscape_comparison_figures",
+    "entries": [
+      "plot_landscape_comparisons.py"
+    ],
+    "manifest": "components/landscape_comparison_figures/manifest_sha256.csv",
+    "manifest_sha256": "47e754b30b171c4f1aba8ea1ee8d0ef7098db5218e0c54f642b8393dba0fab95",
+    "files": 7
+  },
+  {
+    "component": "graphical_abstract",
+    "entries": [
+      "plot_graphical_abstract.py"
+    ],
+    "manifest": "components/graphical_abstract/manifest_sha256.csv",
+    "manifest_sha256": "6082f987411bb46bafa90741a97ba58bda78c262bd4721d6f3ffb7b1705bbca0",
+    "files": 9
+  },
+  {
+    "component": "reporting_signals",
+    "entries": [
+      "d1_annual_damage_check.py",
+      "verify_reported_values.py",
+      "plot_reporting_signals.py",
+      "plot_coding_losses.py",
+      "round4/annual_calibration_check.py",
+      "round4/apply_year_spec_patch.py",
+      "round4/log_scale_subtype_intervals.py",
+      "round4/regenerate_manifests.py"
+    ],
+    "manifest": "components/reporting_signals/manifest_sha256.csv",
+    "manifest_sha256": "5a5a39162aeb0017e2b28ee1f82e289fb5bb4b12185fcbd07b544a27f75898f6",
+    "files": 15
+  }
+]

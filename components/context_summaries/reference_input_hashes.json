@@ -1,0 +1,18 @@
+{
+  "environment": {
+    "sha256": "275071fdf2cf78f5376a611b1773da4474270a6fb1d44e1c0ef6d5dbe9c7ae7f",
+    "bytes": 26072681
+  },
+  "analysis_events": {
+    "sha256": "8dd9a624fc4300935ded071cfd174b51d69cba57f3032fdca7402077e5e27bc8",
+    "bytes": 25605965
+  },
+  "frozen_predictions": {
+    "sha256": "d25cddd1baf2d4e84df1413dc1d853905d9b86ad781e35c3c7db317b066752b5",
+    "bytes": 417610
+  },
+  "canopy": {
+    "sha256": "a1545428e7caab881d970e6ec71731dc62ef12e85e6fe4aac3ad1544fae01446",
+    "bytes": 1855093
+  }
+}

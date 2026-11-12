@@ -1,0 +1,7 @@
+﻿Family,Diagnostic parameter,Estimate,95% interval
+Hierarchical,calibration in large,-0.033,"[-0.133, 0.064]"
+Hierarchical,joint intercept,0.184,"[0.019, 0.331]"
+Hierarchical,joint slope,1.104,"[1.039, 1.175]"
+Boosting,calibration in large,0.004,"[-0.095, 0.100]"
+Boosting,joint intercept,0.176,"[0.020, 0.313]"
+Boosting,joint slope,1.081,"[1.018, 1.146]"

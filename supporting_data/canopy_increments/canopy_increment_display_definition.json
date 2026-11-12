@@ -1,0 +1,48 @@
+{
+  "caption": "source record SRC-S58. Static canopy increments at the original settings",
+  "headers": [
+    "Family",
+    "Land cover setting",
+    "Base Brier",
+    "Added canopy Brier",
+    "Change × 1,000 [95% interval]"
+  ],
+  "rows": [
+    [
+      "Hierarchical",
+      "Annual land cover",
+      "0.044951",
+      "0.044946",
+      "-0.005 [-0.064, 0.053]"
+    ],
+    [
+      "Hierarchical",
+      "Fixed 2015 land cover",
+      "0.044953",
+      "0.044950",
+      "-0.004 [-0.058, 0.053]"
+    ],
+    [
+      "Boosting",
+      "Annual land cover",
+      "0.044885",
+      "0.044879",
+      "-0.005 [-0.104, 0.098]"
+    ],
+    [
+      "Boosting",
+      "Fixed 2015 land cover",
+      "0.044728",
+      "0.044761",
+      "0.033 [-0.066, 0.134]"
+    ]
+  ],
+  "widths": [
+    1.0,
+    1.25,
+    1.05,
+    1.15,
+    2.05
+  ],
+  "note": "Main-text link: Section 4.6, static-canopy intervals spanning zero. All four pairs use the same 11,124 national temporal test reports. The added canopy measurement is static 2015 at 3 km for hierarchical regression and 8 km for boosting. Annual and fixed-2015 labels refer to the land-cover setting. Intervals use 2,000 airport resamples of saved predictions, with original settings and scale choices fixed. Change is added-canopy minus base Brier loss, multiplied by 1,000; negative values favor canopy addition. Differences were calculated before rounding. The three-date 13 km target context in target_canopy_context.csv serves a separate descriptive role."
+}

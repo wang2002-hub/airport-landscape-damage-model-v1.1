@@ -1,0 +1,239 @@
+{
+  "scheme": "temporal",
+  "fold": 0,
+  "family": "hgb",
+  "block": "E",
+  "selected_scale": null,
+  "params": {
+    "max_depth": 3,
+    "max_iter": 150,
+    "learning_rate": 0.05,
+    "l2_regularization": 10,
+    "min_samples_leaf": 40
+  },
+  "calibration": {
+    "success": true,
+    "intercept": -0.022659786206004638,
+    "slope": 1.0294327547379332,
+    "n": 4616,
+    "damages": 287,
+    "bound_hit": false
+  },
+  "encoder": {
+    "training_correlation_audit": [],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": null,
+    "geography": false,
+    "bird_adjustment": 0,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos"
+    ],
+    "medians": {
+      "year": -0.4,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998
+    },
+    "means": {
+      "year": -0.30721398757682317,
+      "month_sin": -0.2532506804200205,
+      "month_cos": -0.2131628704402346
+    },
+    "standard_deviations": {
+      "year": 0.4686667827461672,
+      "month_sin": 0.6836234859563342,
+      "month_cos": 0.650449546837713
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb"
+    ],
+    "training_events": 30427,
+    "training_airports": 1161,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "test_qc": {
+    "n_rows": 11124,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 0,
+    "finite_matrix": true
+  },
+  "target_qc": {
+    "n_rows": 5936,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 0,
+    "finite_matrix": true
+  },
+  "candidates": [
+    {
+      "mean_logloss": 0.2335253247507281,
+      "scale": null,
+      "params": {
+        "max_depth": 2,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.2342473569304236,
+        0.24383883795795264,
+        0.2295660144001038,
+        0.22644908971443234
+      ]
+    },
+    {
+      "mean_logloss": 0.23314373922773055,
+      "scale": null,
+      "params": {
+        "max_depth": 3,
+        "max_iter": 150,
+        "learning_rate": 0.05,
+        "l2_regularization": 10,
+        "min_samples_leaf": 40
+      },
+      "fold_losses": [
+        0.23382441025171932,
+        0.24336916393392755,
+        0.2294837266054904,
+        0.22589765611978482
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "label": "None_0_inner0",
+      "n": 15509,
+      "airports": 845,
+      "damage": 1056,
+      "seconds": 0.1284031867980957
+    },
+    {
+      "label": "None_0_inner1",
+      "n": 19628,
+      "airports": 950,
+      "damage": 1363,
+      "seconds": 0.14302659034729004
+    },
+    {
+      "label": "None_0_inner2",
+      "n": 22404,
+      "airports": 1023,
+      "damage": 1580,
+      "seconds": 0.143998384475708
+    },
+    {
+      "label": "None_0_inner3",
+      "n": 26246,
+      "airports": 1093,
+      "damage": 1854,
+      "seconds": 0.1699845790863037
+    },
+    {
+      "label": "None_1_inner0",
+      "n": 15509,
+      "airports": 845,
+      "damage": 1056,
+      "seconds": 0.13152384757995605
+    },
+    {
+      "label": "None_1_inner1",
+      "n": 19628,
+      "airports": 950,
+      "damage": 1363,
+      "seconds": 0.14683961868286133
+    },
+    {
+      "label": "None_1_inner2",
+      "n": 22404,
+      "airports": 1023,
+      "damage": 1580,
+      "seconds": 0.16515541076660156
+    },
+    {
+      "label": "None_1_inner3",
+      "n": 26246,
+      "airports": 1093,
+      "damage": 1854,
+      "seconds": 0.19050288200378418
+    },
+    {
+      "label": "final",
+      "n": 30427,
+      "airports": 1161,
+      "damage": 2140,
+      "seconds": 0.21532440185546875
+    }
+  ],
+  "seconds": 2.0818212032318115
+}

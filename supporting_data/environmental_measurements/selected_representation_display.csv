@@ -1,0 +1,13 @@
+﻿Evaluation,Fold,Family,EL scale,EBL scale,Cal intercept,Cal slope
+Temporal,—,Hierarchical,b03,b03,-0.265,0.926
+Temporal,—,Boosting,b08,b08,0.033,1.016
+Geographic,1,Hierarchical,b03,rings,-0.045,0.997
+Geographic,1,Boosting,b03,b03,0.124,1.066
+Geographic,2,Hierarchical,b03,rings,-0.032,1.007
+Geographic,2,Boosting,b08,rings,0.126,1.076
+Geographic,3,Hierarchical,b03,rings,-0.031,1.007
+Geographic,3,Boosting,b03,b03,0.151,1.078
+Geographic,4,Hierarchical,b13,rings,-0.027,1.001
+Geographic,4,Boosting,b03,rings,0.126,1.071
+Geographic,5,Hierarchical,b03,b03,-0.004,1.003
+Geographic,5,Boosting,b03,b03,0.145,1.086

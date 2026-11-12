@@ -1,0 +1,646 @@
+{
+  "family": "glmm",
+  "block": "EBL",
+  "selected": {
+    "scale": "rings",
+    "params": null,
+    "fold_losses": [
+      0.19316748830047506,
+      0.20363274921809427,
+      0.17492029514737936,
+      0.18814642572121937
+    ],
+    "loss": 0.189966739596792
+  },
+  "candidates": [
+    {
+      "scale": "b03",
+      "params": null,
+      "fold_losses": [
+        0.1932465877616413,
+        0.20349937558128772,
+        0.17473235402144668,
+        0.18841100341888925
+      ],
+      "loss": 0.18997233019581625
+    },
+    {
+      "scale": "b08",
+      "params": null,
+      "fold_losses": [
+        0.19322918975592068,
+        0.20388980656554648,
+        0.1747482273728387,
+        0.18833255064655224
+      ],
+      "loss": 0.19004994358521454
+    },
+    {
+      "scale": "b13",
+      "params": null,
+      "fold_losses": [
+        0.19331454791422914,
+        0.20397755245561033,
+        0.17472847443428444,
+        0.1882563260996857
+      ],
+      "loss": 0.1900692252259524
+    },
+    {
+      "scale": "rings",
+      "params": null,
+      "fold_losses": [
+        0.19316748830047506,
+        0.20363274921809427,
+        0.17492029514737936,
+        0.18814642572121937
+      ],
+      "loss": 0.189966739596792
+    }
+  ],
+  "fits": [
+    {
+      "label": "b03_None_2019",
+      "n": 15509,
+      "seconds": 0.389880895614624,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 235,
+      "max_abs_gradient": 0.004147888498011594,
+      "negative_loglik_penalized": 2808.3631878957935,
+      "sigma": 0.37615891735615425,
+      "rho_boundary": false,
+      "projected_gradient": 0.004147888498011594
+    },
+    {
+      "label": "b03_None_2020",
+      "n": 19628,
+      "seconds": 0.4564509391784668,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 200,
+      "max_abs_gradient": 0.0010575652214487097,
+      "negative_loglik_penalized": 3591.0474472668247,
+      "sigma": 0.37306198420948156,
+      "rho_boundary": false,
+      "projected_gradient": 0.0010575652214487097
+    },
+    {
+      "label": "b03_None_2021",
+      "n": 22404,
+      "seconds": 0.49326038360595703,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 205,
+      "max_abs_gradient": 0.003549920998261606,
+      "negative_loglik_penalized": 4150.007430569268,
+      "sigma": 0.3570065848750147,
+      "rho_boundary": false,
+      "projected_gradient": 0.003549920998261606
+    },
+    {
+      "label": "b03_None_2022",
+      "n": 26246,
+      "seconds": 0.5783653259277344,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 199,
+      "max_abs_gradient": 0.004479280948373848,
+      "negative_loglik_penalized": 4810.368347155429,
+      "sigma": 0.3819498706557939,
+      "rho_boundary": false,
+      "projected_gradient": 0.004479280948373848
+    },
+    {
+      "label": "b08_None_2019",
+      "n": 15509,
+      "seconds": 0.3986976146697998,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 241,
+      "max_abs_gradient": 0.0024765640337079857,
+      "negative_loglik_penalized": 2808.2636354221195,
+      "sigma": 0.37677462196343764,
+      "rho_boundary": false,
+      "projected_gradient": 0.0024765640337079857
+    },
+    {
+      "label": "b08_None_2020",
+      "n": 19628,
+      "seconds": 0.49849653244018555,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 246,
+      "max_abs_gradient": 0.0012506813555673815,
+      "negative_loglik_penalized": 3591.3495727109434,
+      "sigma": 0.3711721227540414,
+      "rho_boundary": false,
+      "projected_gradient": 0.0012506813555673815
+    },
+    {
+      "label": "b08_None_2021",
+      "n": 22404,
+      "seconds": 0.5862383842468262,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 238,
+      "max_abs_gradient": 0.004322089538330507,
+      "negative_loglik_penalized": 4151.037385712901,
+      "sigma": 0.3585756217903013,
+      "rho_boundary": false,
+      "projected_gradient": 0.004322089538330507
+    },
+    {
+      "label": "b08_None_2022",
+      "n": 26246,
+      "seconds": 0.5416650772094727,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 196,
+      "max_abs_gradient": 0.002017751511636074,
+      "negative_loglik_penalized": 4811.691893651185,
+      "sigma": 0.38203804727477464,
+      "rho_boundary": false,
+      "projected_gradient": 0.002017751511636074
+    },
+    {
+      "label": "b13_None_2019",
+      "n": 15509,
+      "seconds": 0.32119083404541016,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 188,
+      "max_abs_gradient": 0.003774949976808214,
+      "negative_loglik_penalized": 2808.4751727990124,
+      "sigma": 0.3776823092002607,
+      "rho_boundary": false,
+      "projected_gradient": 0.003774949976808214
+    },
+    {
+      "label": "b13_None_2020",
+      "n": 19628,
+      "seconds": 0.49869227409362793,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 245,
+      "max_abs_gradient": 0.0009527708065505435,
+      "negative_loglik_penalized": 3591.800934033556,
+      "sigma": 0.3697456248535356,
+      "rho_boundary": false,
+      "projected_gradient": 0.0009527708065505435
+    },
+    {
+      "label": "b13_None_2021",
+      "n": 22404,
+      "seconds": 0.5037672519683838,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 213,
+      "max_abs_gradient": 0.0019009237331086971,
+      "negative_loglik_penalized": 4151.694855635351,
+      "sigma": 0.35732074239810535,
+      "rho_boundary": false,
+      "projected_gradient": 0.0019009237331086971
+    },
+    {
+      "label": "b13_None_2022",
+      "n": 26246,
+      "seconds": 0.5556354522705078,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 195,
+      "max_abs_gradient": 0.01462271813367199,
+      "negative_loglik_penalized": 4812.499703104861,
+      "sigma": 0.38076968689295265,
+      "rho_boundary": false,
+      "projected_gradient": 0.01462271813367199
+    },
+    {
+      "label": "rings_None_2019",
+      "n": 15509,
+      "seconds": 0.38486576080322266,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 237,
+      "max_abs_gradient": 0.0009695780079060557,
+      "negative_loglik_penalized": 2809.083629303088,
+      "sigma": 0.37175609768920337,
+      "rho_boundary": false,
+      "projected_gradient": 0.0009695780079060557
+    },
+    {
+      "label": "rings_None_2020",
+      "n": 19628,
+      "seconds": 0.4635202884674072,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 234,
+      "max_abs_gradient": 0.0010563417966603925,
+      "negative_loglik_penalized": 3592.3160962760253,
+      "sigma": 0.36773425602019966,
+      "rho_boundary": false,
+      "projected_gradient": 0.0010563417966603925
+    },
+    {
+      "label": "rings_None_2021",
+      "n": 22404,
+      "seconds": 0.5353922843933105,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 227,
+      "max_abs_gradient": 0.0062131730289796275,
+      "negative_loglik_penalized": 4151.568099238652,
+      "sigma": 0.3541761957740649,
+      "rho_boundary": false,
+      "projected_gradient": 0.0062131730289796275
+    },
+    {
+      "label": "rings_None_2022",
+      "n": 26246,
+      "seconds": 0.5552315711975098,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 207,
+      "max_abs_gradient": 0.0016026403327531172,
+      "negative_loglik_penalized": 4813.093640819959,
+      "sigma": 0.3775472472318444,
+      "rho_boundary": false,
+      "projected_gradient": 0.0016026403327531172
+    },
+    {
+      "label": "final",
+      "n": 30427,
+      "seconds": 0.5691184997558594,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 181,
+      "max_abs_gradient": 0.008402622736483971,
+      "negative_loglik_penalized": 5592.3726633174165,
+      "sigma": 0.37327495884502204,
+      "rho_boundary": false,
+      "projected_gradient": 0.008402622736483971
+    }
+  ],
+  "calibration": {
+    "success": true,
+    "intercept": -0.3268843151872436,
+    "slope": 0.903162117068086,
+    "n": 4616,
+    "damages": 287
+  },
+  "encoder": {
+    "base": {
+      "training_correlation_audit": [
+        {
+          "feature_a": "water_wetland_r00_03",
+          "feature_b": "cropland_r00_03",
+          "pearson_r": -0.1810447354693892,
+          "spearman_r": -0.08958959152590809,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_wetland_r00_03",
+          "feature_b": "water_wetland_r03_08",
+          "pearson_r": 0.8234212333002504,
+          "spearman_r": 0.8157981702113267,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": true
+        },
+        {
+          "feature_a": "cropland_r00_03",
+          "feature_b": "water_wetland_r03_08",
+          "pearson_r": -0.2026914761673098,
+          "spearman_r": -0.13778874148936604,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_wetland_r00_03",
+          "feature_b": "cropland_r03_08",
+          "pearson_r": -0.18029548022612477,
+          "spearman_r": -0.10006416565765872,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "cropland_r00_03",
+          "feature_b": "cropland_r03_08",
+          "pearson_r": 0.8907844874929722,
+          "spearman_r": 0.9007028567996029,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": true
+        },
+        {
+          "feature_a": "water_wetland_r00_03",
+          "feature_b": "water_wetland_r08_13",
+          "pearson_r": 0.7157253811315282,
+          "spearman_r": 0.7115133452019249,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "cropland_r00_03",
+          "feature_b": "water_wetland_r08_13",
+          "pearson_r": -0.2042881703697372,
+          "spearman_r": -0.1986845548394912,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "water_wetland_r00_03",
+          "feature_b": "cropland_r08_13",
+          "pearson_r": -0.16765210740983902,
+          "spearman_r": -0.09175784196658024,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        },
+        {
+          "feature_a": "cropland_r00_03",
+          "feature_b": "cropland_r08_13",
+          "pearson_r": 0.8047292648471135,
+          "spearman_r": 0.8353902088718334,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": true
+        },
+        {
+          "feature_a": "water_wetland_r08_13",
+          "feature_b": "cropland_r08_13",
+          "pearson_r": -0.2534267469880158,
+          "spearman_r": -0.19759891083112024,
+          "n_training_airport_years": 4112,
+          "flag_abs_gt_0_8": false
+        }
+      ],
+      "screening_enabled": true,
+      "dropped_features": [
+        {
+          "feature": "water_wetland_r03_08",
+          "reason": "correlated_with_water_wetland_r00_03"
+        },
+        {
+          "feature": "cropland_r03_08",
+          "reason": "correlated_with_cropland_r00_03"
+        },
+        {
+          "feature": "cropland_r08_13",
+          "reason": "correlated_with_cropland_r00_03"
+        }
+      ],
+      "scale": "rings",
+      "geography": false,
+      "bird_adjustment": 1,
+      "mode": "level",
+      "numeric": [
+        "year",
+        "month_sin",
+        "month_cos",
+        "water_wetland_r00_03",
+        "cropland_r00_03",
+        "water_wetland_r08_13"
+      ],
+      "medians": {
+        "year": -0.4,
+        "month_sin": -0.4999999999999997,
+        "month_cos": -0.4999999999999998,
+        "water_wetland_r00_03": 0.0381064561314146,
+        "cropland_r00_03": 0.0003819709702062,
+        "water_wetland_r08_13": 0.0786670450266579
+      },
+      "means": {
+        "year": -0.30721398757682317,
+        "month_sin": -0.2532506804200205,
+        "month_cos": -0.2131628704402346,
+        "water_wetland_r00_03": 0.09177452279901821,
+        "cropland_r00_03": 0.05800586895239681,
+        "water_wetland_r08_13": 0.14971264367770806
+      },
+      "standard_deviations": {
+        "year": 0.4686667827461672,
+        "month_sin": 0.6836234859563342,
+        "month_cos": 0.650449546837713,
+        "water_wetland_r00_03": 0.1263112031881641,
+        "cropland_r00_03": 0.1345448644757983,
+        "water_wetland_r08_13": 0.1665490162761602
+      },
+      "missing_indicators": [],
+      "categories": {
+        "aircraft_mass_class": [
+          "4",
+          "3",
+          "1",
+          "2",
+          "Unknown",
+          "5"
+        ],
+        "phase": [
+          "Approach",
+          "Landing Roll",
+          "Take-off Run",
+          "Climb"
+        ],
+        "bird_size_reported": [
+          "Small",
+          "Unknown",
+          "Medium",
+          "Large"
+        ],
+        "number_struck_category": [
+          "1",
+          "2-10",
+          "11-100"
+        ]
+      },
+      "reference_categories": {
+        "aircraft_mass_class": "4",
+        "phase": "Approach",
+        "bird_size_reported": "Small",
+        "number_struck_category": "1"
+      },
+      "feature_names": [
+        "Intercept",
+        "year",
+        "month_sin",
+        "month_cos",
+        "water_wetland_r00_03",
+        "cropland_r00_03",
+        "water_wetland_r08_13",
+        "aircraft_mass_class=3",
+        "aircraft_mass_class=1",
+        "aircraft_mass_class=2",
+        "aircraft_mass_class=Unknown",
+        "aircraft_mass_class=5",
+        "phase=Landing Roll",
+        "phase=Take-off Run",
+        "phase=Climb",
+        "bird_size_reported=Unknown",
+        "bird_size_reported=Medium",
+        "bird_size_reported=Large",
+        "number_struck_category=2-10",
+        "number_struck_category=11-100"
+      ],
+      "training_events": 30427,
+      "training_airports": 1161,
+      "training_year_min": 2015,
+      "training_year_max": 2022,
+      "observed_raw_categories": {
+        "aircraft_mass_class": [
+          "4",
+          "3",
+          "1",
+          "2",
+          "Unknown",
+          "5"
+        ],
+        "phase": [
+          "Approach",
+          "Landing Roll",
+          "Take-off Run",
+          "Climb"
+        ],
+        "bird_size_reported": [
+          "Small",
+          "Unknown",
+          "Medium",
+          "Large"
+        ],
+        "number_struck_category": [
+          "1",
+          "2-10",
+          "11-100",
+          "Unknown",
+          "More than 100"
+        ]
+      },
+      "retained_raw_categories": {
+        "aircraft_mass_class": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Unknown"
+        ],
+        "phase": [
+          "Approach",
+          "Climb",
+          "Landing Roll",
+          "Take-off Run"
+        ],
+        "bird_size_reported": [
+          "Large",
+          "Medium",
+          "Small",
+          "Unknown"
+        ],
+        "number_struck_category": [
+          "1",
+          "11-100",
+          "2-10"
+        ]
+      },
+      "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+    },
+    "extra": [
+      "HEIGHT",
+      "DISTANCE",
+      "TIME_OF_DAY",
+      "AC_CLASS",
+      "SPEED",
+      "TYPE_ENG",
+      "NUM_ENGS"
+    ],
+    "extra_medians": {
+      "log1p_HEIGHT": 3.044522437723423,
+      "log1p_DISTANCE": 0.0,
+      "log1p_SPEED": 4.912654885736052
+    },
+    "extra_means": {
+      "log1p_HEIGHT": 3.0705947962893654,
+      "log1p_DISTANCE": 0.2077321344325802,
+      "log1p_SPEED": 4.876114325971602
+    },
+    "extra_sds": {
+      "log1p_HEIGHT": 2.9104741459429087,
+      "log1p_DISTANCE": 0.47667022177030055,
+      "log1p_SPEED": 0.23312973647220472
+    },
+    "extra_missing_indicators": [
+      "log1p_HEIGHT",
+      "log1p_DISTANCE",
+      "log1p_SPEED"
+    ],
+    "extra_levels": {
+      "TIME_OF_DAY": [
+        "Day",
+        "Night",
+        "Unknown",
+        "Dusk",
+        "Dawn"
+      ],
+      "AC_CLASS": [
+        "A",
+        "B",
+        "Unknown"
+      ],
+      "TYPE_ENG": [
+        "D",
+        "A",
+        "C",
+        "F",
+        "Unknown"
+      ],
+      "NUM_ENGS": [
+        "2",
+        "1",
+        "3",
+        "Unknown",
+        "4"
+      ]
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_wetland_r00_03",
+      "cropland_r00_03",
+      "water_wetland_r08_13",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb",
+      "bird_size_reported=Unknown",
+      "bird_size_reported=Medium",
+      "bird_size_reported=Large",
+      "number_struck_category=2-10",
+      "number_struck_category=11-100",
+      "log1p_HEIGHT",
+      "log1p_DISTANCE",
+      "log1p_SPEED",
+      "log1p_HEIGHT_missing",
+      "log1p_DISTANCE_missing",
+      "log1p_SPEED_missing",
+      "TIME_OF_DAY=Night",
+      "TIME_OF_DAY=Unknown",
+      "TIME_OF_DAY=Dusk",
+      "TIME_OF_DAY=Dawn",
+      "AC_CLASS=B",
+      "AC_CLASS=Unknown",
+      "TYPE_ENG=A",
+      "TYPE_ENG=C",
+      "TYPE_ENG=F",
+      "TYPE_ENG=Unknown",
+      "NUM_ENGS=1",
+      "NUM_ENGS=3",
+      "NUM_ENGS=Unknown",
+      "NUM_ENGS=4"
+    ],
+    "note": "Extra event variables and single static canopy addition exempt from environmental correlation screening; the base environmental subset is unchanged within a pair."
+  },
+  "seconds": 9.290117025375366
+}

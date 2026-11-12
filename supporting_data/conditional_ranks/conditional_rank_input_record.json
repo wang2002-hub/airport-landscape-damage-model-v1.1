@@ -1,0 +1,8 @@
+{
+  "input_sha256": "969345a3cf9c39a4c67461ce4c138d0adb1e4ffc0dd0f11fb7092b290ae784d3",
+  "airports": 1383,
+  "targets": 8,
+  "new_fits": 0,
+  "new_draws": 0,
+  "conditional_only": true
+}

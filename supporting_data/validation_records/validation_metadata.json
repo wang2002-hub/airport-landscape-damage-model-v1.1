@@ -1,0 +1,29 @@
+{
+  "population_mapping": {
+    "National development 2015–2022": "Train",
+    "National calibration 2023": "Calibration",
+    "National temporal test 2024–2025": "Test",
+    "National geographic evaluation 2015–2025": "National all",
+    "Eight targets 2015–2025": "Targets",
+    "Eight targets 2024–2025": "Recent targets"
+  },
+  "validation_pairs": {
+    "temporal_forward_years": 4,
+    "geographic_outer": 5,
+    "geographic_inner": 20,
+    "total_rows": 29
+  },
+  "counts": "Each pair contains report, damage and airport counts for training and evaluation. Temporal training uses earlier years. Inner geographic evaluation groups partition their corresponding outer training population.",
+  "dependence": "Validation pairs and candidate fits reuse reports. Their counts cannot be summed as independent observations. Recent targets are nested within full-period targets. Airport counts across temporal windows are not additive.",
+  "reference_roles": "Primary hierarchical and boosting families select representations within validation. Ordinary temporal EB has a fixed specification and no forward candidate selection. Seven-field extensions use the original temporal partitions.",
+  "saved_fit_records": {
+    "primary": 768,
+    "ordinary": 26,
+    "seven_field": 128,
+    "total": 922,
+    "primary_final_models": 48
+  },
+  "fit_record_scope": "These rows describe saved training-population checks for the primary, ordinary and seven-field pipelines. They are not an inventory of every bootstrap or sensitivity execution. Failed resampling attempts remain documented in S3 and their own records.",
+  "numerical_checks": "Agreement of derivatives, quadrature and reduced-data likelihood fits concerns implementation. It does not establish prospective validity or that all explored resampling attempts succeeded.",
+  "public_release_status": "not published"
+}

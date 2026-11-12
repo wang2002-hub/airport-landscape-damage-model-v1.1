@@ -1,0 +1,12 @@
+{
+  "analysis_events": "Final event table with unique event_id, original labels, completeness, folds, targets, coordinates and environmental predictors.",
+  "environment": "Retained airport-year environment panel.",
+  "matching": "Three map-timing collections use their common eligible complete event intersection.",
+  "outputs": [
+    "scenario_membership.json",
+    "target_distance_audit.csv",
+    "sensitivity_<scenario>_<block>.parquet",
+    "sensitivity_<scenario>_<block>.json",
+    "run_status.json"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "scope": "Source-location template only; this component reconstructs panels from measurements, not raw rasters.",
+  "rasters": [
+    {
+      "product": "D02",
+      "year": 2015,
+      "path": "RAW/Annual_NLCD_LndCov_2015_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2016,
+      "path": "RAW/Annual_NLCD_LndCov_2016_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2017,
+      "path": "RAW/Annual_NLCD_LndCov_2017_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2018,
+      "path": "RAW/Annual_NLCD_LndCov_2018_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2019,
+      "path": "RAW/Annual_NLCD_LndCov_2019_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2020,
+      "path": "RAW/Annual_NLCD_LndCov_2020_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2021,
+      "path": "RAW/Annual_NLCD_LndCov_2021_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2022,
+      "path": "RAW/Annual_NLCD_LndCov_2022_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2023,
+      "path": "RAW/Annual_NLCD_LndCov_2023_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2024,
+      "path": "RAW/Annual_NLCD_LndCov_2024_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D02",
+      "year": 2025,
+      "path": "RAW/Annual_NLCD_LndCov_2025_CU_C1V2.tif",
+      "role": "landcover"
+    },
+    {
+      "product": "D03",
+      "year": 2015,
+      "path": "RAW/Annual_NLCD_FctImp_2015_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2016,
+      "path": "RAW/Annual_NLCD_FctImp_2016_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2017,
+      "path": "RAW/Annual_NLCD_FctImp_2017_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2018,
+      "path": "RAW/Annual_NLCD_FctImp_2018_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2019,
+      "path": "RAW/Annual_NLCD_FctImp_2019_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2020,
+      "path": "RAW/Annual_NLCD_FctImp_2020_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2021,
+      "path": "RAW/Annual_NLCD_FctImp_2021_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2022,
+      "path": "RAW/Annual_NLCD_FctImp_2022_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2023,
+      "path": "RAW/Annual_NLCD_FctImp_2023_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2024,
+      "path": "RAW/Annual_NLCD_FctImp_2024_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D03",
+      "year": 2025,
+      "path": "RAW/Annual_NLCD_FctImp_2025_CU_C1V2.tif",
+      "role": "imperviousness"
+    },
+    {
+      "product": "D04",
+      "year": 2015,
+      "path": "RAW/nlcd_tcc_conus_wgs84_v2025-6_20150101_20151231.tif",
+      "role": "canopy"
+    },
+    {
+      "product": "D04",
+      "year": 2020,
+      "path": "RAW/nlcd_tcc_conus_wgs84_v2025-6_20200101_20201231.tif",
+      "role": "canopy"
+    },
+    {
+      "product": "D04",
+      "year": 2025,
+      "path": "RAW/nlcd_tcc_conus_wgs84_v2025-6_20250101_20251231.tif",
+      "role": "canopy"
+    },
+    {
+      "product": "D05",
+      "year": 2025,
+      "path": "RAW/Annual_NLCD_LndChg_2025_CU_C1V2.tif",
+      "role": "optional land-change consistency audit"
+    }
+  ]
+}

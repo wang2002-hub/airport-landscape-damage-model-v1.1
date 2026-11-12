@@ -1,0 +1,258 @@
+{
+  "supp_context.consequences": {
+    "caption": "source record SRC-S61. Recorded consequences among damage reports",
+    "headers": [
+      "Population",
+      "Damage reports",
+      "Engine flag yes",
+      "Effect recorded",
+      "Downtime recorded",
+      "Repair cost recorded",
+      "Other cost recorded"
+    ],
+    "rows": [
+      [
+        "National",
+        "3,096",
+        "691",
+        "2,494",
+        "873",
+        "720",
+        "299"
+      ],
+      [
+        "Eight targets",
+        "309",
+        "114",
+        "250",
+        "84",
+        "43",
+        "17"
+      ],
+      [
+        "DEN",
+        "60",
+        "21",
+        "45",
+        "15",
+        "8",
+        "3"
+      ],
+      [
+        "JFK",
+        "65",
+        "31",
+        "51",
+        "27",
+        "8",
+        "6"
+      ],
+      [
+        "MIA",
+        "25",
+        "9",
+        "21",
+        "5",
+        "2",
+        "0"
+      ],
+      [
+        "MSP",
+        "32",
+        "10",
+        "27",
+        "2",
+        "1",
+        "0"
+      ],
+      [
+        "BOS",
+        "57",
+        "20",
+        "48",
+        "23",
+        "17",
+        "5"
+      ],
+      [
+        "SFO",
+        "27",
+        "11",
+        "22",
+        "6",
+        "2",
+        "2"
+      ],
+      [
+        "SAT",
+        "17",
+        "5",
+        "14",
+        "2",
+        "1",
+        "0"
+      ],
+      [
+        "STL",
+        "26",
+        "7",
+        "22",
+        "4",
+        "4",
+        "1"
+      ]
+    ],
+    "widths": [
+      0.85,
+      0.75,
+      0.85,
+      0.9,
+      1.0,
+      1.05,
+      1.1
+    ],
+    "note": "All numeric table entries are report counts, not hours or monetary amounts. National and eight-target totals precede the individual targets. Recorded denotes a nonmissing source value; zero here can mean that no report has a recorded value. Underlying nonmissing downtime values are in hours and cost values are nominal US dollars; all such values in this cohort are positive. Missing values remain unavailable. Nonaffirmative engine flags do not certify absence of damage. Effect recorded counts a nonmissing EFFECT entry and does not necessarily indicate an adverse flight effect."
+  },
+  "supp_context.consequence_amounts": {
+    "caption": "source record SRC-S62. Recorded downtime and repair-cost summaries with missingness",
+    "headers": [
+      "Airport",
+      "Damage",
+      "Downtime available / missing",
+      "Median hours",
+      "Recorded hours sum",
+      "Repair available / missing",
+      "Median repair US$"
+    ],
+    "rows": [
+      [
+        "DEN",
+        "60",
+        "15 / 45",
+        "12.00",
+        "2,234.50",
+        "8 / 52",
+        "18,392.50"
+      ],
+      [
+        "JFK",
+        "65",
+        "27 / 38",
+        "28.00",
+        "1,423.52",
+        "8 / 57",
+        "30,219.50"
+      ],
+      [
+        "MIA",
+        "25",
+        "5 / 20",
+        "18.00",
+        "1,213.00",
+        "2 / 23",
+        "112,000.00"
+      ],
+      [
+        "MSP",
+        "32",
+        "2 / 30",
+        "7.50",
+        "15.00",
+        "1 / 31",
+        "228.00"
+      ],
+      [
+        "BOS",
+        "57",
+        "23 / 34",
+        "31.00",
+        "1,337.60",
+        "17 / 40",
+        "20,000.00"
+      ],
+      [
+        "SFO",
+        "27",
+        "6 / 21",
+        "24.00",
+        "144.00",
+        "2 / 25",
+        "1,252,500.00"
+      ],
+      [
+        "SAT",
+        "17",
+        "2 / 15",
+        "1.50",
+        "3.00",
+        "1 / 16",
+        "600.00"
+      ],
+      [
+        "STL",
+        "26",
+        "4 / 22",
+        "20.75",
+        "94.50",
+        "4 / 22",
+        "5,500.00"
+      ]
+    ],
+    "widths": [
+      0.6,
+      0.6,
+      1.1,
+      0.85,
+      1.05,
+      1.1,
+      1.2
+    ],
+    "note": "Denominators are eligible damage reports. Hours and repair medians use only available values; costs are nominal US dollars. Missing values are unavailable, not zero. Summed hours describe documented aircraft downtime, not staff review time or complete burden. These consequences are not attributed to model error. Available repair counts can be as small as one; medians are descriptive."
+  },
+  "supp_context.data_work": {
+    "caption": "source record SRC-S63. Measured data dimensions and unmeasured costs",
+    "headers": [
+      "Component",
+      "Recorded dimension",
+      "Interpretation"
+    ],
+    "rows": [
+      [
+        "Recorded source inventory",
+        "388 files; 102.21 GB",
+        "Includes auxiliary and overlapping inputs; not marginal predictor cost."
+      ],
+      [
+        "National environmental panel",
+        "1,375 airports × 11 years = 15,125 airport-years",
+        "Measurement reuse does not create independent reports."
+      ],
+      [
+        "Three cumulative discs",
+        "272,250 values; six variables per airport-year per disc",
+        "Derived table dimensions, not raster pixels or labor hours."
+      ],
+      [
+        "Ring candidate",
+        "90,750 values; six terms per airport-year",
+        "Different feature representation, not a pure radius contrast."
+      ],
+      [
+        "Human acquisition and checking time",
+        "Not recorded",
+        "Cannot estimate labor expense or maintenance cost."
+      ],
+      [
+        "Data fees and net monetary benefit",
+        "Not established",
+        "No assumed purchase fee, savings or return on investment."
+      ]
+    ],
+    "widths": [
+      1.6,
+      2.35,
+      2.55
+    ],
+    "note": "The 388-file inventory is a saved source snapshot, not a count of the current release or working directory. GB uses 1,000,000,000 bytes. National panel dimensions use 1,375 airports and eleven years. Human time, incremental acquisition cost and economic return remain unmeasured."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "full_period": {
+    "years": "2015–2025",
+    "reports": 5936,
+    "damage": 309,
+    "airports": 8
+  },
+  "recent_period": {
+    "years": "2024–2025",
+    "reports": 1615,
+    "damage": 77,
+    "airports": 8,
+    "relationship": "nested within full period"
+  },
+  "metrics_rows": 144,
+  "references_per_airport_period": 9,
+  "paired_rows": 32,
+  "paired_scope": "Four primary complex references minus ordinary EB; 2000 paired resamples of 11 years, fixed predictions; pointwise intervals without multiplicity adjustment or development refitting.",
+  "units": "Metrics and paired CSV losses are original units. S34 multiplies differences and endpoints by 1000. Signed mean probability difference is predicted minus observed, in percentage points.",
+  "support_scope": "Two primary EBL families; report counts with any environmental value outside a univariate training range or central percentile range. Unseen and pooled category fields count cells, not reports. Zero unseen cells can coexist with pooled categories.",
+  "public_release_status": "not published"
+}

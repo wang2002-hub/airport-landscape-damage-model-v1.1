@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "environment": "DATA/environment.parquet",
+    "analysis_events": "DATA/analysis_events.parquet",
+    "frozen_predictions": "DATA/temporal_0_glmm_EBL_predictions.parquet",
+    "canopy": "DATA/canopy_matched_years.csv"
+  }
+}

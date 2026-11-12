@@ -1,0 +1,628 @@
+{
+  "scheme": "temporal",
+  "fold": 0,
+  "family": "glmm",
+  "block": "EBL",
+  "selected_scale": "b03",
+  "params": null,
+  "calibration": {
+    "success": true,
+    "intercept": -0.2650294710980712,
+    "slope": 0.925703665076559,
+    "n": 4616,
+    "damages": 287,
+    "bound_hit": false
+  },
+  "encoder": {
+    "training_correlation_audit": [
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "wetland_fraction",
+        "pearson_r": 0.09370813196029423,
+        "spearman_r": 0.44153012599011476,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.14695932263330305,
+        "spearman_r": -0.08608858735951214,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.12197954752024939,
+        "spearman_r": -0.0002684029748672549,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.09188937790254477,
+        "spearman_r": 0.03627005020898675,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.11999377420158137,
+        "spearman_r": 0.07220522053708213,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": 0.007511808924930552,
+        "spearman_r": 0.10097014602419942,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.12752965461920412,
+        "spearman_r": 0.04025772564538202,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.03474456364406884,
+        "spearman_r": 0.1864308465201771,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": 0.006897796355737808,
+        "spearman_r": 0.27615793044283815,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.12041653845025348,
+        "spearman_r": -0.0025521429109343235,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.010182305572594266,
+        "spearman_r": 0.0186159299198053,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.24552804818104967,
+        "spearman_r": -0.16793779729347455,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.39553172953611254,
+        "spearman_r": -0.3760063040856185,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.19773513200479895,
+        "spearman_r": -0.2872535119983258,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "pasture_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.3708091917106881,
+        "spearman_r": -0.44537279047100004,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      }
+    ],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": "b03",
+    "geography": false,
+    "bird_adjustment": 1,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct"
+    ],
+    "medians": {
+      "year": -0.4,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998,
+      "water_fraction": 0.0044563279857397,
+      "wetland_fraction": 0.0149662463380461,
+      "cropland_fraction": 0.0003819709702062,
+      "grassland_fraction": 0.0005728835136855,
+      "pasture_fraction": 0.0089439174995225,
+      "impervious_mean_pct": 0.38609135763170455
+    },
+    "means": {
+      "year": -0.30721398757682317,
+      "month_sin": -0.2532506804200205,
+      "month_cos": -0.2131628704402346,
+      "water_fraction": 0.04516664946992555,
+      "wetland_fraction": 0.04660787332909265,
+      "cropland_fraction": 0.05800586895239681,
+      "grassland_fraction": 0.022344371922216492,
+      "pasture_fraction": 0.04137479927881012,
+      "impervious_mean_pct": 0.3672915177968705
+    },
+    "standard_deviations": {
+      "year": 0.4686667827461672,
+      "month_sin": 0.6836234859563342,
+      "month_cos": 0.650449546837713,
+      "water_fraction": 0.0958236025897545,
+      "wetland_fraction": 0.07939951747463815,
+      "cropland_fraction": 0.1345448644757983,
+      "grassland_fraction": 0.07295668060370304,
+      "pasture_fraction": 0.0937473763781161,
+      "impervious_mean_pct": 0.17464918447593028
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach",
+      "bird_size_reported": "Small",
+      "number_struck_category": "1"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb",
+      "bird_size_reported=Unknown",
+      "bird_size_reported=Medium",
+      "bird_size_reported=Large",
+      "number_struck_category=2-10",
+      "number_struck_category=11-100"
+    ],
+    "training_events": 30427,
+    "training_airports": 1161,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ],
+      "bird_size_reported": [
+        "Small",
+        "Unknown",
+        "Medium",
+        "Large"
+      ],
+      "number_struck_category": [
+        "1",
+        "2-10",
+        "11-100",
+        "Unknown",
+        "More than 100"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ],
+      "bird_size_reported": [
+        "Large",
+        "Medium",
+        "Small",
+        "Unknown"
+      ],
+      "number_struck_category": [
+        "1",
+        "11-100",
+        "2-10"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "test_qc": {
+    "n_rows": 11124,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 8,
+    "finite_matrix": true
+  },
+  "target_qc": {
+    "n_rows": 5936,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 6,
+    "finite_matrix": true
+  },
+  "candidates": [
+    {
+      "mean_logloss": 0.19187513419481556,
+      "scale": "b03",
+      "params": null,
+      "fold_losses": [
+        0.1920032941785744,
+        0.20641049700774725,
+        0.17905929500095683,
+        0.19002745059198373
+      ]
+    },
+    {
+      "mean_logloss": 0.19197357399398193,
+      "scale": "b08",
+      "params": null,
+      "fold_losses": [
+        0.19203349600908867,
+        0.20685756844796735,
+        0.17905974381841794,
+        0.1899434877004538
+      ]
+    },
+    {
+      "mean_logloss": 0.1919956704169221,
+      "scale": "b13",
+      "params": null,
+      "fold_losses": [
+        0.1920933725922786,
+        0.20697499603254105,
+        0.1790730653360958,
+        0.18984124770677288
+      ]
+    },
+    {
+      "mean_logloss": 0.19191782630156518,
+      "scale": "rings",
+      "params": null,
+      "fold_losses": [
+        0.19205484190807698,
+        0.20651937128783995,
+        0.17933289501930208,
+        0.1897641969910417
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "label": "b03_0_inner0",
+      "n": 15509,
+      "airports": 845,
+      "damage": 1056,
+      "seconds": 0.1275181770324707,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 69,
+      "max_abs_gradient": 0.0005782271401370506,
+      "negative_loglik_penalized": 2856.4321923864786,
+      "sigma": 0.36264966715975266,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0005782271401370506
+    },
+    {
+      "label": "b03_0_inner1",
+      "n": 19628,
+      "airports": 950,
+      "damage": 1363,
+      "seconds": 0.14811277389526367,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 59,
+      "max_abs_gradient": 0.001445383279159742,
+      "negative_loglik_penalized": 3639.1622757026244,
+      "sigma": 0.3622156795998621,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.001445383279159742
+    },
+    {
+      "label": "b03_0_inner2",
+      "n": 22404,
+      "airports": 1023,
+      "damage": 1580,
+      "seconds": 0.15940523147583008,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 59,
+      "max_abs_gradient": 0.0011826510449944583,
+      "negative_loglik_penalized": 4208.86462553047,
+      "sigma": 0.33946024138675995,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0011826510449944583
+    },
+    {
+      "label": "b03_0_inner3",
+      "n": 26246,
+      "airports": 1093,
+      "damage": 1854,
+      "seconds": 0.19129180908203125,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 64,
+      "max_abs_gradient": 0.0012419018894720287,
+      "negative_loglik_penalized": 4888.1258687023865,
+      "sigma": 0.3689947418278881,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0012419018894720287
+    },
+    {
+      "label": "b08_0_inner0",
+      "n": 15509,
+      "airports": 845,
+      "damage": 1056,
+      "seconds": 0.1379845142364502,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 64,
+      "max_abs_gradient": 0.0009667548212607166,
+      "negative_loglik_penalized": 2856.213093624093,
+      "sigma": 0.3629222285200946,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0009667548212607166
+    },
+    {
+      "label": "b08_0_inner1",
+      "n": 19628,
+      "airports": 950,
+      "damage": 1363,
+      "seconds": 0.15202975273132324,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 60,
+      "max_abs_gradient": 0.0011913883948872644,
+      "negative_loglik_penalized": 3639.379910269609,
+      "sigma": 0.3594942990919979,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0011913883948872644
+    },
+    {
+      "label": "b08_0_inner2",
+      "n": 22404,
+      "airports": 1023,
+      "damage": 1580,
+      "seconds": 0.17199158668518066,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 64,
+      "max_abs_gradient": 0.001435021836904915,
+      "negative_loglik_penalized": 4209.94441522333,
+      "sigma": 0.3412500540548172,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.001435021836904915
+    },
+    {
+      "label": "b08_0_inner3",
+      "n": 26246,
+      "airports": 1093,
+      "damage": 1854,
+      "seconds": 0.18051910400390625,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 57,
+      "max_abs_gradient": 0.0011273822516938245,
+      "negative_loglik_penalized": 4889.43304909724,
+      "sigma": 0.3689586901794336,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0011273822516938245
+    },
+    {
+      "label": "b13_0_inner0",
+      "n": 15509,
+      "airports": 845,
+      "damage": 1056,
+      "seconds": 0.1136789321899414,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 55,
+      "max_abs_gradient": 0.008989084228387276,
+      "negative_loglik_penalized": 2856.697134247656,
+      "sigma": 0.3659038164685866,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.008989084228387276
+    },
+    {
+      "label": "b13_0_inner1",
+      "n": 19628,
+      "airports": 950,
+      "damage": 1363,
+      "seconds": 0.15200424194335938,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 65,
+      "max_abs_gradient": 0.0017607151711576399,
+      "negative_loglik_penalized": 3640.0613569430616,
+      "sigma": 0.35923196780329925,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0017607151711576399
+    },
+    {
+      "label": "b13_0_inner2",
+      "n": 22404,
+      "airports": 1023,
+      "damage": 1580,
+      "seconds": 0.1776900291442871,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 68,
+      "max_abs_gradient": 0.003004485447949365,
+      "negative_loglik_penalized": 4210.89528458567,
+      "sigma": 0.340928587569316,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.003004485447949365
+    },
+    {
+      "label": "b13_0_inner3",
+      "n": 26246,
+      "airports": 1093,
+      "damage": 1854,
+      "seconds": 0.1845550537109375,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 59,
+      "max_abs_gradient": 0.0013540374290316086,
+      "negative_loglik_penalized": 4890.545743373337,
+      "sigma": 0.3688771935367378,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0013540374290316086
+    },
+    {
+      "label": "rings_0_inner0",
+      "n": 15509,
+      "airports": 845,
+      "damage": 1056,
+      "seconds": 0.11176872253417969,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 58,
+      "max_abs_gradient": 0.0023633687829171025,
+      "negative_loglik_penalized": 2857.2898863002206,
+      "sigma": 0.35947705814562897,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0023633687829171025
+    },
+    {
+      "label": "rings_0_inner1",
+      "n": 19628,
+      "airports": 950,
+      "damage": 1363,
+      "seconds": 0.11486148834228516,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 45,
+      "max_abs_gradient": 0.008343175407128282,
+      "negative_loglik_penalized": 3640.85169530116,
+      "sigma": 0.3587885123509973,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.008343175407128282
+    },
+    {
+      "label": "rings_0_inner2",
+      "n": 22404,
+      "airports": 1023,
+      "damage": 1580,
+      "seconds": 0.14816951751708984,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 54,
+      "max_abs_gradient": 0.0017594688399891595,
+      "negative_loglik_penalized": 4210.780958740194,
+      "sigma": 0.3373659388987786,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0017594688399891595
+    },
+    {
+      "label": "rings_0_inner3",
+      "n": 26246,
+      "airports": 1093,
+      "damage": 1854,
+      "seconds": 0.1553177833557129,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 52,
+      "max_abs_gradient": 0.0025178723262916985,
+      "negative_loglik_penalized": 4891.378633404009,
+      "sigma": 0.3649793454185986,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0025178723262916985
+    },
+    {
+      "label": "final",
+      "n": 30427,
+      "airports": 1161,
+      "damage": 2140,
+      "seconds": 0.20702147483825684,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 56,
+      "max_abs_gradient": 0.0013088527808920074,
+      "negative_loglik_penalized": 5677.845615509608,
+      "sigma": 0.3583316646126293,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0013088527808920074
+    }
+  ],
+  "seconds": 3.214984178543091
+}

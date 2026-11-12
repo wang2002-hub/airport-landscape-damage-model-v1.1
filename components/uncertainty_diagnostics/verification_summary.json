@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "selected_attempt_ids": [
+    0,
+    1,
+    249,
+    250,
+    499,
+    224,
+    336
+  ],
+  "selected_successes": 5,
+  "selected_calibration_failures": [
+    224,
+    336
+  ],
+  "bootstrap_internal_and_final_fits_replayed": 119,
+  "selected_target_predictions_checked": 29680,
+  "maximum_selected_prediction_error": 0.0,
+  "all_500_attempts_refitted": false,
+  "all_500_retained_attempt_records_checked": true,
+  "successful_saved_prediction_sets_aggregated": 498,
+  "bootstrap_draw_rows": 195344,
+  "interval_rows": 160,
+  "coding_model_fits": 1,
+  "coding_target_prediction_rows": 5936,
+  "coding_performance_rows": 2,
+  "coding_local_table_rows": 24,
+  "numeric_json_checks": 1019,
+  "maximum_json_error": 0,
+  "numeric_frame_checks": 1209132,
+  "maximum_frame_error": 0.0,
+  "incomplete_attempt_rejection": true,
+  "invalid_probability_rejection": true,
+  "existing_output_protection": true,
+  "new_scientific_analyses": 0,
+  "new_independent_random_draws": 0,
+  "retained_draws_regenerated": true,
+  "restriction_model_refitted": false,
+  "input_files_unchanged": 1005,
+  "relocation_verified": true,
+  "same_host_environment": true,
+  "clean_machine_install_tested": false,
+  "full_study_reproduction": false,
+  "reporting_diagnostics": {
+    "success": true,
+    "tables": 7,
+    "total_rows": 7280,
+    "numeric_values": 33526,
+    "maximum_absolute_error": 0.0,
+    "exact_dtypes_and_missing_locations": true,
+    "near_reports": 65254,
+    "known_near_reports": 54919,
+    "unresolved_near_reports": 10335,
+    "final_eligible_reports": 52103,
+    "duplicate_coding_rejection": true,
+    "input_hashes_unchanged": true,
+    "new_model_fits": 0,
+    "new_random_draws": 0
+  },
+  "scope": "Same-host replay of the stated components; full study reconstruction and a matching public release remain separate.",
+  "unchanged_numerical_functions": {
+    "summarize_joint_uncertainty.py": [
+      "sample_years",
+      "summaries"
+    ],
+    "coding_diagnostics.py": [
+      "obj",
+      "predict"
+    ],
+    "reporting_diagnostics.py": [
+      "clean",
+      "populations",
+      "divide"
+    ]
+  }
+}

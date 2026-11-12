@@ -1,0 +1,40 @@
+﻿target,damage_binary,EFFECT,n
+False,0,Aborted Take-off,631
+False,0,"Aborted Take-off, Engine Shutdown",3
+False,0,"Aborted Take-off, Other",3
+False,0,Engine Shutdown,11
+False,0,"Engine Shutdown, Precautionary Landing",6
+False,0,None,31334
+False,0,Other,167
+False,0,"Other, Precautionary Landing",62
+False,0,Precautionary Landing,1204
+False,0,,9650
+False,1,Aborted Take-off,103
+False,1,"Aborted Take-off, Engine Shutdown",5
+False,1,"Aborted Take-off, Other",4
+False,1,Engine Shutdown,12
+False,1,"Engine Shutdown, Other, Precautionary Landing",7
+False,1,"Engine Shutdown, Precautionary Landing",16
+False,1,None,1547
+False,1,Other,83
+False,1,"Other, Precautionary Landing",66
+False,1,Precautionary Landing,651
+False,1,,602
+True,0,Aborted Take-off,41
+True,0,"Aborted Take-off, Other",2
+True,0,None,4249
+True,0,Other,6
+True,0,"Other, Precautionary Landing",13
+True,0,Precautionary Landing,59
+True,0,,1257
+True,1,Aborted Take-off,11
+True,1,"Aborted Take-off, Other",1
+True,1,Engine Shutdown,1
+True,1,"Engine Shutdown, Other",1
+True,1,"Engine Shutdown, Other, Precautionary Landing",2
+True,1,"Engine Shutdown, Precautionary Landing",2
+True,1,None,154
+True,1,Other,11
+True,1,"Other, Precautionary Landing",13
+True,1,Precautionary Landing,54
+True,1,,59

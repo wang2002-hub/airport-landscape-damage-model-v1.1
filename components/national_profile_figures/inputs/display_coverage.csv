@@ -1,0 +1,4 @@
+population,airports,reports,observed_damage,expected_damage,zero_damage_airports,conditional_flags_998
+All national airports,1375,46167,3096,3073.0732260976,602,6
+E >= 5,144,35031,1963,1977.1842599964552,0,6
+E < 5,1231,11136,1133,1095.8889661011453,602,0

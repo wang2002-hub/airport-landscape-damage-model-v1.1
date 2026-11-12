@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-12",
+  "scope": "R5 integration checks; not a new scientific analysis",
+  "software_version": "1.1",
+  "delivery_archive": "airport-landscape-damage-model-v1.0.zip",
+  "source_note": "R5 submission-package guide; section 3.4",
+  "python_for_package_checks": "3.12.14",
+  "python_for_annual_damage_check": "3.14.0",
+  "source_scripts_identical": [
+    "annual_calibration_check.py",
+    "apply_year_spec_patch.py",
+    "log_scale_subtype_intervals.py",
+    "regenerate_manifests.py"
+  ],
+  "python_syntax_files": 99,
+  "registered_components": 25,
+  "registered_entries_checked": true,
+  "manuscript_values_matched": 74,
+  "aggregate_replays": [
+    {
+      "file": "reported_values/manuscript_value_audit.csv",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "reported_values/manuscript_value_audit.json",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "annual_damage/annual_damage_composition.csv",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "annual_damage/d1_summary.json",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "annual_damage/national_period_summary.csv",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "annual_damage/national_total_damage_contrasts.csv",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "annual_damage/target_annual_OE.csv",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    },
+    {
+      "file": "annual_damage/target_year_restriction_OE.csv",
+      "byte_identical": false,
+      "numeric_or_json_content_match": true
+    }
+  ],
+  "bundled_input_hashes_verified": 18,
+  "manuscript_binding_hashes_verified": 5,
+  "figure_assets_verified": 18,
+  "year_patch_test": {
+    "isolated_model_files": 6,
+    "syntax_passed": true,
+    "idempotence_passed": true,
+    "applied_to_release": false
+  },
+  "log_interval_test": {
+    "data": "synthetic only, excluded from release",
+    "joint_draws": 9960,
+    "airport_subtype_rows": 16,
+    "positive_finite_intervals": true,
+    "zero_counts_verified": true
+  },
+  "help_checks": [
+    "annual_calibration_check.py",
+    "log_scale_subtype_intervals.py",
+    "regenerate_manifests.py"
+  ],
+  "limitations": [
+    "No event-level model refit or external-data annual calibration performed.",
+    "No real-data log-scale intervals calculated; full bootstrap inputs are external.",
+    "No clean-machine dependency installation or full end-to-end replication claimed.",
+    "PyArrow is absent from the checked local runtimes; annual calibration was checked via help/syntax only.",
+    "The delivered archive label v1.0 does not change actual source version 1.1."
+  ],
+  "remote_upload_performed": false,
+  "manuscript_binding_updates": [
+    {
+      "file": "Cover_Letter.docx",
+      "previous_sha256": "a1013fb9fcfb6bbb9e0835f1680eac7f2d7febcc20a493b414f88b128e149a0e",
+      "current_sha256": "2f8018df8a079aa9f16d9a1d92aa54c87f274474038d0dbf2e62b9c259c8a25e",
+      "previous_bytes": 34086,
+      "current_bytes": 23512
+    },
+    {
+      "file": "Supplementary_Information_RESS_R5_clean.docx",
+      "previous_sha256": "fc0c47ded6f6895a577e69c90fa8bdeca2b68d4c360246a41ac221bf560f9a8e",
+      "current_sha256": "6b972ceb7901806703fc3ca57af58eede4d9b5288c3fe5e140f4cb913f512f86",
+      "previous_bytes": 6109792,
+      "current_bytes": 2529712
+    }
+  ],
+  "aggregate_comparison_note": "CSV values compared with rtol=atol=1e-12; JSON content compared exactly. Byte differences are not used as numerical discrepancies.",
+  "preserved_data_figure_model_and_citation_files": 658
+}

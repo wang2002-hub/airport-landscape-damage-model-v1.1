@@ -1,0 +1,17 @@
+﻿Airport,Family,Reports,Damage,Observed %,Predicted %,O/E
+DEN,Hierarchical,549,14,2.55,2.86,0.892
+DEN,Boosting,549,14,2.55,2.70,0.943
+JFK,Hierarchical,186,15,8.06,5.83,1.383
+JFK,Boosting,186,15,8.06,5.73,1.407
+MIA,Hierarchical,167,11,6.59,5.57,1.182
+MIA,Boosting,167,11,6.59,5.58,1.180
+MSP,Hierarchical,87,8,9.20,6.01,1.531
+MSP,Boosting,87,8,9.20,5.94,1.548
+BOS,Hierarchical,175,14,8.00,5.96,1.342
+BOS,Boosting,175,14,8.00,5.78,1.383
+SFO,Hierarchical,123,9,7.32,5.40,1.356
+SFO,Boosting,123,9,7.32,5.43,1.347
+SAT,Hierarchical,169,3,1.78,3.12,0.570
+SAT,Boosting,169,3,1.78,2.74,0.649
+STL,Hierarchical,159,3,1.89,3.35,0.563
+STL,Boosting,159,3,1.89,3.37,0.560

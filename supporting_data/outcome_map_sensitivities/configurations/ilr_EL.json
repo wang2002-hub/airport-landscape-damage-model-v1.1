@@ -1,0 +1,466 @@
+{
+  "train_n": 30427,
+  "cal_n": 4616,
+  "test_n": 11124,
+  "target_n": 5936,
+  "fits": [
+    {
+      "label": "final",
+      "n": 30427,
+      "airports": 1161,
+      "damage": 2140,
+      "seconds": 0.17864370346069336,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 42,
+      "max_abs_gradient": 0.00119907955709338,
+      "negative_loglik_penalized": 6860.814996145142,
+      "sigma": 0.48945644840603464,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.00119907955709338
+    }
+  ],
+  "calibration": {
+    "success": true,
+    "intercept": -0.3358689521251917,
+    "slope": 0.9308321317904279,
+    "n": 4616,
+    "damages": 287
+  },
+  "encoder": {
+    "training_correlation_audit": [
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_2",
+        "pearson_r": 0.04387692704061314,
+        "spearman_r": 0.14435120494572323,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_3",
+        "pearson_r": 0.3889301474844633,
+        "spearman_r": 0.31689080085944465,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "ilr_3",
+        "pearson_r": -0.23222007276978002,
+        "spearman_r": -0.06295211793060643,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_4",
+        "pearson_r": 0.12391825305624306,
+        "spearman_r": 0.08180499645769926,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "ilr_4",
+        "pearson_r": -0.15716963973151582,
+        "spearman_r": -0.06283264843379749,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_3",
+        "feature_b": "ilr_4",
+        "pearson_r": 0.15372079984365833,
+        "spearman_r": 0.17966763777372416,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_5",
+        "pearson_r": 0.0019976794333649056,
+        "spearman_r": 0.07370083530320169,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "ilr_5",
+        "pearson_r": 0.30912967855634493,
+        "spearman_r": 0.2822196514720791,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_3",
+        "feature_b": "ilr_5",
+        "pearson_r": -0.19958636260080667,
+        "spearman_r": -0.2442030262660625,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_4",
+        "feature_b": "ilr_5",
+        "pearson_r": -0.21087131130921255,
+        "spearman_r": -0.21546156355694884,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_6",
+        "pearson_r": 0.12072347648097997,
+        "spearman_r": 0.13623613289246989,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "ilr_6",
+        "pearson_r": -0.1859391136385017,
+        "spearman_r": -0.20292645799206327,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_3",
+        "feature_b": "ilr_6",
+        "pearson_r": -0.05316423883914309,
+        "spearman_r": -0.0832580492385454,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_4",
+        "feature_b": "ilr_6",
+        "pearson_r": 0.15493143195855574,
+        "spearman_r": 0.11647526337892702,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_5",
+        "feature_b": "ilr_6",
+        "pearson_r": 0.242243885243758,
+        "spearman_r": 0.31562287671531536,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_7",
+        "pearson_r": -0.3106008861420206,
+        "spearman_r": -0.3018122940103019,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "ilr_7",
+        "pearson_r": -0.09652645200042366,
+        "spearman_r": -0.15325857531175413,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_3",
+        "feature_b": "ilr_7",
+        "pearson_r": -0.19982795366978703,
+        "spearman_r": -0.207356994500373,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_4",
+        "feature_b": "ilr_7",
+        "pearson_r": -0.21208444594212472,
+        "spearman_r": -0.251344591883569,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_5",
+        "feature_b": "ilr_7",
+        "pearson_r": -0.11077446355242299,
+        "spearman_r": -0.12145963714086021,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_6",
+        "feature_b": "ilr_7",
+        "pearson_r": -0.1731593048996156,
+        "spearman_r": -0.23545816446636347,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "ilr_8",
+        "pearson_r": -0.08490384681590332,
+        "spearman_r": -0.1721577580951058,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "ilr_8",
+        "pearson_r": -0.0651300261215551,
+        "spearman_r": -0.017073151407764713,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_3",
+        "feature_b": "ilr_8",
+        "pearson_r": -0.050350055119345025,
+        "spearman_r": -0.08587913442673277,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_4",
+        "feature_b": "ilr_8",
+        "pearson_r": 0.0019017220054927074,
+        "spearman_r": 0.03551472443304747,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_5",
+        "feature_b": "ilr_8",
+        "pearson_r": -0.23261567350487272,
+        "spearman_r": -0.21516854719562525,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_6",
+        "feature_b": "ilr_8",
+        "pearson_r": -0.26859063991391185,
+        "spearman_r": -0.2632282232091017,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_7",
+        "feature_b": "ilr_8",
+        "pearson_r": 0.013624114641867018,
+        "spearman_r": 0.06621968324553795,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_1",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.24650219932662198,
+        "spearman_r": -0.18942537080881103,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_2",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": 0.3351574624248031,
+        "spearman_r": 0.33597506359086715,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_3",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": 0.19157309836096353,
+        "spearman_r": 0.23517142135283414,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_4",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": 0.18292871219044843,
+        "spearman_r": 0.19418707712641764,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_5",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": 0.3225577984503228,
+        "spearman_r": 0.2833060441286072,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_6",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": 0.17376697048658227,
+        "spearman_r": 0.2030753497599184,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_7",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.10619571621355589,
+        "spearman_r": -0.14950147311080686,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "ilr_8",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.04478910415445218,
+        "spearman_r": -0.02091649399824166,
+        "n_training_airport_years": 4112,
+        "flag_abs_gt_0_8": false
+      }
+    ],
+    "screening_enabled": false,
+    "dropped_features": [],
+    "scale": "b03",
+    "geography": false,
+    "bird_adjustment": 0,
+    "mode": "ilr",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos",
+      "ilr_1",
+      "ilr_2",
+      "ilr_3",
+      "ilr_4",
+      "ilr_5",
+      "ilr_6",
+      "ilr_7",
+      "ilr_8",
+      "impervious_mean_pct"
+    ],
+    "medians": {
+      "year": -0.4,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998,
+      "ilr_1": -3.549085235157485,
+      "ilr_2": 0.6872829205827723,
+      "ilr_3": 5.497461742517532,
+      "ilr_4": 2.4056030347259547,
+      "ilr_5": -0.1333939995932882,
+      "ilr_6": 1.9560135090586783,
+      "ilr_7": -1.436419876292888,
+      "ilr_8": 3.578076815421893,
+      "impervious_mean_pct": 0.38609135763170455
+    },
+    "means": {
+      "year": -0.30721398757682317,
+      "month_sin": -0.2532506804200205,
+      "month_cos": -0.2131628704402346,
+      "ilr_1": -3.9343507888364804,
+      "ilr_2": 1.9196700752847513,
+      "ilr_3": 5.028850829272571,
+      "ilr_4": 2.220140350252559,
+      "ilr_5": 0.5267118025792289,
+      "ilr_6": 2.1066243872594788,
+      "ilr_7": -0.7546695587726187,
+      "ilr_8": 3.645436227625796,
+      "impervious_mean_pct": 0.3672915177968705
+    },
+    "standard_deviations": {
+      "year": 0.4686667827461672,
+      "month_sin": 0.6836234859563342,
+      "month_cos": 0.650449546837713,
+      "ilr_1": 2.582211827023554,
+      "ilr_2": 3.593709483555334,
+      "ilr_3": 3.8925591050636985,
+      "ilr_4": 3.2771654709860654,
+      "ilr_5": 3.4671780184872096,
+      "ilr_6": 4.481873975365464,
+      "ilr_7": 3.1668012236036818,
+      "ilr_8": 3.02857595560585,
+      "impervious_mean_pct": 0.17464918447593028
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "ilr_1",
+      "ilr_2",
+      "ilr_3",
+      "ilr_4",
+      "ilr_5",
+      "ilr_6",
+      "ilr_7",
+      "ilr_8",
+      "impervious_mean_pct",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb"
+    ],
+    "training_events": 30427,
+    "training_airports": 1161,
+    "training_year_min": 2015,
+    "training_year_max": 2022,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "excluded_near_target_airports": []
+}

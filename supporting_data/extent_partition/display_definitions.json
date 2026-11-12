@@ -1,0 +1,282 @@
+{
+  "supp_diagnostics.undetermined": {
+    "caption": "source record SRC-S36A. Undetermined damage extent under the annual benchmark",
+    "headers": [
+      "Airport",
+      "n / O",
+      "Expected",
+      "O/E",
+      "Pointwise 95% interval",
+      "Simultaneous 95% interval",
+      "O − E"
+    ],
+    "widths": [
+      0.65,
+      0.8,
+      0.85,
+      0.6,
+      1.2,
+      1.3,
+      1.1
+    ],
+    "rows": [
+      [
+        "DEN",
+        "1,780 / 48",
+        "41.269464",
+        "1.1631",
+        "0.8579–1.5654",
+        "0.6100–1.7161",
+        "+6.730536"
+      ],
+      [
+        "JFK",
+        "810 / 58",
+        "33.519609",
+        "1.7303",
+        "1.2332–2.2633",
+        "0.9200–2.5406",
+        "+24.480391"
+      ],
+      [
+        "MIA",
+        "570 / 21",
+        "21.561517",
+        "0.9740",
+        "0.5318–1.3452",
+        "0.3417–1.6062",
+        "-0.561517"
+      ],
+      [
+        "MSP",
+        "433 / 27",
+        "19.226552",
+        "1.4043",
+        "0.8292–2.0039",
+        "0.4953–2.3134",
+        "+7.773448"
+      ],
+      [
+        "BOS",
+        "729 / 45",
+        "36.683227",
+        "1.2267",
+        "0.8494–1.6325",
+        "0.6149–1.8385",
+        "+8.316773"
+      ],
+      [
+        "SFO",
+        "493 / 23",
+        "23.701644",
+        "0.9704",
+        "0.5354–1.4083",
+        "0.2890–1.6518",
+        "-0.701644"
+      ],
+      [
+        "SAT",
+        "560 / 11",
+        "13.857653",
+        "0.7938",
+        "0.4684–1.1670",
+        "0.2574–1.3302",
+        "-2.857653"
+      ],
+      [
+        "STL",
+        "561 / 19",
+        "16.563799",
+        "1.1471",
+        "0.6619–1.6699",
+        "0.3705–1.9237",
+        "+2.436201"
+      ],
+      [
+        "Pooled",
+        "5,936 / 252",
+        "206.383464",
+        "1.2210",
+        "0.9876–1.4399",
+        "Not in family",
+        "+45.616536"
+      ]
+    ],
+    "note": "n is the unchanged eligible-report count; O is the subtype count. Joint intervals include development, coding-proportion and target-year variation from 498 successful fits and 9,960 dependent summaries. The simultaneous family contains both subtypes at all eight airports and uses a natural-scale multiplier of 3.044692 with lower limits truncated at zero. Pooled intervals are pointwise. These are retrospective benchmark allocations, not validated local subtype probabilities."
+  },
+  "supp_diagnostics.documented": {
+    "caption": "source record SRC-S36B. Documented damage extent under the annual benchmark",
+    "headers": [
+      "Airport",
+      "n / O",
+      "Expected",
+      "O/E",
+      "Pointwise 95% interval",
+      "Simultaneous 95% interval",
+      "O − E"
+    ],
+    "widths": [
+      0.65,
+      0.8,
+      0.85,
+      0.6,
+      1.2,
+      1.3,
+      1.1
+    ],
+    "rows": [
+      [
+        "DEN",
+        "1,780 / 12",
+        "14.567470",
+        "0.8238",
+        "0.5042–1.1369",
+        "0.3335–1.3140",
+        "-2.567470"
+      ],
+      [
+        "JFK",
+        "810 / 7",
+        "11.281931",
+        "0.6205",
+        "0.2179–1.0547",
+        "0.0000–1.2670",
+        "-4.281931"
+      ],
+      [
+        "MIA",
+        "570 / 4",
+        "6.640799",
+        "0.6023",
+        "0.0000–1.2437",
+        "0.0000–1.6228",
+        "-2.640799"
+      ],
+      [
+        "MSP",
+        "433 / 5",
+        "6.243763",
+        "0.8008",
+        "0.1836–1.5316",
+        "0.0000–1.8368",
+        "-1.243763"
+      ],
+      [
+        "BOS",
+        "729 / 12",
+        "11.804353",
+        "1.0166",
+        "0.3403–1.8190",
+        "0.0000–2.1732",
+        "+0.195647"
+      ],
+      [
+        "SFO",
+        "493 / 4",
+        "8.035747",
+        "0.4978",
+        "0.0000–1.1779",
+        "0.0000–1.4065",
+        "-4.035747"
+      ],
+      [
+        "SAT",
+        "560 / 6",
+        "4.447960",
+        "1.3489",
+        "0.2698–2.2932",
+        "0.0000–2.9248",
+        "+1.552040"
+      ],
+      [
+        "STL",
+        "561 / 7",
+        "6.234373",
+        "1.1228",
+        "0.0000–1.7942",
+        "0.0000–2.4604",
+        "+0.765627"
+      ],
+      [
+        "Pooled",
+        "5,936 / 57",
+        "69.256396",
+        "0.8230",
+        "0.4812–1.1168",
+        "Not in family",
+        "-12.256396"
+      ]
+    ],
+    "note": "n is the unchanged eligible-report count; O is the subtype count. Joint intervals include development, coding-proportion and target-year variation from 498 successful fits and 9,960 dependent summaries. The simultaneous family contains both subtypes at all eight airports and uses a natural-scale multiplier of 3.044692 with lower limits truncated at zero. Pooled intervals are pointwise. These are retrospective benchmark allocations, not validated local subtype probabilities."
+  },
+  "supp_diagnostics.allocation_sensitivity": {
+    "caption": "source record SRC-S36C. Sensitivity to the national coding allocation",
+    "headers": [
+      "Airport",
+      "Allocation",
+      "M? O/E",
+      "M? pointwise 95% interval",
+      "Documented O/E",
+      "Documented pointwise 95% interval"
+    ],
+    "widths": [
+      0.65,
+      1.05,
+      0.8,
+      1.35,
+      1.0,
+      1.65
+    ],
+    "rows": [
+      [
+        "JFK",
+        "Annual",
+        "1.7303",
+        "1.2332–2.2633",
+        "0.6205",
+        "0.2179–1.0547"
+      ],
+      [
+        "JFK",
+        "Year and channel",
+        "1.7267",
+        "1.2291–2.2672",
+        "0.6244",
+        "0.2192–1.0607"
+      ],
+      [
+        "JFK",
+        "Constant",
+        "1.7404",
+        "1.2175–2.2704",
+        "0.6100",
+        "0.1947–1.0671"
+      ],
+      [
+        "Pooled",
+        "Annual",
+        "1.2210",
+        "0.9876–1.4399",
+        "0.8230",
+        "0.4812–1.1168"
+      ],
+      [
+        "Pooled",
+        "Year and channel",
+        "1.2157",
+        "0.9824–1.4333",
+        "0.8339",
+        "0.4891–1.1318"
+      ],
+      [
+        "Pooled",
+        "Constant",
+        "1.2290",
+        "0.9423–1.4625",
+        "0.8073",
+        "0.3914–1.3657"
+      ]
+    ],
+    "note": "All allocations use the same reports and frozen total-damage predictions. Year-by-channel unsupported cells use annual proportions, preserving twelve otherwise unsupported target reports in the original collection. This is a collection-wide fallback count, not twelve reports at each airport. All airport and allocation results, count differences and split-half percentile checks are preserved in the accompanying machine-readable tables. No interval shown here adjusts across allocation choices."
+  }
+}

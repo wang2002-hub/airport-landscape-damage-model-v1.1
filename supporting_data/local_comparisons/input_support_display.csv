@@ -1,0 +1,17 @@
+﻿Airport,Family,Reports,Outside range,Outside 1–99%,Numeric missing,Unseen categories
+DEN,Hierarchical,"1,780",0,0,0,0
+DEN,Boosting,"1,780",0,"1,780",0,0
+JFK,Hierarchical,810,0,0,0,0
+JFK,Boosting,810,0,0,0,0
+MIA,Hierarchical,570,0,0,0,0
+MIA,Boosting,570,0,0,0,0
+MSP,Hierarchical,433,0,0,0,0
+MSP,Boosting,433,0,0,0,0
+BOS,Hierarchical,729,0,729,0,0
+BOS,Boosting,729,0,729,0,0
+SFO,Hierarchical,493,0,493,0,0
+SFO,Boosting,493,0,0,0,0
+SAT,Hierarchical,560,0,0,0,0
+SAT,Boosting,560,0,0,0,0
+STL,Hierarchical,561,0,0,0,0
+STL,Boosting,561,0,0,0,0

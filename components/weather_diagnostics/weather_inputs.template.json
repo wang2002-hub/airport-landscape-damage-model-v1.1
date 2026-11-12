@@ -1,0 +1,112 @@
+{
+  "paths": {
+    "analysis_events": "DATA/analysis_extended.parquet",
+    "frozen_predictions": "DATA/frozen_predictions.parquet"
+  },
+  "weather_files": {
+    "KDEN": [
+      "DATA/weather/KDEN_surface_01.csv",
+      "DATA/weather/KDEN_surface_02.csv",
+      "DATA/weather/KDEN_surface_03.csv",
+      "DATA/weather/KDEN_surface_04.csv",
+      "DATA/weather/KDEN_surface_05.csv",
+      "DATA/weather/KDEN_surface_06.csv",
+      "DATA/weather/KDEN_surface_07.csv",
+      "DATA/weather/KDEN_surface_08.csv",
+      "DATA/weather/KDEN_surface_09.csv",
+      "DATA/weather/KDEN_surface_10.csv",
+      "DATA/weather/KDEN_surface_11.csv"
+    ],
+    "KJFK": [
+      "DATA/weather/KJFK_surface_01.csv",
+      "DATA/weather/KJFK_surface_02.csv",
+      "DATA/weather/KJFK_surface_03.csv",
+      "DATA/weather/KJFK_surface_04.csv",
+      "DATA/weather/KJFK_surface_05.csv",
+      "DATA/weather/KJFK_surface_06.csv",
+      "DATA/weather/KJFK_surface_07.csv",
+      "DATA/weather/KJFK_surface_08.csv",
+      "DATA/weather/KJFK_surface_09.csv",
+      "DATA/weather/KJFK_surface_10.csv",
+      "DATA/weather/KJFK_surface_11.csv"
+    ],
+    "KMIA": [
+      "DATA/weather/KMIA_surface_01.csv",
+      "DATA/weather/KMIA_surface_02.csv",
+      "DATA/weather/KMIA_surface_03.csv",
+      "DATA/weather/KMIA_surface_04.csv",
+      "DATA/weather/KMIA_surface_05.csv",
+      "DATA/weather/KMIA_surface_06.csv",
+      "DATA/weather/KMIA_surface_07.csv",
+      "DATA/weather/KMIA_surface_08.csv",
+      "DATA/weather/KMIA_surface_09.csv",
+      "DATA/weather/KMIA_surface_10.csv",
+      "DATA/weather/KMIA_surface_11.csv"
+    ],
+    "KMSP": [
+      "DATA/weather/KMSP_surface_01.csv",
+      "DATA/weather/KMSP_surface_02.csv",
+      "DATA/weather/KMSP_surface_03.csv",
+      "DATA/weather/KMSP_surface_04.csv",
+      "DATA/weather/KMSP_surface_05.csv",
+      "DATA/weather/KMSP_surface_06.csv",
+      "DATA/weather/KMSP_surface_07.csv",
+      "DATA/weather/KMSP_surface_08.csv",
+      "DATA/weather/KMSP_surface_09.csv",
+      "DATA/weather/KMSP_surface_10.csv",
+      "DATA/weather/KMSP_surface_11.csv"
+    ],
+    "KBOS": [
+      "DATA/weather/KBOS_surface_01.csv",
+      "DATA/weather/KBOS_surface_02.csv",
+      "DATA/weather/KBOS_surface_03.csv",
+      "DATA/weather/KBOS_surface_04.csv",
+      "DATA/weather/KBOS_surface_05.csv",
+      "DATA/weather/KBOS_surface_06.csv",
+      "DATA/weather/KBOS_surface_07.csv",
+      "DATA/weather/KBOS_surface_08.csv",
+      "DATA/weather/KBOS_surface_09.csv",
+      "DATA/weather/KBOS_surface_10.csv",
+      "DATA/weather/KBOS_surface_11.csv"
+    ],
+    "KSFO": [
+      "DATA/weather/KSFO_surface_01.csv",
+      "DATA/weather/KSFO_surface_02.csv",
+      "DATA/weather/KSFO_surface_03.csv",
+      "DATA/weather/KSFO_surface_04.csv",
+      "DATA/weather/KSFO_surface_05.csv",
+      "DATA/weather/KSFO_surface_06.csv",
+      "DATA/weather/KSFO_surface_07.csv",
+      "DATA/weather/KSFO_surface_08.csv",
+      "DATA/weather/KSFO_surface_09.csv",
+      "DATA/weather/KSFO_surface_10.csv",
+      "DATA/weather/KSFO_surface_11.csv"
+    ],
+    "KSAT": [
+      "DATA/weather/KSAT_surface_01.csv",
+      "DATA/weather/KSAT_surface_02.csv",
+      "DATA/weather/KSAT_surface_03.csv",
+      "DATA/weather/KSAT_surface_04.csv",
+      "DATA/weather/KSAT_surface_05.csv",
+      "DATA/weather/KSAT_surface_06.csv",
+      "DATA/weather/KSAT_surface_07.csv",
+      "DATA/weather/KSAT_surface_08.csv",
+      "DATA/weather/KSAT_surface_09.csv",
+      "DATA/weather/KSAT_surface_10.csv",
+      "DATA/weather/KSAT_surface_11.csv"
+    ],
+    "KSTL": [
+      "DATA/weather/KSTL_surface_01.csv",
+      "DATA/weather/KSTL_surface_02.csv",
+      "DATA/weather/KSTL_surface_03.csv",
+      "DATA/weather/KSTL_surface_04.csv",
+      "DATA/weather/KSTL_surface_05.csv",
+      "DATA/weather/KSTL_surface_06.csv",
+      "DATA/weather/KSTL_surface_07.csv",
+      "DATA/weather/KSTL_surface_08.csv",
+      "DATA/weather/KSTL_surface_09.csv",
+      "DATA/weather/KSTL_surface_10.csv",
+      "DATA/weather/KSTL_surface_11.csv"
+    ]
+  }
+}

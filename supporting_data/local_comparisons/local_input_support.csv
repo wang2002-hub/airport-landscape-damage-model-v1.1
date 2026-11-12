@@ -1,0 +1,17 @@
+family,airport_id,n,landscape_outside_training_range,landscape_outside_1_99pct,n_rows,numeric_missing,unseen_category_cells,not_retained_category_cells,finite_matrix
+glmm,KBOS,729,0,729,729,0,0,0,True
+glmm,KDEN,1780,0,0,1780,0,0,0,True
+glmm,KJFK,810,0,0,810,0,0,2,True
+glmm,KMIA,570,0,0,570,0,0,0,True
+glmm,KMSP,433,0,0,433,0,0,0,True
+glmm,KSAT,560,0,0,560,0,0,0,True
+glmm,KSFO,493,0,493,493,0,0,3,True
+glmm,KSTL,561,0,0,561,0,0,1,True
+hgb,KBOS,729,0,729,729,0,0,0,True
+hgb,KDEN,1780,0,1780,1780,0,0,0,True
+hgb,KJFK,810,0,0,810,0,0,2,True
+hgb,KMIA,570,0,0,570,0,0,0,True
+hgb,KMSP,433,0,0,433,0,0,0,True
+hgb,KSAT,560,0,0,560,0,0,0,True
+hgb,KSFO,493,0,0,493,0,0,3,True
+hgb,KSTL,561,0,0,561,0,0,1,True

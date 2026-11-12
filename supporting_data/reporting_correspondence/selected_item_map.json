@@ -1,0 +1,38 @@
+[
+  {
+    "topic": "Identification",
+    "selected_items": "AI 1, 2; Cluster 1, 2",
+    "locations": "Title; Abstract",
+    "boundary": "P: The title emphasizes profiling. The abstract provides an abbreviated account of design, results and uncertainty."
+  },
+  {
+    "topic": "Source assessment",
+    "selected_items": "AI 8b, 8c, 9b, 9c; Cluster 7b, 11",
+    "locations": "2.1; 5.5; S1.2; S8",
+    "boundary": "P/U: Assessor qualifications and blinding are incomplete or undocumented. Coding diagnostics do not constitute a formal cluster-level bias assessment."
+  },
+  {
+    "topic": "Size and input coverage",
+    "selected_items": "AI 10, 11, 20b, 20c; Cluster 5, 7d, 10b, 10c",
+    "locations": "2.2; S1.3; S2.3; S4.2",
+    "boundary": "P: Available records determine sample size. Primary and seven-field input summaries have broader coverage than auxiliary inputs and individual-airport distributions."
+  },
+  {
+    "topic": "Performance and use",
+    "selected_items": "AI 14, 23b, 27b; Cluster 13a",
+    "locations": "4.1–4.4; 5.3; 5.5; S4–S7",
+    "boundary": "P: Comprehensive national per-airport loss intervals, formal fairness assessment and usability evaluation remain outside the reported evidence."
+  },
+  {
+    "topic": "Research status",
+    "selected_items": "AI 17, 18c, 18d, 19",
+    "locations": "3.7; declarations",
+    "boundary": "R/P: No ethics approval or institutional exemption determination was obtained. The study was not preregistered and had no airport-personnel or public design involvement."
+  },
+  {
+    "topic": "Access and replay",
+    "selected_items": "AI 12g, 18e, 18f, 22; Cluster 8d, 12b, 18",
+    "locations": "3.7; S2.1; S11.2; declarations",
+    "boundary": "P: The current data and code archives are unpublished. Recorded replay excludes a fresh extraction of every national airport and a clean installation test."
+  }
+]

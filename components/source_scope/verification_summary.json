@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "tables": [
+    {
+      "file": "confidence_2025.csv",
+      "rows": 24,
+      "numeric_values": 192,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "sentinel_dates.csv",
+      "rows": 13,
+      "numeric_values": 26,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "forecast_scope.csv",
+      "rows": 19,
+      "numeric_values": 57,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    },
+    {
+      "file": "precipitation_scope.csv",
+      "rows": 88,
+      "numeric_values": 440,
+      "maximum_numeric_error": 0.0,
+      "missingness_and_dtypes_equal": true
+    }
+  ],
+  "source_inputs_unchanged": 123,
+  "input_bytes": 21774461288,
+  "sentinel_metadata_members_checked": 13,
+  "forecast_workbooks_read": 19,
+  "precipitation_workbooks_read": 88,
+  "supplemental_forecast_exports": 11,
+  "all_supplemental_forecast_keys_in_primary": true,
+  "activity_rows": 61958,
+  "activity_airports": [
+    "DEN"
+  ],
+  "activity_row_classes": {
+    "detail_rows": 26857,
+    "subtotal_rows": 35100,
+    "grand_total_rows": 1,
+    "distinct_detail_months": 132
+  },
+  "confidence_valid_pct_range": [
+    67.81361934257879,
+    99.99731434275252
+  ],
+  "area_denominators_checked": true,
+  "invalid_inputs_rejected": [
+    "duplicate_reference",
+    "duplicate_forecast",
+    "wrong_activity_hash"
+  ],
+  "existing_outputs_preserved": true,
+  "new_model_fits": 0,
+  "new_random_draws": 0,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "prior_failed_runs_preserved": 1,
+  "confidence_metadata_checked": true,
+  "release_verification_scope": {
+    "retained_computational_record": true,
+    "help_checked": true,
+    "optional_imports_deferred_until_after_argument_parsing": true,
+    "computational_rerun_in_this_release_check": false
+  }
+}

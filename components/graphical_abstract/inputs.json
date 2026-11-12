@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "points": {
+      "path": "inputs/points.csv",
+      "sha256": "ad36b5a7315e198550c230aca028d8e480307e62485dd95a7a63a249e8311f26"
+    },
+    "intervals": {
+      "path": "inputs/intervals.csv",
+      "sha256": "fdcbe0df14d3328342286112b898fa35786da4190bafd34605feb78695576961"
+    },
+    "dispersion": {
+      "path": "inputs/dispersion.csv",
+      "sha256": "d1fcf2f50d1a6638decf8e1d33411413644363e5737518a036f61a006f993dfa"
+    },
+    "funnel": {
+      "path": "inputs/funnel.csv",
+      "sha256": "873f2a7dedd66f915b746983a1781a76b765e1d8af05198e79354a18cc1b5bf5"
+    }
+  }
+}

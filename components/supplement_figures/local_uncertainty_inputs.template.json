@@ -1,0 +1,12 @@
+{
+  "paths": {
+    "local_absolute_intervals": "DATA/local_absolute_intervals.csv",
+    "local_bootstrap_values": "DATA/local_bootstrap_values.parquet",
+    "bootstrap_summary": "DATA/bootstrap_summary.json",
+    "primary_joint_intervals": "DATA/primary_joint_intervals.csv",
+    "leave_one_year_out": "DATA/leave_one_year_out.csv",
+    "leave_one_year_out_summary": "DATA/leave_one_year_out_summary.csv",
+    "local_annual_predictions": "DATA/local_annual_predictions.csv",
+    "temporal_0_glmm_EBL_predictions": "DATA/temporal_0_glmm_EBL_predictions.parquet"
+  }
+}

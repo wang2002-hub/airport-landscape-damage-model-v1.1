@@ -1,0 +1,10 @@
+{
+  "unresolved_outcomes": "Unknown binary damage labels are not undamaged and not M?.",
+  "M_question": "Known damage with undetermined extent; remains positive.",
+  "bounds": "lower=known_damage/all_near_n; upper=(known_damage+unknown_n)/all_near_n",
+  "scenario": "p_known=known_damage/known_n; p_unknown=min(1,ratio*p_known); combined=(known_damage+unknown_n*p_unknown)/(known_n+unknown_n)",
+  "source_summary_correction": "selection_bridge_source.csv preserves the exact saved summary. Its unknown_label damage=0 is an aggregation artifact, not an observed zero. selection_bridge.csv sets that single cell blank and adds damage_status; all other values are unchanged. Airport-row damage counts refer only to known labels. Event labels were not modified.",
+  "auxiliary_threshold_columns": "known_reference_mean is from known-label reports only. hypothetical_missing_rate_for_same_proportion is an auxiliary fixed-proportion equation, not an expanded-population O/E tipping point; unknown-group expected counts are absent. Negative values are infeasible. These columns remain archived but are not used as valid model-performance results.",
+  "quality": "Generic descriptions are text proxies. Remains yes percentages record affirmative information; other values are not imputed as negative.",
+  "public_release_status": "not published"
+}

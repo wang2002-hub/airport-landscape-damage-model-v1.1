@@ -1,0 +1,177 @@
+{
+  "paths": {
+    "den_alternatives": "DATA/den_reference_alternatives.csv",
+    "buffers": "DATA/airport_buffers.gpkg",
+    "rings": "DATA/airport_rings.gpkg"
+  },
+  "gdal_library": "RUNTIME/gdal_shared_library",
+  "rasters": [
+    {
+      "source": "D02",
+      "year": 2015,
+      "path": "DATA/D02_2015.tif",
+      "sha256": "57bb97931272b6194f36395253fbd0bbf8a58a07a5b0966a1f42127c39edc40c"
+    },
+    {
+      "source": "D02",
+      "year": 2016,
+      "path": "DATA/D02_2016.tif",
+      "sha256": "873a8419387c3f632b7b7369d1983b7433d49efa94b191ae148415da6be3c9df"
+    },
+    {
+      "source": "D02",
+      "year": 2017,
+      "path": "DATA/D02_2017.tif",
+      "sha256": "47b69f47a9dc87761829763d1d7f630a46ac1060c90ef8024460768b39e231bb"
+    },
+    {
+      "source": "D02",
+      "year": 2018,
+      "path": "DATA/D02_2018.tif",
+      "sha256": "fdcc2668640e8b629b3f7d582ba12cd0d9d242dbf0fdce03afbf615382f7bed8"
+    },
+    {
+      "source": "D02",
+      "year": 2019,
+      "path": "DATA/D02_2019.tif",
+      "sha256": "dde85de30a0aa201a7f8a9f17aed8fb4dbdb9c52cb15c9d5f314359d4897d681"
+    },
+    {
+      "source": "D02",
+      "year": 2020,
+      "path": "DATA/D02_2020.tif",
+      "sha256": "6674ec8e2cbaa672a032632903390cb6315eb8f5bee8350d3592f1807b4e367c"
+    },
+    {
+      "source": "D02",
+      "year": 2021,
+      "path": "DATA/D02_2021.tif",
+      "sha256": "35686427e37824c97c1e94f517239b2bb9d98528bbd50018fd9a371efcf7e30b"
+    },
+    {
+      "source": "D02",
+      "year": 2022,
+      "path": "DATA/D02_2022.tif",
+      "sha256": "770d09aba7bd27195c0521b1834ddcc48d59d01fc3008ec3aead0e15d408b902"
+    },
+    {
+      "source": "D02",
+      "year": 2023,
+      "path": "DATA/D02_2023.tif",
+      "sha256": "d946c605720ce734919e327b558c984b2e3b83d35cb273a3a6e6066c860c6db5"
+    },
+    {
+      "source": "D02",
+      "year": 2024,
+      "path": "DATA/D02_2024.tif",
+      "sha256": "e93c848b114e48eb30d90bebf21ca03f31e7948f8552738862e1e2cd242d333e"
+    },
+    {
+      "source": "D02",
+      "year": 2025,
+      "path": "DATA/D02_2025.tif",
+      "sha256": "e6b0a8bdc584866cd7ac1daf22e79a08d6eeb87e8a23a7c03e9dda100ac2e242"
+    },
+    {
+      "source": "D03",
+      "year": 2015,
+      "path": "DATA/D03_2015.tif",
+      "sha256": "7f45b656fb297117417ceb5480c64f4623243709879092a430bce2aa4cae7e65"
+    },
+    {
+      "source": "D03",
+      "year": 2016,
+      "path": "DATA/D03_2016.tif",
+      "sha256": "894048cf414426eb79b31b10220bcbcb20a1b24342d62a2c9d33c41989590302"
+    },
+    {
+      "source": "D03",
+      "year": 2017,
+      "path": "DATA/D03_2017.tif",
+      "sha256": "16663c6bc584c01b545a326068d5ccbff8d2d02bf20c98f2968e4547c7c783ee"
+    },
+    {
+      "source": "D03",
+      "year": 2018,
+      "path": "DATA/D03_2018.tif",
+      "sha256": "0a42059c3737e1490dad080d135cdad9c2641d5e1e0f30acc6752be3adf250b3"
+    },
+    {
+      "source": "D03",
+      "year": 2019,
+      "path": "DATA/D03_2019.tif",
+      "sha256": "b989a77d4173c404432bdeebab6798e758bdb70b2da067a831f1172d2b434e54"
+    },
+    {
+      "source": "D03",
+      "year": 2020,
+      "path": "DATA/D03_2020.tif",
+      "sha256": "ad2d77a192f55eb06f41091143e8c9485dff48ea4bf796a4e3feb85edb63a5f7"
+    },
+    {
+      "source": "D03",
+      "year": 2021,
+      "path": "DATA/D03_2021.tif",
+      "sha256": "e70d0d0736bdf060ab44669293f775c654b43f0ce9eec00cddd30d03287c0d38"
+    },
+    {
+      "source": "D03",
+      "year": 2022,
+      "path": "DATA/D03_2022.tif",
+      "sha256": "b3b8dd2cced7783fb3413b83459cca95beaec3741cab4ddb819ba82aa749de78"
+    },
+    {
+      "source": "D03",
+      "year": 2023,
+      "path": "DATA/D03_2023.tif",
+      "sha256": "282b92f795826837ecf304958af61516c6518c36c9e50ea5d74a4e34d415d3b3"
+    },
+    {
+      "source": "D03",
+      "year": 2024,
+      "path": "DATA/D03_2024.tif",
+      "sha256": "bc5e56fa20fd068fd9c342d7f8136b547cb8342208d1f3ef9d0c78866a82533f"
+    },
+    {
+      "source": "D03",
+      "year": 2025,
+      "path": "DATA/D03_2025.tif",
+      "sha256": "e0477e61cf9792a2960c8e0f00d400af7e8abf8fd1b96b5f31c6c4e9e0915cb1"
+    },
+    {
+      "source": "D04",
+      "year": 2015,
+      "path": "DATA/D04_2015.tif",
+      "sha256": "d0ee1dce0bc49739c6d71eedb4bc327659e4d45700778fa55da0ce2b2a8e4ea3"
+    },
+    {
+      "source": "D04",
+      "year": 2020,
+      "path": "DATA/D04_2020.tif",
+      "sha256": "3ccaeb3e6175827ba5ab2be1d3236cba4f51400ea7907a77f6eaf295cea7cd86"
+    },
+    {
+      "source": "D04",
+      "year": 2025,
+      "path": "DATA/D04_2025.tif",
+      "sha256": "4791b50ab235329593fd97fe1b9268d7841bd325b5c505f0344da9397d91b041"
+    },
+    {
+      "source": "D05",
+      "year": 2025,
+      "path": "DATA/D05_2025.tif",
+      "sha256": "1f4ec5c636d863757c0e6753b3e3cc9980a75b725cac53a76708f5967770df34"
+    }
+  ],
+  "airports": [
+    "KDEN",
+    "KJFK",
+    "KMIA",
+    "KMSP",
+    "KBOS",
+    "KSFO",
+    "KSAT",
+    "KSTL",
+    "KDEN_ALT"
+  ]
+}

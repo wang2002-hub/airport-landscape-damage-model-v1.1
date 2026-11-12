@@ -1,0 +1,586 @@
+{
+  "scheme": "spatial",
+  "fold": 2,
+  "family": "glmm",
+  "block": "EL",
+  "selected_scale": "b03",
+  "params": null,
+  "calibration": {
+    "success": true,
+    "intercept": -0.15740885524045156,
+    "slope": 0.9809491979691224,
+    "n": 38972,
+    "damages": 2686,
+    "bound_hit": false
+  },
+  "encoder": {
+    "training_correlation_audit": [
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "wetland_fraction",
+        "pearson_r": 0.07127753355943278,
+        "spearman_r": 0.41844640936163247,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.1556860192879478,
+        "spearman_r": -0.11258951201266627,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "cropland_fraction",
+        "pearson_r": -0.1280459847787222,
+        "spearman_r": 0.008525376377809344,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.07547199062553488,
+        "spearman_r": 0.06990871447103632,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": -0.07264077493522639,
+        "spearman_r": 0.15089408107510313,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "grassland_fraction",
+        "pearson_r": 0.03332826564973133,
+        "spearman_r": 0.11666823124632257,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.1330653324790656,
+        "spearman_r": -0.012461736553484868,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.03158693010060931,
+        "spearman_r": 0.14872227590989986,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": 0.047123372119393596,
+        "spearman_r": 0.3490113380071216,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "pasture_fraction",
+        "pearson_r": -0.08671196349439589,
+        "spearman_r": 0.07551519516423463,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "water_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.019014122125445523,
+        "spearman_r": -0.0014039656062904817,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "wetland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.27705414811726314,
+        "spearman_r": -0.22125815764667398,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "cropland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.3997144854876849,
+        "spearman_r": -0.3926631593942338,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "grassland_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.18237928710947707,
+        "spearman_r": -0.3215130805717385,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      },
+      {
+        "feature_a": "pasture_fraction",
+        "feature_b": "impervious_mean_pct",
+        "pearson_r": -0.3896301567485459,
+        "spearman_r": -0.4934777218235363,
+        "n_training_airport_years": 4978,
+        "flag_abs_gt_0_8": false
+      }
+    ],
+    "screening_enabled": true,
+    "dropped_features": [],
+    "scale": "b03",
+    "geography": false,
+    "bird_adjustment": 0,
+    "mode": "level",
+    "numeric": [
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct"
+    ],
+    "medians": {
+      "year": 0.2,
+      "month_sin": -0.4999999999999997,
+      "month_cos": -0.4999999999999998,
+      "water_fraction": 0.0055721836591734,
+      "wetland_fraction": 0.0172869376969851,
+      "cropland_fraction": 0.0003182686187141,
+      "grassland_fraction": 0.0004774333184798,
+      "pasture_fraction": 0.008276037696187701,
+      "impervious_mean_pct": 0.39089572192513367
+    },
+    "means": {
+      "year": 0.07191830031817718,
+      "month_sin": -0.2634758746047738,
+      "month_cos": -0.2107740885384624,
+      "water_fraction": 0.05025419063909898,
+      "wetland_fraction": 0.04927961932674435,
+      "cropland_fraction": 0.05568419599157419,
+      "grassland_fraction": 0.01527217152929302,
+      "pasture_fraction": 0.037503082293367525,
+      "impervious_mean_pct": 0.3728499651898791
+    },
+    "standard_deviations": {
+      "year": 0.6578095617881432,
+      "month_sin": 0.6821602454116356,
+      "month_cos": 0.6487003519977209,
+      "water_fraction": 0.10160466592372548,
+      "wetland_fraction": 0.0822253683545904,
+      "cropland_fraction": 0.12833958335187318,
+      "grassland_fraction": 0.05371258307071047,
+      "pasture_fraction": 0.08449127519785601,
+      "impervious_mean_pct": 0.17634234276283337
+    },
+    "missing_indicators": [],
+    "categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "reference_categories": {
+      "aircraft_mass_class": "4",
+      "phase": "Approach"
+    },
+    "feature_names": [
+      "Intercept",
+      "year",
+      "month_sin",
+      "month_cos",
+      "water_fraction",
+      "wetland_fraction",
+      "cropland_fraction",
+      "grassland_fraction",
+      "pasture_fraction",
+      "impervious_mean_pct",
+      "aircraft_mass_class=3",
+      "aircraft_mass_class=1",
+      "aircraft_mass_class=2",
+      "aircraft_mass_class=Unknown",
+      "aircraft_mass_class=5",
+      "phase=Landing Roll",
+      "phase=Take-off Run",
+      "phase=Climb"
+    ],
+    "training_events": 38972,
+    "training_airports": 1140,
+    "training_year_min": 2015,
+    "training_year_max": 2025,
+    "observed_raw_categories": {
+      "aircraft_mass_class": [
+        "4",
+        "3",
+        "1",
+        "2",
+        "Unknown",
+        "5"
+      ],
+      "phase": [
+        "Approach",
+        "Landing Roll",
+        "Take-off Run",
+        "Climb"
+      ]
+    },
+    "retained_raw_categories": {
+      "aircraft_mass_class": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Unknown"
+      ],
+      "phase": [
+        "Approach",
+        "Climb",
+        "Landing Roll",
+        "Take-off Run"
+      ]
+    },
+    "unseen_category_rule": "Truly unseen values use the reference encoding; observed rare values use Other only when pooled training count is at least 30, otherwise reference; fold QC reports unseen values"
+  },
+  "test_qc": {
+    "n_rows": 7195,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 0,
+    "finite_matrix": true
+  },
+  "target_qc": {
+    "n_rows": 5936,
+    "numeric_missing": 0,
+    "unseen_category_cells": 0,
+    "not_retained_category_cells": 0,
+    "finite_matrix": true
+  },
+  "candidates": [
+    {
+      "mean_logloss": 0.22974115161787934,
+      "scale": "b03",
+      "params": null,
+      "fold_losses": [
+        0.2873343526726547,
+        0.20401640681729002,
+        0.21297440613703306,
+        0.2146394408445395
+      ]
+    },
+    {
+      "mean_logloss": 0.23006007110270166,
+      "scale": "b08",
+      "params": null,
+      "fold_losses": [
+        0.28642216099774165,
+        0.20467165991045935,
+        0.21459164612209705,
+        0.2145548173805087
+      ]
+    },
+    {
+      "mean_logloss": 0.23022995218879316,
+      "scale": "b13",
+      "params": null,
+      "fold_losses": [
+        0.2866092742816435,
+        0.2050074962724136,
+        0.21504653401910506,
+        0.2142565041820105
+      ]
+    },
+    {
+      "mean_logloss": 0.23004382773192916,
+      "scale": "rings",
+      "params": null,
+      "fold_losses": [
+        0.28623081785258386,
+        0.20417631765607405,
+        0.21458484210864698,
+        0.2151833333104119
+      ]
+    }
+  ],
+  "fits": [
+    {
+      "label": "b03_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.16223549842834473,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 42,
+      "max_abs_gradient": 0.002945398733230106,
+      "negative_loglik_penalized": 6392.185117626452,
+      "sigma": 0.5481366953530277,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.002945398733230106
+    },
+    {
+      "label": "b03_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.15617585182189941,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 42,
+      "max_abs_gradient": 0.0012349169069742277,
+      "negative_loglik_penalized": 7061.9812520209125,
+      "sigma": 0.5836041505437384,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0012349169069742277
+    },
+    {
+      "label": "b03_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.14886975288391113,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 45,
+      "max_abs_gradient": 0.0016836292604836694,
+      "negative_loglik_penalized": 6255.948965932362,
+      "sigma": 0.5304206220917199,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0016836292604836694
+    },
+    {
+      "label": "b03_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.13881969451904297,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 42,
+      "max_abs_gradient": 0.003102084507519808,
+      "negative_loglik_penalized": 6201.730149376195,
+      "sigma": 0.5832171870754115,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.003102084507519808
+    },
+    {
+      "label": "b08_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.1518726348876953,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 41,
+      "max_abs_gradient": 0.001240129099947278,
+      "negative_loglik_penalized": 6392.872094910483,
+      "sigma": 0.5572102275768633,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.001240129099947278
+    },
+    {
+      "label": "b08_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.14897584915161133,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 39,
+      "max_abs_gradient": 0.002466411655506116,
+      "negative_loglik_penalized": 7063.882923510853,
+      "sigma": 0.5869240508966631,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.002466411655506116
+    },
+    {
+      "label": "b08_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.13858842849731445,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 41,
+      "max_abs_gradient": 0.007895092689583641,
+      "negative_loglik_penalized": 6258.629699760966,
+      "sigma": 0.5244618718245534,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.007895092689583641
+    },
+    {
+      "label": "b08_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.13099074363708496,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 40,
+      "max_abs_gradient": 0.0015407236782218016,
+      "negative_loglik_penalized": 6204.131898110166,
+      "sigma": 0.5944609269344326,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0015407236782218016
+    },
+    {
+      "label": "b13_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.15124177932739258,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 43,
+      "max_abs_gradient": 0.0015207917624322637,
+      "negative_loglik_penalized": 6392.58050601194,
+      "sigma": 0.5525104712906579,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0015207917624322637
+    },
+    {
+      "label": "b13_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.14840340614318848,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 38,
+      "max_abs_gradient": 0.0014901281235671063,
+      "negative_loglik_penalized": 7062.7301348620995,
+      "sigma": 0.5799972521360137,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0014901281235671063
+    },
+    {
+      "label": "b13_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.13741350173950195,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 41,
+      "max_abs_gradient": 0.001733542074204218,
+      "negative_loglik_penalized": 6257.674286492782,
+      "sigma": 0.5142032966333676,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.001733542074204218
+    },
+    {
+      "label": "b13_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.13191938400268555,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 39,
+      "max_abs_gradient": 0.0011804813606031597,
+      "negative_loglik_penalized": 6204.2148764567655,
+      "sigma": 0.5964576995868099,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0011804813606031597
+    },
+    {
+      "label": "rings_0_inner0",
+      "n": 30945,
+      "airports": 847,
+      "damage": 1947,
+      "seconds": 0.13044428825378418,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 38,
+      "max_abs_gradient": 0.0026227836285064514,
+      "negative_loglik_penalized": 6397.219310271434,
+      "sigma": 0.5416301817104879,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0026227836285064514
+    },
+    {
+      "label": "rings_0_inner1",
+      "n": 31146,
+      "airports": 848,
+      "damage": 2197,
+      "seconds": 0.1459498405456543,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 40,
+      "max_abs_gradient": 0.003211261826970962,
+      "negative_loglik_penalized": 7070.610078436602,
+      "sigma": 0.5785910619798437,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.003211261826970962
+    },
+    {
+      "label": "rings_0_inner2",
+      "n": 27389,
+      "airports": 881,
+      "damage": 1944,
+      "seconds": 0.13802719116210938,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 40,
+      "max_abs_gradient": 0.0016402784628777773,
+      "negative_loglik_penalized": 6259.023005733783,
+      "sigma": 0.513316393212326,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0016402784628777773
+    },
+    {
+      "label": "rings_0_inner3",
+      "n": 27436,
+      "airports": 844,
+      "damage": 1970,
+      "seconds": 0.1305408477783203,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 35,
+      "max_abs_gradient": 0.0018646216292255693,
+      "negative_loglik_penalized": 6209.107555886096,
+      "sigma": 0.5911696654108722,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.0018646216292255693
+    },
+    {
+      "label": "final",
+      "n": 38972,
+      "airports": 1140,
+      "damage": 2686,
+      "seconds": 0.19800353050231934,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 42,
+      "max_abs_gradient": 0.006063259493159316,
+      "negative_loglik_penalized": 8643.316316025775,
+      "sigma": 0.5673401494316939,
+      "rho_boundary": false,
+      "max_projected_gradient": 0.006063259493159316
+    }
+  ],
+  "seconds": 3.1372296810150146
+}

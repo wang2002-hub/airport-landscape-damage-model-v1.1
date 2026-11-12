@@ -1,0 +1,72 @@
+{
+  "caption": "source record SRC-S28. Leave-one-year-out ranges for the fixed hierarchical EBL model",
+  "headers": [
+    "Airport",
+    "Full-period D (pp)",
+    "Deletion range of D (pp)",
+    "Deletion range of O/E"
+  ],
+  "rows": [
+    [
+      "DEN",
+      "-0.23",
+      "-0.46 to -0.08",
+      "1.027–1.145"
+    ],
+    [
+      "JFK",
+      "-2.49",
+      "-3.05 to -2.05",
+      "1.387–1.536"
+    ],
+    [
+      "MIA",
+      "0.56",
+      "0.23 to 1.06",
+      "0.776–0.956"
+    ],
+    [
+      "MSP",
+      "-1.51",
+      "-1.91 to -0.72",
+      "1.120–1.333"
+    ],
+    [
+      "BOS",
+      "-1.17",
+      "-1.63 to -0.98",
+      "1.147–1.250"
+    ],
+    [
+      "SFO",
+      "0.96",
+      "0.53 to 1.54",
+      "0.771–0.919"
+    ],
+    [
+      "SAT",
+      "0.23",
+      "0.02 to 0.74",
+      "0.776–0.994"
+    ],
+    [
+      "STL",
+      "-0.57",
+      "-1.08 to -0.21",
+      "1.050–1.257"
+    ]
+  ],
+  "widths": [
+    0.65,
+    1.65,
+    2.15,
+    2.05
+  ],
+  "note": "Main-text link: Section 3.7, one-target-year deletion ranges for mean calibration difference. D is predicted minus observed damage probability in percentage points (pp). Each of the eleven calendar years from 2015–2025 is omitted once from each target series, using frozen probabilities. Endpoints describe the observed deletion estimates, rather than confidence limits or development uncertainty. All eligible years remain in the primary analysis. Figure S7 displays the individual deletions.",
+  "alignments": [
+    0,
+    1,
+    1,
+    1
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-05T15:04:49.337011+00:00",
+  "issue": "I5",
+  "prior_viewing": "Annual proportions, fit coefficients and overall losses already viewed. This is exploratory.",
+  "purpose": "Check annual numerators and denominators, then locate loss changes using existing training/calibration/test calendar boundaries.",
+  "periods": [
+    "2015–2022",
+    "2023",
+    "2024–2025"
+  ],
+  "metrics": "M? proportion among damaged reports, mean frozen coding probability, Brier and log loss; preserve all three versions.",
+  "rules": "No model refit or model selection; fixed saved coefficients and 2023 calibration. Reconstruct encoder on original training data only. Temporal population scores are descriptive; no causal attribution, trend significance test or prospective validation.",
+  "figure": "Preserve Figure S9 image; update caption and bind its annual/score inputs to this replay. No new figure."
+}

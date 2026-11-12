@@ -1,0 +1,9 @@
+# Source roles and computational scope
+
+`source_roles.csv` preserves the complete source inventory, including the primary sources for context. It distinguishes measured surface weather from forecasts, unresolved precipitation timezones, 2026 Sentinel acquisitions, mixed wetland vintages, snapshot geometry and DEN-only TFMSC coverage. Neither table rows nor subtotals are individual flights.
+
+`computational_resources.csv` records one ordinary logistic EB execution on its stated host and installed environment. Wall time includes imports and input loading. CPU is the final available process sample at 0.05-second spacing; the OS peak working set can retain between-sample maxima. MB denotes 1,000,000 bytes. Raster extraction, complex-model development, resampling, human work, monetary expense and avoided losses are outside the measured task. The 63,227-prediction replay was a separate execution, outside the timed run. The initial monitoring failure remains recorded in source_timing_and_replay_scope.json and execution_inventory.csv.
+
+`execution_inventory.csv` splits the retained execution and replay descriptions into searchable statements without rerunning any analysis. Its archived six-main/twelve-supplementary image comparison concerns the recorded figure set; it is not verification of every present or future artifact. `source_timing_and_replay_scope.json` preserves all four original paragraphs, including failures, route counts, AI assistance and the authors' scientific responsibility. The current compact account retains the same evidence boundaries. All original table notes are in source_computation_tables.json.
+
+These records establish numerical agreement for documented routes, not independent scientific validation or a clean installation test. Bind current deliverable checksums separately when preparing the final package. The current package has not yet been publicly released.

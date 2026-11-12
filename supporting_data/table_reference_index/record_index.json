@@ -1,0 +1,707 @@
+{
+  "current_table_map": [
+    {
+      "key": "supp_methods.flow",
+      "source_label": "S1",
+      "current_label": "S1",
+      "title": "Cohort screening and separate audit counts"
+    },
+    {
+      "key": "supp_methods.grades",
+      "source_label": "S2",
+      "current_label": "S2",
+      "title": "Damage labels in the final national and target populations"
+    },
+    {
+      "key": "supp_methods.inputs",
+      "source_label": "S3",
+      "current_label": "S3",
+      "title": "Information blocks and diagnostic fields"
+    },
+    {
+      "key": "supp_methods.partition_overview",
+      "source_label": "S4",
+      "current_label": "S4",
+      "title": "Report collections and their overlap"
+    },
+    {
+      "key": "supp_methods.input_missingness",
+      "source_label": "S5",
+      "current_label": "S5",
+      "title": "Unavailable information before imputation or category pooling"
+    },
+    {
+      "key": "supp_methods.uncertainty",
+      "source_label": "S11",
+      "current_label": "S6",
+      "title": "Populations and varying components in the uncertainty analyses"
+    },
+    {
+      "key": "supp_results.national",
+      "source_label": "S12",
+      "current_label": "S7",
+      "title": "Bird-informed national losses and paired comparisons"
+    },
+    {
+      "key": "supp_results.volume",
+      "source_label": "S15A",
+      "current_label": "S8",
+      "title": "Calibration differences by eligible report count"
+    },
+    {
+      "key": "supp_results.funnel",
+      "source_label": "S17",
+      "current_label": "S9",
+      "title": "National conditional exceedances and all-airport width sensitivity"
+    },
+    {
+      "key": "supp_results.multiplicity",
+      "source_label": "S22",
+      "current_label": "S10",
+      "title": "Eight-airport simultaneous intervals and multiplicity adjustment"
+    },
+    {
+      "key": "supp_results.relative",
+      "source_label": "S23A",
+      "current_label": "S11",
+      "title": "Airport ratios relative to the selected eight-airport pool"
+    },
+    {
+      "key": "new_S23B_table",
+      "source_label": "S23B",
+      "current_label": "S12",
+      "title": "JFK relative-interval sensitivity to centering and development-attempt split"
+    },
+    {
+      "key": "supp_results.recent",
+      "source_label": "S25",
+      "current_label": "S13",
+      "title": "Recent-period comparisons under both frozen EBL references"
+    },
+    {
+      "key": "supp_results.local_metrics",
+      "source_label": "S27",
+      "current_label": "S14",
+      "title": "Full-period absolute losses and EBL calibration slopes"
+    },
+    {
+      "key": "supp_diagnostics.local_losses",
+      "source_label": "S34",
+      "current_label": "S15",
+      "title": "Complete local complex minus ordinary logistic EB losses"
+    },
+    {
+      "key": "supp_diagnostics.undetermined",
+      "source_label": "S36A",
+      "current_label": "S16",
+      "title": "Paired damage extent profiles under the annual benchmark"
+    },
+    {
+      "key": "supp_diagnostics.allocation_sensitivity",
+      "source_label": "S36C",
+      "current_label": "S17",
+      "title": "Sensitivity to the national coding allocation"
+    },
+    {
+      "key": "supp_diagnostics.national_extent",
+      "source_label": "S36D",
+      "current_label": "S18",
+      "title": "National endpoint dispersion with explicit report denominators"
+    },
+    {
+      "key": "supp_diagnostics.restricted_counterexample",
+      "source_label": "S36E",
+      "current_label": "S19",
+      "title": "Matched refits after excluding damage with undetermined extent"
+    },
+    {
+      "key": "supp_diagnostics.coding_losses",
+      "source_label": "S37",
+      "current_label": "S20",
+      "title": "Conditional coding performance by population and period"
+    },
+    {
+      "key": "supp_diagnostics.annual_coding",
+      "source_label": "S37A",
+      "current_label": "S21",
+      "title": "Annual damage extent composition"
+    },
+    {
+      "key": "supp_diagnostics.coding_standardization",
+      "source_label": "S42",
+      "current_label": "S22",
+      "title": "M? composition relative to national year and reporting strata"
+    },
+    {
+      "key": "supp_diagnostics.selection",
+      "source_label": "S44",
+      "current_label": "S23",
+      "title": "Label and environmental selection bridge"
+    },
+    {
+      "key": "supp_diagnostics.bounds",
+      "source_label": "S46",
+      "current_label": "S24",
+      "title": "Target label completeness and descriptive damage-proportion bounds"
+    },
+    {
+      "key": "supp_context.national",
+      "source_label": "S51",
+      "current_label": "S25",
+      "title": "Paired national landscape changes"
+    },
+    {
+      "key": "supp_context.local_paired",
+      "source_label": "S52",
+      "current_label": "S26",
+      "title": "Local EB-to-EBL landscape increments with fixed predictions"
+    },
+    {
+      "key": "supp_context.pipeline",
+      "source_label": "S53",
+      "current_label": "S27",
+      "title": "EB-to-EBL intervals from repeated national development"
+    },
+    {
+      "key": "supp_context.enhanced_absolute",
+      "source_label": "S54",
+      "current_label": "S28",
+      "title": "Expanded event models and paired landscape increments"
+    },
+    {
+      "key": "supp_context.sensitivity",
+      "source_label": "S56",
+      "current_label": "S29",
+      "title": "Bird-informed landscape increments across sensitivity scenarios"
+    },
+    {
+      "key": "supp_context.consequence_amounts",
+      "source_label": "S62",
+      "current_label": "S30",
+      "title": "Recorded downtime and repair-cost summaries with missingness"
+    }
+  ],
+  "source_records": {
+    "SRC-S21": {
+      "source_label": "S21",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/target_comparisons/target_comparison_source_tables.json/supp_results.full/caption"
+      ]
+    },
+    "SRC-S22": {
+      "source_label": "S22",
+      "current_table": "S10",
+      "occurrences": [
+        "supporting_data/conditional_profiles/display_definitions.json/supp_results.target_limits/note",
+        "supporting_data/target_comparisons/target_comparison_source_tables.json/supp_results.multiplicity/caption"
+      ]
+    },
+    "SRC-S23A": {
+      "source_label": "S23A",
+      "current_table": "S11",
+      "occurrences": [
+        "supporting_data/conditional_profiles/display_definitions.json/supp_results.target_limits/note",
+        "supporting_data/target_comparisons/target_comparison_source_tables.json/supp_results.relative/caption"
+      ]
+    },
+    "SRC-S23B": {
+      "source_label": "S23B",
+      "current_table": "S12",
+      "occurrences": [
+        "supporting_data/target_comparisons/target_comparison_source_tables.json/new_S23B_table/caption"
+      ]
+    },
+    "SRC-S25": {
+      "source_label": "S25",
+      "current_table": "S13",
+      "occurrences": [
+        "supporting_data/review_periods/review_period_source_tables.json/supp_results.recent/caption"
+      ]
+    },
+    "SRC-S26": {
+      "source_label": "S26",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/review_periods/review_period_source_tables.json/supp_results.periods/caption"
+      ]
+    },
+    "SRC-S27": {
+      "source_label": "S27",
+      "current_table": "S14",
+      "occurrences": [
+        "supporting_data/local_comparisons/display_definitions.json/supp_diagnostics.local_losses/note",
+        "supporting_data/review_periods/review_period_source_tables.json/supp_results.local_metrics/caption"
+      ]
+    },
+    "SRC-S33": {
+      "source_label": "S33",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/review_periods/review_period_source_tables.json/supp_diagnostics.ordinary_losses/caption"
+      ]
+    },
+    "SRC-S28": {
+      "source_label": "S28",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/annual_influence/annual_influence_display_definition.json/caption",
+        "supporting_data/review_periods/review_period_source_tables.json/supp_results.influence/caption"
+      ]
+    },
+    "SRC-S58": {
+      "source_label": "S58",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/canopy_context/canopy_context_source_tables.json/supp_context.canopy/note",
+        "supporting_data/canopy_context/canopy_context_source_tables.json/supp_context.canopy_contrasts/caption",
+        "supporting_data/canopy_context/measurement_context.json/source_paragraph",
+        "supporting_data/canopy_increments/canopy_increment_display_definition.json/caption"
+      ]
+    },
+    "SRC-S59": {
+      "source_label": "S59",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/canopy_context/canopy_context_source_tables.json/supp_context.variation/caption",
+        "supporting_data/canopy_context/measurement_context.json/source_paragraph"
+      ]
+    },
+    "SRC-S60": {
+      "source_label": "S60",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/canopy_context/canopy_context_source_tables.json/supp_context.canopy/caption",
+        "supporting_data/canopy_context/measurement_context.json/source_paragraph"
+      ]
+    },
+    "SRC-S65": {
+      "source_label": "S65",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/source_computation/execution_inventory.csv:Retained statement",
+        "supporting_data/source_computation/source_computation_tables.json/supp_context.resource_run/caption",
+        "supporting_data/source_computation/source_replay_methods.md",
+        "supporting_data/source_computation/source_timing_and_replay_scope.json/execution_and_replay_inventory"
+      ]
+    },
+    "SRC-S64": {
+      "source_label": "S64",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/source_computation/source_computation_tables.json/supp_context.data_roles/caption",
+        "supporting_data/source_computation/source_replay_methods.md",
+        "supporting_data/source_computation/source_timing_and_replay_scope.json/source_timing"
+      ]
+    },
+    "SRC-S4": {
+      "source_label": "S4",
+      "current_table": "S4",
+      "occurrences": [
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.input_missingness/note",
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.numeric_distributions/note",
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.partition_overview/caption",
+        "supporting_data/input_distributions/input_metadata.json/display_files/numeric_inputs.csv/note",
+        "supporting_data/input_distributions/input_metadata.json/display_files/report_collections.csv/caption",
+        "supporting_data/input_distributions/input_metadata.json/display_files/unavailable_inputs.csv/note"
+      ]
+    },
+    "SRC-S5": {
+      "source_label": "S5",
+      "current_table": "S5",
+      "occurrences": [
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.input_missingness/caption",
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.numeric_distributions/note",
+        "supporting_data/input_distributions/input_metadata.json/display_files/numeric_inputs.csv/note",
+        "supporting_data/input_distributions/input_metadata.json/display_files/unavailable_inputs.csv/caption"
+      ]
+    },
+    "SRC-S6": {
+      "source_label": "S6",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.category_distributions/caption",
+        "supporting_data/input_distributions/input_metadata.json/display_files/categorical_inputs.csv/caption"
+      ]
+    },
+    "SRC-S7": {
+      "source_label": "S7",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/input_distributions/display_definitions.json/supp_methods.numeric_distributions/caption",
+        "supporting_data/input_distributions/input_metadata.json/display_files/numeric_inputs.csv/caption"
+      ]
+    },
+    "SRC-S8": {
+      "source_label": "S8",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/validation_records/display_definitions.json/supp_methods.populations/caption"
+      ]
+    },
+    "SRC-S10": {
+      "source_label": "S10",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/validation_records/display_definitions.json/supp_methods.nested_partition_counts/caption"
+      ]
+    },
+    "SRC-S11": {
+      "source_label": "S11",
+      "current_table": "S6",
+      "occurrences": [
+        "supporting_data/uncertainty_catalogue/uncertainty_definitions.json/caption"
+      ]
+    },
+    "SRC-S12": {
+      "source_label": "S12",
+      "current_table": "S7",
+      "occurrences": [
+        "supporting_data/national_performance/display_definitions.json/supp_results.national/caption"
+      ]
+    },
+    "SRC-S13": {
+      "source_label": "S13",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/national_performance/display_definitions.json/supp_results.contrasts/caption"
+      ]
+    },
+    "SRC-S14": {
+      "source_label": "S14",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/national_performance/display_definitions.json/supp_results.calibration/caption"
+      ]
+    },
+    "SRC-S15": {
+      "source_label": "S15",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/weighting_composition/display_definitions.json/supp_results.weights/caption"
+      ]
+    },
+    "SRC-S15A": {
+      "source_label": "S15A",
+      "current_table": "S8",
+      "occurrences": [
+        "supporting_data/weighting_composition/display_definitions.json/supp_results.volume/caption"
+      ]
+    },
+    "SRC-S16": {
+      "source_label": "S16",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/weighting_composition/display_definitions.json/supp_results.standardization/caption"
+      ]
+    },
+    "SRC-S17": {
+      "source_label": "S17",
+      "current_table": "S9",
+      "occurrences": [
+        "supporting_data/conditional_profiles/display_definitions.json/supp_results.funnel/caption"
+      ]
+    },
+    "SRC-S18": {
+      "source_label": "S18",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/conditional_profiles/display_definitions.json/supp_results.dispersion/caption",
+        "supporting_data/conditional_profiles/display_definitions.json/supp_results.funnel/note"
+      ]
+    },
+    "SRC-S19": {
+      "source_label": "S19",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/conditional_profiles/display_definitions.json/supp_results.target_limits/caption"
+      ]
+    },
+    "SRC-S20": {
+      "source_label": "S20",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/conditional_ranks/display_definition.json/caption"
+      ]
+    },
+    "SRC-S29": {
+      "source_label": "S29",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/reference_agreement/display_definitions.json/supp_diagnostics.full_rank_matrix/note",
+        "supporting_data/reference_agreement/display_definitions.json/supp_diagnostics.ranks/caption"
+      ]
+    },
+    "SRC-S3": {
+      "source_label": "S3",
+      "current_table": "S3",
+      "occurrences": [
+        "supporting_data/reference_agreement/display_definitions.json/supp_diagnostics.full_rank_matrix/note"
+      ]
+    },
+    "SRC-S30": {
+      "source_label": "S30",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/reference_agreement/display_definitions.json/supp_diagnostics.overlaps/caption"
+      ]
+    },
+    "SRC-S31": {
+      "source_label": "S31",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/local_comparisons/display_definitions.json/supp_diagnostics.primary_counts/caption"
+      ]
+    },
+    "SRC-S32": {
+      "source_label": "S32",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/local_comparisons/display_definitions.json/supp_diagnostics.expanded_counts/caption"
+      ]
+    },
+    "SRC-S34": {
+      "source_label": "S34",
+      "current_table": "S15",
+      "occurrences": [
+        "supporting_data/local_comparisons/display_definitions.json/supp_diagnostics.local_losses/caption"
+      ]
+    },
+    "SRC-S35": {
+      "source_label": "S35",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/local_comparisons/display_definitions.json/supp_diagnostics.support/caption"
+      ]
+    },
+    "SRC-S36A": {
+      "source_label": "S36A",
+      "current_table": "S16",
+      "occurrences": [
+        "supporting_data/extent_partition/display_definitions.json/supp_diagnostics.undetermined/caption",
+        "supporting_data/outcome_restriction/display_definition.json/note"
+      ]
+    },
+    "SRC-S36B": {
+      "source_label": "S36B",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/extent_partition/display_definitions.json/supp_diagnostics.documented/caption"
+      ]
+    },
+    "SRC-S36C": {
+      "source_label": "S36C",
+      "current_table": "S17",
+      "occurrences": [
+        "supporting_data/extent_partition/display_definitions.json/supp_diagnostics.allocation_sensitivity/caption"
+      ]
+    },
+    "SRC-S36D": {
+      "source_label": "S36D",
+      "current_table": "S18",
+      "occurrences": [
+        "supporting_data/national_endpoints/display_definition.json/caption"
+      ]
+    },
+    "SRC-S36E": {
+      "source_label": "S36E",
+      "current_table": "S19",
+      "occurrences": [
+        "supporting_data/outcome_restriction/display_definition.json/caption"
+      ]
+    },
+    "SRC-S37": {
+      "source_label": "S37",
+      "current_table": "S20",
+      "occurrences": [
+        "supporting_data/coding_loss_comparison/coding_loss_layout.json/caption",
+        "supporting_data/coding_loss_comparison/coding_loss_source_displays.json/supp_diagnostics.coding_losses/caption",
+        "supporting_data/coding_loss_comparison/coding_loss_source_displays.json/supp_diagnostics.coding_periods/note",
+        "supporting_data/conditional_coding/display_definitions.json/supp_diagnostics.coding_losses/caption",
+        "supporting_data/conditional_coding/display_definitions.json/supp_diagnostics.coding_periods/note",
+        "supporting_data/conditional_coding/display_definitions.json/supp_diagnostics.subtypes/note"
+      ]
+    },
+    "SRC-S37A": {
+      "source_label": "S37A",
+      "current_table": "S21",
+      "occurrences": [
+        "supporting_data/conditional_coding/display_definitions.json/supp_diagnostics.annual_coding/caption"
+      ]
+    },
+    "SRC-S37B": {
+      "source_label": "S37B",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/coding_loss_comparison/coding_loss_source_displays.json/supp_diagnostics.coding_periods/caption",
+        "supporting_data/conditional_coding/display_definitions.json/supp_diagnostics.coding_periods/caption"
+      ]
+    },
+    "SRC-S38": {
+      "source_label": "S38",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/conditional_coding/display_definitions.json/supp_diagnostics.subtypes/caption"
+      ]
+    },
+    "SRC-S39": {
+      "source_label": "S39",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/reporting_sources/display_definitions.json/supp_diagnostics.source_final/caption"
+      ]
+    },
+    "SRC-S40": {
+      "source_label": "S40",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/reporting_sources/display_definitions.json/supp_diagnostics.source_labels/caption"
+      ]
+    },
+    "SRC-S41": {
+      "source_label": "S41",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/reporting_sources/display_definitions.json/supp_diagnostics.jfk_strata/caption"
+      ]
+    },
+    "SRC-S42": {
+      "source_label": "S42",
+      "current_table": "S22",
+      "occurrences": [
+        "supporting_data/reporting_sources/display_definitions.json/supp_diagnostics.coding_standardization/caption"
+      ]
+    },
+    "SRC-S44": {
+      "source_label": "S44",
+      "current_table": "S23",
+      "occurrences": [
+        "supporting_data/unknown_labels/display_definitions.json/supp_diagnostics.selection/caption"
+      ]
+    },
+    "SRC-S45": {
+      "source_label": "S45",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/unknown_labels/display_definitions.json/supp_diagnostics.completeness/caption"
+      ]
+    },
+    "SRC-S46": {
+      "source_label": "S46",
+      "current_table": "S24",
+      "occurrences": [
+        "supporting_data/unknown_labels/display_definitions.json/supp_diagnostics.bounds/caption"
+      ]
+    },
+    "SRC-S47": {
+      "source_label": "S47",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/unknown_labels/display_definitions.json/supp_diagnostics.scenarios/caption"
+      ]
+    },
+    "SRC-S48": {
+      "source_label": "S48",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/unknown_labels/display_definitions.json/supp_diagnostics.quality/caption"
+      ]
+    },
+    "SRC-S49": {
+      "source_label": "S49",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/environmental_measurements/display_definitions.json/supp_context.landcover/caption"
+      ]
+    },
+    "SRC-S50": {
+      "source_label": "S50",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/environmental_measurements/README.md",
+        "supporting_data/environmental_measurements/display_definitions.json/supp_context.selection/caption",
+        "supporting_data/environmental_measurements/selected_representation_table.json/caption"
+      ]
+    },
+    "SRC-S51": {
+      "source_label": "S51",
+      "current_table": "S25",
+      "occurrences": [
+        "supporting_data/landscape_increment_comparisons/display_definitions.json/supp_context.national/caption"
+      ]
+    },
+    "SRC-S53": {
+      "source_label": "S53",
+      "current_table": "S27",
+      "occurrences": [
+        "supporting_data/landscape_increment_comparisons/display_definitions.json/supp_context.local_paired/note",
+        "supporting_data/landscape_increment_comparisons/display_definitions.json/supp_context.national/note",
+        "supporting_data/landscape_increment_comparisons/display_definitions.json/supp_context.pipeline/caption"
+      ]
+    },
+    "SRC-S52": {
+      "source_label": "S52",
+      "current_table": "S26",
+      "occurrences": [
+        "supporting_data/landscape_increment_comparisons/display_definitions.json/supp_context.local_paired/caption"
+      ]
+    },
+    "SRC-S54": {
+      "source_label": "S54",
+      "current_table": "S28",
+      "occurrences": [
+        "supporting_data/event_information_comparisons/display_definitions.json/supp_context.enhanced_absolute/caption"
+      ]
+    },
+    "SRC-S55": {
+      "source_label": "S55",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/event_information_comparisons/display_definitions.json/supp_context.enhanced_paired/caption"
+      ]
+    },
+    "SRC-S56": {
+      "source_label": "S56",
+      "current_table": "S29",
+      "occurrences": [
+        "supporting_data/outcome_map_sensitivities/display_definitions.json/supp_context.sensitivity/caption"
+      ]
+    },
+    "SRC-S57": {
+      "source_label": "S57",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/outcome_map_sensitivities/display_definitions.json/supp_context.sensitivity_target/caption"
+      ]
+    },
+    "SRC-S61": {
+      "source_label": "S61",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/recorded_consequences/display_definitions.json/supp_context.consequences/caption"
+      ]
+    },
+    "SRC-S62": {
+      "source_label": "S62",
+      "current_table": "S30",
+      "occurrences": [
+        "supporting_data/recorded_consequences/display_definitions.json/supp_context.consequence_amounts/caption"
+      ]
+    },
+    "SRC-S63": {
+      "source_label": "S63",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/recorded_consequences/display_definitions.json/supp_context.data_work/caption"
+      ]
+    },
+    "SRC-S66": {
+      "source_label": "S66",
+      "current_table": null,
+      "occurrences": [
+        "supporting_data/reporting_boundaries/reporting_boundary_definition.json/caption"
+      ]
+    }
+  },
+  "interpretation": "Source records preserve full numerical evidence. Current table correspondence identifies topic lineage, not equivalence of populations, cells or layouts."
+}

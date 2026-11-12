@@ -1,0 +1,12 @@
+﻿Item,Recorded value
+Measured task,26 ordinary logistic EB fits plus calibration and predictions
+Wall time including imports,7.31 s
+Last sampled process CPU,5.25 s
+Peak operating-system working set,854.1 MB
+Peak sampled resident working set,828.6 MB
+Process sampling interval,0.05 s
+Numerical execution,One worker; one thread per numerical library
+Host,Windows-11-10.0.26200-SP0; 24 logical CPUs
+Processor identifier,"Intel64 Family 6 Model 198 Stepping 2, GenuineIntel"
+Python and packages,Python 3.12.14; NumPy 2.3.5; pandas 3.0.1; SciPy 1.18.1; scikit-learn 1.5.1
+Separate-directory replay,"63,227 matched predictions; maximum absolute difference 0"

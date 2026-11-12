@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "configurations": 8,
+  "model_fits": 8,
+  "calibration_fits": 8,
+  "prediction_rows": 136480,
+  "maximum_probability_error": 0.0,
+  "metadata_comparisons": 8,
+  "absolute_metric_rows": 24,
+  "national_paired_contrasts": 4,
+  "local_paired_contrasts": 32,
+  "pair_base_encoders_equal": true,
+  "paired_events_labels_equal": true,
+  "invalid_inputs_rejected": [
+    "duplicate_events",
+    "duplicate_canopy",
+    "low_coverage"
+  ],
+  "existing_outputs_preserved": true,
+  "source_inputs_unchanged": 5,
+  "new_random_draws": 0,
+  "new_scientific_scenarios": 0,
+  "same_host": true,
+  "relocated_code": true,
+  "empty_working_directory": true,
+  "clean_install_tested": false,
+  "raw_raster_extraction_replayed": false,
+  "unchanged_code_checks": [
+    "complete ExtendedEncoder class",
+    "model fitting, calibration, prediction and model-writing try block"
+  ],
+  "successful_verification_model_fits": 8
+}

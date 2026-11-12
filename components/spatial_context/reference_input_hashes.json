@@ -1,0 +1,46 @@
+{
+  "airport_reference": {
+    "sha256": "97e2d7f0322a79aab5fd9bfc699fbea86a292fd57bbd6483a7fc074d36f84ab3",
+    "bytes": 53497
+  },
+  "environment": {
+    "sha256": "275071fdf2cf78f5376a611b1773da4474270a6fb1d44e1c0ef6d5dbe9c7ae7f",
+    "bytes": 26072681
+  },
+  "runway_vectors": {
+    "sha256": "14ab6c9ab818c22d865375ab7e2a42e4f53ff8420abd908e144f9e783ed3fee1",
+    "bytes": 97321
+  },
+  "geopackage_DEN": {
+    "sha256": "3b58c1605612bea30d99355e4fef430ae35fb23b7f329f5caac4d66916736253",
+    "bytes": 3464404992
+  },
+  "geopackage_JFK": {
+    "sha256": "38af864aaf64e109c9abd31891bcbdb6bb2435e67a5dc9cbe69c9ff700fb8bdb",
+    "bytes": 2301382656
+  },
+  "geopackage_MIA": {
+    "sha256": "2d3a898f09e2234e32f44920e64d223ff8b1c88eca41fa87044935f2e3ad45c4",
+    "bytes": 2784059392
+  },
+  "geopackage_MSP": {
+    "sha256": "153130287e4845137a31df8873a69130dbfbd4d3530990d21c522762cd31f9ba",
+    "bytes": 8662102016
+  },
+  "geopackage_BOS": {
+    "sha256": "059a0884047262e4c900b93517b04e97013dc403b42216481b8f84d8c557b2d7",
+    "bytes": 554385408
+  },
+  "geopackage_SFO": {
+    "sha256": "6ddf3411e24bba80e21c92171c011ad6fc9666dad9807f5a5349ae43e71e42f4",
+    "bytes": 4933353472
+  },
+  "geopackage_SAT": {
+    "sha256": "3e39703ade3e0afd7dc90429f31ce1d5a3d045d1033315bc8a1a2c84897eb9e2",
+    "bytes": 6784348160
+  },
+  "geopackage_STL": {
+    "sha256": "e9c51dfd09dcc63ee6f7113c4b17b62ebc40508e0180aed332def54295b58460",
+    "bytes": 5485965312
+  }
+}

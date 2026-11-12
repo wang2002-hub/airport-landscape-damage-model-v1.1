@@ -1,0 +1,16 @@
+﻿Reference,Factor estimation set,Estimation airports,Factor,Outside widened 99.8% limits
+Ordinary EB,All airports,1375,1.701778,2
+Ordinary EB,E at least 5,148,2.285645,1
+Ordinary EB,At least 100 reports,97,2.573183,1
+Hierarchical EB,All airports,1375,1.698533,2
+Hierarchical EB,E at least 5,147,2.285368,1
+Hierarchical EB,At least 100 reports,97,2.552875,1
+Hierarchical EBL,All airports,1375,1.675509,2
+Hierarchical EBL,E at least 5,144,2.428201,1
+Hierarchical EBL,At least 100 reports,97,2.669935,1
+Boosting EB,All airports,1375,1.697800,3
+Boosting EB,E at least 5,142,2.372514,1
+Boosting EB,At least 100 reports,97,2.558841,1
+Boosting EBL,All airports,1375,1.685713,3
+Boosting EBL,E at least 5,139,2.573068,1
+Boosting EBL,At least 100 reports,97,2.725531,1
